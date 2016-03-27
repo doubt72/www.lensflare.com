@@ -1,0 +1,132 @@
+body {
+  background-color: #000000;
+  color: #bbbbbb;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 2em;
+}
+
+a {
+  color: #ffee99;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+em {
+  font-style: normal;
+  font-weight: normal;
+  color: #e7e7e7;
+}
+
+h1 {
+  margin: 0em;
+  padding: 0em;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffee99;
+  border-bottom: 1px solid #664411;
+}
+
+h2 {
+  margin: 0em;
+  padding: 0em;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffee99;
+  border-bottom: 1px solid #664411;
+}
+
+h3 {
+  margin: 0em;
+  padding: 0em;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffee99;
+  border-bottom: 1px solid #664411;
+}
+
+@media only screen and (max-device-width: 1030px) {
+  div#main {
+    width: 96%;
+    margin-left: 2%;
+  }
+}
+@media screen and (min-device-width: 1031px) {
+  div#main {
+    width: 80%;
+    margin-left: 10%
+  }
+}
+
+span.title {
+  font-size: 48px;
+  color: #ffee99;
+}
+
+span.title-llc {
+  font-size: 10px;
+  color: #ffee99;
+}
+
+div.header {
+  padding: 0.5em 1em;
+  background-color: #664411;
+}
+
+div.header a {
+  margin: 0 1em;
+}
+
+a.current {
+  color: #ffffff;
+}
+
+span.header-right {
+  float: right;
+}
+
+div#content {
+  padding: 1em;
+}
+
+div.video-border {
+  margin: 1em;
+  padding: 1px;
+  background-color: #664411;
+  width: 480px;
+  height: 300px;
+}
+
+td.game {
+  padding: 1.5em 1em;
+}
+
+td.game img {
+  padding: 0.75em;
+}
+
+div.section {
+  padding: 1em;
+}
+
+div.footnote {
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  border-top: 1px solid #664411;
+  font-size: 14px;
+}
+
+div.footer {
+  text-align: right;
+  padding: 0.25em 2em;
+  background-color: #664411;
+  color: #ffee99;
+  clear: both;
+}
