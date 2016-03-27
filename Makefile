@@ -1,7 +1,9 @@
 LOKI=loki
+SOURCE=source
+DEST=html
 
 all:
-	$(LOKI) source html
+	$(LOKI) $(SOURCE) $(DEST)
 
 clean:
-	rm -rf html/*
+	rm -rf $(DEST)/*
