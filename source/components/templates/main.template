@@ -1,0 +1,9 @@
+<div id="main">
+{ include("partials/header.partial") }
+
+  <div id="content">
+{ body }
+  </div>
+
+{ include("partials/footer.partial") }
+</div>

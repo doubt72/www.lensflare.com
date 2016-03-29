@@ -1,0 +1,11 @@
+<span class="title">Lensflare Games</span>
+<span class="title-llc">LLC</span>
+
+<div class="header">
+  <span class="header-right">
+    { link("about", "About Us") }
+  </span>
+  { link("home", "Games") # class = "current" }
+  { link("support", "Support") }
+  { link("help", "Help") }
+</div>
