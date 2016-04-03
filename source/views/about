@@ -1,4 +1,59 @@
 id "about"
+title "Lensflare Games LLC"
+css ["css/main.css"]
+template "templates/main.template"
 --
-empty
+{ image("lfg-logo-400.png", {style: "float: right;"}}) }
+
+<div class="section">
+  <h1>About Us</h1>
+
+  <p>Lensflare Games LLC<sup style="font-size: 10;">1</sup> is a
+  Denver, Colorado-based software startup formed in 2013.  Our
+  mission: to make the most awesomest strategy games we can make
+  and have fun doing it.  Because what's the point of games that
+  aren't fun?  And yes, "awesomest" totally is too a word.</p>
+
+</div>
+
+<div class="section">
+  <h1>Who We Are</h1>
+
+  <p>We are <em>Douglas Triggs</em> and <em>Ai Ling Chow</em>.</p>
+
+  <p><em>Douglas</em> is chief code monkey and bit wrangler.  He
+  founded Lensflare Games LLC<sup style="font-size: 10;">1</sup>
+  to create strategy games he wanted to play.  He's a strong
+  believer that there's no such thing as too many great games, so
+  why not take a shot at trying to make some?</p>
+
+  <p><em>Ai Ling</em> is chief financial bit wrangler and handles
+  the business of business.  She's also the note wrangler, er,
+  handles the music. She helped found the company mainly on
+  account of being married to Douglas.  Not that she doesn't like
+  her share of games as well.</p>
+
+</div>
+
+<div class="section">
+  <h1>Contact Us</h1>
+
+  <p>If you'd like to contact us, you can reach us
+  at { link_abs("https://twitter.com/lensflare_games", "@lensflare_games") }
+  on twitter.  Alternately, visit our
+  on { link_abs("http://www.facebook.com/lensflaregames", "Facebook") }.</p>
+
+  <p>If you'd like to send us private feedback for one of our games
+  (problems, praise, questions, anything), you can also send that to
+  { link_abs("mailto:support@lensflare.com", "support@lensflare.com") }.
+  </p>
+
+</div>
+
+<div class="footnote">
+
+  <sup style="font-size: 10;">1</sup>Yeah, yeah, always with the
+  LLC.  It's a legal thing.
+
+</div>
 

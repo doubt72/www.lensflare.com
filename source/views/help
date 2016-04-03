@@ -1,3 +1,32 @@
 id "help"
+title "Lensflare Games LLC"
+css ["css/main.css"]
+template "templates/main.template"
 --
-empty
+{ image("lfg-logo-200.png", {style: "float: right;"}}) }
+
+<div class="section">
+  <h1>Election Manager 2016</h1>
+
+  <ul>
+    <li>For questions about gameplay, see the
+    { link("em16-manual", "online manual") }.</li>
+    <li>For other questions (such as what platforms are supported,
+    etc.), see the { link("em16-faq", "FAQ") }.</li>
+  </ul>
+
+  <h1>Tactical Space Command</h1>
+
+  <ul>
+    <li>For questions about gameplay, see the
+    { link("tsc-manual", "online manual") }.</li>
+    <li>For other questions (such as what platforms are supported,
+    etc.), see the { link("tsc-faq", "FAQ") }.</li>
+  </ul>
+
+  <p>If you ever have any problems playing our games, or would like to
+  report issues, please see the { link("support", "support page") }.</p>
+
+  <p>Feel free to { link("support", "contact us") } if you have
+  other questions not covered here.</p>
+</div>
