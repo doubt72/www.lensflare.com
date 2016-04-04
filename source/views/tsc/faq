@@ -1,3 +1,56 @@
 id "tsc-faq"
+title "Tactical Space Command"
+css ["css/main.css"]
+template "templates/main.template"
 --
-empty
+{ image("tsc-250.png", {style: "float: right;"}}) }
+
+<div class="section">
+  <h1>Tactical Space Command Frequently Asked Questions</h1>
+
+  <p>This FAQ covers things about Tactical Space Command that don't
+  involve gameplay; for gameplay questions, please refer to the
+  { link("tsc-manual", "online manual") }.  Feel free to
+  { link("support", "contact us") } if you have other questions not
+  covered here.</p>
+
+</div>
+
+<div class="section">
+  <h1>Supported Platforms</h1>
+
+  <p><em>What operating system versions are supported?</em></p>
+
+  <p>Macs that can run OSX 10.6 Snow Leopard or later; iPads that can
+  run iOS 6 or later. Yes, this means we don't support the iPad 1,
+  sorry. Unfortunately the iPad 1 isn't really powerful enough to
+  support the game very well.</p>
+
+  <p><em>Is there any difference between the Mac and iPad versions of
+  Tactical Space Command?</em></p>
+
+  <p>The only real difference between the iPad and Mac versions of TSC
+  is the interface; the Mac version has a full mouse-based interface
+  and the iPad has an interface optimized for touch (larger buttons,
+  some slight layout differences, touch-and-hold for tooltips, etc.)
+  The underlying game engine is the same, the scenarios available in
+  each version of the game are also the same. Our intention is to keep
+  both versions as similar as possible; any features added to one will
+  be added to the other.</p>
+
+  <p><em>Will Tactical Space Command be available on any other
+  platforms?</em></p>
+
+  <p>Probably not. Perhaps if there's a TSC2 someday.</p>
+
+</div>
+<div class="section">
+  <h1>Other Questions</h1>
+
+  <p><em>Does Tactical Space Command have a multiplayer
+  option?</em></p>
+
+  <p>No, TSC was designed as a single-player game from the very
+  beginning and we have no plans to add any multiplayer support.</p>
+
+</div>

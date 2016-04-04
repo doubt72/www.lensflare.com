@@ -1,3 +1,160 @@
 id "tsc-changes"
+title "Tactical Space Command"
+css ["css/main.css"]
+template "templates/main.template"
 --
-empty
+{ image("tsc-250.png", {style: "float: right;"}}) }
+
+<div class="section">
+  <h1>Previous Versions</h1>
+
+  <p>This is a list of the new features/bug fixes from previous
+  versions of Tactical Space Command.</p>
+
+  <h1>v1.2.2</h1>
+
+  <ul>
+
+    <li>Fix for problem with dialog; occasionally confirmation is
+    ignored twice on startup.</li>
+
+    <li>Fix for related issue with text dialogs; occasionally text
+    won't display first two times on startup.</li>
+
+    <li>Fix for duplicate planet names; user scenarios that use
+    randomized planet names will sometimes produce duplicate names
+    (more likely as planet count goes up). This will corrupt save
+    files from games running those scenarios when that happens.</li>
+
+    <li>Added feature to display which scenarios have been
+    completed/won.</li>
+
+  </ul>
+
+  <h1>v1.2.1</h1>
+
+  <ul>
+
+    <li>Minor interface tweaks and improvements.</li>
+
+  </ul>
+
+  <h1>v1.2.0</h1>
+
+  <p>This was a major release of TSC.  It included:</p>
+
+  <ul>
+
+    <li>New scenarios.</li>
+
+    <li>New scenario editor, as well as ability to share user
+    scenarios.</li>
+
+    <li>Numerous interface improvements.</li>
+
+    <li>AI improvements.</li>
+
+    <li>Minor gameplay tweaks and bug fixes.</li>
+
+  </ul>
+
+  <h1>v1.0.7</h1>
+
+  <ul>
+
+    <li><em>[iPad only]</em> minor text display/layout improvements
+    for iOS 6.</li>
+
+    <li>Fixed bug where after a game is loaded/saved, adding a
+    waypoint to certain types of orders will cause the game to
+    crash.</li>
+
+    <li>Minor improvements to help and tips, as well as some typo
+    fixes.</li>
+
+  </ul>
+
+  <h1>v1.0.6</h1>
+
+  <ul>
+
+    <li><em>[iPad only]</em> Added option to use triple-tap to zoom
+    out instead of recenter (in which case quadruple-tap
+    recenters)</li>
+
+    <li><em>[iPad only]</em> Add support for two-finger double-tap for
+    zooming out, three-finger double-tap for recenter (it doesn't
+    really work as well as hoped, though).</li>
+
+    <li><em>[Mac only]</em> ability to add waypoints with
+    shift-right-click.</li>
+
+    <li>Numerous minor layout/text/interface tweaks, updated tips,
+    etc.</li>
+
+    <li>Improved tutorial and help based on additional feedback from
+    new users.</li>
+
+    <li>Some changes to the way invasions work (i.e., changes the way
+    industry is damaged during invasions), minor balance tweaks,
+    etc.</li>
+
+    <li>Added a gamma control.</li>
+
+    <li>Added a screen with all the help text/tips in one place for
+    easy access for those who want to see them.</li>
+
+    <li>Added event for when ships break off and return to spacedock
+    for repairs.</li>
+
+    <li>Added two-letter prefix codes for class types; added option to
+    show prefix codes with names globally</li>
+
+    <li>Added option to display classes on tactical map instead of
+    names.</li>
+
+    <li>Fixed scenario selection screen to be more responsive (i.e.,
+    show that it's generating the new scenario instead of just hanging
+    there like it does now).</li>
+
+  </ul>
+
+  <h1>v1.0.5</h1>
+
+  <ul>
+
+    <li><em>[iPad only]</em> fixed sound so that you can listen to
+    your podcasts while playing if your sound is off (that one was for
+    ourselves).</li>
+
+    <li><em>[iPad only]</em> slight layout changes for officer/ship
+    screens to make better use of space.</li>
+
+    <li><em>[Mac only]</em> docked ships no longer have order menu
+    displayed (since they couldn't be given orders while docked).</li>
+
+    <li>Redesigned tactical screen multi-selection dialog to use
+    columns instead of going off screen (mostly useful in iPad version
+    due to imprecision of touch selection).</li>
+
+    <li>Added ability to expand and collapse events on tactical
+    screen.</li>
+
+    <li>Various minor fixes for changes in iOS 7 text rendering, icons
+    at the new iOS 7 icon sizes, etc., as well as some very minor
+    tweaks and fixes.</li>
+
+  </ul>
+
+  <p>There are also fixes for the following bugs:</p>
+  <ul>
+
+    <li><em>[iPad only]</em> selecting a neutral (gray) asteroid when
+    giving orders causes ships to move to the top left of the
+    screen.</li>
+
+    <li><em> [Mac only]</em> ctrl-left-click not interpreted as right
+    click, unable to give orders.</li>
+
+  </ul>
+</div>

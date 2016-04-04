@@ -1,4 +1,18 @@
 id "bmbfs16"
+title "Boaty McBoatface Simulator 2016"
+css ["css/main.css"]
+template "templates/main.template"
 --
-empty
+<table>
+  <tr>
+    <td valign="top" class="game">
+      { image("bmbfs16-256.png") }
+    </td>
+    <td class="game">
 
+      <h1>Boaty McBoatface Simulator 2016</h1>
+
+      { include("partials/bmbfs16-blurb.partial") }
+    </td>
+  </tr>
+</table>
