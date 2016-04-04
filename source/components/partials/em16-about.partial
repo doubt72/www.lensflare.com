@@ -1,0 +1,58 @@
+<p>Election Manager 2016 is an abstract strategic election
+simulation game where you manage your ticket in an attempt to
+get your candidate elected to the office of President of the
+United States.  Election Manager comes with a variety of
+scenarios, from a recreation of the 2012 election to a four-way
+election between independent parties.  In addition, almost any
+imaginable two-to-four way election scenario can be designed by
+the player.</p>
+
+<p>The Election Manager 2016 engine uses actual historical and
+demographic data to produce reasonable election results, taking
+into account factors such as partisan lean and voter elasticity.
+The player will not only have to consider states but also media
+markets, giving the game a strategic dimension due the
+inefficient mapping from one to the other.  For instance, to
+target New Jersey's 14 electoral votes, the player would have to
+spend money on ads in the Philadelphia or New York City
+markets &mdash; but significant portions of those markets are
+actually in other states.  So is it really worth spending that
+money there, or would it be better spent going after other
+states instead?</p>
+
+<p>While Election Manager aims to give you complete control of
+your strategy, it also comes with tools to help you manage it
+&mdash; up to and including an AI campaign manager to which you
+can delegate any part (or all) of your strategy, from campaign
+stops to ad buys to state offices to polling.  Game features
+include:</p>
+
+<ul>
+
+  <li>Completely customizable scenarios</li>
+
+  <li>Scenarios for two to four parties</li>
+
+  <li>Run a Democratic ticket, a Republican ticket, or any number of
+  third-party or independent tickets</li>
+
+  <li>Single player or hotseat multiplayer</li>
+
+  <li>Set up campaign and fundraising stops for your candidate</li>
+
+  <li>Plan your ad strategy for every market in the United States</li>
+
+  <li>Use ads to attack your opponent, or boost your campaign with
+  positive ads</li>
+
+  <li>Set up campaign offices in battleground states</li>
+
+  <li>Handle everything yourself, delegate everything to your AI
+  campaign advisor, or anything in between</li>
+
+  <li>Tools to help you plan your polling or ad campaigns or
+  budgeting</li>
+
+  <li>Data and maps and lots of it</li>
+
+</ul>

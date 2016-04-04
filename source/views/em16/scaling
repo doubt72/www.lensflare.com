@@ -1,3 +1,47 @@
 id "em16-scaling"
+title "Election Manager 2016"
+css ["css/main.css"]
+template "templates/main.template"
 --
-empty
+<table>
+  <tr>
+    <td valign="top" class="game">
+      { link("em16", image("em16-256.png")) }
+    </td>
+    <td class="game">
+
+      <h1>Election Manager 2016 iOS Layouts</h1>
+
+      <p>The iOS version of Election Manager 2016 is designed to fit
+      on any supported iOS device, from the 3.5" iPhone 4 to a 9.7"
+      iPad Air 2.  It will take advantage of whatever resolution is
+      available on each device natively.  The iPhone and iPad versions
+      use completely distinct layouts, but on the various models of
+      the iPhone, more or less of the interface will fit depending on
+      the device resolutions.  To give you an idea of how that looks,
+      compare the same interface (the election map) across device
+      display sizes in the following screenshots:<p>
+
+      { links = ""
+        [["4", "ph35"], ["5", "ph40"], ["6", "ph47"], ["6+", "ph55"],
+         ["iPad", "pad"]].each do |set|
+          links += "<nobr>#{set[0]}}:"
+          links += link("em16/comparison-#{set[1]}}.png",
+                        image("em16/t/comparison-#{set[1]}}.png",
+                              {style: "vertical-align: middle;"}}))
+          links += "</nobr>"
+        end
+        links }
+
+      <p>You can also compare layouts all at once in the following diagram:</p>
+
+      { link("em16/comparison-all.png", image("em16/t/comparison-all.png")) }
+
+      <p>So, other than squeezing in more of the interface (and
+      requiring less scrolling to access it), there isn't any real
+      difference between the game's layout on iPhone 4's 3.5" screen
+      and the 5.5" screen of the iPhone 6.</p>
+
+    </td>
+  </tr>
+</table>

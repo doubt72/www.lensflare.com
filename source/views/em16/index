@@ -1,3 +1,61 @@
 id "em16"
+title "Election Manager 2016"
+css ["css/main.css"]
+template "templates/main.template"
 --
-empty
+<table>
+  <tr>
+    <td rowspan="4" valign="top" class="game">
+      { link("em16", image("em16-256.png")) }
+    </td>
+    <td class="game">
+
+      <h1>Election Manager 2016</h1>
+
+      { include("partials/em16-blurb.partial") }
+
+      <h1>About the Game</h1>
+
+      { include("partials/em16-about.partial") }
+
+      <p>You can also see the { link("em16-faq", "FAQ") } and
+      { link("em16-manual", "online manual") }.</p>
+
+      <p>Feel free to { link("support", "contact us") } if you have
+      other questions.</p>
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1>Screenshots</h1>
+
+      { include("partials/em16-screenshots.partial") }
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1>Trailer</h1>
+
+      <p>This is the Election Manager 2016 release trailer:</p>
+
+      <div class="video-border" style="float: left">
+        <iframe width="480" height="300" src="http://www.youtube.com/embed/zIw-WI2uBdk" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1>Press Kit</h1>
+
+      <p>The Election Manager 2016 press kit is available online
+      { link("em16-presskit", "here") } or you can
+      { link("em16/em16-presskit.zip", "download") } it.</p>
+
+    </td>
+  </tr>
+</table>

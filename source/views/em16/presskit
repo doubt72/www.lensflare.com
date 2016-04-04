@@ -1,3 +1,150 @@
 id "em16-presskit"
+title "Election Manager 2016"
+css ["css/main.css"]
+template "templates/main.template"
 --
-empty
+<table>
+  <tr>
+    <td rowspan="7" valign="top" class="game">
+      { link("em16", image("em16-256.png")) }
+    </td>
+    <td class="game">
+      <h1>Election Manager 2016 Press Kit</h1>
+
+      <p>Thank you for your interest in Election Manager 2016.  EM16
+      is a strategic US presidential election campaign management
+      simulation; the key strategic conceit is that while your
+      candidate is attempting to win enough states (i.e., electoral
+      votes) to win the election, the primary levers you have to help
+      them do so (ads and campaign stops) are through media markets,
+      and media markets map very imperfectly with states.  For
+      example, two media markets cover New Jersey: New York and
+      Philadelphia.  However, neither market covers New Jersey
+      exclusively &mdash; both markets are spread over other states as
+      well.  So it's impossible to target New Jersey by itself; any
+      money spent in those markets will be spent partly on voters
+      other states besides New Jersey.</p>
+
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#1">Fact Sheet</a></li>
+        <li><a href="#2">App Store Description</a></li>
+        <li><a href="#3">Screenshots</a></li>
+        <li><a href="#4">Trailer</a></li>
+        <li><a href="#5">Credits</a></li>
+        <li><a href="#6">Contact</a></li>
+      </ul>
+
+      <p>Feel free to contact us at
+      { link_abs("mailto:support@lensflare.com", "support@lensflare.com") }
+      if you have other questions that this press kit doesn't
+      cover.</p>
+
+      <p>You can also see the player { link("em16-faq", "FAQ") } and
+      { link("em16-manual", "online manual") }.</p>
+
+      <p>Download this press kit
+      { link("em16/em16-presskit.zip", "here") }.</p>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+      <h1 id="1">Fact Sheet</h1>
+
+      <p>
+	<ul>
+
+	  <li><strong>Developer:</strong>
+	  { link("home", "Lensflare Games LLC") }</li>
+
+	  <li><strong>Publisher:</strong> self-published</li>
+
+	  <li><strong>Platforms:</strong> iOS (iPad and iPhone), OSX
+	  (Mac)</li>
+
+	  <li><strong>Price:</strong> $3.99 (and equivalent) from the
+	  Apple App Stores</li>
+
+          <li><strong>Web Site:</strong>
+	  { link("em16", "http://www.lensflare.com/em16/") }</li>
+
+	</ul>
+      </p>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+      <h1 id="2">App Store Description</h1>
+
+      { include("partials/em16-blurb-short.partial") }
+
+      <h2>About the Game</h2>
+
+      { include("partials/em16-about.partial") }
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1 id="3">Screenshots</h1>
+
+      { include("partials/em16-screenshots.partial") }
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1 id="4">Trailer</h1>
+
+      <p>This is the Election Manager 2016 release trailer:</p>
+
+      <div class="video-border" style="float: left">
+        <iframe width="480" height="300" src="http://www.youtube.com/embed/zIw-WI2uBdk" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1 id="5">Credits</h1>
+
+      <p>
+	Lensflare Games LLC is Douglas Triggs and Ai Ling Chow.
+	<ul>
+	  <li><strong>All Programming and Design:</strong> Douglas Triggs</li>
+	  <li><strong>Music:</strong> Ai Ling Chow</li>
+	</ul>
+      </p>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1 id="6">Contact</h1>
+
+      <p>
+	<ul>
+
+          <li><strong>For all inquiries (including support):</strong>
+          { link_abs("mailto:support@lensflare.com", "support@lensflare.com") }
+
+          <li><strong>Twitter:</strong>
+          { link_abs("https://twitter.com/lensflare_games", "@lensflare_games") }
+
+          <li><strong>Company Web Site:</strong>
+          { link("home", "http://www.lensflare.com/") }</li>
+
+          <li><strong>Game Web Site:</strong>
+          { link("em16", "http://www.lensflare.com/em16/") }</li>
+	</ul>
+      </p>
+
+    </td>
+  </tr>
+</table>

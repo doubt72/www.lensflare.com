@@ -1,0 +1,33 @@
+<p>Mac (OSX 10.10
+Yosemite):</p>
+
+{ links = ""
+  0.upto(4) do |x|
+    links += link("em16/screenshot-mac0#{x}}.png",
+                  image("em16/t/screenshot-mac0#{x}}.png"))
+  end
+  links }
+
+<p>iPad (iOS 8):</p>
+
+{ links = ""
+  0.upto(4) do |x|
+    links += link("em16/screenshot-ipad0#{x}}.png",
+                  image("em16/t/screenshot-ipad0#{x}}.png"))
+  end
+  links }
+
+<p>iPhone (iPhone 6, iOS 8):</p>
+
+{ links = ""
+  0.upto(4) do |x|
+    links += link("em16/screenshot-47in0#{x}}.png",
+                  image("em16/t/screenshot-47in0#{x}}.png"))
+  end
+  links }
+
+<p>The iOS version is designed to fit on any supported iOS device
+using the native resolution of that device, so phones other than the
+iPhone 6 will look slightly different.  For more on that, or to get an
+idea of what it looks like on other phones (or the iPod Touch 5G),
+{ link("em16-scaling", "see here") }.
