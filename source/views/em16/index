@@ -6,7 +6,7 @@ template "templates/main.template"
 <table>
   <tr>
     <td rowspan="4" valign="top" class="game">
-      { link("em16", image("em16-256.png")) }
+      { image("em16-256.png") }
     </td>
     <td class="game">
 
