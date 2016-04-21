@@ -1,5 +1,1028 @@
 <html>
+<head>
+  <title>Election Manager 2016</title>
+  <link rel="stylesheet" href="../assets/css/main.css" type="text/css" />
+</head>
 <body>
-empty
+<div id="main">
+<span class="title">Lensflare Games</span>
+<span class="title-llc">LLC</span>
+
+<div class="header">
+  <span class="header-right">
+    <a href="../about.html">About Us</a>
+  </span>
+  <a href="../index.html">Games</a>
+  <a href="../support.html">Support</a>
+  <a href="../help.html">Help</a>
+</div>
+
+
+  <div id="content">
+<div class="section manual">
+  <h1><span id="1"></span>Election Manager 2016 Online Manual</h1>
+<p>Welcome to the Election Manager 2016 online manual.  This version of the
+  manual is current for version 1.0.3 of Election Manager 2016.</p>
+
+  <p>In Election Manager 2016, you are the manager of a U.S. presidential
+  ticket, and attempt to get your candidate elected to office.  There are a
+  variety of scenarios, including a recreation of the 2012 presidential
+  election, but almost any scenario can be simulated including competitive
+  third-party or even four-way election scenarios.  The main strategic
+  challenge facing the player is that they can't (for the most part) target
+  states directly, but instead must influence states indirectly through the
+  media markets that span them.</p>
+<h1>Table of Contents</h1>
+<ul class="toc">
+<li><a href="#1">1 Introduction</li>
+<li><a href="#2"><span id="ret-2">2</span> Getting Started</a></li>
+<li><a href="#3"><span id="ret-3">3</span> Game Concepts</a></li>
+<ul>
+<li><a href="#3.1"><span id="ret-3.1">3.1</span> States</a></li>
+<li><a href="#3.2"><span id="ret-3.2">3.2</span> Markets</a></li>
+<li><a href="#3.3"><span id="ret-3.3">3.3</span> Polls</a></li>
+<li><a href="#3.4"><span id="ret-3.4">3.4</span> Advertisements</a></li>
+<li><a href="#3.5"><span id="ret-3.5">3.5</span> Candidates</a></li>
+<li><a href="#3.6"><span id="ret-3.6">3.6</span> Enthusiasm and Name Recognition</a></li>
+<li><a href="#3.7"><span id="ret-3.7">3.7</span> Issues</a></li>
+<li><a href="#3.8"><span id="ret-3.8">3.8</span> Game Events</a></li>
+<li><a href="#3.9"><span id="ret-3.9">3.9</span> Partisan Lean and Elasticity</a></li>
+</ul>
+<li><a href="#4"><span id="ret-4">4</span> Setup Screen</a></li>
+<ul>
+<li><a href="#4.1"><span id="ret-4.1">4.1</span> Election</a></li>
+<li><a href="#4.2"><span id="ret-4.2">4.2</span> Candidates</a></li>
+<ul>
+<li><a href="#4.2.1"><span id="ret-4.2.1">4.2.1</span> Initial Stats</a></li>
+<li><a href="#4.2.2"><span id="ret-4.2.2">4.2.2</span> Issues</a></li>
+<li><a href="#4.2.3"><span id="ret-4.2.3">4.2.3</span> Vice President and Incumbency</a></li>
+</ul>
+</ul>
+<li><a href="#5"><span id="ret-5">5</span> Campaign Screen</a></li>
+<ul>
+<li><a href="#5.1"><span id="ret-5.1">5.1</span> Before Each Turn</a></li>
+<li><a href="#5.2"><span id="ret-5.2">5.2</span> Status/Top Bar</a></li>
+<li><a href="#5.3"><span id="ret-5.3">5.3</span> Map Display</a></li>
+<li><a href="#5.4"><span id="ret-5.4">5.4</span> National Tab</a></li>
+<li><a href="#5.5"><span id="ret-5.5">5.5</span> Candidates Tab</a></li>
+<li><a href="#5.6"><span id="ret-5.6">5.6</span> Markets Tab</a></li>
+<li><a href="#5.7"><span id="ret-5.7">5.7</span> States Tab</a></li>
+<li><a href="#5.8"><span id="ret-5.8">5.8</span> Sub-Panels</a></li>
+<ul>
+<li><a href="#5.8.1"><span id="ret-5.8.1">5.8.1</span> Ad Planner</a></li>
+<li><a href="#5.8.2"><span id="ret-5.8.2">5.8.2</span> Poll Planner</a></li>
+<li><a href="#5.8.3"><span id="ret-5.8.3">5.8.3</span> Advisor</a></li>
+<li><a href="#5.8.4"><span id="ret-5.8.4">5.8.4</span> Budget Summary</a></li>
+<li><a href="#5.8.5"><span id="ret-5.8.5">5.8.5</span> Top Stories</a></li>
+<li><a href="#5.8.6"><span id="ret-5.8.6">5.8.6</span> Itinerary Planner</a></li>
+<li><a href="#5.8.7"><span id="ret-5.8.7">5.8.7</span> Manage Offices</a></li>
+<li><a href="#5.8.8"><span id="ret-5.8.8">5.8.8</span> Ad History</a></li>
+<li><a href="#5.8.9"><span id="ret-5.8.9">5.8.9</span> Poll History</a></li>
+<li><a href="#5.8.10"><span id="ret-5.8.10">5.8.10</span> Campaign History</a></li>
+</ul>
+</ul>
+<li><a href="#6"><span id="ret-6">6</span> Election Screen</a></li>
+<ul>
+<li><a href="#6.1"><span id="ret-6.1">6.1</span> Status/Top Bar</a></li>
+<li><a href="#6.2"><span id="ret-6.2">6.2</span> Map Display</a></li>
+<li><a href="#6.3"><span id="ret-6.3">6.3</span> Election Tab</a></li>
+<li><a href="#6.4"><span id="ret-6.4">6.4</span> States Tab</a></li>
+<li><a href="#6.5"><span id="ret-6.5">6.5</span> Candidates Tab</a></li>
+<li><a href="#6.6"><span id="ret-6.6">6.6</span> History Tab</a></li>
+<li><a href="#6.7"><span id="ret-6.7">6.7</span> Sub-Panels</a></li>
+</ul>
+<li><a href="#7"><span id="ret-7">7</span> End Game Screen</a></li>
+<li><a href="#8"><span id="ret-8">8</span> Notes</a></li>
+</ul>
+<h2><a href="#ret-2"><span id="2">2</span> Getting Started</a></h2>
+<p>Even without reading the rest of the manual, it's possible to play the
+    game (essentially) on autopilot by letting your advisor make all of your
+    decisions for you.  You can either do that by selecting "Advisor Plan" for
+    all of the options at the start of each week (i.e., for polls,
+    advertisements, offices, and itinerary), or by going to the "Advisor"
+    button on the "National" tab in the game and accepting the AI advisor's
+    suggestions with the buttons on the top of the panel.</p>
+
+    <p>That said, skimming the <a href="#3">Game Concepts</a>
+    section below is recommended to get an idea of what's going on; if not
+    before playing a game or two to get a feel for things, then at some point
+    later.  Even after you play a few games and have mastered the game concepts,
+    it's likely you may start the game using the advisor plans as a starting
+    point, or perhaps you might let the AI handle certain things for you and
+    handle other things yourself.</p>
+<h2><a href="#ret-3"><span id="3">3</span> Game Concepts</a></h2>
+<p>There are two basic concepts that affect everything you (and the AI
+    player) does: first, all information is incomplete.  Even if you poll every
+    state every week with the most expensive polling option, there's a certain
+    amount of uncertainly built into the results (and if the polls are older,
+    things may be even less accurate as things constantly shift based on the
+    actions the various players make).  This uncertainty affects both you and
+    the AI, which will make plans based on the information it has (which may be
+    different than the information you have, but is no more accurate than
+    yours).</p>
+
+    <p>The second thing is that your most important tool (political ads &mdash;
+    but also campaign and fundraising stops) don't target states directly, but
+    media markets.  So, despite the ultimate goal is to win enough states to
+    win, the fulcrum you have to do so doesn't map up with them directly.</p>
+
+    <p>The basic unit of time in the game is the week; each week the players
+    each make a plan, and the plan is executed during the following week until
+    the election itself arrives, at which point there's nothing to do but sit
+    back and watch the results come in.</p>
+<h3><a href="#ret-3.1"><span id="3.1">3.1</span> States</a></h3>
+<p>States are ultimately the most important concept in the game. States
+      are worth electoral votes, and whichever candidate can win enough states
+      to get a total of 270 electoral votes will win the electoral college and
+      be elected as president.  However (with the exception of State Offices,
+      below), states can't be targeted directly.<p>
+
+      <p>Each state contains one or more <a href="#3.2">media markets</a>. However, while some markets are entirely contained by
+      one state, many media markets span multiple states; for instance,
+      Pennsylvania contains part of the Philadelphia and Pittsburgh markets (as
+      well as others). Since ads (as well as fundraising and campaign stops),
+      target media markets, this gives the player only an indirect fulcrum for
+      influencing states.</p>
+
+      <p>There is one exception, however: state offices.  These represent a
+      candidate's ground game (i.e., they help with voter turnout), and cost
+      money to maintain (and more money to establish).  They also require time
+      to reach full effectiveness, which only make them suitable for long term
+      planning; there's no point in setting up a bunch of state offices during
+      the last week before the election, since by the time they get established
+      and going, the election will already have occurred. Different states
+      require different numbers of offices to be completely effective (depending
+      on the state's size &mdash; both population and geographic size).  State
+      offices increase a candidate's
+      <a href="#3.6">enthusiasm</a>
+      over time.</p>
+
+      <p>For the purposes of the game, the District of Columbia is considered a
+      state, since it has electoral votes like any other state.</p>
+<h3><a href="#ret-3.2"><span id="3.2">3.2</span> Markets</a></h3>
+<p>Media markets can be thought of as "cities", although they don't
+      quite match up with actual cities (markets sometimes contain multiple
+      cities) or even metropolitan areas (since collectively they also cover the
+      entire country, including rural areas).  Essentially, they're the areas
+      covered by television or radio stations, either directly over-the-air, or
+      areas that television stations would be carried by cable or satellite
+      television providers.  Every media market covers at least one state,
+      though many are split across multiple
+      <a href="#3.1">states</a>,
+      for instance a market like St. Louis would cover part of both Missouri and
+      Illinois.</p>
+
+      <p>Ad buys can be purchased for media markets (the game doesn't really
+      distinguish between television and radio, an ad buy is just the amount of
+      money spent on a market, whatever the details) and will affect voters in a
+      market.  Campaign (and fundraising) stops are also in media markets (i.e.,
+      in the city a media market is centered in).</p>
+<h3><a href="#ret-3.3"><span id="3.3">3.3</span> Polls</a></h3>
+<p>There are two basic kinds of polls: national tracking polls and state
+      polls.  National tracking polls are mostly just flavor &mdash; a rough
+      state of the overall election.  They can't be commissioned by the player,
+      and ultimately the national vote doesn't really matter and only has a
+      rough relationship with the actual state of the campaign.  State polls, on
+      the other hand, can be purchased by the players and are important for
+      planning.  Every week media outlets (i.e., the game) will commission a
+      national poll, as well as some state polls (more polls closer to the
+      election, more often for larger states or for states that are closer to
+      being a toss-up).</p>
+
+      <p>There are three classes of polls, in order of accuracy (and cost):
+      internet polls, robocall polls, and comprehensive polls (representing
+      polls by better polling firms that call cell phones and use larger sample
+      sizes).</p>
+<h3><a href="#ret-3.4"><span id="3.4">3.4</span> Advertisements</a></h3>
+<p>There are two kinds of ads: national and market ads. National ads
+      target national broadcasts (or in the case of web ads, which are really a
+      type of national ad on the internet).  Market ads, of course, target
+      individual markets.  Per voter reached, national ads are a little more
+      efficient than market ads, however, many of the voters reached are in
+      areas the player probably can't win (or doesn't have to worry about), so
+      ultimately market ads tend to be more efficient.  However, as more money
+      is poured into them advertisements become less efficient for each marginal
+      dollar, so it's best to mix types a bit.</p>
+
+      <p>Ads come in two other basic types: positive and negative (i.e.,
+      pro-candidate or "attack" anti-candidate ads).  Positive ads increase
+      both a candidate's
+      <a href="#3.6">enthusiasm and name recognition</a>.
+      Negative ads also increase a candidate's enthusiasm (i.e., the enthusiasm
+      for the candidate that bought the ad) &mdash; significantly moreso than
+      positive ads do &mdash; but they <em>also</em> increase the enthusiasm of
+      every candidate that isn't the target, and increase their opponent's name
+      recognition as well.  For that reason, negative ads are most effective in
+      two-way races when both candidates are already well-known, but
+      counter-productive against candidates that aren't well-known, or when
+      there are more than two candidates that are polling closely.</p>
+<h3><a href="#ret-3.5"><span id="3.5">3.5</span> Candidates</a></h3>
+<p>Candidates are the actors in the game.  Candidates have various
+      qualities, the first being "candidate quality" itself.  Quality is a
+      measure of how good of a candidate the candidate is, i.e., the likelihood
+      voters would want to vote for the candidate (assuming they know who they
+      are and they've been sufficiently persuaded to make it to the polls).
+      Every candidate (both the vice presidential candidate and the top of the
+      ticket) has two skills: campaigning skill and fundraising skill, which are
+      a measure of how effective they are at the two activities (although the
+      vice presidential candidate is half as effective as the headliner at
+      either for the same level of skill for the simple reason that they aren't
+      the head of the ticket).  These qualities are fixed once the election
+      starts.</p>
+
+      <p>During the game, as the campaign manager, you can decide where the
+      presidential and vice-presidential candidates make campaign or fundraising
+      stops.  You can also control how many days the candidates prepare for
+      debates.  However, how the candidates do at their stops or at the debates
+      is out of the player's control; the best you can do is send them in the
+      right direction and hope for the best.  During each party's convention,
+      the candidates will (of course) attend; this is something else you can't
+      control.  Beyond that, candidates will also fatigue, requiring the
+      occasional rest day (one day of rest is enough for each week of
+      campaigning).</p>
+
+      <p>If candidates revisit markets visited too recently (by themselves or
+      the other member of the ticket) subsequent stops will be significantly
+      less effective, depending on how recently they'd visited.  This effect
+      only applies to campaigning and campaigning again or fundraising and
+      fundraising again, not doing one then the other; i.e., it actually is a
+      reasonable strategy to campaign in a market then return and fundraise
+      there immediately afterwards.</p>
+
+      <p>Any time a candidate makes a campaign stop in a market, this will
+      increase the voters' enthusiasm and name recognition in that market. This
+      is a cumulative sort of thing, i.e., if the ticket doesn't have much name
+      recognition to start with, it will be harder to attract media coverage to
+      increase it.  Likewise, fundraising is more effective where a candidate is
+      both known and already has a stronger base of support (but is otherwise
+      proportional to the size of the market).  Fundraising stops don't
+      otherwise have any effect besides raising funds for the campaign.</p>
+
+      <p>Candidates will start with a bit more enthusiasm in their home states
+      (more for the presidential candidate than the vice-presidential
+      candidate).  This will either happen at the beginning of the game or when
+      a (vice presidential) candidate is selected at the national convention; if
+      the candidate is an incumbent, they will have the vice president available
+      to campaign from the beginning of the game, so the bonus is applied to the
+      vice president's home state then.</a>
+<h3><a href="#ret-3.6"><span id="3.6">3.6</span> Enthusiasm and Name Recognition</a></h3>
+<p>There are only two factors that can be affected by the player: voter
+      enthusiasm and name recognition.  Voter enthusiasm represents how much
+      voters have been persuaded to go out and vote for a candidate, i.e.,
+      turnout.  Name recognition represents how well-known a player is; voters
+      won't vote for candidates they've never heard of. Relatively high values
+      of both of these are necessary to do well at the polls; neither is
+      sufficient by itself.</p>
+
+      <p>Both enthusiasm and name recognition can be increased by campaign stops
+      and ads (although attack ads will also affect the values for other
+      candidates, see
+      <a href="#3.4">Advertisements</a>.
+      State offices will also slowly affect enthusiasm in a state over time.
+      Name recognition will always increase.  However, over time enthusiasm will
+      slowly decay.<p>
+<h3><a href="#ret-3.7"><span id="3.7">3.7</span> Issues</a></h3>
+<p>There are fifteen issues in the game.  Each issue has two positions;
+      for the most part, the issues are equal, although events during the game
+      will increase support for one side or the other, and support for one side
+      of an issue or the other varies from state to state.  Issues must be
+      chosen for a ticket before the game begins and can't be changed once the
+      game starts.</p>
+
+      <p>The following is a list of issues and positions:</p>
+
+      <table class="issues-table">
+  <tr>
+    <td><em>Issue</em></td>
+    <td><em>"Left"</em></td>
+    <td><em>"Right"</em></td>
+  </tr>
+  <tr>
+    <td>Abortion</td>
+    <td>Pro-Choice</td>
+    <td>Pro-Life</td>
+  </tr>
+  <tr>
+    <td>Gun Control</td>
+    <td>Pro-Gun Control</td>
+    <td>Pro-2nd Amendment</td>
+  </tr>
+  <tr>
+    <td>Defense</td>
+    <td>Defense Cuts</td>
+    <td>Stronger Defense</td>
+  </tr>
+  <tr>
+    <td>Welfare</td>
+    <td>Stronger Social Programs</td>
+    <td>Cut Welfare Spending</td>
+  </tr>
+  <tr>
+    <td>Drug Policy</td>
+    <td>Pro-Legalization</td>
+    <td>Law and Order</td>
+  </tr>
+  <tr>
+    <td>Environment</td>
+    <td>Pro-Environment</td>
+    <td>Pro-Business</td>
+  </tr>
+  <tr>
+    <td>Social Security</td>
+    <td>Protect Social Security</td>
+    <td>Privatize Social Security</td>
+  </tr>
+  <tr>
+    <td>Education</td>
+    <td>Strengthen Public Education</td>
+    <td>Privatize Education</td>
+  </tr>
+  <tr>
+    <td>Health Care</td>
+    <td>Pro-Federal Health Care</td>
+    <td>Privatize Medicare</td>
+  </tr>
+  <tr>
+    <td>Campaign Finance</td>
+    <td>Pro-Reform</td>
+    <td>Status Quo</td>
+  </tr>
+  <tr>
+    <td>National Security</td>
+    <td>Pro-Civil Liberties</td>
+    <td>Stronger Security</td>
+  </tr>
+  <tr>
+    <td>Gay Marriage</td>
+    <td>Legalize Gay Marriage</td>
+    <td>Defense of Marriage</td>
+  </tr>
+  <tr>
+    <td>Immigration</td>
+    <td>Amnesty</td>
+    <td>Zero Tolerance</td>
+  </tr>
+  <tr>
+    <td>Minimum Wage</td>
+    <td>Raise</td>
+    <td>Eliminate</td>
+  </tr>
+  <tr>
+    <td>Tax Policy</td>
+    <td>Higher Taxes for Wealthy</td>
+    <td>No New Taxes/Cuts Only</td>
+  </tr>
+</table>
+
+
+      <p>There is one exception to issue symmetry: being pro-reform on campaign
+      reform will disadvantage a player's fundraising.  However, the only
+      campaign reform issue events on either side that ever fire will increase
+      support for the pro-reform side of the issue.  So in games where no
+      pro-events fire, being pro-status-quo is a clear advantage, and vice-versa
+      in games where it does.</p>
+<h3><a href="#ret-3.8"><span id="3.8">3.8</span> Game Events</a></h3>
+<p>There are various game events that fire during the game that can
+      affect the election.  These can increase the support for the particular
+      position on an issue in either a single state or nationally; the effect is
+      described in the news item that will appear at that time.<p>
+
+      <p>In addition, there are various events that always occur during the game
+      (including, of course, the election itself).  The first is the party
+      conventions during weeks twelve through nine (depending on how many
+      players there are, if only two, then weeks ten and nine).  If the
+      candidate is not an incumbent, the party's vice-president will be selected
+      and available starting that week (otherwise the vice-presidential
+      candidate is available from the start of the game). The party that has a
+      convention will get an enthusiasm boost that week, particularly in the
+      market with the convention.</p>
+
+      <p>The other major fixed events are the debates. Any candidates that are
+      sufficiently popular by week seven will be invited; the debates themselves
+      occur weeks five through two (with week four being the vice-presidential
+      debate).</p>
+
+      <p>Random events can be disabled from the preferences panel (from the top
+      menu or from the startup screen on the Mac, and from the main menu or
+      startup screen on the iPad and iPhone).</p>
+<h3><a href="#ret-3.9"><span id="3.9">3.9</span> Partisan Lean and Elasticity</a></h3>
+<p>Some states lean towards one party or another, and some states are
+      harder to influence than others.  Some states are also easier for
+      third-party candidates to influence.  This is based on actual voter
+      elasticity (and partisan lean) data; for a bog-standard two-way
+      Democratic-versus-Republican contest, with the candidates more or less
+      having the actual party positions, the results of an election will be
+      similar to historical elections.  If you swap around the positions, things
+      will get more unstable, with party loyalty clashing with issue
+      preferences.</p>
+
+      <p>Because of this, even vast amounts of money will only go so far; there
+      are states that are out of reach no matter how much campaigning or ads a
+      candidate buys there (for example, a conservative republican probably
+      can't win DC no matter what, or if they can, they'd win every other state
+      in a landslide), and even if not completely out of reach, some states are
+      easier to defend than others.</p>
+
+      <div class="manual-screenshot-right">
+      <a href="../assets/em16/manual/setup-screen.png" class="image"><img src="../assets/em16/manual/t/setup-screen.png" alt="Setup Screen" style="width: 400; height: 300;" /></a>
+        <div class="manual-screenshot-subtitle">
+          Setup screen (iPad, Mac is similar)
+        </div>
+      </div>
+<h2><a href="#ret-4"><span id="4">4</span> Setup Screen</a></h2>
+<p>This is the first control screen of the game where users can load
+    preset scenarios (or create their own).  The iPad and Mac versions of
+    this screen are broadly similar, however the iPhone version is
+    slightly different.  On the iPad and Mac versions, the main (election)
+    panel and candidate panels are all visible at the same time, on the
+    iPhone, the user needs to swipe to the left or right to navigate
+    between the main election panel and the candidates setup controls.</p>
+<h3><a href="#ret-4.1"><span id="4.1">4.1</span> Election</a></h3>
+<p>On the first panel (top on iPad and Mac versions, left-most panel on
+      the iPhone version), the game length (12-24 weeks) and number of players
+      (2-4) can be set.  A number of pre-set scenarios can also be generated or
+      selected; "2012" will set up an election similar to the actual
+      historical election, and various other scenarios can be generated.  If
+      generated scenarios are randomized, issues and candidate skills and
+      quality and name recognition will be randomized to various extents. Names,
+      portraits, home states, and convention markets are always randomly chosen
+      when a scenario (other than 2012) is generated, however.</p>
+<h3><a href="#ret-4.2"><span id="4.2">4.2</span> Candidates</a></h3>
+<p>The bottom panels (on iPad and Mac) or panels to the right (on the
+      iPhone) are for setting up the candidates (to see all of the controls on
+      this panel on the iPhone may require scrolling down depending on screen
+      size).  All of the candidate parameters can be set here, from name,
+      appearance, quality parameters, and issues (on the iPad and Mac, you can
+      navigate between various sections via buttons, on the iPhone there's a
+      navigation control at the top of the panel).  Any number of players can be
+      played by humans (as long as at least one player is human); during the
+      campaign, the game plays with hotseat multiplayer (the election itself
+      does not involve any player decisions except to see the next state).  The
+      incumbent player gets their vice-president from the beginning of the game
+      and has their national convention last.</p>
+
+      <p>The player's appearance can be changed by clicking the portrait (or
+      touching it on iPad or iPhone).  That pops up a dialog that allows you to
+      vary the portrait parameters (or randomize the picture with the dice
+      button).</p>
+
+      <p>Home state, party, and convention location can also be chosen for an
+      enthusiasm boost for the state or convention location during the location.
+      You can also pick the party's color; this is the color that shows up in
+      graphs and on the map for the party/candidate.  The colors are arbitrary
+      and can be changed however the player chooses (say, if the player is
+      colorblind and wants more contrast), it has no effect on game play beyond
+      displaying data and results.</p>
+<h4><a href="#ret-4.2.1"><span id="4.2.1">4.2.1</span> Initial Stats</a></h4>
+<p>Various initial stats can be set for each candidate (and will affect
+        how a candidate performs).  The first is candidate funds, which
+        obviously affects how much a candidate can spend on ads and state
+        offices.  The next is candidate quality, which affects how likely voters
+        are to vote for a candidate (assuming they know about them or have been
+        persuaded to turn out, and are close enough to the candidate on the
+        issues).  The next is campaigning skill, which is how effective
+        candidates are at campaigning.  Next is fundraising skill, which is how
+        effective candidates are at fundraising.  The next is initial name
+        recognition &mdash; how well-known the candidate is among the
+        voters.</p>
+<h4><a href="#ret-4.2.2"><span id="4.2.2">4.2.2</span> Issues</a></h4>
+<p>The issues panel allows the player to select positions for the
+        ticket.  These positions are fixed once the election starts.  For more
+        information on issues, see the
+        <a href="#3.7">Issues</a>
+        section of the manual.</p>
+<h4><a href="#ret-4.2.3"><span id="4.2.3">4.2.3</span> Vice President and Incumbency</a></h4>
+<p>Vice presidents have home states (like the presidential candidate),
+        which they give an enthusiasm bonus for when they are selected.
+        Portraits are modified in the same way as presidential candidates as
+        well, by clicking or touching the portrait.  Likewise, vice presidential
+        candidates also have campaigning and fundraising skills.</p>
+
+        <p>If the presidential candidate is the incumbent, the vice president is
+        available from the beginning of the game.  However, if the candidate is
+        not the incumbent, the candidate will show up during the week of the
+        party convention.  The vice presidential candidate can then be pre-set
+        with the values here, or if "Select VP at National Convention" is
+        chosen, the player will get a choice of three randomly generated
+        candidates instead.</p>
+
+        <div class="manual-screenshot-right">
+        <a href="../assets/em16/manual/campaign-screen.png" class="image"><img src="../assets/em16/manual/t/campaign-screen.png" alt="Campaign Screen" style="width: 400; height: 300;" /></a>
+          <div class="manual-screenshot-subtitle">
+            Campaign screen (iPad, Mac is similar)
+          </div>
+        </div>
+<h2><a href="#ret-5"><span id="5">5</span> Campaign Screen</a></h2>
+<p>This is the main screen of the game.  Again, the iPad and Mac versions
+    are broadly similar, and the iPhone version is laid out a bit differently;
+    this will be covered below.</p>
+<h3><a href="#ret-5.1"><span id="5.1">5.1</span> Before Each Turn</a></h3>
+<p>Before each turn, a "Ready, Player!" screen will appear.  On this
+      screen the player will have several choices of how to set up their turn.
+      For each set of options (i.e., polls, advertisements, offices, and
+      itinerary), the player can choose to have nothing set up or let the AI
+      adviser set things up for them.  In addition, for ads and polls, the
+      player can choose "Same as Last Week" which keep last turn's ad/polling
+      plan (i.e., set up exactly the same plan again this week).</p>
+
+      <p>No matter which options are chosen, they only set up an initial state;
+      the player can then modify their plans during their turn however they
+      like.</p>
+
+      <p>If there are any new news items during this week, those will also show
+      up before the player's turn here after plans are initial plans are
+      selected.</p>
+<h3><a href="#ret-5.2"><span id="5.2">5.2</span> Status/Top Bar</a></h3>
+<p>On the iPad/Mac version of the game, the top bar will show the current
+      player and basic stats for them, as well as how many weeks are left in the
+      game.  To the right is the "Finish Turn" button, which will end the
+      player's turn.  On the iPad version, there is also a "Menu" button to
+      access the main in-game menu (i.e., to access preferences, to start new
+      games, to see the about screen or load this manual, etc.) &mdash; this
+      replaces the standard top menu bar on the Mac version.</p>
+
+      <p>On the iPhone version, the status is split between the top and bottom
+      bars; the "Finish Turn" button is on the top, and the in-game menu is
+      accessible from the bottom control bar.</p>
+
+      <div class="manual-screenshot-left">
+      <a href="../assets/em16/manual/campaign-phone.png" class="image"><img src="../assets/em16/manual/t/campaign-phone.png" alt="Campaign Screen (iPhone)" style="width: 200; height: 356;" /></a>
+        <div class="manual-screenshot-subtitle">
+          iPhone campaign interface
+        </div>
+      </div>
+<h3><a href="#ret-5.3"><span id="5.3">5.3</span> Map Display</a></h3>
+<p>On the iPad/Mac version of the game, the main map is found on the
+      bottom left of the screen (on the iPhone version, the map is collapsed
+      into the bottom control bar, and available from the left-most tab).  The
+      map shows states and markets (assuming they're displayed; see below),
+      these can be selected on the map.  On the bottom left is a graph for the
+      currently selected state and market, showing the components of that state
+      or market.  To the bottom right are controls to navigate on the map; users
+      can also navigate by dragging the mouse (Mac) or dragging the screen
+      (iPad, iPhone), or can zoom in and out with the scroll wheel (Mac) or by
+      pinching (iPad, iPhone).</p>
+
+      <p>Along the top left of the map are controls allowing the player to
+      change the display; the choices for the states are "Base Map" (i.e., no
+      colors), "Poll Results" (which shows the most recent poll results for
+      each state and colors the state with the candidate who is leading, or grey
+      if there is no polling for that state), "Poll Age" (which shows how
+      recently a state has been polled &mdash; darker is more recent, gray is no
+      data), "Office Effectiveness" (which shows the current effect of your
+      offices, darker for greater, gray for none), "Offices" (which shows how
+      many offices a party has in each state, darker for more, gray for none),
+      and "Support" (which shows how much support parties have from state to
+      state, again, darker for stronger support, gray for none or no data).</p>
+
+      <p>The next button controls how markets are displayed: "Hide Markets"
+      (should be obvious), "Show Markets" (shows markets but doesn't color
+      them), "Advertising" (colors markets based on ad spending, darker for
+      greater, dark gray for none), "Last Visit" (colors markets based on how
+      recently any of the player's candidates have visited them, darker for more
+      recent, dark gray for never), and "Last Fundraising" (colors markets
+      based on how recently any of the player's candidates have visited them for
+      fundraising, again, darker for more recent).</p>
+
+      <p>To the top right is a button that toggles the display of state codes
+      and electoral vote values for each state.</p>
+
+      <p>On the iPad and iPhone version of the game, double-tapping will zoom in
+      on the map, and triple-tapping will reset/recenter the map.</p>
+<h3><a href="#ret-5.4"><span id="5.4">5.4</span> National Tab</a></h3>
+<p>The National (Nation on the iPhone) tab shows top-level information
+      (i.e. a tracking graph and basic budget numbers) and can be used to set
+      national ad spending (web ads are really just a cheaper form of national
+      ads that target the web rather than television stations).</p>
+
+      <p>This (and the other tabs from the following sections) are available in
+      the side panel (on the Mac and iPad) or from the bottom control bar (on
+      the iPhone).</p>
+
+      <p>For the tracking graph, the "EV" or "%" button can be used to
+      toggle between popular vote and electoral vote tracking.  For more
+      information on the effect of various advertising options, see the
+      <a href="#3.4">Advertisements</a>
+      section above.  For the buttons at the bottom of the panel
+      ("<a href="#5.8.1">Ad Planner</a>",
+      "<a href="#5.8.2">Poll Planner</a>",
+      "<a href="#5.8.6">Itinerary Planner</a>",
+      "<a href="#5.8.3">Advisor</a>",
+      "<a href="#5.8.4">Budget Summary</a>",
+      "<a href="#5.8.5">Top Stories</a>",
+      "<a href="#5.8.8">Ad History</a>", and
+      "<a href="#5.8.9">Poll History</a>"),
+      see the the appropriate
+      <a href="#5.8">Sub-Panels</a> section below.</p>
+<h3><a href="#ret-5.5"><span id="5.5">5.5</span> Candidates Tab</a></h3>
+<p>The Candidate (Cand on the iPhone) tab shows current player
+      information.  Tickets can be cycled through with the arrow buttons to the
+      left and right.  The "Show Platform" or "Show Ticket Info" will toggle
+      between a display showing current candidate/ticket information and showing
+      the platform positions on each of the issues.  For more information on the
+      candidate skills and status, see the
+      <a href="#3.5">Candidates</a> section or the
+      <a href="#3.6">Enthusiasm and Name Recognition</a>
+      section above; for more information on the issues, see the
+      <a href="#3.7">Issues</a> section.</p>
+
+      <p>For the other buttons at the bottom of the panel
+      ("<a href="#5.8.6">Itinerary Planner</a>" and
+      "<a href="#5.8.10">Campaign History</a>"),
+      see the the appropriate
+      <a href="#5.8">Sub-Panels</a> section below.</p>
+<h3><a href="#ret-5.6"><span id="5.6">5.6</span> Markets Tab</a></h3>
+<p>The Market tab shows information on the currently selected market. The
+      market can be selected with the menu bar at the top of the panel (it can
+      also be selected by clicking or or touching market circles on the map,
+      which will automatically navigate to the market tab as well on the iPad or
+      Mac).  Underneath the selector is a list of states and the portion of the
+      market that is in each state; these state names can also be selected to
+      navigate to the given state.  Other information is also available, such as
+      the total size (population) of the market, and the last time your
+      candidates visited it.</p>
+
+      <p>From this panel the player can also plan advertising and candidate
+      visits (and specify if a visit is intended for campaigning &mdash; i.e.,
+      increasing the candidate's exposure &mdash; or for fundraising &mdash;
+      i.e., purely to raise money); for more information on advertising options,
+      see the
+      <a href="#3.4">Advertisements</a>
+      section above.  For the other buttons at the bottom of the panel
+      ("<a href="#5.8.8">Ad History</a>" and
+      "<a href="#5.8.10">Campaign History</a>"),
+      see the the appropriate
+      <a href="#5.8">Sub-Panels</a> section below.</p>
+<h3><a href="#ret-5.7"><span id="5.7">5.7</span> States Tab</a></h3>
+<p>The State tab shows information on the currently selected state. The
+      state can be selected with the menu bar at the top of the panel (it can
+      also be selected by clicking on or touching the states on the map, which
+      will automatically navigate to the state tab as well on the iPad or Mac).
+      Underneath the selector is a vote tracking graph as well as the latest
+      polling results.  Beneath that is a list of markets found in the state, as
+      well as how much of the state falls in that market.  Market names can be
+      selected to navigate to the given market.</p>
+
+      <p>At the bottom of the panel the player can commission state polls (see
+      the
+      <a href="#3.3">Polls</a>
+      section above for more information on polling options), and see the
+      current status of state campaign offices.  For the other buttons at the
+      bottom of the panel
+      ("<a href="#5.8.7">Manage Offices</a>" and
+      "<a href="#5.8.9">Poll History</a>"),
+      see the the appropriate
+      <a href="#5.8">Sub-Panels</a>
+      section below.  The Electoral Vote value of the state is displayed in the
+      bottom left.</p>
+<h3><a href="#ret-5.8"><span id="5.8">5.8</span> Sub-Panels</a></h3>
+<p>The following sub-panels are also available during the game:</p>
+<h4><a href="#ret-5.8.1"><span id="5.8.1">5.8.1</span> Ad Planner</a></h4>
+<p>The ad planner panel can be used to plan or view large numbers of
+        market ads at the same time based on the state filter/options chosen at
+        the top of the panel.  The first selector is used to filter on a state
+        you'd like to target, and the next two selectors control the type of ad
+        that can be applied to all the markets in the filtered state with the
+        "Apply to Markets" button.  If no state is selected (i.e., all states
+        are selected), the ad type/level can be applied to every market in the
+        country at once.</p>
+
+        <p>Markets can be selected by clicking or touching the market names on
+        this screen; the map will then zoom to that market (though you'll have
+        to change tabs to see that on the iPhone).</p>
+
+        <p>The ad planner panel is available from the
+        <a href="#5.4">National Tab</a>.</p>
+<h4><a href="#ret-5.8.2"><span id="5.8.2">5.8.2</span> Poll Planner</a></h4>
+<p>The poll planner panel can be used to plan or view your polling
+        strategy based on the state filter/options chosen at the top of the
+        panel.  The first selector is used to filter on a states you'd like to
+        target (based on the various options available), and the next selector
+        controls the type of poll that can be commissioned for those states with
+        the "Commission Polls" button.  If no filter is selected (i.e., all
+        states are selected), polls can be commissioned (or canceled) for every
+        state in the country at once.</p>
+
+        <p>States can be selected by clicking or touching the state names on
+        this screen; the map will then zoom to that state (though you'll have to
+        change tabs to see that on the iPhone).</p>
+
+        <p>The poll planner panel is available from the
+        <a href="#5.4">National Tab</a>.</p>
+<h4><a href="#ret-5.8.3"><span id="5.8.3">5.8.3</span> Advisor</a></h4>
+<p>The advisor panel shows what your AI advisor suggests is a
+        reasonable plan, as well as whether your current plans match the AI
+        advisor's plans.  If the current plan for the upcoming week differs from
+        the AI's suggestions, you can apply the AI suggestions with the buttons
+        at the top of the panel.  The various sections of the plan (i.e., polls,
+        advertisements, state offices, and itinerary) can be expanded or
+        collapsed with the buttons at the top of each section.</p>
+
+        <p>Once expanded, you can get an idea of where they states and markets
+        listed here are by clicking (or touching) their names on this screen;
+        once you do that, they'll be selected on the map (though you'll have to
+        change tabs to see the map on the phone). You can also reject (or
+        accept) specific parts of the advisor's plan with the buttons on the
+        right side of the panel.</p>
+
+        <p>The advisor panel is available from the
+        <a href="#5.4">National Tab</a>.</p>
+<h4><a href="#ret-5.8.4"><span id="5.8.4">5.8.4</span> Budget Summary</a></h4>
+<p>The budget summary panel shows the current state of the player's
+        budget, as well as how much funds have been raised during the last week
+        and also how much the current campaign plan will spend on various
+        different activities during the next week.</p>
+
+        <p>The budget summary panel is available from the
+        <a href="#5.4">National Tab</a>.</p>
+<h4><a href="#ret-5.8.5"><span id="5.8.5">5.8.5</span> Top Stories</a></h4>
+<p>The top stories panel displays the news stories that have occurred
+        over the course of the election; any of the news stories can be
+        re-displayed by selecting the story headline.</p>
+
+        <p>The top stories panel is available from the
+        <a href="#5.4">National Tab</a>, as well as the
+        <a href="#6.6">Election History Tab</a> tab.</p>
+<h4><a href="#ret-5.8.6"><span id="5.8.6">5.8.6</span> Itinerary Planner</a></h4>
+<p>The itinerary planner panel allows the player to plan the campaign
+        and fundraising stops for the ticket's presidential candidate and
+        vice-presidential candidate (if the vice president has been chosen and
+        is available yet).  For each day of the week, the player can visit a
+        market or rest; if the candidate chooses to visit a market, it can be
+        set up as a campaign stop or a fundraising stop with fundraising
+        checkbox (for more information on the difference between fundraising and
+        campaign stops, see the section on
+        <a href="#3.5">Candidates</a>
+        above). In addition to the market visits, during certain weeks other
+        special options will be available (i.e., debate preparation) or certain
+        days will be blocked off for special events (i.e., debates or party
+        conventions).</p>
+
+        <p>The itinerary planner panel is available from the
+        <a href="#5.5">Candidates Tab</a> and the
+        <a href="#5.4">National Tab</a>.</p>
+<h4><a href="#ret-5.8.7"><span id="5.8.7">5.8.7</span> Manage Offices</a></h4>
+<p>The manage offices panel allows the player to manage the state
+        campaign offices for each state.  Offices can be opened (or if the
+        ticket is short of cash, closed).  Note that offices take time to get
+        established (several weeks to reach peak effectiveness), and cost more
+        to set up than maintain.  The information here allows you to see how
+        effective the offices will be, and what the other players are doing as
+        well.</p>
+
+        <p>The manage offices panel is available from the
+        <a href="#5.7">States Tab</a>.</p>
+<h4><a href="#ret-5.8.8"><span id="5.8.8">5.8.8</span> Ad History</a></h4>
+<p>The ad history panel displays all the advertisements that have been
+        run during the campaign so far or are currently being planned by the
+        current player for the current week.  The ads can be filtered both by
+        market (or can be filtered to show national ads, or all ads on the Mac)
+        and by ticket (or all tickets).  For each ad displayed, both the party
+        that bought the ad and the target of the ad is shown both by color and
+        party abbreviation.</p>
+
+        <p>The ad history panel is available from the
+        <a href="#5.4">National Tab</a> or the
+        <a href="#5.6">Markets Tab</a>, as well as the
+        <a href="#6.6">Election History Tab</a> tab.</p>
+<h4><a href="#ret-5.8.9"><span id="5.8.9">5.8.9</span> Poll History</a></h4>
+<p>The poll history panel displays all of the polls that have been run
+        so far during the election, as well as polls that are being planned by
+        the current player for the current week.  Polls can be filtered by
+        state, or national polls can be displayed, or all polls on the Mac. For
+        each ad displayed, the type of ad is shown after the state ("I" for
+        internet, "R" for robocall, or "E" for exhaustive; see the
+        <a href="#3.3">Polls</a>
+        section for more information on polling types), as well as the poll
+        results (by color and party abbreviation), assuming the poll has been
+        run.</p>
+
+        <p>The poll history panel is available from the
+        <a href="#5.4">National Tab</a> or the
+        <a href="#5.7">States Tab</a>, as well as the
+        <a href="#6.6">Election History Tab</a> or
+        <a href="#6.4">Election States Tab</a> tabs.</p>
+<h4><a href="#ret-5.8.10"><span id="5.8.10">5.8.10</span> Campaign History</a></h4>
+<p>The campaign history panel allows the player to see all of the
+        campaign activities of each of the candidates (i.e., what each of the
+        candidates have done each day of the campaign so far, and where they've
+        done it).  The party ticket can be filtered at the top of the panel (or
+        all parties can be shown at once); note that if it's still the first
+        week of the campaign, no activities will have yet taken place so the
+        panel will be empty.</p>
+
+        <p>The campaign history panel is available from the
+        <a href="#5.5">Candidates Tab</a> or the
+        <a href="#5.6">Markets Tab</a>, as well as the
+        <a href="#6.6">Election History Tab</a> or
+        <a href="#6.5">Election Candidates Tab</a> tabs.</p>
+
+        <div class="manual-screenshot-right">
+        <a href="../assets/em16/manual/election-screen.png" class="image"><img src="../assets/em16/manual/t/election-screen.png" alt="Election Screen" style="width: 400; height: 300;" /></a>
+          <div class="manual-screenshot-subtitle">
+            Election screen (iPad, Mac is similar)
+          </div>
+        </div>
+<h2><a href="#ret-6"><span id="6">6</span> Election Screen</a></h2>
+<p>Once the campaign finishes and the election begins, the campaign panels
+    are replaced by the election panels to show the election results.  At this
+    point, there are no player turns as there is no longer anything to control
+    (beyond showing the next state or looking through the results and other
+    history, anyway).</p>
+<h3><a href="#ret-6.1"><span id="6.1">6.1</span> Status/Top Bar</a></h3>
+<p>The top bar will show the latest election information, and allows the
+      player(s) to display the results from the next state when the "Begin" or
+      "Next State" button is selected.  As with the main campaign screen, a
+      "Menu" button is available on the iPad version to access the main menu,
+      and the iPhone version again splits status on the top and bottom (and has
+      a "Menu" tab at the right end of the bottom control bar).</p>
+
+      <div class="manual-screenshot-left">
+      <a href="../assets/em16/manual/election-phone.png" class="image"><img src="../assets/em16/manual/t/election-phone.png" alt="Election Screen (iPhone)" style="width: 200; height: 356;" /></a>
+        <div class="manual-screenshot-subtitle">
+          iPhone election interface
+        </div>
+      </div>
+<h3><a href="#ret-6.2"><span id="6.2">6.2</span> Map Display</a></h3>
+<p>On the iPad and Mac, the map is displayed at the bottom left; on the
+      iPad the map is accessible from the left-most tab of the bottom control
+      bar.  This panel shows which states have been called for which candidates.
+      Any of the states can be selected, and at the bottom left (iPad/Mac) or
+      top left (iPhone) of the map, a button will cycle through showing
+      electoral votes, state abbreviations, or nothing at all.  There is also a
+      navigation panel at the bottom right; the map can also be navigated by
+      dragging it, or zoomed in and out with the scrollbar (Mac) or by pinching
+      it (iPad, iPhone).</p>
+
+      <p>There is one significant difference between the iPad/Mac version of the
+      game and the iPhone version: on the iPhone, since it's not possible to
+      display both the map and the election tab at the same time (see next
+      section immediately below), there's a small display panel at the bottom
+      left of the map display that shows pie graphs of the current electoral
+      vote totals and the most recent state vote results.</p>
+
+      <p>On the iPad and iPhone version of the game, double-tapping will zoom in
+      on the map, and triple-tapping will reset/recenter the map.</p>
+<h3><a href="#ret-6.3"><span id="6.3">6.3</span> Election Tab</a></h3>
+<p>The election tab shows the current overall state of the election; it
+      displays national vote (both electoral votes on top and popular vote
+      below), and the voter results from the most recent state called. At the
+      bottom of the tab is the historical graph from the tracking polls.  The "%"
+      or "EV" button will toggle between national popular vote and electoral
+      votes.</p>
+
+      <p>This and the following tabs are available from the panel on the right
+      side of the screen on the iPad and Mac; on the iPhone, these tabs are
+      combined with the map and menu tabs in the bottom control bar.</p>
+<h3><a href="#ret-6.4"><span id="6.4">6.4</span> States Tab</a></h3>
+<p>The states tab shows voting results for a given state (assuming the
+      state has been called, otherwise the information will still be blank). It
+      also shows electoral votes for the state between the state voting results
+      pie graph and the winning candidate's portrait.  At the bottom of the
+      screen is the number of offices in the state, as well as the tracking
+      graph for the state.  Finally, states can be selected with the selection
+      button at the top of the panel (or by selecting states on the map).</p>
+
+      <p>At the very bottom of the panel is a
+      "<a href="#5.8.9">Poll History</a>"
+      button, see the the appropriate
+      <a href="#5.8">Sub-Panels</a> section above.</p>
+<h3><a href="#ret-6.5"><span id="6.5">6.5</span> Candidates Tab</a></h3>
+<p>The information on the candidate tab (cand tab on the iPhone) here is
+      identical to the information on the
+      <a href="#5.5">Candidates Tab</a>
+      (minus the itinerary planner panel) during the campaign.  See that section
+      for more information.</p>
+<h3><a href="#ret-6.6"><span id="6.6">6.6</span> History Tab</a></h3>
+<p>The history tab (or hist tab on the iPhone) shows the results from
+      each state (as well as overall national results) in tabular form.</p>
+
+      <p>In addition, the following buttons are available at the bottom of the
+      panel:
+      "<a href="#5.8.5">Top Stories</a>",
+      "<a href="#5.8.10">Campaign History</a>",
+      "<a href="#5.8.8">Ad History</a>", and
+      "<a href="#5.8.9">Poll History</a>".</p>
+<h3><a href="#ret-6.7"><span id="6.7">6.7</span> Sub-Panels</a></h3>
+<p>All of the panels in the election results screen are the same as those
+      available during the game, see the
+      <a href="#5.8">Sub-Panels</a>
+      section above for reference.</p>
+<h2><a href="#ret-7"><span id="7">7</span> End Game Screen</a></h2>
+<p>Once the game finishes, a screen will pop up and display the winner (if
+    there is one) and some graphs of how the election went, including electoral
+    votes, national popular vote, states won, and each candidate's final budget
+    (the money raised during the campaign is in a darker color to the
+    right).</p>
+
+    <p>At the bottom of the panel are two options: you can either return to the
+    map/game (if you'd like to dig farther into the results and other
+    information) or immediately start a new game.</p>
+<h2><a href="#ret-8"><span id="8">8</span> Notes</a></h2>
+<p>I've had an election game percolating in the back of my head for quite a
+    while now; I actually wrote a much simpler earlier version of this game many
+    years ago (in [incr TCL] of all things &mdash; there's an obscure language
+    for you).  The key concept in this game, though, is something that I only
+    considered more recently &mdash; the concept of de-coupling states from
+    media markets.  It's obviously one of the key concepts in the the game, and
+    the aspect that gives the game a fair amount of its strategic depth.  I
+    suppose the fact that this game exists at all is due to the fact that I
+    needed to get it out of my system &mdash; it's certainly not a whole lot
+    like my previous game, and probably won't be much like any other games I
+    create down the road.</p>
+
+    <p>Clearly there are a lot of things that have influenced this game,
+    including many years of reading sites such as Nate Silver's 538 Blog
+    (<a href="http://fivethirtyeight.com/">now an independent site</a>
+    &mdash; I don't follow it as much as I used to, though), Sam Wang at the
+    <a href="http://election.princeton.edu/">Princeton Election Consortium</a>,
+    or <a href="http://electoral-vote.com/">electoral-vote.com</a> (which was
+    my introduction to polling aggregation sites ten years ago or so. Another
+    bit of trivia &mdash; the creator of that site, Andrew Tannanbaum, is better
+    known for some pretty good computer science textbooks &mdash; including one
+    of mine in college twenty years ago). And too many other sites to mention or
+    even remember.  None of these really had any direct effect on the game per
+    se; they've influenced me over the years as an election observer in general
+    but I've been interested in presidential elections for a lot longer than any
+    of those sites &mdash; or even the web &mdash; has existed (my previous game
+    predates those sites &mdash; possibly even electoral-vote.com &mdash; and
+    I've been playing election games even longer than that. My dad even wrote a
+    simple paper-based game when I was still a kid &mdash; it had squares with
+    red on one side and blue on the other, back when red made more sense for
+    Democrats and blue for Republicans for more people than just me).</p>
+
+    <p>So, a lot of things that went into the game probably seem pretty obvious:
+    i.e., partisan leanings for states and so forth.  By necessity, pretty much
+    every election game has something to model that.  Voter elasticity is a bit
+    more obscure concept, but not difficult to understand: that is, some states
+    contain more (actual) independent voters than others and are easier to
+    influence.  And the dichotomy between media markets and states, as I touched
+    on above. Astute observers, however, will notice that I made one major
+    simplification from how presidential elections actually work (or at least
+    have recently): I turned both Maine and Nebraska into "winner-take-all"
+    states.  I did this because (1) the game is just simpler to code and display
+    that way (mostly in terms of interface, but also in terms of the engine) and
+    (2) those divisions seldom make any actual difference to election results.
+    By which I mean it's been rare that those states actually split their vote
+    (it didn't happen in 2012 and it's probably unlikely in 2016, though we'll
+    see), and when and if they do, it seems unlikely that it would happen in a
+    close election in the first place.  That said, I may patch that into the
+    game in a future version; we'll see.
+
+    <p>One of the things that was important to me is not that the game is
+    "accurate" per se, but that the results are plausible without being
+    deterministic.  And that results can be influenced by the player without
+    resulting in ridiculously unbalanced results.  I hope I've achieved that.
+    If I have, I've done it with a small amount of randomness and just through
+    the uncertainty inherent in the noise that not-completely-accurate polls
+    give you.  So the election results will always be a bit &mdash; but not
+    excessively &mdash; surprising.  I also think that an election game should
+    not really have an editorial stance.  In that I mean that I wanted the
+    results from the 2012 scenario to come out approximately like the actual
+    election did (I mean, that's history), but if you want to level the playing
+    field (or give the edge to Romney), feel free.  The game won't judge,
+    simulate whatever scenarios interest you.  Personally, I most enjoy playing
+    third-party candidates and I suspect many players will, too.</p>
+
+    <p>I also fully intend to add a 2016 scenario when that election comes
+    around, and model it to return approximately the results the actual election
+    has.</p>
+
+    <p>One of the really enjoyable things for me was working on the game map (or
+    maps &mdash; the detail actually scales depending on how far you're zoomed
+    in).  I used to work (professionally) doing mapping/GIS programming, and it
+    had been a while since I'd done that in my day job.  I really did miss it a
+    bit and tweaking the basemaps was actually a lot of fun.  I've actually
+    open-sourced the RGeo/Geos code I used to get the various simplified maps
+    (for various zooms) on my
+    <a href="https://github.com/doubt72/geo-scripts/tree/master/election-map">github
+    account here</a>, so feel free to take a look if your interests happen to
+    run along those lines.<p>
+
+    <p>So, as a political junkie (and not just American politics, I keep up on a
+    fair amount of international politics as well) and having had a life-long
+    love of maps, really, how could I resist writing this game?</p>
+
+    <p>Anyway, I hope you enjoy playing it, too.</p>
+
+    <p>&mdash; Doug</p>
+
+    <p>If you've gotten this far, a hint: in the setup screen, when you edit the
+    candidate portraits, try setting the candidate's hair color to blond, then
+    make them bald with no facial hair.  Then cycle through the head shapes.</p>
+
+    <p>If any of the active candidates have one of the, ah, special portraits
+    and random events are enabled...  Interesting things will happen.</p>
+
+</div>
+
+  </div>
+
+<div class="footer">
+  Copyright &copy;2013-2016 Lensflare Games LLC.  All Rights
+  Reserved.
+</div>
+
+</div>
 </body>
 </html>
