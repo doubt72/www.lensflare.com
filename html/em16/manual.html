@@ -32,69 +32,91 @@
   challenge facing the player is that they can't (for the most part) target
   states directly, but instead must influence states indirectly through the
   media markets that span them.</p>
-<h1>Table of Contents</h1>
+<h1 id="toc-anchor">Table of Contents</h1>
+<script type="text/javascript">
+function toggleTOC(elem) {
+  var html_class = elem.className;
+  var children = elem.parentNode.childNodes;
+  if (html_class == 'toc_collapsed') {
+    elem.className = 'toc_expanded';
+    children[3].style.display = 'block';
+    elem.innerHTML = '&#9662;'
+  } else if (html_class == 'toc_expanded') {
+    elem.className = 'toc_collapsed';
+    children[3].style.display = 'none';
+    elem.innerHTML = '&#9656;'
+  }
+}
+</script>
+
 <ul class="toc">
-<li><a href="#1">1 Introduction</li>
-<li><a href="#2"><span id="ret-2">2</span> Getting Started</a></li>
-<li><a href="#3"><span id="ret-3">3</span> Game Concepts</a></li>
-<ul>
-<li><a href="#3.1"><span id="ret-3.1">3.1</span> States</a></li>
-<li><a href="#3.2"><span id="ret-3.2">3.2</span> Markets</a></li>
-<li><a href="#3.3"><span id="ret-3.3">3.3</span> Polls</a></li>
-<li><a href="#3.4"><span id="ret-3.4">3.4</span> Advertisements</a></li>
-<li><a href="#3.5"><span id="ret-3.5">3.5</span> Candidates</a></li>
-<li><a href="#3.6"><span id="ret-3.6">3.6</span> Enthusiasm and Name Recognition</a></li>
-<li><a href="#3.7"><span id="ret-3.7">3.7</span> Issues</a></li>
-<li><a href="#3.8"><span id="ret-3.8">3.8</span> Game Events</a></li>
-<li><a href="#3.9"><span id="ret-3.9">3.9</span> Partisan Lean and Elasticity</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#1"><span>1</span> Introduction</li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#2"><span>2</span> Getting Started</a></li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#3"><span>3</span> Game Concepts</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#3.1"><span>3.1</span> States</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#3.2"><span>3.2</span> Markets</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#3.3"><span>3.3</span> Polls</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#3.4"><span>3.4</span> Advertisements</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#3.5"><span>3.5</span> Candidates</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#3.6"><span>3.6</span> Enthusiasm and Name Recognition</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#3.7"><span>3.7</span> Issues</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#3.8"><span>3.8</span> Game Events</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#3.9"><span>3.9</span> Partisan Lean and Elasticity</a></li>
 </ul>
-<li><a href="#4"><span id="ret-4">4</span> Setup Screen</a></li>
-<ul>
-<li><a href="#4.1"><span id="ret-4.1">4.1</span> Election</a></li>
-<li><a href="#4.2"><span id="ret-4.2">4.2</span> Candidates</a></li>
-<ul>
-<li><a href="#4.2.1"><span id="ret-4.2.1">4.2.1</span> Initial Stats</a></li>
-<li><a href="#4.2.2"><span id="ret-4.2.2">4.2.2</span> Issues</a></li>
-<li><a href="#4.2.3"><span id="ret-4.2.3">4.2.3</span> Vice President and Incumbency</a></li>
+</li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#4"><span>4</span> Setup Screen</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.1"><span>4.1</span> Election</a></li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#4.2"><span>4.2</span> Candidates</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.1"><span>4.2.1</span> Initial Stats</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.2"><span>4.2.2</span> Issues</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.3"><span>4.2.3</span> Vice President and Incumbency</a></li>
 </ul>
+</li>
 </ul>
-<li><a href="#5"><span id="ret-5">5</span> Campaign Screen</a></li>
-<ul>
-<li><a href="#5.1"><span id="ret-5.1">5.1</span> Before Each Turn</a></li>
-<li><a href="#5.2"><span id="ret-5.2">5.2</span> Status/Top Bar</a></li>
-<li><a href="#5.3"><span id="ret-5.3">5.3</span> Map Display</a></li>
-<li><a href="#5.4"><span id="ret-5.4">5.4</span> National Tab</a></li>
-<li><a href="#5.5"><span id="ret-5.5">5.5</span> Candidates Tab</a></li>
-<li><a href="#5.6"><span id="ret-5.6">5.6</span> Markets Tab</a></li>
-<li><a href="#5.7"><span id="ret-5.7">5.7</span> States Tab</a></li>
-<li><a href="#5.8"><span id="ret-5.8">5.8</span> Sub-Panels</a></li>
-<ul>
-<li><a href="#5.8.1"><span id="ret-5.8.1">5.8.1</span> Ad Planner</a></li>
-<li><a href="#5.8.2"><span id="ret-5.8.2">5.8.2</span> Poll Planner</a></li>
-<li><a href="#5.8.3"><span id="ret-5.8.3">5.8.3</span> Advisor</a></li>
-<li><a href="#5.8.4"><span id="ret-5.8.4">5.8.4</span> Budget Summary</a></li>
-<li><a href="#5.8.5"><span id="ret-5.8.5">5.8.5</span> Top Stories</a></li>
-<li><a href="#5.8.6"><span id="ret-5.8.6">5.8.6</span> Itinerary Planner</a></li>
-<li><a href="#5.8.7"><span id="ret-5.8.7">5.8.7</span> Manage Offices</a></li>
-<li><a href="#5.8.8"><span id="ret-5.8.8">5.8.8</span> Ad History</a></li>
-<li><a href="#5.8.9"><span id="ret-5.8.9">5.8.9</span> Poll History</a></li>
-<li><a href="#5.8.10"><span id="ret-5.8.10">5.8.10</span> Campaign History</a></li>
+</li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#5"><span>5</span> Campaign Screen</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.1"><span>5.1</span> Before Each Turn</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.2"><span>5.2</span> Status/Top Bar</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.3"><span>5.3</span> Map Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.4"><span>5.4</span> National Tab</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.5"><span>5.5</span> Candidates Tab</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.6"><span>5.6</span> Markets Tab</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.7"><span>5.7</span> States Tab</a></li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#5.8"><span>5.8</span> Sub-Panels</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.8.1"><span>5.8.1</span> Ad Planner</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.8.2"><span>5.8.2</span> Poll Planner</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.8.3"><span>5.8.3</span> Advisor</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.8.4"><span>5.8.4</span> Budget Summary</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.8.5"><span>5.8.5</span> Top Stories</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.8.6"><span>5.8.6</span> Itinerary Planner</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.8.7"><span>5.8.7</span> Manage Offices</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.8.8"><span>5.8.8</span> Ad History</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.8.9"><span>5.8.9</span> Poll History</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.8.10"><span>5.8.10</span> Campaign History</a></li>
 </ul>
+</li>
 </ul>
-<li><a href="#6"><span id="ret-6">6</span> Election Screen</a></li>
-<ul>
-<li><a href="#6.1"><span id="ret-6.1">6.1</span> Status/Top Bar</a></li>
-<li><a href="#6.2"><span id="ret-6.2">6.2</span> Map Display</a></li>
-<li><a href="#6.3"><span id="ret-6.3">6.3</span> Election Tab</a></li>
-<li><a href="#6.4"><span id="ret-6.4">6.4</span> States Tab</a></li>
-<li><a href="#6.5"><span id="ret-6.5">6.5</span> Candidates Tab</a></li>
-<li><a href="#6.6"><span id="ret-6.6">6.6</span> History Tab</a></li>
-<li><a href="#6.7"><span id="ret-6.7">6.7</span> Sub-Panels</a></li>
+</li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#6"><span>6</span> Election Screen</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.1"><span>6.1</span> Status/Top Bar</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.2"><span>6.2</span> Map Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.3"><span>6.3</span> Election Tab</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.4"><span>6.4</span> States Tab</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.5"><span>6.5</span> Candidates Tab</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.6"><span>6.6</span> History Tab</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.7"><span>6.7</span> Sub-Panels</a></li>
 </ul>
-<li><a href="#7"><span id="ret-7">7</span> End Game Screen</a></li>
-<li><a href="#8"><span id="ret-8">8</span> Notes</a></li>
+</li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#7"><span>7</span> End Game Screen</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#8"><span>8</span> Notes</a></li>
 </ul>
-<h2><a href="#ret-2"><span id="2">2</span> Getting Started</a></h2>
+<h2><a href="#toc-anchor"><span id="2">2</span> Getting Started</a></h2>
 <p>Even without reading the rest of the manual, it's possible to play the
     game (essentially) on autopilot by letting your advisor make all of your
     decisions for you.  You can either do that by selecting "Advisor Plan" for
@@ -110,7 +132,7 @@
     it's likely you may start the game using the advisor plans as a starting
     point, or perhaps you might let the AI handle certain things for you and
     handle other things yourself.</p>
-<h2><a href="#ret-3"><span id="3">3</span> Game Concepts</a></h2>
+<h2><a href="#toc-anchor"><span id="3">3</span> Game Concepts</a></h2>
 <p>There are two basic concepts that affect everything you (and the AI
     player) does: first, all information is incomplete.  Even if you poll every
     state every week with the most expensive polling option, there's a certain
@@ -130,7 +152,7 @@
     each make a plan, and the plan is executed during the following week until
     the election itself arrives, at which point there's nothing to do but sit
     back and watch the results come in.</p>
-<h3><a href="#ret-3.1"><span id="3.1">3.1</span> States</a></h3>
+<h3><a href="#toc-anchor"><span id="3.1">3.1</span> States</a></h3>
 <p>States are ultimately the most important concept in the game. States
       are worth electoral votes, and whichever candidate can win enough states
       to get a total of 270 electoral votes will win the electoral college and
@@ -159,7 +181,7 @@
 
       <p>For the purposes of the game, the District of Columbia is considered a
       state, since it has electoral votes like any other state.</p>
-<h3><a href="#ret-3.2"><span id="3.2">3.2</span> Markets</a></h3>
+<h3><a href="#toc-anchor"><span id="3.2">3.2</span> Markets</a></h3>
 <p>Media markets can be thought of as "cities", although they don't
       quite match up with actual cities (markets sometimes contain multiple
       cities) or even metropolitan areas (since collectively they also cover the
@@ -177,7 +199,7 @@
       money spent on a market, whatever the details) and will affect voters in a
       market.  Campaign (and fundraising) stops are also in media markets (i.e.,
       in the city a media market is centered in).</p>
-<h3><a href="#ret-3.3"><span id="3.3">3.3</span> Polls</a></h3>
+<h3><a href="#toc-anchor"><span id="3.3">3.3</span> Polls</a></h3>
 <p>There are two basic kinds of polls: national tracking polls and state
       polls.  National tracking polls are mostly just flavor &mdash; a rough
       state of the overall election.  They can't be commissioned by the player,
@@ -193,7 +215,7 @@
       internet polls, robocall polls, and comprehensive polls (representing
       polls by better polling firms that call cell phones and use larger sample
       sizes).</p>
-<h3><a href="#ret-3.4"><span id="3.4">3.4</span> Advertisements</a></h3>
+<h3><a href="#toc-anchor"><span id="3.4">3.4</span> Advertisements</a></h3>
 <p>There are two kinds of ads: national and market ads. National ads
       target national broadcasts (or in the case of web ads, which are really a
       type of national ad on the internet).  Market ads, of course, target
@@ -216,7 +238,7 @@
       two-way races when both candidates are already well-known, but
       counter-productive against candidates that aren't well-known, or when
       there are more than two candidates that are polling closely.</p>
-<h3><a href="#ret-3.5"><span id="3.5">3.5</span> Candidates</a></h3>
+<h3><a href="#toc-anchor"><span id="3.5">3.5</span> Candidates</a></h3>
 <p>Candidates are the actors in the game.  Candidates have various
       qualities, the first being "candidate quality" itself.  Quality is a
       measure of how good of a candidate the candidate is, i.e., the likelihood
@@ -265,7 +287,7 @@
       the candidate is an incumbent, they will have the vice president available
       to campaign from the beginning of the game, so the bonus is applied to the
       vice president's home state then.</a>
-<h3><a href="#ret-3.6"><span id="3.6">3.6</span> Enthusiasm and Name Recognition</a></h3>
+<h3><a href="#toc-anchor"><span id="3.6">3.6</span> Enthusiasm and Name Recognition</a></h3>
 <p>There are only two factors that can be affected by the player: voter
       enthusiasm and name recognition.  Voter enthusiasm represents how much
       voters have been persuaded to go out and vote for a candidate, i.e.,
@@ -281,7 +303,7 @@
       State offices will also slowly affect enthusiasm in a state over time.
       Name recognition will always increase.  However, over time enthusiasm will
       slowly decay.<p>
-<h3><a href="#ret-3.7"><span id="3.7">3.7</span> Issues</a></h3>
+<h3><a href="#toc-anchor"><span id="3.7">3.7</span> Issues</a></h3>
 <p>There are fifteen issues in the game.  Each issue has two positions;
       for the most part, the issues are equal, although events during the game
       will increase support for one side or the other, and support for one side
@@ -381,7 +403,7 @@
       support for the pro-reform side of the issue.  So in games where no
       pro-events fire, being pro-status-quo is a clear advantage, and vice-versa
       in games where it does.</p>
-<h3><a href="#ret-3.8"><span id="3.8">3.8</span> Game Events</a></h3>
+<h3><a href="#toc-anchor"><span id="3.8">3.8</span> Game Events</a></h3>
 <p>There are various game events that fire during the game that can
       affect the election.  These can increase the support for the particular
       position on an issue in either a single state or nationally; the effect is
@@ -405,7 +427,7 @@
       <p>Random events can be disabled from the preferences panel (from the top
       menu or from the startup screen on the Mac, and from the main menu or
       startup screen on the iPad and iPhone).</p>
-<h3><a href="#ret-3.9"><span id="3.9">3.9</span> Partisan Lean and Elasticity</a></h3>
+<h3><a href="#toc-anchor"><span id="3.9">3.9</span> Partisan Lean and Elasticity</a></h3>
 <p>Some states lean towards one party or another, and some states are
       harder to influence than others.  Some states are also easier for
       third-party candidates to influence.  This is based on actual voter
@@ -429,7 +451,7 @@
           Setup screen (iPad, Mac is similar)
         </div>
       </div>
-<h2><a href="#ret-4"><span id="4">4</span> Setup Screen</a></h2>
+<h2><a href="#toc-anchor"><span id="4">4</span> Setup Screen</a></h2>
 <p>This is the first control screen of the game where users can load
     preset scenarios (or create their own).  The iPad and Mac versions of
     this screen are broadly similar, however the iPhone version is
@@ -437,7 +459,7 @@
     panel and candidate panels are all visible at the same time, on the
     iPhone, the user needs to swipe to the left or right to navigate
     between the main election panel and the candidates setup controls.</p>
-<h3><a href="#ret-4.1"><span id="4.1">4.1</span> Election</a></h3>
+<h3><a href="#toc-anchor"><span id="4.1">4.1</span> Election</a></h3>
 <p>On the first panel (top on iPad and Mac versions, left-most panel on
       the iPhone version), the game length (12-24 weeks) and number of players
       (2-4) can be set.  A number of pre-set scenarios can also be generated or
@@ -447,7 +469,7 @@
       quality and name recognition will be randomized to various extents. Names,
       portraits, home states, and convention markets are always randomly chosen
       when a scenario (other than 2012) is generated, however.</p>
-<h3><a href="#ret-4.2"><span id="4.2">4.2</span> Candidates</a></h3>
+<h3><a href="#toc-anchor"><span id="4.2">4.2</span> Candidates</a></h3>
 <p>The bottom panels (on iPad and Mac) or panels to the right (on the
       iPhone) are for setting up the candidates (to see all of the controls on
       this panel on the iPhone may require scrolling down depending on screen
@@ -473,7 +495,7 @@
       and can be changed however the player chooses (say, if the player is
       colorblind and wants more contrast), it has no effect on game play beyond
       displaying data and results.</p>
-<h4><a href="#ret-4.2.1"><span id="4.2.1">4.2.1</span> Initial Stats</a></h4>
+<h4><a href="#toc-anchor"><span id="4.2.1">4.2.1</span> Initial Stats</a></h4>
 <p>Various initial stats can be set for each candidate (and will affect
         how a candidate performs).  The first is candidate funds, which
         obviously affects how much a candidate can spend on ads and state
@@ -485,13 +507,13 @@
         effective candidates are at fundraising.  The next is initial name
         recognition &mdash; how well-known the candidate is among the
         voters.</p>
-<h4><a href="#ret-4.2.2"><span id="4.2.2">4.2.2</span> Issues</a></h4>
+<h4><a href="#toc-anchor"><span id="4.2.2">4.2.2</span> Issues</a></h4>
 <p>The issues panel allows the player to select positions for the
         ticket.  These positions are fixed once the election starts.  For more
         information on issues, see the
         <a href="#3.7">Issues</a>
         section of the manual.</p>
-<h4><a href="#ret-4.2.3"><span id="4.2.3">4.2.3</span> Vice President and Incumbency</a></h4>
+<h4><a href="#toc-anchor"><span id="4.2.3">4.2.3</span> Vice President and Incumbency</a></h4>
 <p>Vice presidents have home states (like the presidential candidate),
         which they give an enthusiasm bonus for when they are selected.
         Portraits are modified in the same way as presidential candidates as
@@ -512,11 +534,11 @@
             Campaign screen (iPad, Mac is similar)
           </div>
         </div>
-<h2><a href="#ret-5"><span id="5">5</span> Campaign Screen</a></h2>
+<h2><a href="#toc-anchor"><span id="5">5</span> Campaign Screen</a></h2>
 <p>This is the main screen of the game.  Again, the iPad and Mac versions
     are broadly similar, and the iPhone version is laid out a bit differently;
     this will be covered below.</p>
-<h3><a href="#ret-5.1"><span id="5.1">5.1</span> Before Each Turn</a></h3>
+<h3><a href="#toc-anchor"><span id="5.1">5.1</span> Before Each Turn</a></h3>
 <p>Before each turn, a "Ready, Player!" screen will appear.  On this
       screen the player will have several choices of how to set up their turn.
       For each set of options (i.e., polls, advertisements, offices, and
@@ -532,7 +554,7 @@
       <p>If there are any new news items during this week, those will also show
       up before the player's turn here after plans are initial plans are
       selected.</p>
-<h3><a href="#ret-5.2"><span id="5.2">5.2</span> Status/Top Bar</a></h3>
+<h3><a href="#toc-anchor"><span id="5.2">5.2</span> Status/Top Bar</a></h3>
 <p>On the iPad/Mac version of the game, the top bar will show the current
       player and basic stats for them, as well as how many weeks are left in the
       game.  To the right is the "Finish Turn" button, which will end the
@@ -551,7 +573,7 @@
           iPhone campaign interface
         </div>
       </div>
-<h3><a href="#ret-5.3"><span id="5.3">5.3</span> Map Display</a></h3>
+<h3><a href="#toc-anchor"><span id="5.3">5.3</span> Map Display</a></h3>
 <p>On the iPad/Mac version of the game, the main map is found on the
       bottom left of the screen (on the iPhone version, the map is collapsed
       into the bottom control bar, and available from the left-most tab).  The
@@ -589,7 +611,7 @@
 
       <p>On the iPad and iPhone version of the game, double-tapping will zoom in
       on the map, and triple-tapping will reset/recenter the map.</p>
-<h3><a href="#ret-5.4"><span id="5.4">5.4</span> National Tab</a></h3>
+<h3><a href="#toc-anchor"><span id="5.4">5.4</span> National Tab</a></h3>
 <p>The National (Nation on the iPhone) tab shows top-level information
       (i.e. a tracking graph and basic budget numbers) and can be used to set
       national ad spending (web ads are really just a cheaper form of national
@@ -614,7 +636,7 @@
       "<a href="#5.8.9">Poll History</a>"),
       see the the appropriate
       <a href="#5.8">Sub-Panels</a> section below.</p>
-<h3><a href="#ret-5.5"><span id="5.5">5.5</span> Candidates Tab</a></h3>
+<h3><a href="#toc-anchor"><span id="5.5">5.5</span> Candidates Tab</a></h3>
 <p>The Candidate (Cand on the iPhone) tab shows current player
       information.  Tickets can be cycled through with the arrow buttons to the
       left and right.  The "Show Platform" or "Show Ticket Info" will toggle
@@ -631,7 +653,7 @@
       "<a href="#5.8.10">Campaign History</a>"),
       see the the appropriate
       <a href="#5.8">Sub-Panels</a> section below.</p>
-<h3><a href="#ret-5.6"><span id="5.6">5.6</span> Markets Tab</a></h3>
+<h3><a href="#toc-anchor"><span id="5.6">5.6</span> Markets Tab</a></h3>
 <p>The Market tab shows information on the currently selected market. The
       market can be selected with the menu bar at the top of the panel (it can
       also be selected by clicking or or touching market circles on the map,
@@ -653,7 +675,7 @@
       "<a href="#5.8.10">Campaign History</a>"),
       see the the appropriate
       <a href="#5.8">Sub-Panels</a> section below.</p>
-<h3><a href="#ret-5.7"><span id="5.7">5.7</span> States Tab</a></h3>
+<h3><a href="#toc-anchor"><span id="5.7">5.7</span> States Tab</a></h3>
 <p>The State tab shows information on the currently selected state. The
       state can be selected with the menu bar at the top of the panel (it can
       also be selected by clicking on or touching the states on the map, which
@@ -675,9 +697,9 @@
       <a href="#5.8">Sub-Panels</a>
       section below.  The Electoral Vote value of the state is displayed in the
       bottom left.</p>
-<h3><a href="#ret-5.8"><span id="5.8">5.8</span> Sub-Panels</a></h3>
+<h3><a href="#toc-anchor"><span id="5.8">5.8</span> Sub-Panels</a></h3>
 <p>The following sub-panels are also available during the game:</p>
-<h4><a href="#ret-5.8.1"><span id="5.8.1">5.8.1</span> Ad Planner</a></h4>
+<h4><a href="#toc-anchor"><span id="5.8.1">5.8.1</span> Ad Planner</a></h4>
 <p>The ad planner panel can be used to plan or view large numbers of
         market ads at the same time based on the state filter/options chosen at
         the top of the panel.  The first selector is used to filter on a state
@@ -693,7 +715,7 @@
 
         <p>The ad planner panel is available from the
         <a href="#5.4">National Tab</a>.</p>
-<h4><a href="#ret-5.8.2"><span id="5.8.2">5.8.2</span> Poll Planner</a></h4>
+<h4><a href="#toc-anchor"><span id="5.8.2">5.8.2</span> Poll Planner</a></h4>
 <p>The poll planner panel can be used to plan or view your polling
         strategy based on the state filter/options chosen at the top of the
         panel.  The first selector is used to filter on a states you'd like to
@@ -709,7 +731,7 @@
 
         <p>The poll planner panel is available from the
         <a href="#5.4">National Tab</a>.</p>
-<h4><a href="#ret-5.8.3"><span id="5.8.3">5.8.3</span> Advisor</a></h4>
+<h4><a href="#toc-anchor"><span id="5.8.3">5.8.3</span> Advisor</a></h4>
 <p>The advisor panel shows what your AI advisor suggests is a
         reasonable plan, as well as whether your current plans match the AI
         advisor's plans.  If the current plan for the upcoming week differs from
@@ -727,7 +749,7 @@
 
         <p>The advisor panel is available from the
         <a href="#5.4">National Tab</a>.</p>
-<h4><a href="#ret-5.8.4"><span id="5.8.4">5.8.4</span> Budget Summary</a></h4>
+<h4><a href="#toc-anchor"><span id="5.8.4">5.8.4</span> Budget Summary</a></h4>
 <p>The budget summary panel shows the current state of the player's
         budget, as well as how much funds have been raised during the last week
         and also how much the current campaign plan will spend on various
@@ -735,7 +757,7 @@
 
         <p>The budget summary panel is available from the
         <a href="#5.4">National Tab</a>.</p>
-<h4><a href="#ret-5.8.5"><span id="5.8.5">5.8.5</span> Top Stories</a></h4>
+<h4><a href="#toc-anchor"><span id="5.8.5">5.8.5</span> Top Stories</a></h4>
 <p>The top stories panel displays the news stories that have occurred
         over the course of the election; any of the news stories can be
         re-displayed by selecting the story headline.</p>
@@ -743,7 +765,7 @@
         <p>The top stories panel is available from the
         <a href="#5.4">National Tab</a>, as well as the
         <a href="#6.6">Election History Tab</a> tab.</p>
-<h4><a href="#ret-5.8.6"><span id="5.8.6">5.8.6</span> Itinerary Planner</a></h4>
+<h4><a href="#toc-anchor"><span id="5.8.6">5.8.6</span> Itinerary Planner</a></h4>
 <p>The itinerary planner panel allows the player to plan the campaign
         and fundraising stops for the ticket's presidential candidate and
         vice-presidential candidate (if the vice president has been chosen and
@@ -761,7 +783,7 @@
         <p>The itinerary planner panel is available from the
         <a href="#5.5">Candidates Tab</a> and the
         <a href="#5.4">National Tab</a>.</p>
-<h4><a href="#ret-5.8.7"><span id="5.8.7">5.8.7</span> Manage Offices</a></h4>
+<h4><a href="#toc-anchor"><span id="5.8.7">5.8.7</span> Manage Offices</a></h4>
 <p>The manage offices panel allows the player to manage the state
         campaign offices for each state.  Offices can be opened (or if the
         ticket is short of cash, closed).  Note that offices take time to get
@@ -772,7 +794,7 @@
 
         <p>The manage offices panel is available from the
         <a href="#5.7">States Tab</a>.</p>
-<h4><a href="#ret-5.8.8"><span id="5.8.8">5.8.8</span> Ad History</a></h4>
+<h4><a href="#toc-anchor"><span id="5.8.8">5.8.8</span> Ad History</a></h4>
 <p>The ad history panel displays all the advertisements that have been
         run during the campaign so far or are currently being planned by the
         current player for the current week.  The ads can be filtered both by
@@ -785,7 +807,7 @@
         <a href="#5.4">National Tab</a> or the
         <a href="#5.6">Markets Tab</a>, as well as the
         <a href="#6.6">Election History Tab</a> tab.</p>
-<h4><a href="#ret-5.8.9"><span id="5.8.9">5.8.9</span> Poll History</a></h4>
+<h4><a href="#toc-anchor"><span id="5.8.9">5.8.9</span> Poll History</a></h4>
 <p>The poll history panel displays all of the polls that have been run
         so far during the election, as well as polls that are being planned by
         the current player for the current week.  Polls can be filtered by
@@ -802,7 +824,7 @@
         <a href="#5.7">States Tab</a>, as well as the
         <a href="#6.6">Election History Tab</a> or
         <a href="#6.4">Election States Tab</a> tabs.</p>
-<h4><a href="#ret-5.8.10"><span id="5.8.10">5.8.10</span> Campaign History</a></h4>
+<h4><a href="#toc-anchor"><span id="5.8.10">5.8.10</span> Campaign History</a></h4>
 <p>The campaign history panel allows the player to see all of the
         campaign activities of each of the candidates (i.e., what each of the
         candidates have done each day of the campaign so far, and where they've
@@ -823,13 +845,13 @@
             Election screen (iPad, Mac is similar)
           </div>
         </div>
-<h2><a href="#ret-6"><span id="6">6</span> Election Screen</a></h2>
+<h2><a href="#toc-anchor"><span id="6">6</span> Election Screen</a></h2>
 <p>Once the campaign finishes and the election begins, the campaign panels
     are replaced by the election panels to show the election results.  At this
     point, there are no player turns as there is no longer anything to control
     (beyond showing the next state or looking through the results and other
     history, anyway).</p>
-<h3><a href="#ret-6.1"><span id="6.1">6.1</span> Status/Top Bar</a></h3>
+<h3><a href="#toc-anchor"><span id="6.1">6.1</span> Status/Top Bar</a></h3>
 <p>The top bar will show the latest election information, and allows the
       player(s) to display the results from the next state when the "Begin" or
       "Next State" button is selected.  As with the main campaign screen, a
@@ -843,7 +865,7 @@
           iPhone election interface
         </div>
       </div>
-<h3><a href="#ret-6.2"><span id="6.2">6.2</span> Map Display</a></h3>
+<h3><a href="#toc-anchor"><span id="6.2">6.2</span> Map Display</a></h3>
 <p>On the iPad and Mac, the map is displayed at the bottom left; on the
       iPad the map is accessible from the left-most tab of the bottom control
       bar.  This panel shows which states have been called for which candidates.
@@ -863,7 +885,7 @@
 
       <p>On the iPad and iPhone version of the game, double-tapping will zoom in
       on the map, and triple-tapping will reset/recenter the map.</p>
-<h3><a href="#ret-6.3"><span id="6.3">6.3</span> Election Tab</a></h3>
+<h3><a href="#toc-anchor"><span id="6.3">6.3</span> Election Tab</a></h3>
 <p>The election tab shows the current overall state of the election; it
       displays national vote (both electoral votes on top and popular vote
       below), and the voter results from the most recent state called. At the
@@ -874,7 +896,7 @@
       <p>This and the following tabs are available from the panel on the right
       side of the screen on the iPad and Mac; on the iPhone, these tabs are
       combined with the map and menu tabs in the bottom control bar.</p>
-<h3><a href="#ret-6.4"><span id="6.4">6.4</span> States Tab</a></h3>
+<h3><a href="#toc-anchor"><span id="6.4">6.4</span> States Tab</a></h3>
 <p>The states tab shows voting results for a given state (assuming the
       state has been called, otherwise the information will still be blank). It
       also shows electoral votes for the state between the state voting results
@@ -887,13 +909,13 @@
       "<a href="#5.8.9">Poll History</a>"
       button, see the the appropriate
       <a href="#5.8">Sub-Panels</a> section above.</p>
-<h3><a href="#ret-6.5"><span id="6.5">6.5</span> Candidates Tab</a></h3>
+<h3><a href="#toc-anchor"><span id="6.5">6.5</span> Candidates Tab</a></h3>
 <p>The information on the candidate tab (cand tab on the iPhone) here is
       identical to the information on the
       <a href="#5.5">Candidates Tab</a>
       (minus the itinerary planner panel) during the campaign.  See that section
       for more information.</p>
-<h3><a href="#ret-6.6"><span id="6.6">6.6</span> History Tab</a></h3>
+<h3><a href="#toc-anchor"><span id="6.6">6.6</span> History Tab</a></h3>
 <p>The history tab (or hist tab on the iPhone) shows the results from
       each state (as well as overall national results) in tabular form.</p>
 
@@ -903,12 +925,12 @@
       "<a href="#5.8.10">Campaign History</a>",
       "<a href="#5.8.8">Ad History</a>", and
       "<a href="#5.8.9">Poll History</a>".</p>
-<h3><a href="#ret-6.7"><span id="6.7">6.7</span> Sub-Panels</a></h3>
+<h3><a href="#toc-anchor"><span id="6.7">6.7</span> Sub-Panels</a></h3>
 <p>All of the panels in the election results screen are the same as those
       available during the game, see the
       <a href="#5.8">Sub-Panels</a>
       section above for reference.</p>
-<h2><a href="#ret-7"><span id="7">7</span> End Game Screen</a></h2>
+<h2><a href="#toc-anchor"><span id="7">7</span> End Game Screen</a></h2>
 <p>Once the game finishes, a screen will pop up and display the winner (if
     there is one) and some graphs of how the election went, including electoral
     votes, national popular vote, states won, and each candidate's final budget
@@ -918,7 +940,7 @@
     <p>At the bottom of the panel are two options: you can either return to the
     map/game (if you'd like to dig farther into the results and other
     information) or immediately start a new game.</p>
-<h2><a href="#ret-8"><span id="8">8</span> Notes</a></h2>
+<h2><a href="#toc-anchor"><span id="8">8</span> Notes</a></h2>
 <p>I've had an election game percolating in the back of my head for quite a
     while now; I actually wrote a much simpler earlier version of this game many
     years ago (in [incr TCL] of all things &mdash; there's an obscure language
@@ -936,20 +958,21 @@
     (<a href="http://fivethirtyeight.com/">now an independent site</a>
     &mdash; I don't follow it as much as I used to, though), Sam Wang at the
     <a href="http://election.princeton.edu/">Princeton Election Consortium</a>,
-    or <a href="http://electoral-vote.com/">electoral-vote.com</a> (which was
-    my introduction to polling aggregation sites ten years ago or so. Another
-    bit of trivia &mdash; the creator of that site, Andrew Tannanbaum, is better
-    known for some pretty good computer science textbooks &mdash; including one
-    of mine in college twenty years ago). And too many other sites to mention or
-    even remember.  None of these really had any direct effect on the game per
-    se; they've influenced me over the years as an election observer in general
-    but I've been interested in presidential elections for a lot longer than any
-    of those sites &mdash; or even the web &mdash; has existed (my previous game
-    predates those sites &mdash; possibly even electoral-vote.com &mdash; and
-    I've been playing election games even longer than that. My dad even wrote a
-    simple paper-based game when I was still a kid &mdash; it had squares with
-    red on one side and blue on the other, back when red made more sense for
-    Democrats and blue for Republicans for more people than just me).</p>
+    or <a href="http://electoral-vote.com/">electoral-vote.com</a>
+    (which was my introduction to polling aggregation sites ten years ago or so.
+    Another bit of trivia &mdash; the creator of that site, Andrew Tannanbaum,
+    is better known for some pretty good computer science textbooks &mdash;
+    including one of mine in college twenty years ago). And too many other sites
+    to mention or even remember.  None of these really had any direct effect on
+    the game per se; they've influenced me over the years as an election
+    observer in general but I've been interested in presidential elections for a
+    lot longer than any of those sites &mdash; or even the web &mdash; has
+    existed (my previous game predates those sites &mdash; possibly even
+    electoral-vote.com &mdash; and I've been playing election games even longer
+    than that. My dad even wrote a simple paper-based game when I was still a
+    kid &mdash; it had squares with red on one side and blue on the other, back
+    when red made more sense for Democrats and blue for Republicans for more
+    people than just me).</p>
 
     <p>So, a lot of things that went into the game probably seem pretty obvious:
     i.e., partisan leanings for states and so forth.  By necessity, pretty much
@@ -995,9 +1018,9 @@
     bit and tweaking the basemaps was actually a lot of fun.  I've actually
     open-sourced the RGeo/Geos code I used to get the various simplified maps
     (for various zooms) on my
-    <a href="https://github.com/doubt72/geo-scripts/tree/master/election-map">github
-    account here</a>, so feel free to take a look if your interests happen to
-    run along those lines.<p>
+    <a href="https://github.com/doubt72/geo-scripts/tree/master/election-map">github account here</a>,
+    so feel free to take a look if your interests happen to run along those
+    lines.<p>
 
     <p>So, as a political junkie (and not just American politics, I keep up on a
     fair amount of international politics as well) and having had a life-long

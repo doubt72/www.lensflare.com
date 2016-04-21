@@ -2,7 +2,6 @@ id "em16-manual"
 title "Election Manager 2016"
 css ["css/main.css"]
 template "templates/main.template"
-# TODO: fix embedded urls
 manual_data ["Election Manager 2016 Online Manual",
   "<p>Welcome to the Election Manager 2016 online manual.  This version of the
   manual is current for version 1.0.3 of Election Manager 2016.</p>
@@ -820,23 +819,24 @@ manual_data ["Election Manager 2016 Online Manual",
 
     <p>Clearly there are a lot of things that have influenced this game,
     including many years of reading sites such as Nate Silver's 538 Blog
-    (<a href=\"http://fivethirtyeight.com/\">now an independent site</a>
+    ({ link_abs('http://fivethirtyeight.com/', 'now an independent site') }
     &mdash; I don't follow it as much as I used to, though), Sam Wang at the
-    <a href=\"http://election.princeton.edu/\">Princeton Election Consortium</a>,
-    or <a href=\"http://electoral-vote.com/\">electoral-vote.com</a> (which was
-    my introduction to polling aggregation sites ten years ago or so. Another
-    bit of trivia &mdash; the creator of that site, Andrew Tannanbaum, is better
-    known for some pretty good computer science textbooks &mdash; including one
-    of mine in college twenty years ago). And too many other sites to mention or
-    even remember.  None of these really had any direct effect on the game per
-    se; they've influenced me over the years as an election observer in general
-    but I've been interested in presidential elections for a lot longer than any
-    of those sites &mdash; or even the web &mdash; has existed (my previous game
-    predates those sites &mdash; possibly even electoral-vote.com &mdash; and
-    I've been playing election games even longer than that. My dad even wrote a
-    simple paper-based game when I was still a kid &mdash; it had squares with
-    red on one side and blue on the other, back when red made more sense for
-    Democrats and blue for Republicans for more people than just me).</p>
+    { link_abs('http://election.princeton.edu/', 'Princeton Election Consortium') },
+    or { link_abs('http://electoral-vote.com/', 'electoral-vote.com') }
+    (which was my introduction to polling aggregation sites ten years ago or so.
+    Another bit of trivia &mdash; the creator of that site, Andrew Tannanbaum,
+    is better known for some pretty good computer science textbooks &mdash;
+    including one of mine in college twenty years ago). And too many other sites
+    to mention or even remember.  None of these really had any direct effect on
+    the game per se; they've influenced me over the years as an election
+    observer in general but I've been interested in presidential elections for a
+    lot longer than any of those sites &mdash; or even the web &mdash; has
+    existed (my previous game predates those sites &mdash; possibly even
+    electoral-vote.com &mdash; and I've been playing election games even longer
+    than that. My dad even wrote a simple paper-based game when I was still a
+    kid &mdash; it had squares with red on one side and blue on the other, back
+    when red made more sense for Democrats and blue for Republicans for more
+    people than just me).</p>
 
     <p>So, a lot of things that went into the game probably seem pretty obvious:
     i.e., partisan leanings for states and so forth.  By necessity, pretty much
@@ -882,9 +882,10 @@ manual_data ["Election Manager 2016 Online Manual",
     bit and tweaking the basemaps was actually a lot of fun.  I've actually
     open-sourced the RGeo/Geos code I used to get the various simplified maps
     (for various zooms) on my
-    <a href=\"https://github.com/doubt72/geo-scripts/tree/master/election-map\">github
-    account here</a>, so feel free to take a look if your interests happen to
-    run along those lines.<p>
+    { link_abs('https://github.com/doubt72/geo-scripts/tree/master/election-map',
+               'github account here') },
+    so feel free to take a look if your interests happen to run along those
+    lines.<p>
 
     <p>So, as a political junkie (and not just American politics, I keep up on a
     fair amount of international politics as well) and having had a life-long

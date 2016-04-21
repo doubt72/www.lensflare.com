@@ -1,3 +1,5 @@
+/* general */
+
 body {
   background-color: #000000;
   color: #bbbbbb;
@@ -47,6 +49,8 @@ h4 {
   font-size: 16px;
 }
 
+/* tricks for dealing with iOS devices here */
+
 @media only screen and (max-device-width: 1030px) {
   div#main {
     width: 96%;
@@ -59,6 +63,8 @@ h4 {
     margin-left: 10%
   }
 }
+
+/* title and header */
 
 span.title {
   font-size: 48px;
@@ -87,6 +93,8 @@ span.header-right {
   float: right;
 }
 
+/* main content */
+
 div#content {
   padding: 1em;
 }
@@ -97,14 +105,6 @@ div#content p {
 
 div#content li {
   line-height: 140%;
-}
-
-div.video-border {
-  margin: 1em;
-  padding: 1px;
-  background-color: #664411;
-  width: 480px;
-  height: 300px;
 }
 
 td.game {
@@ -118,6 +118,25 @@ td.game img {
 div.section {
   padding: 1em;
 }
+
+div.footnote {
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  border-top: 1px solid #664411;
+  font-size: 14px;
+}
+
+/* special for videos */
+
+div.video-border {
+  margin: 1em;
+  padding: 1px;
+  background-color: #664411;
+  width: 480px;
+  height: 300px;
+}
+
+/* manual formatting */
 
 div.manual h2 span {
   font-size: 32px;
@@ -148,9 +167,17 @@ div.manual p {
 }
 
 div.manual li {
-  padding-bottom: 0.25em;
+  padding-top: 0.25em;
   list-style-type: none;
 }
+
+div.manual li span {
+  color: #bb9955;
+}
+
+/*span.toc_collapsed, span.toc_expanded, span.toc_empty {
+  font-size: 11px;
+}*/
 
 table.issues-table {
   padding: 1em 1em;
@@ -177,12 +204,7 @@ div.manual-screenshot-subtitle {
   padding: 0.5em 0em;
 }
 
-div.footnote {
-  margin: 0 1em;
-  padding: 0.25em 1em;
-  border-top: 1px solid #664411;
-  font-size: 14px;
-}
+/* footers */
 
 div.footer {
   text-align: right;
