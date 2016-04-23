@@ -9,11 +9,10 @@
   end }
 <div class="header">
   <span class="header-right">
-    { text = page.game == 'lfg' ? 'About Us' :
-        'Lensflare Games<span class="header-llc"> LLC</span>'
-      link('about', text, {self_class: 'current'}}) }
+    { link('about', 'About Us', {self_class: 'current'}}) }
   </span>
-  { link('home', 'Games', {self_class: 'current'}}) }
+  { text = page.game == 'lfg' ? 'Games' : 'Lensflare Games'
+    link('home', text, {self_class: 'current'}}) }
   { link('support', 'Support', {self_class: 'current'}}) }
   { link('help', 'Help', {self_class: 'current'}}) }
 </div>
