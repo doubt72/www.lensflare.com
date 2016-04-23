@@ -111,12 +111,17 @@ td.game {
   padding: 1.5em 1em;
 }
 
-td.game img {
+td.game img:not(.ss-link) {
   padding: 0.75em;
 }
 
 div.section {
   padding: 1em;
+}
+
+img.ss-link {
+  margin: 0.5em;
+  border: solid 2px #664411;
 }
 
 div.footnote {
@@ -129,6 +134,14 @@ div.footnote {
 /* special for videos */
 
 div.video-border {
+  margin: 1em;
+  padding: 1px;
+  background-color: #664411;
+  width: 480px;
+  height: 270px;
+}
+
+div.video-border-old {
   margin: 1em;
   padding: 1px;
   background-color: #664411;
@@ -166,7 +179,13 @@ div.manual p {
   text-indent: 1.5em;
 }
 
-div.manual li {
+div.manual p.indent-override {
+  margin-top: 0px;
+  text-indent: 0;
+  line-height: 140%;
+}
+
+div.manual ul.toc li {
   padding-top: 0.25em;
   list-style-type: none;
 }
@@ -175,16 +194,19 @@ div.manual li span {
   color: #bb9955;
 }
 
-/*span.toc_collapsed, span.toc_expanded, span.toc_empty {
-  font-size: 11px;
-}*/
-
-table.issues-table {
+table.manual-table {
   padding: 1em 1em;
 }
 
-table.issues-table td {
+table.manual-table td {
   padding: 0.125em 0.5em;
+}
+
+img.tsc-control {
+  margin: 2px;
+  vertical-align: middle;
+  height: 36;
+  width: 36;
 }
 
 div.manual-screenshot-right {

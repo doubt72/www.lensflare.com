@@ -8,3 +8,7 @@ anyway); I'm just replicating the repo here for convenience.
 
 You can go here to see the output at the Lensflare Games web site:
 http://www.lensflare.com/
+
+## TODO
+
+* split color CSS/theme Games

@@ -232,7 +232,7 @@ manual_data ["Election Manager 2016 Online Manual",
                 ['Minimum Wage', 'Raise', 'Eliminate'],
                 ['Tax Policy', 'Higher Taxes for Wealthy', 'No New Taxes/Cuts Only']
               ],
-              {class: 'issues-table'}}) }
+              {class: 'manual-table'}}) }
 
       <p>There is one exception to issue symmetry: being pro-reform on campaign
       reform will disadvantage a player's fundraising.  However, the only
@@ -285,8 +285,8 @@ manual_data ["Election Manager 2016 Online Manual",
       <div class=\"manual-screenshot-right\">
       { link('em16/manual/setup-screen.png',
              image('em16/manual/t/setup-screen.png',
-                   {alt: 'Setup Screen', style: 'width: 400; height: 300;'}}),
-             {class: 'image'}}) }
+                   {alt: 'Setup Screen', class: 'ss-link',
+                    style: 'width: 400; height: 300;'}})) }
         <div class=\"manual-screenshot-subtitle\">
           Setup screen (iPad, Mac is similar)
         </div>
@@ -372,8 +372,8 @@ manual_data ["Election Manager 2016 Online Manual",
         <div class=\"manual-screenshot-right\">
         { link('em16/manual/campaign-screen.png',
                image('em16/manual/t/campaign-screen.png',
-                     {alt: 'Campaign Screen', style: 'width: 400; height: 300;'}}),
-               {class: 'image'}}) }
+                     {alt: 'Campaign Screen', class: 'ss-link',
+                      style: 'width: 400; height: 300;'}})) }
           <div class=\"manual-screenshot-subtitle\">
             Campaign screen (iPad, Mac is similar)
           </div>
@@ -415,9 +415,8 @@ manual_data ["Election Manager 2016 Online Manual",
       <div class=\"manual-screenshot-left\">
       { link('em16/manual/campaign-phone.png',
              image('em16/manual/t/campaign-phone.png',
-                   {alt: 'Campaign Screen (iPhone)',
-                    style: 'width: 200; height: 356;'}}),
-             {class: 'image'}}) }
+                   {alt: 'Campaign Screen (iPhone)', class: 'ss-link',
+                    style: 'width: 200; height: 356;'}})) }
         <div class=\"manual-screenshot-subtitle\">
           iPhone campaign interface
         </div>
@@ -697,8 +696,8 @@ manual_data ["Election Manager 2016 Online Manual",
         <div class=\"manual-screenshot-right\">
         { link('em16/manual/election-screen.png',
                image('em16/manual/t/election-screen.png',
-                     {alt: 'Election Screen', style: 'width: 400; height: 300;'}}),
-               {class: 'image'}}) }
+                     {alt: 'Election Screen', class: 'ss-link',
+                      style: 'width: 400; height: 300;'}})) }
           <div class=\"manual-screenshot-subtitle\">
             Election screen (iPad, Mac is similar)
           </div>
@@ -721,9 +720,8 @@ manual_data ["Election Manager 2016 Online Manual",
       <div class=\"manual-screenshot-left\">
       { link('em16/manual/election-phone.png',
              image('em16/manual/t/election-phone.png',
-                   {alt: 'Election Screen (iPhone)',
-                    style: 'width: 200; height: 356;'}}),
-             {class: 'image'}}) }
+                   {alt: 'Election Screen (iPhone)', class: 'ss-link',
+                    style: 'width: 200; height: 356;'}})) }
         <div class=\"manual-screenshot-subtitle\">
           iPhone election interface
         </div>

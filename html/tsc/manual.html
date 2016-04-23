@@ -19,936 +19,1791 @@
 
 
   <div id="content">
-    <div class="section">
+<div class="section manual">
+  <h1><span id="1"></span>Tactical Space Command Online Manual</h1>
+<p>Welcome to the TSC online manual.  This version of the manual is current
+  for version 1.2.2 of Tactical Space Command.</p>
 
-<h1><span class="mw-headline" id="Introduction"> 1 Tactical Space Command Online Manual </span></h1>
+  <p>In Tactical Space Command, you are a commander of a fleet of spacecraft.
+  Though some scenarios have different victory conditions, for the most part,
+  victory comes from capturing all enemy planets and asteroids and defeat from
+  losing all of yours.  You have various types of ships that have different
+  strengths and weaknesses (and hence different natural roles), and stations
+  which can defend your planets or repair your ships (if they have a spacedock).
+  You have officers you can promote and assign to ships or task forces.   You
+  have cargo ships that automatically carry metal from your asteroids to your
+  planets that you need to protect in order to keep your economy running at peak
+  efficiency (allowing you to build more ships and ultimately defeat your
+  opponents).<p>
+<h1 id="toc-anchor">Table of Contents</h1>
+<script type="text/javascript">
+function toggleTOC(elem) {
+  var html_class = elem.className;
+  var children = elem.parentNode.childNodes;
+  if (html_class == 'toc_collapsed') {
+    elem.className = 'toc_expanded';
+    children[3].style.display = 'block';
+    elem.innerHTML = '&#9662;'
+  } else if (html_class == 'toc_expanded') {
+    elem.className = 'toc_collapsed';
+    children[3].style.display = 'none';
+    elem.innerHTML = '&#9656;'
+  }
+}
+</script>
 
-<p>Welcome to the TSC online manual.  This version of the manual is current for version 1.2 of Tactical Space Command.</p>
-
-<p>[This manual is also available in the following formats: <a href="manual.pdf">PDF</a>, <a href="manual-epub.zip">EPUB</a>, and <a href="manual-mobi.zip">MOBI</a>.  Note that the manual was originally formatted for HTML and converted; the ship property table is cut off in MOBI and EPUB.]</p>
-
-<p>In Tactical Space Command, you are a commander of a fleet of
-spacecraft.  Though some scenarios have different victory conditions,
-for the most part, victory comes from capturing all enemy planets and
-asteroids and defeat from losing all of yours.  You have various types
-of ships that have different strengths and weaknesses (and hence
-different natural roles), and stations which can defend your planets
-or repair your ships (if they have a spacedock).  You have officers
-you can promote and assign to ships or task forces.   You have cargo ships
-that automatically carry metal from your asteroids to your planets that you need to
-protect in order to keep your economy running at peak efficiency (allowing you to build more ships and ultimately defeat your opponents).<p>
-
-<h2>Contents</h2>
-<ul>
-<li class="toclevel-1 tocsection-1"><a href="#Introduction">1 Introduction</a></li>
-<li class="toclevel-1 tocsection-2"><a href="#Getting_Started">2 Getting Started</a></li>
-<li class="toclevel-1 tocsection-3"><a href="#Game_Controls">3 Game Controls</a>
-<ul>
-<li class="toclevel-2 tocsection-4"><a href="#Loading.2C_Saving_and_the_Main_Menu">3.1 Loading, Saving and the Main Menu</a></li>
+<ul class="toc">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#1"><span>1</span> Introduction</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#2"><span>2</span> Getting Started</a></li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#3"><span>3</span> Game Controls</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#3.1"><span>3.1</span> Loading, Saving, and the Main Menu</a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-5"><a href="#Game_Displays">4 Game Displays</a>
-<ul>
-<li class="toclevel-2 tocsection-6"><a href="#Tactical_Display">4.1 Tactical Display</a>
-<ul>
-<li class="toclevel-3 tocsection-7"><a href="#Navigating_the_Map">4.1.1 Navigating the Map</a></li>
-<li class="toclevel-3 tocsection-8"><a href="#Giving_Orders">4.1.2 Giving Orders</a></li>
-<li class="toclevel-3 tocsection-9"><a href="#Circles">4.1.3 Circles</a></li>
-<li class="toclevel-3 tocsection-10"><a href="#Events">4.1.4 Events</a></li>
-<li class="toclevel-3 tocsection-11"><a href="#Hotkeys_.28Mac_Only.29">4.1.5 Hotkeys (Mac Only)</a></li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#4"><span>4</span> Game Displays</a>
+<ul style="display: none;">
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#4.1"><span>4.1</span> Tactical Display</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.1.1"><span>4.1.1</span> Navigating the Map</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.1.2"><span>4.1.2</span> Giving Orders</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.1.3"><span>4.1.3</span> Circles</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.1.4"><span>4.1.4</span> Events</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.1.5"><span>4.1.5</span> Hotkeys</a></li>
 </ul>
 </li>
-<li class="toclevel-2 tocsection-12"><a href="#Other_Displays">4.2 Other Displays</a>
-<ul>
-<li class="toclevel-3 tocsection-13"><a href="#Officer_Display">4.2.1 Officer Display</a></li>
-<li class="toclevel-3 tocsection-14"><a href="#Ship_Display">4.2.2 Ship Display</a></li>
-<li class="toclevel-3 tocsection-15"><a href="#Task_Force_Display">4.2.3 Task Force Display</a></li>
-<li class="toclevel-3 tocsection-16"><a href="#Planetary_Display">4.2.4 Planetary Display</a></li>
-<li class="toclevel-3 tocsection-17"><a href="#Asteroid_Display">4.2.5 Asteroid Display</a></li>
-<li class="toclevel-3 tocsection-18"><a href="#Research_Display">4.2.6 Research Display</a></li>
-<li class="toclevel-3 tocsection-19"><a href="#Diplomacy_Display">4.2.7 Diplomacy Display</a></li>
-<li class="toclevel-3 tocsection-20"><a href="#Events_Display">4.2.8 Events Display</a></li>
-<li class="toclevel-3 tocsection-21"><a href="#Options_Display">4.2.9 Options Display</a></li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#4.2"><span>4.2</span> Other Displays</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.1"><span>4.2.1</span> Officer Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.2"><span>4.2.2</span> Ship Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.3"><span>4.2.3</span> Task Force Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.4"><span>4.2.4</span> Planetary Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.5"><span>4.2.5</span> Asteroid Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.6"><span>4.2.6</span> Research Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.7"><span>4.2.7</span> Diplomacy Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.8"><span>4.2.8</span> Events Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#4.2.9"><span>4.2.9</span> Options Display</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-22"><a href="#Game_Concepts">5 Game Concepts</a>
-<ul>
-<li class="toclevel-2 tocsection-23"><a href="#Warships_and_Combat">5.1 Warships and Combat</a>
-<ul>
-<li class="toclevel-3 tocsection-24"><a href="#Ship_Classes">5.1.1 Ship Classes</a></li>
-<li class="toclevel-3 tocsection-25"><a href="#Weapons_and_Defenses_and_Other_Stats">5.1.2 Weapons and Defenses and Other Stats</a></li>
-<li class="toclevel-3 tocsection-26"><a href="#Invasions">5.1.3 Invasions</a></li>
-<li class="toclevel-3 tocsection-27"><a href="#Orders_and_Combat">5.1.4 Orders and Combat</a></li>
-<li class="toclevel-3 tocsection-28"><a href="#Navigational_Hazards">5.1.5 Navigational Hazards</a></li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#5"><span>5</span> Game Concepts</a>
+<ul style="display: none;">
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#5.1"><span>5.1</span> Warships and Combat</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.1.1"><span>5.1.1</span> Ship Classes</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.1.2"><span>5.1.2</span> Weapons and Defenses and Other Stats</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.1.3"><span>5.1.3</span> Invasions</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.1.4"><span>5.1.4</span> Orders and Combat</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.1.5"><span>5.1.5</span> Navigational Hazards</a></li>
 </ul>
 </li>
-<li class="toclevel-2 tocsection-29"><a href="#Officers">5.2 Officers</a>
-<ul>
-<li class="toclevel-3 tocsection-30"><a href="#Ranks">5.2.1 Ranks</a></li>
-<li class="toclevel-3 tocsection-31"><a href="#Skills_and_Experience">5.2.2 Skills and Experience</a></li>
-<li class="toclevel-3 tocsection-32"><a href="#Losing_Officers_in_Combat">5.2.3 Losing Officers in Combat</a></li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#5.2"><span>5.2</span> Officers</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.2.1"><span>5.2.1</span> Ranks</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.2.2"><span>5.2.2</span> Skills and Experience</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.2.3"><span>5.2.3</span> Losing Officers in Combat</a></li>
 </ul>
 </li>
-<li class="toclevel-2 tocsection-33"><a href="#Task_Forces">5.3 Task Forces</a>
-<ul>
-<li class="toclevel-3 tocsection-34"><a href="#Formations">5.3.1 Formations</a></li>
-<li class="toclevel-3 tocsection-35"><a href="#Other_Considerations">5.3.2 Other Considerations</a></li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#5.3"><span>5.3</span> Task Forces</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.3.1"><span>5.3.1</span> Formations</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.3.2"><span>5.3.2</span> Other Considerations</a></li>
 </ul>
 </li>
-<li class="toclevel-2 tocsection-36"><a href="#Research_and_Upgrades">5.4 Research and Upgrades</a></li>
-<li class="toclevel-2 tocsection-37"><a href="#Economy_and_Commerce_Raiding">5.5 Economy and Commerce Raiding</a>
-<ul>
-<li class="toclevel-3 tocsection-38"><a href="#How_the_Economy_Works">5.5.1 How the Economy Works</a></li>
-<li class="toclevel-3 tocsection-39"><a href="#Commerce_Raiding_and_Counters">5.5.2 Commerce Raiding and Counters</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.4"><span>5.4</span> Research and Upgrades</a></li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#5.5"><span>5.5</span> Economy and Commerce Raiding</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.5.1"><span>5.5.1</span> How the Economy Works</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.5.2"><span>5.5.2</span> Commerce Raiders and Counters</a></li>
 </ul>
 </li>
-<li class="toclevel-2 tocsection-40"><a href="#Diplomacy">5.6 Diplomacy</a></li>
-<li class="toclevel-2 tocsection-41"><a href="#Managing_Events">5.7 Managing Events</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.6"><span>5.6</span> Diplomacy</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#5.7"><span>5.7</span> Managing Events</a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-22"><a href="#Scenario_Editor">6 Scenario Editor</a>
-<ul>
-<li class="toclevel-2 tocsection-23"><a href="#Editor_Screens">6.1 Editor Screens</a>
-<ul>
-<li class="toclevel-3 tocsection-24"><a href="#Map_Editor_Screen">6.1.1 Editor Map Display</a></li>
-<li class="toclevel-3 tocsection-24"><a href="#Parameters_Screen">6.1.2 Scenario Parameters Display</a></li>
-<li class="toclevel-3 tocsection-24"><a href="#Custom_AI_Screen">6.1.3 Custom AI Display</a></li>
-<li class="toclevel-3 tocsection-24"><a href="#Custom_VC_Screen">6.1.4 Custom Victory Conditions Display</a></li>
-<li class="toclevel-3 tocsection-24"><a href="#File_Manager_Screen">6.1.5 File Manager Display</a></li>
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#6"><span>6</span> Scenario Editor</a>
+<ul style="display: none;">
+<li><span class="toc_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleTOC(this);">&#9656;</span><a href="#6.1"><span>6.1</span> Editor Screens</a>
+<ul style="display: none;">
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.1.1"><span>6.1.1</span> Editor Map Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.1.2"><span>6.1.2</span> Scenario Parameters Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.1.3"><span>6.1.3</span> Custom AI Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.1.4"><span>6.1.4</span> Custom Victory Conditions Display</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.1.5"><span>6.1.5</span> File Manager Display</a></li>
 </ul>
 </li>
-<li class="toclevel-2 tocsection-29"><a href="#Design_Considerations">6.2 Design Considerations</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#6.2"><span>6.2</span> Design Considerations</a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-42"><a href="#Design_Notes">7 Design Notes</a></li>
+<li><span class="toc_empty" style="float: left; width: 1em;" onclick="toggleTOC(this);">&nbsp;</span><a href="#7"><span>7</span> Design Notes</a></li>
 </ul>
-<h1><span class="mw-headline" id="Getting_Started"> 2 Getting Started </span></h1>
-<p>A good place to start is by playing through the tutorial; when you start the game for
-the first time, it will automatically start.  If you've already quit
-out of it, you can restart it at any time: go to the tactical display, choose
-the main menu at the top left, then select New Game (and select 'Ok'
-to continue) then select Restart Tutorial.  Once you've made it
-through the tutorial, the rest of the manual will probably be a bit
-easier to digest.
-</p>
-<p>In addition, there are some video tutorials <a href="index.html#Tutorials">available here</a>.</p>
-<p>Also, the first scenario ('A Trivial Matter' -- the same scenario used in the tutorials) is mainly meant to be an easy scenario for beginning players.  It's a good place to start for getting oriented on game mechanics and strategies and such, since the complexity is low.  The AI is also a bit constrained and predictable in that scenario, so it's unlikely that it will do anything too surprising while you get the hang of things.  It's a good scenario to play a time or two before you feel like you're ready to move on to the more complicated and challenging scenarios.</p>
-<h1><span class="mw-headline" id="Game_Controls"> 3 Game Controls </span></h1>
-<p>Game controls for the most part are pretty simple: press a button, something happens.  On the other hand, tooltips are a bit more complicated: in the Mac version, tooltips are triggered by hovering over buttons and such exactly as you'd normally expect.  On the iPad version of the game, however, tooltips are triggered by holding a button for a short period of time (this also works for a few things that aren't buttons, such as ship class icons and officer skills on the Ships and Officers Displays).  That's perhaps the single most important thing to know when trying to navigate the game.
-</p><p>Beyond that, there's not much else to know (in terms of how to trigger controls, at least) for most of the interface with the exception of the Tactical Display (which is a bit more complicated; for that, see <a href="#Navigating_the_Map">Navigating the Map</a>, <a href="#Giving_Orders">Giving Orders</a> and <a href="#Events">Events</a> in that section).
-</p>
-<h2><span class="mw-headline" id="Loading.2C_Saving_and_the_Main_Menu"> 3.1 Loading, Saving and the Main Menu </span></h2>
-<p>The Main Menu is where you can start a new game, load a game, or save the current game.  It can be reached by selecting the menu button in the top left corner of the Tactical Display.  There's also a 'Score' screen that keeps track of some game stats (there isn't really a score as such), and an 'About' screen, but those aren't really necessary for playing the game.  Also possibly useful is the help browser in the bottom right corner of the main menu screen -- from there you can read any of the context help for any of the displays or cycle through the game start tips if you like.
-</p><p>Whenever you start the game up and you don't have a current autosave (i.e., you've already won or lost your previous game, say), you'll go directly to the new game screen instead of the tactical display.  In general, you don't really need to worry about loading or saving the game unless you want to; say if you want to try something and go back to the previous point in the game if it doesn't work out, or you just don't feel like finishing your current game until later and want to start a new one instead.  The game will autosave anytime you quit (<b>Mac</b>) or any time you background the application (<b>iPad</b> -- this is triggered when you hit the home button to go to the home screen or if you turn off the display with the wake/sleep button, or if the device backgrounds the application for any reason).
-</p><p>The <a href="#Scenario_Editor">Scenario Editor</a> is also available from the new game screen.
-</p>
-<h1><span class="mw-headline" id="Game_Displays"> 4 Game Displays </span></h1>
-<p>The game is primarily organized by screen or display; see the following sections for a discussion of the purpose of each.
-</p>
-<h2><span class="mw-headline" id="Tactical_Display"> 4.1 Tactical Display </span></h2>
+<h2><a href="#toc-anchor"><span id="2">2</span> Getting Started</a></h2>
+<p>A good place to start is by playing through the tutorial; when you start
+    the game for the first time, it will automatically start.  If you've already
+    quit out of it, you can restart it at any time: go to the tactical display,
+    choose the main menu at the top left, then select New Game (and select 'Ok'
+    to continue) then select Restart Tutorial.  Once you've made it through the
+    tutorial, the rest of the manual will probably be a bit easier to
+    digest.</p>
 
-<div style="float: right; margin-top: 0.5em;"><a href="manual-assets/display-annotated.png" class="image"><img alt="Tactical Display (iPad version, Mac version is similar)" src="manual-assets/display-annotated.png" width="640" height="480" /></a><div style="text-align: center;">Tactical Display (iPad version, Mac version is similar)</div></div>
+    <p>In addition, there are some video tutorials
+    <a href="index.html#Tutorials">available here</a>.</p>
 
-<p>The tactical display is the heart of the game, and you'll spend most of your time here.  Most (but not quite all) things can be controlled from this screen.  On this screen you can select planets, asteroids, ships and stations and (assuming you control the selected items) give them orders or objectives.  The various buttons around the side of the map are controls or lead to other screens; if you want to see more of the map you can hide menus by selecting the wide arrow buttons at the end of the menu (and of course, you can select the buttons again to restore them).
-</p><p><b>iPad only</b>: there's also a button on the bottom left corner of the screen that will expand or collapse all of the menus (except the speed menu) at once.<br />
-<b>Mac only</b>:  the hotkey: 'v' will also expand or collapse all of the menus (except the speed menu) at once.
-</p><p>The menu on the top right side of the screen allows the user to navigate to the other displays in the game.  The menu just inside of it (the second-to-right menu along the top of the screen) controls various displays on the map, i.e., whether to show names (or in the case of ships, you can display ship classes instead of names) or other information.  Specifically, you can enable weapons, speed, or sensor range circles (see <a href="#Circles">Circles</a> below for more).  If 'All Circles' is also selected, then circles for all of your ships and stations will be displayed (otherwise only the circles for the currently selected ship, station or task force will be displayed).  If the 'All Targets' button is selected, it will show the objectives for all of your ships and task forces.  Finally, if there are any ship or planet/asteroid-based victory conditions, a 'Show VC Targets' button will be present and can be used to toggle whether or not those targets are highlighted.
-</p><p><b>Mac only</b>: if the game is paused and the 'Show Info' button is enabled, you can move the mouse over anything on the map to get more information about it.
-</p><p>On the left side of the screen, between the help button and the speed controls, are color-coded event icons (or, if you haven't started playing yet, the left edge of the screen is where they'll appear when you do start playing).  (See <a href="#Events">Events</a> below for more).  On the bottom right of the screen you can control the map view.  On the bottom left you can control time.   One thing to be aware of is that if the game is already paused and you select the pause button again, it will advance the clock one tick.  On the top left is the main menu button &#8212; that's where you can save the game or start a new one (or find additional help).
-</p><p>Finally, if the game has a time limit or other victory conditions, buttons will appear in the center bottom of the display that will allow you to see those details.
-</p>
-<h3><span class="mw-headline" id="Navigating_the_Map"> 4.1.1 Navigating the Map </span></h3>
-<p>In the bottom right corner of the tactical display are controls for navigating the map; the arrows will move the map around, while the plus and minus buttons zoom in and out, and the button with the circle in the middle will recenter the map.  If you've selected something (by tapping or clicking on it, or by selecting it from another screen or menu), you can also center the display on it by selecting the button at the top of the screen that contains the name of the item.  For ships, stations or task forces, if you leave the button selected it will 'lock' the screen on that object and follow it as the clock ticks until you select something else or move the map, at which point the lock will be lost.
-</p><p>There are also other ways to navigate the map, but these differ by game platform:
-</p><p><b>iPad</b>: the map can be moved and zoomed via pinching and dragging the map and should be fairly intuitive.  You can also center and zoom the map with a double-tap (note that you can also select items this way, so be careful).  The game also supports zooming out via a two-finger double-tap, and you can also reset/recenter the map with a three-finger double-tap.  However, as these gestures are slightly difficult to master, you can also reset/recenter the map by triple-tapping, or optionally zoom out with a triple-tap and reset/recenter with a quadruple-tap (if you turn on that option from the options screen).
-</p><p><b>Mac</b>: you can also navigate via hotkeys (cursor keys to move, plus and minus to zoom, 'z' to recenter -- also see the <a href="#Hotkeys_.28Mac_Only.29">Hotkeys</a> section below) or by dragging the map with the mouse.  Scrolling (via two-finger touchpad scroll or scroll wheel on a mouse) will zoom the map in and out, and pinch to zoom is supported on touchpads.  Zooming can either be centered on the mouse (default) or centered in the middle of the currently displayed screen (set on the options display).
-</p>
-<h3><span class="mw-headline" id="Giving_Orders"> 4.1.2 Giving Orders </span></h3>
-<p>When a ship or task force is selected, giving orders varies by game platform:
-</p><p><b>iPad</b>: orders can either be given by holding a touch on the map or by selecting the 'Give Orders' button and then tapping on the map.
-</p><p><b>Mac</b>: orders are given by right-clicking on the map.  This can be done with a right mouse button, a ctrl-click, or two fingered click on a touchpad.
-</p><p>If 'Add Waypoints' is selected, waypoints will be added to the current orders (if possible &#8212; for instance, if current orders are to attack, no waypoints can be appended and new orders will be given instead).
-</p><p>If you select an enemy planet or asteroid when giving orders, the currently selected ship or task force will be given attack orders (note that it's impossible to attack a neutral planet, though you can sit on a neutral asteroid if you really want to).  If the ship you're giving orders to belongs to a task force, the orders are given to the entire task force, not just the ship currently selected, so remember to remove the ship from the task force first if you want to give it independent orders.
-</p><p>If you select a friendly planet or asteroid, by default the current ship or task force will be given defend orders.  If you select a planet that has a spacedock, you can then switch the orders to dock if you like (note that you may have to expand the overlay menu to see that option if you've collapsed the menu) and the currently selected ship or task force will return for repairs (note also that if you do this manually, any ships you send back to repair will not undock on their own, so you might want to keep an eye on your events &#8212; and make sure you haven't disabled the relevant event in the Events Display).  If you select a planet with a spacedock (or the spacedock itself) and the currently selected ship is damaged, the orders will default to dock instead of defend; in that case, all of the above caveats still apply.
-</p><p>If you select empty space when giving orders, one of several things may happen: if the current selection is a task force (or one of most types of ships), move orders will be given.  However, if the current selection is a single raider, raid orders will be given.  If the current selection is a sentry ship, sentry orders will be given, and if the ship is an escort, patrol orders will be given.  You can then switch the order type from the overlay menu.
-</p><p>For more on orders and order options, see <a href="#Orders_and_Combat">Orders and Combat</a> below.
-</p>
-<h3><span class="mw-headline" id="Circles"> 4.1.3 Circles </span></h3>
-<p>There are three kinds of circles available on the display:
-</p>
-<dl><dt> Weapons
-</dt><dd> Weapons circles show the ranges of your ships' weapons: the outer circle (marked 'M') is the range of missiles, and the inner circle (marked 'B') is the range of beams.  If a ship isn't equipped with one or the other of these weapons, it won't display that circle.
-</dd></dl>
-<dl><dt> Speed
-</dt><dd> Speed circles show the range of your ships. The numbers refer to the number of ticks it takes to move that far, i.e., the circle marked 20 would take 20 ticks or 0.2 years to reach.  The same goes for stations, although of course only along their orbit.
-</dd></dl>
-<dl><dt> Sensors
-</dt><dd> Sensor circles show the approximate range of your sensors; the inner circle (marked 0.25) corresponds to the range for raiders, the middle for escorts (1.0) and the outer circle (5.0) for assault ships.  Various factors (such as nebulas, enemy tech levels and commanders) can affect the actual ranges, however.
-</dd></dl>
-<p>Note that if 'All Circles' is selected, it will show circles for all of your ships and stations, otherwise only the circles for the currently selected ship or station, or circles for the ships in the currently selected task force will be displayed.
-</p><p><b>Mac only</b>: if 'Show Info' and circles are active at the same time, range circles for the current warship will also be displayed under the mouse pointer.
-</p>
-<h3><span class="mw-headline" id="Events"> 4.1.4 Events </span></h3>
-<p>Event icons show up along the left side of the screen when various events occur during the game (see the Events Display for more information on how to control when they appear).  The events have tooltips that appear if you hover over them (<b>Mac</b>) or hold them down (<b>iPad</b>).  If you select an event, it will select the object that triggered the event (e.g., the planet that built a ship, or maybe the ship that's taking damage) on the tactical display.  If it's already selected, selecting the event again will center and focus on it.  If you have more events than fit on the screen, a button with three arrows will appear above the events icons; if you click on it, the event icons will expand into multiple rows on the display allowing you to manipulate them (you can toggle the same button again to close them if you like, or it will automatically disappear once you've dismissed enough event icons that it's no longer needed).
-</p><p>If you're done with an event you can right-click on it to make it disappear (<b>Mac</b> &#8212; this can be done with a right mouse button, a ctrl-click, or two fingered click on a touchpad) or dismiss it from the tooltip menu after you hold it down (<b>iPad</b> -- you'll also be given options to dismiss all events of the same type or all events).
-</p><p><b>iPad only</b>: there is an options available in the options display that will insert a 'close' button before or after the events (depending on if you select the option to show it first or last).  That button will allow you to close all events at once.
-</p><p><b>Mac only</b>: shift right-click will dismiss all events of the same type (or all events if you've selected that option in the options screen).
-</p>
-<h3><span class="mw-headline" id="Hotkeys_.28Mac_Only.29"> 4.1.5 Hotkeys (Mac Only) </span></h3>
-<p>The following hotkeys all work on the tactical display:
-</p>
-<table class="wikitable">
-<tr>
-<td><b>Key</b>
-</td>
-<td><b>Action</b>
-</td></tr>
-<tr>
-<td>0
-</td>
-<td>pause game/step paused game one tick
-</td></tr>
-<tr>
-<td>1
-</td>
-<td>set speed 1 (also 2, 3, and 4)
-</td></tr>
-<tr>
-<td>z
-</td>
-<td>recenter map
-</td></tr>
-<tr>
-<td> - [minus]
-</td>
-<td>zoom out
-</td></tr>
-<tr>
-<td> + [plus]
-</td>
-<td>zoom in
-</td></tr>
-<tr>
-<td>[arrow keys]&nbsp;&nbsp;&nbsp;
-</td>
-<td>move map
-</td></tr>
-<tr>
-<td>[space]
-</td>
-<td>focus on current selection
-</td></tr>
-<tr>
-<td>x
-</td>
-<td>close current selection
-</td></tr>
-<tr>
-<td>v
-</td>
-<td>hide/expose all menus (except speed menu)
-</td></tr>
-<tr>
-<td>p
-</td>
-<td>toggle planet names
-</td></tr>
-<tr>
-<td>s
-</td>
-<td>toggle ship names
-</td></tr>
-<tr>
-<td>w
-</td>
-<td>toggle weapon circles
-</td></tr>
-<tr>
-<td>r
-</td>
-<td>toggle speed circles
-</td></tr>
-<tr>
-<td>e
-</td>
-<td>toggle sensor circles
-</td></tr>
-<tr>
-<td>o
-</td>
-<td>toggle all circles
-</td></tr>
-<tr>
-<td>i
-</td>
-<td>toggle mouseover tooltips on map
-</td></tr></table>
+    <p>Also, the first scenario ('A Trivial Matter' &mdash; the same scenario used in
+    the tutorials) is mainly meant to be an easy scenario for beginning players.
+    It's a good place to start for getting oriented on game mechanics and
+    strategies and such, since the complexity is low.  The AI is also a bit
+    constrained and predictable in that scenario, so it's unlikely that it will
+    do anything too surprising while you get the hang of things.  It's a good
+    scenario to play a time or two before you feel like you're ready to move on
+    to the more complicated and challenging scenarios.</p>
 
-<br />
+<h2><a href="#toc-anchor"><span id="3">3</span> Game Controls</a></h2>
+<p>Game controls for the most part are pretty simple: press a button,
+    something happens.  On the other hand, tooltips are a bit more complicated:
+    in the Mac version, tooltips are triggered by hovering over buttons and such
+    exactly as you'd normally expect.  On the iPad version of the game, however,
+    tooltips are triggered by holding a button for a short period of time (this
+    also works for a few things that aren't buttons, such as ship class icons
+    and officer skills on the Ships and Officers Displays).  That's perhaps the
+    single most important thing to know when trying to navigate the game.</p>
 
-<h2><span class="mw-headline" id="Other_Displays"> 4.2 Other Displays </span></h2>
-<p>Several of the following displays (Officers, Ships, Task Forces, Planets, and Asteroids) all have some behavior in common: first, they all have filters along the left side of the screen.  There are tooltips for these filters, and the filters often come in sets that can be set independently (as you can see by the boxes behind them).  For instance, on the Officers Display, you can filter the display to only show unassigned commanders or maybe admirals with current assignments.
-</p><p>The sort buttons along the top also have a direction which can be reversed if the sort button is selected a second time.  In the case of the Officers screen, the last sort button will cycle through the various officer skills as well.
-</p>
-<h3><span class="mw-headline" id="Officer_Display"> 4.2.1 Officer Display </span></h3>
-<p>This page shows all of your officers (which you need to command ships, stations, and task forces).  As with several other pages, filters are along the left side of the page (you can use tooltips to see what they do, or refer to the list below) and you can use the buttons across the top of the page to control sorting (note that the last button will cycle through the various officer skills).  Skills are listed for each officer (for more information on those skills, see <a href="#Officers">Officers</a> below), and you can use the embedded buttons to promote, demote, assign or remove officers when the option is available (note that normally you'll be asked to confirm promotions and demotions; if you'd like to disable this, see the options screen).
-</p><p>The following filter sets are available:
-</p><p>Box 1:
-</p>
-<p><img valign="middle" src="manual-assets/button-assign-officer.png" width="41" height="41" /> show unassigned officers<br />
-<img valign="middle" src="manual-assets/button-unassign-officer.png" width="41" height="41" /> show assigned officers
-</p><p>Box 2:</p>
-<p><img valign="middle" src="manual-assets/button-admiral.png" width="41" height="41" /> show admirals<br />
-<img valign="middle" src="manual-assets/button-captain.png" width="41" height="41" /> show captains<br />
-<img valign="middle" src="manual-assets/button-commander.png" width="41" height="41" /> show commanders<br />
-<img valign="middle" src="manual-assets/button-ltcommander.png" width="41" height="41" /> show lt. commanders
-</p><p>The following actions are available:</p>
-<p>
-<img valign="middle" src="manual-assets/button-promote.png" width="41" height="41" /> promote officer<br />
-<img valign="middle" src="manual-assets/button-demote.png" width="41" height="41" /> demote officer<br />
-<img valign="middle" src="manual-assets/button-assign-officer.png" width="41" height="41" /> assign officer to a command<br />
-<img valign="middle" src="manual-assets/button-unassign-officer.png" width="41" height="41" /> remove officer from their current command
-</p>
-<h3><span class="mw-headline" id="Ship_Display"> 4.2.2 Ship Display </span></h3>
-<p>This page shows all of your ships and stations.  As with several other pages, filters are along the left side of the page (you can use tooltips to see what they do, or refer to the list below) and you can use the buttons across the top of the page to control sorting.  For each ship, you can use the buttons to assign (or remove) officers, add ships to (or remove ships from) a task force (the same button also undocks the ship from a station), rename the ship, or find the ship on the tactical display.
-</p><p>A couple of additional things to note: the green flag under a ship's symbol indicates that it is the flagship of its task force.  Also, if the ship has any 'kills' in battle, that's indicated by orange squares at the bottom of that ship's box.
-</p><p>The following filter sets are available:
-</p><p>Box 1:
-</p><p>
-<img valign="middle" src="manual-assets/button-assign-officer.png" width="41" height="41" /> show ships without commanders<br />
-<img valign="middle" src="manual-assets/button-unassign-officer.png" width="41" height="41" /> show ships with commanders
-</p><p>Box 2:
-</p><p>
-<img valign="middle" src="manual-assets/button-assign-tf.png" width="41" height="41" /> show ships not assigned to a task force (or docked in a station)<br />
-<img valign="middle" src="manual-assets/button-unassign-tf.png" width="41" height="41" /> show ships assigned to a task force (or docked in a station)
-</p><p>Box 3:
-</p><p>
-<img valign="middle" src="manual-assets/button-ship.png" width="41" height="41" /> cycle through the classes of ships, starting with assault ships<br />
-<img valign="middle" src="manual-assets/button-station.png" width="41" height="41" /> show stations
-</p><p>Box 4:
-</p><p>
-<img valign="middle" src="manual-assets/button-orders.png" width="41" height="41" /> show ships with no orders<br />
-<img valign="middle" src="manual-assets/button-combat.png" width="41" height="41" /> show ships with damage or are in combat
-</p><p>The following actions are available:
-</p><p>
-<img valign="middle" src="manual-assets/button-assign-officer.png" width="41" height="41" /> assign an officer to assign that ship or station<br />
-<img valign="middle" src="manual-assets/button-unassign-officer.png" width="41" height="41" /> remove the officer currently commanding that ship or station<br />
-<img valign="middle" src="manual-assets/button-assign-tf.png" width="41" height="41" /> assign ship to a task force<br />
-<img valign="middle" src="manual-assets/button-unassign-tf.png" width="41" height="41" /> remove ship from a task force (or undock if docked)<br />
-<img valign="middle" src="manual-assets/button-rename.png" width="41" height="41" /> rename ship or station<br />
-<img valign="middle" src="manual-assets/button-find.png" width="41" height="41" /> find that ship or station on the tactical display
-</p>
-<h3><span class="mw-headline" id="Task_Force_Display"> 4.2.3 Task Force Display </span></h3>
-<p>This page shows all of your task forces.  As with several other pages, filters are along the left side of the page (you can use tooltips to see what they do, or see below) and you can use the buttons across the top of the page to control sorting.  In addition, the button on the lower left can collapse (or expand) the list of constituent ships, and you can create new task forces (or change task force defaults) with the buttons along the top left (note that changes in task force defaults are saved across games).  For each task force, you can use the buttons to assign (or remove) officers, add available ships to the task force, rename it, find it on the tactical map, or disband the task force altogether (see the tooltips for the buttons if it isn't obvious to you which button is which).  Once ships are added to a task force (assuming you haven't used the collapse button to collapse the display) you can use the minus button on the right of a ship to remove it from the task force.
-</p><p>The following filter sets are available:
-</p><p>Box 1:
-</p><p>
-<img valign="middle" src="manual-assets/button-assign-officer.png" width="41" height="41" /> show task forces without a commander<br />
-<img valign="middle" src="manual-assets/button-unassign-officer.png" width="41" height="41" /> show task forces with a commander
-</p><p>Box 2:
-</p><p>
-<img valign="middle" src="manual-assets/button-full.png" width="41" height="41" /> show task forces with ships<br />
-<img valign="middle" src="manual-assets/button-empty.png" width="41" height="41" /> show empty task forces<br />
-<img valign="middle" src="manual-assets/button-orders.png" width="41" height="41" /> show task forces with no orders
-</p><p>The following actions are available:
-</p><p>
-<img valign="middle" src="manual-assets/button-assign-officer.png" width="41" height="41" /> assign officer to command that task force<br />
-<img valign="middle" src="manual-assets/button-unassign-officer.png" width="41" height="41" /> remove officer currently commanding that task force<br />
-<img valign="middle" src="manual-assets/button-assign-tf.png" width="41" height="41" /> add ships to the task force<br />
-<img valign="middle" src="manual-assets/button-rename.png" width="41" height="41" /> rename task force<br />
-<img valign="middle" src="manual-assets/button-find.png" width="41" height="41" /> find task force on tactical display<br />
-<img valign="middle" src="manual-assets/button-disband.png" width="41" height="41" /> disband task force
-</p>
-<h3><span class="mw-headline" id="Planetary_Display"> 4.2.4 Planetary Display </span></h3>
-<p>This page shows all of your planets (which produce all of your ships).  As with several other pages, filters are along the left side of the page (you can use tooltips to see what they do, or see the list of filters below) and you can use the buttons across the top of the page to control sorting.  In addition, you can collapse (or expand) production queues with the button on the lower left.  For each planet, there are three things you can do: toggle whether or not to continue building the same ship when the production queue empties, add a ship (or station, or station upgrade) to the production queue, or find the planet on the tactical display.  If you toggle the repeat production setting on (it will say 'repeat' after the number of items in the queue after the planet name), whenever the queue empties, it will continue to build more of the last ship in the queue (as long as the last item is a ship; it won't continue building stations or upgrades).  If there are any items in the production queue, you can use the buttons to the right of the item to move them around in the queue or cancel production altogether.
-</p><p>The following filters are available:
-</p><p>
-<img valign="middle" src="manual-assets/button-full.png" width="41" height="41" /> show planets with production in progress<br />
-<img valign="middle" src="manual-assets/button-empty.png" width="41" height="41" /> show planets with empty production queues<br />
-<img valign="middle" src="manual-assets/button-invasion.png" width="41" height="41" /> show planets currently being invaded<br />
-<img valign="middle" src="manual-assets/button-metal.png" width="41" height="41" /> show planets with insufficient metal for full production
-</p><p>The following actions are available:
-</p><p>
-<img valign="middle" src="manual-assets/button-rebuild.png" width="41" height="41" /> repeat production (see above)<br />
-<img valign="middle" src="manual-assets/button-norebuild.png" width="41" height="41" /> stop repeating production<br />
-<img valign="middle" src="manual-assets/button-plus.png" width="41" height="41" /> add ships/stations/upgrades to that planet's production queue<br />
-<img valign="middle" src="manual-assets/button-find.png" width="41" height="41" /> find planet on tactical display
-</p>
-<h3><span class="mw-headline" id="Asteroid_Display"> 4.2.5 Asteroid Display </span></h3>
-<p>This page shows all of your asteroids (which produce metal for your industry).  As with several other pages, filters are along the left side of the page (you can use tooltips to see what they do, or see below) and you can use the buttons across the top of the page to control sorting.  There are really only a couple of things you can do from this page: control where asteroids ship their metal, and find the asteroid on the tactical display.  Metal can be shipped to any planet, including enemy planets &#8212; you might actually want to do this once in a while, since bribing players with metal will improve relations and can help stave off war.  Otherwise, you might want to route metal to somewhere besides the nearest metal-hungry planet, say if an enemy planet is in the way so that your cargo ships are getting intercepted (cargo ship pilots aren't that smart, they fly in a straight line and land on the first planet they reach, no matter who owns it.  Hey, they get paid either way).
-</p><p>The following filters are available:
-</p><p>
-<img valign="middle" src="manual-assets/button-full.png" width="41" height="41" /> show asteroids with no targets, i.e., asteroids that send metal to the nearby planet that needs it most automatically<br />
-<img valign="middle" src="manual-assets/button-empty.png" width="41" height="41" /> show asteroids with fixed targets<br />
-<img valign="middle" src="manual-assets/button-invasion.png" width="41" height="41" /> show asteroids currently being invaded
-</p><p>The following actions are available:
-</p><p>
-<img valign="middle" src="manual-assets/button-full.png" width="41" height="41" /> set target to planet, i.e., ship metal to a fixed planet<br />
-<img valign="middle" src="manual-assets/button-empty.png" width="41" height="41" /> set target to auto, i.e., ship metal to any nearby planets that need it<br />
-<img valign="middle" src="manual-assets/button-find.png" width="41" height="41" /> find asteroid on tactical display
-</p>
-<h3><span class="mw-headline" id="Research_Display"> 4.2.6 Research Display </span></h3>
-<p>This is the research page; on this page you can see what research you've completed and set how much of your industrial production is directed towards research, as well as what areas you'd like to focus on.  At the bottom of the page is a single slider controlling the percentage of your industrial production that will be allocated to research; note that if you set it to 100% you won't produce any ships at all (only research), and if you set it to 0%, you won't make any research progress whatsoever. On the top right side of the page you can modify how much research goes into various areas of technology using the sliders.  You can also lock (or unlock) each of those areas with the buttons to the right when editing your overall research focus.  To the left you can see your current level of technology in each area and your progress to the next level -- note that reaching 100% will not automatically advance your tech level; instead, as progress advances past 100%, advancing to the next level will become more likely.
-</p><p>Note that ships' technology levels cannot be upgraded.  This is offset somewhat by the experience ships will gain in combat -- or at a slower rate, just by operating in general.  This same limitation does not apply to stations, which are automatically upgraded with the latest technologies as they become available.
-</p><p>For more information on how research works, see the <a href="#Research_and_Upgrades">Research and Upgrades</a> section below.
-</p>
-<h3><span class="mw-headline" id="Diplomacy_Display"> 4.2.7 Diplomacy Display </span></h3>
-<p>This is the diplomacy page; on this page you can see what your current relations are with other players, and also what your current diplomatic status is for those players (i.e., whether you're currently at war, still at peace, or if the player has been eliminated).  There's only one action that can be taken from this page &#8212; if your relations are sufficiently poor (into the orange relations band) and you aren't already at war with a player, you can declare war on that player.
-</p>
-<h3><span class="mw-headline" id="Events_Display"> 4.2.8 Events Display </span></h3>
-<p>This is the event options page; here you control how the game will respond to various triggered events.  For each event type you have the choice of the following responses (from left to right for each event):
-</p><p>
-<img valign="middle" src="manual-assets/button-event-pause.png" width="41" height="41" /> Pause the game and pop up an event alert;<br />
-<img valign="middle" src="manual-assets/button-event-alert.png" width="41" height="41" /> Pop up an event alert but don't pause the game;<br />
-<img valign="middle" src="manual-assets/button-event-ignore.png" width="41" height="41" /> Ignore the event (don't show any alert at all).
-</p><p>As long as at least some of these event alerts are enabled, event alerts appear on the left side of the tactical display during play; you can select the referenced object by clicking on events, or remove events via their tooltips by holding them down (<b>iPad</b>) or right-clicking (<b>Mac</b>).  Note that event options are saved across games, so if you change them for one game, they'll still be in effect the next.  The possible events are not listed here in the manual; they should be self-evident from the descriptions.
-</p>
-<h3><span class="mw-headline" id="Options_Display"> 4.2.9 Options Display </span></h3>
-<p>This is the user options page; various aspects of game play can be controlled from here (for instance, the handling of officers &#8212; assigning officers, promoting them, etc. &#8212; can be delegated to the computer instead of having to micromanage everything yourself). The effects of various options should (hopefully) be fairly evident from the option descriptions but are also listed below. Note that user options are saved across games, so if you change them for one game, they'll still be in effect the next.
-</p><p>The following options are available:
-</p>
-<ul><li> Enable sound effects/Volume: volume can also be adjusted here; note that the volume is relative to system volume, so if you turn off the device's sound, you won't hear anything no matter how high you set this.
-</li><li> Adjust gamma: this is particularly useful if you have a dimmer device (or prefer to keep the brightness low) but are having trouble seeing everything on the tactical map.
-</li><li> Ask for confirmation before promoting or demoting officers.
-</li><li> Assign officers of appropriate rank as needed: let the computer assign officers instead of handling it yourself (works best in concert with the next option)
-</li><li> Promote officers as needed: let the computer promote officers when you're short of officers of appropriate rank (works best in concert with the above option)
-</li><li> Clear orders after evading enemy ships while raiding: otherwise raiders will attempt to return to their ordered location once the area is clear
-</li><li> Clear orders when threatened by enemy ships while on sentry duty: otherwise sentry ships will try to return to their station
-</li><li> When tracking lost on ships being intercepted, switch orders to move to last known location (otherwise clear): basically, whether or not you want to chase ghosts
-</li><li> Return repaired warships to original task force.
-</li><li> Return repaired warships (not in task force) to original mission: i.e., restore old orders once repaired
-</li><li> Continue building ships of same class when queue empties (disables per-planet option when set).
-</li><li> Automatically generate random names for ships instead of using numbered ships: the two options here are either name ships according to the pattern 'TSC Name' or 'Cruiser 1' (i.e., by class name).
-</li><li> Show ship class prefix when displaying ship names: this will insert a two-letter prefix before ship names, i.e., escorts would have the prefix '[ES]' inserted before the name
-</li><li> Remove unacknowledged event icons after two years have passed: otherwise all event icons must be dismissed by you
-</li><li> Reverse order of events (show oldest first instead of newest first): this restores the old 1.0.x behavior if you prefer that
-</li><li> Automatically dismiss 'no production' event notification when new production added to queue: unselect to get old behavior, requiring that events be manually dismissed
-</li><li> Automatically dismiss 'no orders' event notification when ship or task force given orders: unselect to get old behavior, requiring that events be manually dismissed
-</li><li> Automatically dismiss 'no commander' event notification when officer assigned: unselect to get old behavior, requiring that events be manually dismissed
-</li><li> Show gameplay tips on startup: tips are also available from the main menu (via top left on tactical display, browse help)
-</li><li> Show tutorial/help dialogs (turning this on will reset dialogs to unviewed state: it will not restart the tutorial, however &mdash; that needs to be launched from the new game screen
-</li><li> Enable transparency on tactical display overlay menus.
-</li><li> Enable red-green colorblind friendly palette.
-</li></ul>
-<p><b>iPad only</b>:
-</p>
-<ul><li> Automatically switch to order mode when ships or task forces selected: this will set it so the next touch on the map will give an order (better disabled if you prefer to long-touch to give orders)
-</li><li> Automatically switch to select mode when ships or task forces give orders: otherwise you need to be very careful to unselect the 'Give Order' button after you're done giving orders
-</li><li> Triple-tap zooms out (if selected, quadruple-tap centers map, otherwise triple-tap does).
-</li><li> Include 'Close All' button with events: displays a button after all the events that allows you to dismiss them with one button
-</li><li>  If 'Close All' set, button comes first.
-</li></ul>
-<p><b>Mac only</b>:
-</p>
-<ul><li> Shift-right-click dismisses all events (otherwise dismisses all of same type).
-</li><li> Zoom in on cursor (zooms on center of screen when disabled).
-</li></ul>
-<h1><span class="mw-headline" id="Game_Concepts"> 5 Game Concepts </span></h1>
-<br />
-<h2><span class="mw-headline" id="Warships_and_Combat"> 5.1 Warships and Combat </span></h2>
-<br />
-<h3><span class="mw-headline" id="Ship_Classes"> 5.1.1 Ship Classes </span></h3>
-<br />
-<table class="wikitable">
+    <p>Beyond that, there's not much else to know (in terms of how to trigger
+    controls, at least) for most of the interface with the exception of the
+    Tactical Display (which is a bit more complicated; for that, see
+    <a href="#4.1.1">Navigating the Map</a>,
+    <a href="#4.1.2">Giving Orders</a>, and
+    <a href="#4.1.4">Events</a>
+    in that section).</p>
+<h3><a href="#toc-anchor"><span id="3.1">3.1</span> Loading, Saving, and the Main Menu</a></h3>
+<p>The Main Menu is where you can start a new game, load a game, or save
+      the current game.  It can be reached by selecting the menu button in the
+      top left corner of the <a href="#4.1">Tactical Display</a>.
+      There's also a 'Score' screen that keeps track of some game stats (there
+      isn't really a score as such), and an 'About' screen, but those aren't
+      really necessary for playing the game.  Also possibly useful is the help
+      browser in the bottom right corner of the main menu screen &mdash; from there
+      you can read any of the context help for any of the displays or cycle
+      through the game start tips if you like.</p>
 
-<tr>
-<td>
-</td>
-<td>
-</td>
-<td><b>Class</b>
-</td>
-<td><b>Cost</b>[1]
-</td>
-<td><b>Beams</b>
-</td>
-<td><b>Missiles</b>
-</td>
-<td><b>Shields</b>
-</td>
-<td><b>Armor</b>
-</td>
-<td><b>Sensors</b>
-</td>
-<td><b>Speed</b>
-</td>
-<td><b>Profile</b>
-</td></tr>
-<tr>
-<td><img src="manual-assets/icon-station.png" width="21" height="21" />
-</td>
-<td>
-</td>
-<td>Station[2]
-</td>
-<td>10
-</td>
-<td>2
-</td>
-<td>1
-</td>
-<td>2
-</td>
-<td>1
-</td>
-<td>5
-</td>
-<td>N/A
-</td>
-<td>2
-</td></tr>
-<tr>
-<td><img src="manual-assets/icon-spacedock.png" width="21" height="21" />
-</td>
-<td>
-</td>
-<td>Spacedock[2]
-</td>
-<td>30
-</td>
-<td>2
-</td>
-<td>1
-</td>
-<td>2
-</td>
-<td>1
-</td>
-<td>5
-</td>
-<td>N/A
-</td>
-<td>2
-</td></tr>
-<tr>
-<td><img src="manual-assets/icon-escort.png" width="21" height="21" />
-</td>
-<td>ES
-</td>
-<td>Escort
-</td>
-<td>10
-</td>
-<td>1
-</td>
-<td>1
-</td>
-<td>1
-</td>
-<td>1
-</td>
-<td>4
-</td>
-<td>5
-</td>
-<td>1
-</td></tr>
-<tr>
-<td><img src="manual-assets/icon-raider.png" width="21" height="21" />
-</td>
-<td>RD
-</td>
-<td>Raider
-</td>
-<td>10
-</td>
-<td>0
-</td>
-<td>1
-</td>
-<td>0
-</td>
-<td>0.25
-</td>
-<td>3
-</td>
-<td>4.5
-</td>
-<td>0.25
-</td></tr>
-<tr>
-<td><img src="manual-assets/icon-sentry.png" width="21" height="21" />
-</td>
-<td>SE
-</td>
-<td>Sentry Ship
-</td>
-<td>12
-</td>
-<td>0
-</td>
-<td>0
-</td>
-<td>0
-</td>
-<td>0.25
-</td>
-<td>7
-</td>
-<td>3
-</td>
-<td>0.25
-</td></tr>
-<tr>
-<td><img src="manual-assets/icon-cruiser.png" width="21" height="21" />
-</td>
-<td>CA
-</td>
-<td>Cruiser
-</td>
-<td>30
-</td>
-<td>3
-</td>
-<td>1
-</td>
-<td>3
-</td>
-<td>3
-</td>
-<td>2
-</td>
-<td>4
-</td>
-<td>3
-</td></tr>
-<tr>
-<td><img src="manual-assets/icon-missile.png" width="21" height="21" />
-</td>
-<td>CG
-</td>
-<td>Missile Cruiser
-</td>
-<td>45
-</td>
-<td>1
-</td>
-<td>3
-</td>
-<td>3
-</td>
-<td>3
-</td>
-<td>2
-</td>
-<td>3
-</td>
-<td>3
-</td></tr>
-<tr>
-<td><img src="manual-assets/icon-assault.png" width="21" height="21" />
-</td>
-<td>AS
-</td>
-<td>Assault Ship
-</td>
-<td>50
-</td>
-<td>2
-</td>
-<td>0
-</td>
-<td>3
-</td>
-<td>3
-</td>
-<td>2
-</td>
-<td>2.5
-</td>
-<td>5
-</td></tr>
-<tr>
-<td><img src="manual-assets/icon-dreadnought.png" width="21" height="21" />
-</td>
-<td>DN
-</td>
-<td>Dreadnought
-</td>
-<td>70
-</td>
-<td>5
-</td>
-<td>1
-</td>
-<td>5
-</td>
-<td>5
-</td>
-<td>2
-</td>
-<td>3
-</td>
-<td>6
-</td></tr>
-<tr>
-<td><img src="manual-assets/icon-ghost.png" width="21" height="21" />
-</td>
-<td>
-</td>
-<td>Sensor Ghost
-</td>
-<td>N/A
-</td>
-<td>N/A
-</td>
-<td>N/A
-</td>
-<td>N/A
-</td>
-<td>N/A
-</td>
-<td>N/A
-</td>
-<td>N/A
-</td>
-<td>N/A
-</td></tr></table>
-<p>[1] Production time in factory-years at level zero production technology.<br />
-[2] Each station level upgrade costs 5 factory-years and increases shields and beams an additional 2 points, armor and missiles an additional 1 point.  The station's profile also increase 2 points.<br />
-All listed values at level zero of relevant technology.
-</p>
-<dl><dt> Station
-</dt><dd> A station is not a ship, it's simply a weapons platform orbiting a planet.  All stations defending a planet must be destroyed before a planet can be invaded.  Up to six stations can be built per planet.
-</dd></dl>
-<dl><dt> Spacedock
-</dt><dd> A spacedock is station that can also repair ships (and allows ships to be built by a planet).  Only one spacedock can be built per planet.
-</dd></dl>
-<dl><dt> Escort
-</dt><dd> Fast with good sensors, but lightly armed.  Ideal for hunting down raiders and patrol duty, can be used to soften up targets for larger warships but generally don't last long in that role.  Cheap enough that you can easily replace them when destroyed.
-</dd></dl>
-<dl><dt> Raider
-</dt><dd> Very lightly armed but difficult to detect.  Ideal for sneaking into enemy territory to destroy unarmed enemy shipping.  Useless for any sort of combat against enemy warships.
-</dd></dl>
-<dl><dt> Sentry Ship
-</dt><dd> Unarmed and fragile but difficult to detect; carries the longest ranged sensors in the game.  Use to help hunt down raiders or to keep an eye on enemy fleet movements at the edge of your territory.
-</dd></dl>
-<dl><dt> Cruiser
-</dt><dd> The backbone of most fleets; reasonably powerful without being prohibitively expensive.
-</dd></dl>
-<dl><dt> Missile Cruiser
-</dt><dd> Slow but powerful, primarily intended as a counter to dreadnoughts and heavily upgraded stations.
-</dd></dl>
-<dl><dt> Assault Ship
-</dt><dd> Used for assaulting enemy planets and asteroids; the only ship that can capture them.  However, it is expensive, slow and not heavily armed, and should be protected from enemy attack.
-</dd></dl>
-<dl><dt> Dreadnought
-</dt><dd> The heaviest (and most expensive) line warship in the game; can inflict and withstand tremendous amounts of damage.  Ideal for grinding up enemy ships.  Essentially just a cruiser but larger.
-</dd></dl>
-<p>A sensor ghost is not a ship at all, it is the last known position of a ship on the tactical display.  As such, they can't be attacked by your ships; you can only send your ships to the area you think it might have moved (or not moved).  As time passes, sensor ghosts will fade out until they disappear.  Likewise, when you lose sensor locks on stations, they will also fade out; however, unlike ships, since stations' orbits are well-known, the correct location of the station can continue to be plotted.
-</p>
-<h3><span class="mw-headline" id="Weapons_and_Defenses_and_Other_Stats"> 5.1.2 Weapons and Defenses and Other Stats </span></h3>
-<p>There are two types of weapons in the game: beams and missiles.  Missiles have twice the range of beams, but beams do twice the damage.  However, missiles have one other advantage over beams: the larger the target, the more likely the missiles are to penetrate shields and do direct damage to armor instead of just dissipating against shields like beam weapons do.  This effect is very unlikely against small ships such as escorts (and even against dreadnoughts it happens less than half the time), but the general upshot is that missiles tend to be more effective against larger targets and beams against smaller ones.
-</p><p>There are also two types of defenses: shields and armor.  The difference here is that shields will regenerate during combat, but any damage to armor must be repaired in a spacedock.  The exception is for stations, which can repair their own armor (however, they do so much, much more slowly than they regenerate their shields).
-</p><p>The effect of speed should be fairly obvious.  Faster ships go farther more quickly.
-</p><p>Sensors are also fairly obvious.  The flip side is ship profile: ships with smaller profiles are proportionally harder to detect.
-</p><p>One other note: ships' crews will also gain experience in combat, and as they do so they will gain some small boost in combat effectiveness.  There really isn't an easy way to see how experienced a ship is except if it happens to have destroyed a lot of enemy ships (which are marked with orange squares on the Ships Display), but it does slightly offset the fact that tech upgrades only affect new ships you build, not older ones &#8212; there's no way to refit older ships with new technology.
-</p>
-<h3><span class="mw-headline" id="Invasions"> 5.1.3 Invasions </span></h3>
-<p>Planetary invasions are fairly difficult for a couple of reasons: first, to effectively attack a planet you have to drop into orbit so you don't have as much control over combat near planets as you would otherwise.  If you don't drop your ships into orbit (i.e., set the enemy planet as the ship/task force's objective), any ships near a planet but not in orbit will fight at a severe disadvantage against orbiting defenders.  The second reason is that heavily upgraded stations are difficult to destroy, as they can be upgraded fairly cheaply but punch at the level of two or three dreadnoughts when fully upgraded.  That may not seem like so much, except that (assuming you let them) even dreadnoughts will retreat when taking sufficient damage while stations never can &#8212; and even doing 99% damage is not sufficient if the attacking fleet breaks off before finishing the job.  That said, stations are still vulnerable to being swarmed and even when a planet has six stations defending it, since stations are too far apart to support each other, as weapon ranges are not long enough to reach the next station.
-</p><p>In both the case of planetary and asteroid invasions, you need assault ships to actually capture them.  In both cases the defending fleets need to be destroyed or driven off and no planetary invasion can begin until all the defending stations are destroyed.  It's a good idea to attack with multiple assault ships if you can, since the longer an invasion takes, the more damage is done to existing infrastructure, and the longer it takes to rebuild afterwards.  That said, given enough time, a planet's mining and industry will eventually reach the level it was at before the invasion &#8212; the destruction is never permanent.
-</p>
-<h3><span class="mw-headline" id="Orders_and_Combat"> 5.1.4 Orders and Combat </span></h3>
-<p>The following types of orders are available in the game:
-</p>
-<dl><dt> Move
-</dt><dd> If you select a point on the map, this is the default type of order. If this order is assigned, the ships will move to the destination regardless of the situation; they will fire at enemy ships in range, but they will not otherwise pursue or avoid them.
-</dd></dl>
-<dl><dt> Patrol
-</dt><dd> Ships given this order will move to their destination. However, if they detect enemy ships near the destination, they will pursue them (assuming they aren't outclassed &#8212; for instance, an escort will chase a raider, but if they see a dreadnought, they would leave it alone).  You can control the pursuit options for this order: if pursuit is set to 'Conservative' the ship will tend to hold position (i.e., not chase enemies very far) and prioritize protecting the area around the destination.  If pursuit is set to 'Aggressive' it will chase the enemy as long as it has a sensor lock to the ends of the universe (which might leave the destination unprotected for other raiders, though, or otherwise disrupt an established picket line).  'Normal' is somewhere in the middle &#8212; it will pursue for a distance and then break off.
-</dd></dl>
-<dl><dt> Raid
-</dt><dd> Ships given this order will move to their destination. However, they will avoid any ships they detect along the way &#8212; any time they are approached by enemy ships, they will bug out.
-</dd></dl>
-<dl><dt> Sentry
-</dt><dd> This order is the same as raid, except the ships aren't as paranoid about bugging out; they won't move to avoid enemy ships until they get relatively close.
-</dd></dl>
-<dl><dt> Attack
-</dt><dd> This order applies to planets or asteroids.  The main difference between asteroid and planet attacks involves formations &#8212; for asteroids you have complete control over formation shape and closing distance, for planets ships need to be in orbit for maximum combat efficiency.  You can also control how aggressive your captains are allowed to be when they detect secondary targets en route (or fleeing in the case of asteroid attacks) &#8212; the options are 'Aggressive', 'Conservative', or 'Hold Formation' in which case they aren't allowed to break formation at all.
-</dd></dl>
-<dl><dt> Defend
-</dt><dd> This order also applies to planets or asteroids.  Again, the difference is how formations are handled.  See <a href="#Formations">Formations</a> for more information on that.
-</dd></dl>
-<dl><dt> Dock
-</dt><dd> Send the ship/task force back for repairs.  In the options display, you can set if you'd like this to happen automatically when ships are damaged, and whether you'd like ships automatically returned to their task force or orders when they're done repairing.  Ships given dock orders will also avoid enemy ships on the way back home.
-</dd></dl>
-<dl><dt> Intercept
-</dt><dd> This order applies to enemy ships (you can't use it on sensor ghosts, though, since ships can only pursue things they can see -- there is an option to move to the last known location instead of breaking off pursuit if sensor lock is lost, but the drawback to that is that the ships will just sit there when they arrive and will need to be given new orders before they'll do anything).  Similar to attack, you can also control how your ships respond to secondary targets of opportunity, whether to aggressively chase them or ignore them completely.
-</dd></dl>
-<p>Certain types of ships will default to certain types of orders: i.e., when you select a point on the map that isn't a ship, planet or asteroid to give an order, normally move orders will be assigned, but if the ship is a raider, it will default to raid orders; if it's a sentry ship, it will default to sentry orders; and if it's an escort, it will default to patrol orders.  Of course, you can always change the order type from the order overlay menu.
-</p><p>No matter what orders are given, combat will always occur when enemy ships are in range.  You can see this on the map by zooming in on the area of combat; ships being hit by beams or missiles will show a shield arc (even if they don't actually have shields -- the tactical map is an abstraction, not a direct representation of reality), with missiles being marked by red lines intercepting it and beams by yellow ones (though if you see beams, if the attack ship also has missiles, both types of weapons will be engaged).  You can also turn the weapons range circles on to get a better idea of what's going on; see <a href="#Circles">Circles</a> above.
-</p>
-<h3><span class="mw-headline" id="Navigational_Hazards"> 5.1.5 Navigational Hazards </span></h3>
-<p>There are two basic types of navigational hazard in the game: nebulas and debris fields.  Nebulas are marked with gray circles and degrade sensors both when ships are inside of them and when attempting to detect ships in them.  Debris fields are marked with roughly textured circles and slow the progress of all ships passing through them, including freighters.
-</p><p>Both types of fields can be of varying densities, and have effects proportional to those densities.
-</p>
-<h2><span class="mw-headline" id="Officers"> 5.2 Officers </span></h2>
-<p>Officers are not something you really need to deal with unless you want to &#8212; by default, the computer will promote and assign officers as needed.  However, do note that the computer won't really spend a lot of effort optimizing officer assignments, either.
-</p>
-<h3><span class="mw-headline" id="Ranks"> 5.2.1 Ranks </span></h3>
-<p>There are four ranks in the game, they are as follows:
-</p>
-<dl><dt> Admiral
-</dt><dd> Admirals are required to command task forces; no lower rank will do.  Admirals are marked with four chevrons.
-</dd></dl>
-<dl><dt> Captain
-</dt><dd> Capital ships (also spacedocks) require captains to command them.  Captains are marked with three chevrons.
-</dd></dl>
-<dl><dt> Commander
-</dt><dd> Commanders can command smaller ships such as escorts, raiders, or regular stations.  Commanders are marked with two chevrons.
-</dd></dl>
-<dl><dt> Lt. Commander
-</dt><dd> These are essential candidate officers for higher ranks; promote the best to command your ships, stations, and task forces.  Lt. Commanders only have one chevron.
-</dd></dl>
-<p>Note that higher ranked officers can command lower commands, but it's not particularly efficient to do so, since higher ranked officers don't gain experience as quickly as lower ranked officers would.
-</p>
-<h3><span class="mw-headline" id="Skills_and_Experience"> 5.2.2 Skills and Experience </span></h3>
-<p>There are four types of skills that an officer can have, as well as experience.  The skills are: attack skill, which obviously affects the offensive capabilities of a ship commanded by that officer, i.e., beams and weapons.  Defense skill can increase the speed at which shields regenerate (and increase the chance of dodging missiles).  Engineering skill allows commanders to run their engines more efficiently (i.e., faster), increases their ship's effective sensor range, and if the officer commands a spacedock, increases the speed of repairs in that spacedock.  Finally, command skill only applies to admirals, but the higher their skill, the more effectively they can apply their other skills to all of the ships under their command.
-</p><p>Experience, on the other hand, is not a skill, but allows skills to be utilized.  That is, a commander with high skill but no experience cannot apply their skill, but a commander with high experience but no skill is in the same position because they have no skill to effectively apply.  The best thing to have is a commander with both high skill and high experience, since those skills can be applied effectively.
-</p><p>Any officer given a post will gain experience, although officers involved in combat will gain experience much more quickly than officers simply commanding a ship or station.  Also, lower-ranked officers gain skill more quickly than higher-ranked ones.  Finally, when an officer is new and inexperienced, their skills are not yet well-known; this uncertainty is indicated by the orange part of their skill bar (i.e., their skill is somewhere in the orange range, but until the officer gets more experienced, it isn't known where yet).  As an officer gains experience, that uncertainty will also drop, eventually disappearing altogether.  Another thing to consider is that anytime you promote an officer to a higher rank, that officer will lose a portion of their experience (you can get some of it back by demoting the officer, but never quite as much as they lost in the first place).  Their skills, however, will not change, and eventually they will gain experience back in their new rank (assuming that you've assigned them somewhere).
-</p>
-<h3><span class="mw-headline" id="Losing_Officers_in_Combat"> 5.2.3 Losing Officers in Combat </span></h3>
-<p>Whenever you lose a ship in combat, there is a chance you'll also lose the commanding officer.  Even worse, if that ship is the flagship of a task force, you could lose the admiral in command of the task force as well.
-</p><p>The odds of losing your officer depends mainly on how close you lose it to surviving ships (or a planet under your control).  I.e., if you lose a ship (say, a raider) deep in enemy territory, the odds are pretty low that the captain may have escaped and that you'll recover the escape pod.  The odds are much better if the ship is part of a large task force with other ships available for rescue operations, or if the ship (or station) is in orbit of one of your planets.
-</p>
-<h2><span class="mw-headline" id="Task_Forces"> 5.3 Task Forces </span></h2>
-<p>Task forces are a handy way to organize your ships and give them objectives.  The advantages of having a task force include the ability to assign admirals (who can give a skill boost to everyone under their command) as well as assigning formations to your ships to aid in effective attacks or defensive stands.  That said, there are cases where having a task force is probably not a good idea, say for raiders or sentry ships which work better alone (in which case giving one ship an admiral doesn't confer enough benefit to be worth the risk of losing that officer if the ship is lost.  Not to mention the fact that a skill boost would barely make any difference in the effectiveness of those ships at their tasks even if it was more significant than it is).
-</p>
-<h3><span class="mw-headline" id="Formations"> 5.3.1 Formations </span></h3>
-<p>Task forces can be given various formations in the game depending on circumstances and specific orders.  The following formations are available:
-</p>
-<dl><dt> No Formation - Best Speed
-</dt><dd> This formation is only available when intercepting enemy ships or moving; basically this is a lack of formation and all ships in the task force will move at maximum speed towards the target/destination.
-</dd></dl>
-<p>The following formations are only available for planetary combat (i.e., attacking or defending planets -- for both of these, assault ships will always be in the center where they're most protected/engage last):
-</p>
-<dl><dt> Escort Out
-</dt><dd> Lighter ships lead and trail, will hopefully soften up the targets before larger ships engage.
-</dd></dl>
-<dl><dt> Capital Out
-</dt><dd> The heavier ships lead and trail and so will engage first.
-</dd></dl>
-<p>The following formations are available for movement and asteroid attack/defense (in the case of line formations used for attacks, assault ships will form an additional line behind the other ships &#8212; assault ships aren't ideal for defense and probably should be left out of those task forces altogether).
-</p>
-<dl><dt> Sphere
-</dt><dd> Ships will form concentric circles with the heaviest ships in the middle.  In the case of asteroid defense, ships will instead form a circle around the asteroid with the heaviest ships in the center oriented towards attacking fleets.
-</dd></dl>
-<dl><dt> Line
-</dt><dd> Ships will form a single line, heaviest ships in the center
-</dd></dl>
-<dl><dt> Two Line - Escort Ahead
-</dt><dd> Ships will form two lines, heaviest ships in the center, escorts in front
-</dd></dl>
-<dl><dt> Two Line - Capital Ahead
-</dt><dd> Ships will form two lines, heaviest ships in the center, escorts behind
-</dd></dl>
-<p>In all cases, you can control your ship spacing, from 'Tight' to 'Normal' to 'Loose'.  Tight is generally good if you want to maximize damage inflicted (at the cost of taking more), loose is better for minimizing damage to your ships (or perhaps surrounding a planet if you have enough ships so that you can engage enemy ships before they make orbit).  For asteroid attacks or defense, you can also attempt to close to a particular distance (although whether you actually succeed or not at engaging at a a particular distance depends on what your opponent chooses to do).
-</p><p>In addition to force disposition, the formation controls also allow you to control when ships go back to spacedock for repairs.  If you have the formation controls up on the tactical display and have any damaged ships in the current task force, you can also send any damaged ships back for repairs immediately regardless of what the current auto-repair threshold is set to.
-</p><p>You can set formation defaults in the Task Force Display (see the 'Task Force Defaults' button along the top of the display) &#8212; those defaults will apply to all future orders, but will not affect any orders already given (note that saved defaults are persistent, so the next game will use the same defaults).  Also, remember that when you give commands to any ship in a task force, you're giving it to the whole task force, so if you want to give a ship independent orders, remember to detach it from the task force first.
-</p>
-<h3><span class="mw-headline" id="Other_Considerations"> 5.3.2 Other Considerations </span></h3>
-<p>When building new ships, you can have them automatically assigned to a task force (perhaps a reserve task force or one you use for staging your attacks). This option is available any time one of your planets is selected on the tactical display.
-</p><p>Note that task forces organize around their flagship; this can have unintended consequences when a new flagship is assigned (say, a new heavy ship is built and automatically assigned, or repaired in a spacedock and rejoins the fleet).  If the rest of the fleet is far away somewhere else on the map, you may see them all racing back across the map to get back into formation around the new flagship.  In that case, it might be a good idea to form up your task force somewhere safe before sending them in to attack.
-</p>
-<h2><span class="mw-headline" id="Research_and_Upgrades"> 5.4 Research and Upgrades </span></h2>
-<p>Research works very simply in the game; you select a percentage of your industrial capacity and apply it to research.  Of course, if you set it too high, it can significantly slow (or even completely halt) your warship production.  Also, even if you don't assign a planet anything to produce, it will still only use the set percentage for research, the rest of that planet's production will sit idle (although it will save metal).
-</p><p>Research also advances very slowly.  Reaching 100% to the next level isn't enough by itself to tick the level over; instead the chance of advancing to the next level continues to increase as you go past 100%.  Also, it takes a lot of research to increase the stats of new ships you build; each level will only increase them by 2%, so it takes fifty levels for a 1.0 point stat to reach 2.0 (and research will slow slightly as you advance as well -- there's no maximum level, however, so that theoretically research can advance forever, even if it gets slower and slower).
-</p><p>For the most part, what effect research has should be fairly obvious.  Shields increase the shield stats for new construction, armor, missiles, beams, and sensors are the same.  Engines increase ship's speed.  The more interesting ones are stealth, which slowly lowers ships' profiles (making them harder to detect) and production, which increases the rate at which you can build things.
-</p><p>For the most part, tech increases do not affect existing ships &#8212; the exception is for stations which will be upgraded with the latest and greatest tech.  Ships' crews, however, will gain experience, which helps to offset that effect somewhat.
-</p>
-<h2><span class="mw-headline" id="Economy_and_Commerce_Raiding"> 5.5 Economy and Commerce Raiding </span></h2>
-<br />
-<h3><span class="mw-headline" id="How_the_Economy_Works"> 5.5.1 How the Economy Works </span></h3>
-<p>Economics in the game is fairly simple: there is only one resource, metal.  Metal is produced by asteroids (and on some planets) and then shipped via freighters (shown on the map as lines of dots between their source and destination) to planets that need it to run their factories (industry).  Without metal, industry will sit idle and no production will occur.  Adequately supplied industry can produce ships, stations, or station upgrades.  That's really all there is to it.
-</p><p>By default, asteroids will send metal to whatever nearby planets need it most.  You can override that if, say, if you're trying to minimize trade routes.  In addition, planets with large surpluses of metal will also ship it to nearby planets (occasionally to each other if you're swimming in metal &#8212; lucky you), but you don't have any control over that if and when it occurs.
-</p>
-<h3><span class="mw-headline" id="Commerce_Raiding_and_Counters"> 5.5.2 Commerce Raiding and Counters </span></h3>
-<p>Commerce raiding is generally best done with raiders (although any warship will destroy enemy freighters in range).  Pretty much all there is to it is sending your raiders to sit on a line of freighters somewhere &#8212; any freighter within missile range will be destroyed (you might check the weapons circle for your raider to line things up).  Although there isn't any direct feedback when you succeed, you can count up freighters destroyed on the score display in the main menu -- if you see a line of enemy freighters coming into missile range and stopping, that's what's going on.  Do note that raiders given raid orders will bug out at the slightest provocation to save their hides and come back to raid another day, but given how fragile the ships are, that's probably how you want it.
-</p><p>You're given a lot more feedback when your own freighters are destroyed so that you can do something about it; there is an event that will fire anytime you're losing shipping.  In that case, you probably want to send escorts to patrol that area and hunt raiders.  While it's nice when you successfully destroy enemy raiders (and with enough effort and planning, and support from sentry ships, it's almost always possible &#8212; the question is more if it's worth the resources to do so), simply leaving escorts at key points along your trade routes will prevent your shipping from being attacked (which is really the goal, when you get down to it).  In many cases, you might consider that good enough.  There are any number of strategies you might try, from ignoring shipping losses altogether (probably not a good idea) to only responding when you actually lose shipping, to aggressively hunting and trapping raiders, to simply building a perimeter around your territory to keep them out.  Given that every ship sent to chase raiders is a ship not available for offensive operations, how you balance that is up to you.
-</p>
-<h2><span class="mw-headline" id="Diplomacy"> 5.6 Diplomacy </span></h2>
-<p>This being, well, a tactical space combat command game, diplomacy isn't really an important part of the game, and in fact, some scenarios go straight to war without any setup time.  That said, there are a few things to know.
-</p><p>First, there are no alliances; in games with multiple computer players, eventually everyone will end up fighting everyone else.  There are also no peace treaties -- once war starts, it's a fight to the end.
-</p><p>Second, there are some minor ways that you can influence how quickly you go to war.  If you send metal from your asteroids to neutral planets, you can slow down (or possibly even reverse) the countdown to war.  On the other hand, if you send ships into 'enemy territory' early (i.e., somewhere between their planets and/or asteroids), you can speed up the countdown.  And, of course, once relations have gone negative, you can always start war immediately.  As long as relations stay negative, however, war is inevitable -- and the worse they are, the higher the chance that the computer player will declare war any given turn.
-</p>
-<h2><span class="mw-headline" id="Managing_Events"> 5.7 Managing Events </span></h2>
-<p>TSC isn't exactly a turn-based game and it isn't exactly an RTS, it's more of a quantum RTS where things happen every discrete tick of the clock.  As such, much of the time you'll just want to let the clock go until something important happens, but events can stop the game and tell you that there's something you need to deal with.
-</p><p>There are events for practically everything that happens in the game (and some of them may only seem subtly different, like having an event both for when a ship is engaged in combat and when a ship is taking damage, but depending on how you play, you may want to use one or the other or maybe even both).  Events allow you to customize how you play and when you might want to intervene, i.e., what you want to be told about and what is important enough to stop everything so you can respond to it.  There are, however, a few things to be aware of: one, if an event has already fired once and not been dismissed, it will not fire again for the same object.  E.g., if an enemy starts an assault on an asteroid, but you drive them off, if you leave the event up without dismissing it, it will not fire again when they return and start a new assault.  Likewise, if a ship is in combat, only one event will fire until that event is dismissed, no matter how much more combat that ship sees.  The other thing to be aware of is that if you disable a whole bunch of events (say, at the end of the game), they'll still be disabled at the beginning of the next game, so if you tend to do that you might want to reset a few things when you start a new game.
-</p>
-<h1><span class="mw-headline" id="Scenario_Editor"> 6 Scenario Editor </span></h1>
-<p>The scenario editor allows the user to create and share their own scenarios, or modify the new scenarios that were added with v1.2 of Tactical Space Command (the new scenarios were all created using the editor; the older scenarios are all generated internally by the game instead so they can't be loaded into the editor).  It can be reached from the new game screen.</p>
-<h2><span class="mw-headline" id="Editor_Screens"> 6.1 Editor Screens </span></h2>
-<p></p>
-<h3><span class="mw-headline" id="Map_Editor_Screen"> 6.1.1 Editor Map Display </span></h3>
-<p>The editor map display shows the scenario map.  On this screen you can create, delete, move, or edit all of the game objects such as planets, asteroids, ships, nebulas, and debris/asteroid fields.  It's navigated pretty much the same way the regular map is -- there are navigation controls on the bottom right, and you can go to the other screens with the buttons at the top right, or control the display.</p>
-<p>There are three editing modes, each of which is indicated by a button at the top left.  'Drag Map' allows you to manipulate the map view itself by dragging it (and can also keep you from accidentally moving objects as you edit), 'Drag Object' allows you to manipulate -- i.e., move -- the map objects via dragging, and 'Add Objects' allows you to add new objects to the map.  The '+' button locks the latter mode so you can add several objects at a time, otherwise it will switch to 'Drag Object' after you add something.  You can also change the grid distance; that's also the distance the move buttons move objects on the map.  Finally, the grid display can be toggled by clicking on the grid size button itself.</p>
-<p>If there are any problems with the scenario, a row of alert buttons will appear along the bottom of the screen; to find out the details, you can select one of those buttons.</p>
-<p>When an object is selected, you can control its parameters from the menu that appears.  If alternate victory conditions are selected, you can set (or unset) ships or planets and asteroids as victory objectives with the star button at the bottom left of the menu.  To rename the object, select the button with its name.</p>
-<h3><span class="mw-headline" id="Parameters_Screen"> 6.1.2 Scenario Parameters Display </span></h3>
-<p>This scenario editor parameters display is used to configure the scenario metadata.  From here you can select how many/what players are in the scenario, the starting relations (or whether the players start at war), and the map size, name, and description of the scenario.</p>
-<p>The buttons on the bottom right are used to decide whether the ship and planet names (and players) are the ones you set in the scenario editor, or whether names and players will instead be randomly generated when the scenario is loaded for play.</p>
-<p>You can control the AI parameters (and keep them from changing or not) by selecting the button with the name of the computer player.  You can also set different victory conditions with the victory conditions button at the bottom of the display.</p>
-<h3><span class="mw-headline" id="Custom_AI_Screen"> 6.1.3 Custom AI Display </span></h3>
-<p>This is the screen that controls all of the AI settings and is available (via the parameters screen) for each of the computer players.  One thing to keep in mind is that the AI will sometimes try different strategies (especially if it's losing lots of planets or asteroids).  You can prevent that with the 'Fixed Strategy' button at the bottom left.</p>
-<p>The following parameters are available (note that for the most part, these strategies aren't really absolute; instead they shift the balance of the AI's default tendencies):</p>
-<dl><dt> Production Strategy:
-</dt><dd> This controls what proportion of production will be allocated towards ships or stations: using this parameter can tip the needle a little more towards one or the other than the computer normally would.
-</dd></dl>
-<dl><dt> Station Strategy:
-</dt><dd> Using this you can nudge the computer more towards creating new stations or upgrading the stations it already has.
-</dd></dl>
-<dl><dt> Ship Strategy:
-</dt><dd> With this, you can direct the computer to build more (or sometimes, less) of a particular class of ships.  It will still create all of the ship classes as needed, just in different proportions than it normally would.
-</dd></dl>
-<dl><dt> Posture Strategy:
-</dt><dd> This controls to what extent the computer will build large defensive garrisons, rather than holding back ships for counter-attacks.  Note that if you emphasize garrisons, if the computer does not have enough ships, it will have difficulty allocating garrisons if it has a large number of targets to defend (in particular, a large number of asteroids).  For that reason, if the computer starts with few ships (or has a lot of asteroids to defend), it's generally better to emphasize counter-attacks.
-</dd></dl>
-<dl><dt> Aggression Strategy:
-</dt><dd> This controls how aggressively the computer will play, i.e., whether it will attack when it sees a slight advantage, or whether it will wait and attack with more overwhelming force.
-</dd></dl>
-<dl><dt> Research Strategy:
-</dt><dd> This controls what proportion of production the computer will direct towards research.  Obviously, research tends to be wasted in shorter games; if the game will more likely go longer, research is more useful.
-</dd></dl>
-<dl><dt> Research Emphasis Strategy:
-</dt><dd> This controls what particular area of research the computer will emphasize.
-</dd></dl>
-<dl><dt> Target Selection Strategy:
-</dt><dd> This controls what sorts of targets (i.e., planets or asteroids) the computer will tend to target, with an emphasis on either the nearest targets, the least defended targets, or asteroids first.  Regardless of strategy, the computer will take distance and garrison strength into account; this only shifts the balance.
-</dd></dl>
-<dl><dt> Victory Planet Attack Strategy:
-</dt><dd> This controls how much the computer will emphasize victory condition planets or asteroids on the attack (in addition to the factors above).
-</dd></dl>
-<dl><dt> Victory Planet Defense Strategy:
-</dt><dd> This controls whether or not the computer will put larger garrisons on victory condition planets and asteroids; note that if the computer is short of ships, this could easily suck away ships used for attack or for defending other planets and asteroids, so use carefully.
-</dd></dl>
-<dl><dt> Victory Ship Attack Strategy:
-</dt><dd> This controls whether the computer will target ships designated as victory conditions.  Note that there are no options for computer-controlled victory condition ships (i.e., it will always treat them as normal).
-</dd></dl>
-<h3><span class="mw-headline" id="Custom_VC_Screen"> 6.1.4 Custom Victory Conditions Display </span></h3>
-<p>On this display (reachable via the parameters screen), you can modify what conditions are used to define victory and defeat.  You can also set a timer that will end the game (again either as a win or a loss, depending on which condition you choose).  If ships or planets are chosen as victory conditions, you'll need to select some on the editor map to fulfill the conditions.</p>
-<h3><span class="mw-headline" id="File_Manager_Screen"> 6.1.5 File Manager Display </span></h3>
-<p>Most of the scenario editor file manager display should be fairly obvious; 'Load' loads the scenario into memory, 'Save' saves over the listed file, 'Delete' deletes the file, 'Save New' in the side menu saves the currently loaded file as a new file. System scenarios are also listed on this screen (in orange, with [system] appended to the file name).  These can't be overwritten or deleted for obvious reasons, but you can load them into the editor, and if you then save the scenario, you can have a user scenario with the same name.  You also can't save invalid scenarios (which is indicated by an alert button on the bottom right).  In that case, you'll need to correct the scenario before saving it.  However, if you haven't finished creating your scenario and quit the game, it will autosave the scenario and you can pick it up from the scenario editor once you restart.</p>
-<p>There are some differences with how files are handled between the Mac and iPad version of the game:</p>
-<p><b>iPad:</b> file sharing for the iPad version is primarily done via iTunes; any files you save will be available under Apps -> File Sharing when the iPad is connected to iTunes.  From there, you can export scenarios to disk and share them however you'd like (i.e., via email, via our forums, or whatever).  Additionally, any scenario files you add there will show up as user scenarios inside of the game.</p>
-<p>The application also registers the .tscx suffix and application/tscx MIME types with iOS; this allows users to load files from email or to download files directly from web sites that support that (admittedly rather non-standard) MIME type (such as our forums).  Whenever those files are opened in email (by holding down the file name and selecting TSC) or in Safari (and 'Open in TSC' is selected), the files will be loaded directly into the game.  Unfortunately, as Safari doesn't allow uploading files (as well as for other reasons), it's more difficult to go the other direction, and so exporting scenarios requires using iTunes as above.  Note that importing files in this fashion will cause an 'Inbox' directory to be created in the App's document directory.  Once it exists, there's no known way to delete it (this seems to be a bug in iOS, neither the App nor iTunes seems to have permissions necessary to remove it).  However, it shouldn't cause any issues (well, you'll never be able to import a scenario named 'Inbox,' but I'm not sure why you'd ever want to name your scenario that).</p>
-<p><b>Mac:</b> to share (and load) scenarios, you can use the 'Export' and 'Import' buttons.  These will give you a standard OSX file dialog allowing you to load and save scenario files into (or from) the location of your choosing, from which you can then share them however you like (i.e., via email, via our forums, or whatever).</p>
-<h2><span class="mw-headline" id="Design_Considerations"> 6.2 Scenario Design Considerations </span></h2>
-<p>It should probably go without saying, but the most important thing to do when building a scenario is to test it.  It's often hard to predict how the AI will behave in advance (or, if the default random parameters are used for the AI, at all), but even slight differences in planet/asteroid positions can make large differences in how the AI approaches things.  It's also fairly easy to put the computer in positions it can't easily deal with, because, when you get right down to it, the AI is designed more to be very, very fast than to be particularly smart.  Since version 1.0, a fair amount of effort has been put into weeding out the more pathological parts of the AI that could be easily exploited, but that's only made it better, not perfect (and in less typical situations, it may have actually hurt it at times).</p>
-<p>Probably the most important thing to do to make it easy for the AI is to give it enough ships to match the type of strategies you expect it to use (i.e., if you don't give it many ships, don't ask it to build huge garrisons).  The AI plays much better when it has a lot of ships than when it only has a few, and it tends to deal with complexity reasonably well (although some geometries can trip it up badly).  It does less well on the "simple" scenarios because it can be more easily outmaneuvered -- it's not doing much deep thinking, it's mostly just reacting.</p>
-<p>Something else to take into account is that different scenario difficulties are mostly achieved by changing production efficiencies (i.e., the computer produces more ships at the Impossible difficulty level than it does at Easy).  At higher difficulties, the computer will also get better commanders, but overall the effect this has on difficulty is comparatively limited.  So if the computer doesn't have much (or anything) in the way of production facilities, extra effort may be required to balance the scenario for the average player.</p>
-<p>One thing in particular to note is that the computer takes no notice of which of its ships will trigger a loss if they are lost (i.e., it treats all of its ships the same, no matter if they're tagged as victory conditions or not).  For this and other reasons (i.e., how easy it is to game), using ships as victory conditions is probably best used only in certain circumstances -- i.e., when the player is otherwise forced to use the ships because that's all they have, or a timer forces them to carefully consider whether to commit them.  Or, perhaps, on the computer side, when their entire fleet is so designated and the player targets are fairly limited.  It's there as an option to try out, but to use it well probably will require some careful scenario design; the default victory conditions are far easier to work with.</p>
-<p>Ultimately, the AI plays the game pretty much the way the player does; it decides what planets build (influenced by the AI parameters), what targets to attack and what targets to bypass (again, influenced by the AI parameters), and how to organize its task forces once it's selected the targets to attack (or not); the computer has access to the same ships the player does, the same formations and options, and once those are set, the captains carry out their orders the same way they would if the human player had set it all up.  Fundamentally, it's playing the same game as a human player (albeit not as well as a talented human player would -- although certainly better than a new player could before they get the hang of the game -- hence the difficulty levels to keep things challenging).</a>
-<h1><span class="mw-headline" id="Design_Notes"> 7 Design Notes </span></h1>
-<p>It might be obvious to the player that the game probably draws more inspiration from something like Harpoon than 4X space games.  Of course, that was always the idea; it's meant to be a streamlined sort of experience where the player focuses on the disposition of their fleet and their missions rather than on things like exploration, tech trees, diplomacy, or even resource exploitation.  The fact that you can't design your ships (or even upgrade them with newer tech) was done entirely on purpose to keep that focus on the command aspects of the game and the scenarios themselves.  The interface was also kept spare and simple on purpose to further emphasize that abstract nature, as well as to directly evoke the sort of utilitarian aesthetic that modern command and control systems have tended to have (such as you might see in the US Navy's Aegis Combat System's Command Information Center).</p>
-<p>(In addition, the interface was also always meant from the beginning to be touch-friendly -- while the game was also released on OSX, and does take advantage of the slightly easier to use keyboad-and-mouse controls there, ultimately the iPad was always the primary design target.  The primary reason the Mac version exists is because it was easy; supporting both iOS and OSX APIs in Cocoa isn't so very difficult, the differences are mostly fairly minor.)</p>
-<p>I do like to think it makes the game a bit unique, and Harpoon isn't the only place it draws inspiration from.  The idea of commerce raiding is a core part of the game and something that draws inspiration from a number of sources (not least of which is Norm Koger's Stellar Crusade, which despite being a hard game to get into &#8212; I think it suffered a bit from the primitive interfaces of the time &#8212; did have some pretty interesting concepts in it.  I don't know how many people remember it, though).
-</p><p>Anyway, I hope players enjoy the game.
-</p><p>&#8212; Doug
-</p>
+      <p>Whenever you start the game up and you don't have a current autosave
+      (i.e., you've already won or lost your previous game, say), you'll go
+      directly to the new game screen instead of the tactical display.  In
+      general, you don't really need to worry about loading or saving the game
+      unless you want to; say if you want to try something and go back to the
+      previous point in the game if it doesn't work out, or you just don't feel
+      like finishing your current game until later and want to start a new one
+      instead.  The game will autosave anytime you quit (<em>Mac</em>) or any time
+      you background the application (<em>iPad</em> &mdash; this is triggered when you
+      hit the home button to go to the home screen or if you turn off the
+      display with the wake/sleep button, or if the device backgrounds the
+      application for any reason).</p>
 
+      <p>The <a href="#6">Scenario Editor</a> is also available
+      from the new game screen.</p>
+<h2><a href="#toc-anchor"><span id="4">4</span> Game Displays</a></h2>
+<p>The game is primarily organized by screen or display; see the following
+    sections for a discussion of the purpose of each.</p>
+
+    <div class="manual-screenshot-right">
+    <a href="../assets/tsc/manual/display-annotated.png"><img src="../assets/tsc/manual/display-annotated.png" alt="Tactical Display" class="ss-link" style="width: 400; height: 300;" /></a>
+      <div class="manual-screenshot-subtitle">
+        Tactical Display (iPad version, Mac version is similar)
+      </div>
     </div>
+<h3><a href="#toc-anchor"><span id="4.1">4.1</span> Tactical Display</a></h3>
+<p>The tactical display is the heart of the game, and you'll spend most
+      of your time here.  Most (but not quite all) things can be controlled from
+      this screen.  On this screen you can select planets, asteroids, ships and
+      stations and (assuming you control the selected items) give them orders or
+      objectives.  The various buttons around the side of the map are controls
+      or lead to other screens; if you want to see more of the map you can hide
+      menus by selecting the wide arrow buttons at the end of the menu (and of
+      course, you can select the buttons again to restore them).</p>
+
+      <p><em>iPad only</em>: there's also a button on the bottom left corner of
+      the screen that will expand or collapse all of the menus (except the speed
+      menu) at once.</p>
+
+      <p><em>Mac only</em>:  the hotkey: 'v' will also expand or collapse all of the
+      menus (except the speed menu) at once.</p>
+
+      <p>The menu on the top right side of the screen allows the user to
+      navigate to the other displays in the game.  The menu just inside of it
+      (the second-to-right menu along the top of the screen) controls various
+      displays on the map, i.e., whether to show names (or in the case of ships,
+      you can display ship classes instead of names) or other information.
+      Specifically, you can enable weapons, speed, or sensor range circles (see
+      <a href="#4.1.3">Circles</a>.
+      If 'All Circles' is also selected, then circles for all of your ships and
+      stations will be displayed (otherwise only the circles for the currently
+      selected ship, station or task force will be displayed).  If the 'All
+      Targets' button is selected, it will show the objectives for all of your
+      ships and task forces.  Finally, if there are any ship or
+      planet/asteroid-based victory conditions, a 'Show VC Targets' button will
+      be present and can be used to toggle whether or not those targets are
+      highlighted.</p>
+
+      <p><em>Mac only</em>: if the game is paused and the 'Show Info' button is
+      enabled, you can move the mouse over anything on the map to get more
+      information about it.</p>
+
+      <p>On the left side of the screen, between the help button and the speed
+      controls, are color-coded event icons (or, if you haven't started playing
+      yet, the left edge of the screen is where they'll appear when you do start
+      playing).  (See
+      <a href="#4.1.4">Events</a>
+      below for more).  On the bottom right of the screen you can control the
+      map view.  On the bottom left you can control time.   One thing to be
+      aware of is that if the game is already paused and you select the pause
+      button again, it will advance the clock one tick.  On the top left is the
+      main menu button &mdash; that's where you can save the game or start a new
+      one (or find additional help).</p>
+
+      <p>Finally, if the game has a time limit or other victory conditions,
+      buttons will appear in the center bottom of the display that will allow
+      you to see those details.</p>
+<h4><a href="#toc-anchor"><span id="4.1.1">4.1.1</span> Navigating the Map</a></h4>
+<p>In the bottom right corner of the tactical display are controls for
+        navigating the map; the arrows will move the map around, while the plus
+        and minus buttons zoom in and out, and the button with the circle in the
+        middle will recenter the map.  If you've selected something (by tapping
+        or clicking on it, or by selecting it from another screen or menu), you
+        can also center the display on it by selecting the button at the top of
+        the screen that contains the name of the item.  For ships, stations or
+        task forces, if you leave the button selected it will 'lock' the screen
+        on that object and follow it as the clock ticks until you select
+        something else or move the map, at which point the lock will be
+        lost.</p>
+
+        <p>There are also other ways to navigate the map, but these differ by
+        game platform:</p>
+
+        <p><em>iPad</em>: the map can be moved and zoomed via pinching and
+        dragging the map and should be fairly intuitive.  You can also center
+        and zoom the map with a double-tap (note that you can also select items
+        this way, so be careful).  The game also supports zooming out via a
+        two-finger double-tap, and you can also reset/recenter the map with a
+        three-finger double-tap.  However, as these gestures are slightly
+        difficult to master, you can also reset/recenter the map by
+        triple-tapping, or optionally zoom out with a triple-tap and
+        reset/recenter with a quadruple-tap (if you turn on that option from the
+        options screen).</p>
+
+        <p><em>Mac</em>: you can also navigate via hotkeys (cursor keys to move,
+        plus and minus to zoom, 'z' to recenter &mdash; also see the
+        <a href="#4.1.5">Hotkeys</a>
+        section below) or by dragging
+        the map with the mouse.  Scrolling (via two-finger touchpad scroll or
+        scroll wheel on a mouse) will zoom the map in and out, and pinch to zoom
+        is supported on touchpads.  Zooming can either be centered on the mouse
+        (default) or centered in the middle of the currently displayed screen
+        (set on the options display).</p>
+<h4><a href="#toc-anchor"><span id="4.1.2">4.1.2</span> Giving Orders</a></h4>
+<p>When a ship or task force is selected, giving orders varies by game
+        platform:</p>
+
+        <p><em>iPad</em>: orders can either be given by holding a touch on the map
+        or by selecting the 'Give Orders' button and then tapping on the
+        map.</p>
+
+        <p><em>Mac</em>: orders are given by right-clicking on the map.  This can
+        be done with a right mouse button, a ctrl-click, or two fingered click
+        on a touchpad.</p>
+
+        <p>If 'Add Waypoints' is selected, waypoints will be added to the
+        current orders (if possible &mdash; for instance, if current orders are
+        to attack, no waypoints can be appended and new orders will be given
+        instead).</p>
+
+        <p>If you select an enemy planet or asteroid when giving orders, the
+        currently selected ship or task force will be given attack orders (note
+        that it's impossible to attack a neutral planet, though you can sit on a
+        neutral asteroid if you really want to).  If the ship you're giving
+        orders to belongs to a task force, the orders are given to the entire
+        task force, not just the ship currently selected, so remember to remove
+        the ship from the task force first if you want to give it independent
+        orders.</p>
+
+        <p>If you select a friendly planet or asteroid, by default the current
+        ship or task force will be given defend orders.  If you select a planet
+        that has a spacedock, you can then switch the orders to dock if you like
+        (note that you may have to expand the overlay menu to see that option if
+        you've collapsed the menu) and the currently selected ship or task force
+        will return for repairs (note also that if you do this manually, any
+        ships you send back to repair will not undock on their own, so you might
+        want to keep an eye on your events &mdash; and make sure you haven't
+        disabled the relevant event in the Events Display).  If you select a
+        planet with a spacedock (or the spacedock itself) and the currently
+        selected ship is damaged, the orders will default to dock instead of
+        defend; in that case, all of the above caveats still apply.</p>
+
+        <p>If you select empty space when giving orders, one of several things
+        may happen: if the current selection is a task force (or one of most
+        types of ships), move orders will be given.  However, if the current
+        selection is a single raider, raid orders will be given.  If the current
+        selection is a sentry ship, sentry orders will be given, and if the ship
+        is an escort, patrol orders will be given.  You can then switch the
+        order type from the overlay menu.</p>
+
+        <p>For more on orders and order options, see
+        <a href="#5.1.4">Orders and Combat</a>
+        below.</p>
+<h4><a href="#toc-anchor"><span id="4.1.3">4.1.3</span> Circles</a></h4>
+<p>There are three kinds of circles available on the display:</p>
+
+        <dl><dt><em>Weapons</em></dt><dd>Weapons circles show the ranges of your ships'
+        weapons: the outer circle (marked 'M') is the range of missiles, and the
+        inner circle (marked 'B') is the range of beams.  If a ship isn't
+        equipped with one or the other of these weapons, it won't display that
+        circle.</dd></dl>
+
+        <dl><dt><em>Speed</em></dt><dd>Speed circles show the range of your ships. The
+        numbers refer to the number of ticks it takes to move that far, i.e.,
+        the circle marked 20 would take 20 ticks or 0.2 years to reach.  The
+        same goes for stations, although of course only along their
+        orbit.</dd></dl>
+
+        <dl><dt><em>Sensors</em></dt><dd>Sensor circles show the approximate range of
+        your sensors; the inner circle (marked 0.25) corresponds to the range
+        for raiders, the middle for escorts (1.0) and the outer circle (5.0) for
+        assault ships.  Various factors (such as nebulas, enemy tech levels and
+        commanders) can affect the actual ranges, however.</dd></dl>
+
+        <p>Note that if 'All Circles' is selected, it will show circles for all
+        of your ships and stations, otherwise only the circles for the currently
+        selected ship or station, or circles for the ships in the currently
+        selected task force will be displayed.</p>
+
+        <p><em>Mac only</em>: if 'Show Info' and circles are active at the same
+        time, range circles for the current warship will also be displayed under
+        the mouse pointer.</p>
+<h4><a href="#toc-anchor"><span id="4.1.4">4.1.4</span> Events</a></h4>
+<p>Event icons show up along the left side of the screen when various
+        events occur during the game (see the Events Display for more
+        information on how to control when they appear).  The events have
+        tooltips that appear if you hover over them (<em>Mac</em>) or hold them
+        down (<em>iPad</em>).  If you select an event, it will select the object
+        that triggered the event (e.g., the planet that built a ship, or maybe
+        the ship that's taking damage) on the tactical display.  If it's already
+        selected, selecting the event again will center and focus on it.  If you
+        have more events than fit on the screen, a button with three arrows will
+        appear above the events icons; if you click on it, the event icons will
+        expand into multiple rows on the display allowing you to manipulate them
+        (you can toggle the same button again to close them if you like, or it
+        will automatically disappear once you've dismissed enough event icons
+        that it's no longer needed).</p>
+
+        <p>If you're done with an event you can right-click on it to make it
+        disappear (<em>Mac</em> &mdash; this can be done with a right mouse
+        button, a ctrl-click, or two fingered click on a touchpad) or dismiss it
+        from the tooltip menu after you hold it down (<em>iPad</em> &mdash; you'll
+        also be given options to dismiss all events of the same type or all
+        events).</p>
+
+        <p><em>iPad only</em>: there is an options available in the options
+        display that will insert a 'close' button before or after the events
+        (depending on if you select the option to show it first or last).  That
+        button will allow you to close all events at once.</p>
+
+        <p><em>Mac only</em>: shift right-click will dismiss all events of the
+        same type (or all events if you've selected that option in the options
+        screen).</p>
+<h4><a href="#toc-anchor"><span id="4.1.5">4.1.5</span> Hotkeys</a></h4>
+<p><em>Mac only</em>: the following hotkeys all work on the tactical
+        display:</p>
+
+        <table class="manual-table">
+  <tr>
+    <td><em>Key</em></td>
+    <td><em>Action</em></td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>pause game/step paused game one tick</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>set speed 1 (also 2, 3, and 4)</td>
+  </tr>
+  <tr>
+    <td>z</td>
+    <td>recenter map</td>
+  </tr>
+  <tr>
+    <td> - [minus]</td>
+    <td>zoom out</td>
+  </tr>
+  <tr>
+    <td> + [plus]</td>
+    <td>zoom in</td>
+  </tr>
+  <tr>
+    <td>[arrow keys]</td>
+    <td>move map</td>
+  </tr>
+  <tr>
+    <td>[space]</td>
+    <td>focus on current selection</td>
+  </tr>
+  <tr>
+    <td>x</td>
+    <td>close current selection</td>
+  </tr>
+  <tr>
+    <td>v</td>
+    <td>hide/expose all menus (except speed menu)</td>
+  </tr>
+  <tr>
+    <td>p</td>
+    <td>toggle planet names</td>
+  </tr>
+  <tr>
+    <td>s</td>
+    <td>toggle ship names</td>
+  </tr>
+  <tr>
+    <td>w</td>
+    <td>toggle weapon circles</td>
+  </tr>
+  <tr>
+    <td>r</td>
+    <td>toggle speed circles</td>
+  </tr>
+  <tr>
+    <td>e</td>
+    <td>toggle sensor circles</td>
+  </tr>
+  <tr>
+    <td>o</td>
+    <td>toggle all circles</td>
+  </tr>
+  <tr>
+    <td>i</td>
+    <td>toggle mouseover tooltips on map</td>
+  </tr>
+</table>
+
+<h3><a href="#toc-anchor"><span id="4.2">4.2</span> Other Displays</a></h3>
+<p>Several of the following displays (Officers, Ships, Task Forces,
+      Planets, and Asteroids) all have some behavior in common: first, they all
+      have filters along the left side of the screen.  There are tooltips for
+      these filters, and the filters often come in sets that can be set
+      independently (as you can see by the boxes behind them).  For instance, on
+      the Officers Display, you can filter the display to only show unassigned
+      commanders or maybe admirals with current assignments.</p>
+
+      <p>The sort buttons along the top also have a direction which can be
+      reversed if the sort button is selected a second time.  In the case of the
+      Officers screen, the last sort button will cycle through the various
+      officer skills as well.</p>
+<h4><a href="#toc-anchor"><span id="4.2.1">4.2.1</span> Officer Display</a></h4>
+<p>This page shows all of your officers (which you need to command
+        ships, stations, and task forces).  As with several other pages, filters
+        are along the left side of the page (you can use tooltips to see what
+        they do, or refer to the list below) and you can use the buttons across
+        the top of the page to control sorting (note that the last button will
+        cycle through the various officer skills).  Skills are listed for each
+        officer (for more information on those skills, see
+        <a href="#5.2">Officers</a>,
+        and you can use the embedded
+        buttons to promote, demote, assign or remove officers when the option is
+        available (note that normally you'll be asked to confirm promotions and
+        demotions; if you'd like to disable this, see the options screen).</p>
+
+        <p>The following filter sets are available:</p>
+
+        <p>Box 1:</p>
+
+        <img src="../assets/tsc/manual/button-assign-officer.png" class="tsc-control" /> show unassigned officers<br />
+        <img src="../assets/tsc/manual/button-unassign-officer.png" class="tsc-control" /> show assigned officers
+
+        <p>Box 2:</p>
+
+        <img src="../assets/tsc/manual/button-admiral.png" class="tsc-control" />
+        show admirals<br />
+        <img src="../assets/tsc/manual/button-captain.png" class="tsc-control" />
+        show captains<br />
+        <img src="../assets/tsc/manual/button-commander.png" class="tsc-control" />
+        show commanders<br />
+        <img src="../assets/tsc/manual/button-ltcommander.png" class="tsc-control" />
+        show lt. commanders
+
+        <p>The following actions are available:</p>
+
+        <img src="../assets/tsc/manual/button-promote.png" class="tsc-control" />
+        promote officer<br />
+        <img src="../assets/tsc/manual/button-demote.png" class="tsc-control" />
+        demote officer<br />
+        <img src="../assets/tsc/manual/button-assign-officer.png" class="tsc-control" /> assign officer to a command<br />
+        <img src="../assets/tsc/manual/button-unassign-officer.png" class="tsc-control" /> remove officer from their current
+        command
+
+        <p></p>
+<h4><a href="#toc-anchor"><span id="4.2.2">4.2.2</span> Ship Display</a></h4>
+<p>This page shows all of your ships and stations.  As with several
+        other pages, filters are along the left side of the page (you can use
+        tooltips to see what they do, or refer to the list below) and you can
+        use the buttons across the top of the page to control sorting.  For each
+        ship, you can use the buttons to assign (or remove) officers, add ships
+        to (or remove ships from) a task force (the same button also undocks the
+        ship from a station), rename the ship, or find the ship on the tactical
+        display.</p>
+
+        <p>A couple of additional things to note: the green flag under a ship's
+        symbol indicates that it is the flagship of its task force.  Also, if
+        the ship has any 'kills' in battle, that's indicated by orange squares
+        at the bottom of that ship's box.</p>
+
+        <p>The following filter sets are available:</p>
+
+        <p>Box 1:</p>
+
+        <img src="../assets/tsc/manual/button-assign-officer.png" class="tsc-control" /> show ships without commanders<br />
+        <img src="../assets/tsc/manual/button-unassign-officer.png" class="tsc-control" /> show ships with commanders
+
+        <p>Box 2:</p>
+
+        <img src="../assets/tsc/manual/button-assign-tf.png" class="tsc-control" />
+        show ships not assigned to a task force (or docked in a station)<br />
+        <img src="../assets/tsc/manual/button-unassign-tf.png" class="tsc-control" />
+        show ships assigned to a task force (or docked in a station)
+
+        <p>Box 3:</p>
+
+        <img src="../assets/tsc/manual/button-ship.png" class="tsc-control" />
+        cycle through the classes of ships, starting with assault ships<br />
+        <img src="../assets/tsc/manual/button-station.png" class="tsc-control" />
+        show stations
+
+        <p>Box 4:</p>
+
+        <img src="../assets/tsc/manual/button-orders.png" class="tsc-control" />
+        show ships with no orders<br />
+        <img src="../assets/tsc/manual/button-combat.png" class="tsc-control" />
+        show ships with damage or are in combat
+
+        <p>The following actions are available:</p>
+
+        <img src="../assets/tsc/manual/button-assign-officer.png" class="tsc-control" />
+        assign an officer to assign that ship or station<br />
+        <img src="../assets/tsc/manual/button-unassign-officer.png" class="tsc-control" />
+        remove the officer currently commanding that ship or station<br />
+        <img src="../assets/tsc/manual/button-assign-tf.png" class="tsc-control" />
+        assign ship to a task force<br />
+        <img src="../assets/tsc/manual/button-unassign-tf.png" class="tsc-control" />
+        remove ship from a task force (or undock if docked)<br />
+        <img src="../assets/tsc/manual/button-rename.png" class="tsc-control" />
+        rename ship or station<br />
+        <img src="../assets/tsc/manual/button-find.png" class="tsc-control" />
+        find that ship or station on the tactical display
+
+        <p></p>
+<h4><a href="#toc-anchor"><span id="4.2.3">4.2.3</span> Task Force Display</a></h4>
+<p>This page shows all of your task forces.  As with several other
+        pages, filters are along the left side of the page (you can use tooltips
+        to see what they do, or see below) and you can use the buttons across
+        the top of the page to control sorting.  In addition, the button on the
+        lower left can collapse (or expand) the list of constituent ships, and
+        you can create new task forces (or change task force defaults) with the
+        buttons along the top left (note that changes in task force defaults are
+        saved across games).  For each task force, you can use the buttons to
+        assign (or remove) officers, add available ships to the task force,
+        rename it, find it on the tactical map, or disband the task force
+        altogether (see the tooltips for the buttons if it isn't obvious to you
+        which button is which).  Once ships are added to a task force (assuming
+        you haven't used the collapse button to collapse the display) you can
+        use the minus button on the right of a ship to remove it from the task
+        force.</p>
+
+        <p>The following filter sets are available:</p>
+
+        <p>Box 1:</p>
+
+        <img src="../assets/tsc/manual/button-assign-officer.png" class="tsc-control" />
+        show task forces without a commander<br />
+        <img src="../assets/tsc/manual/button-unassign-officer.png" class="tsc-control" /> show task forces with a commander
+
+        <p>Box 2:</p>
+
+        <img src="../assets/tsc/manual/button-full.png" class="tsc-control" />
+        show task forces with ships<br />
+        <img src="../assets/tsc/manual/button-empty.png" class="tsc-control" />
+        show empty task forces<br />
+        <img src="../assets/tsc/manual/button-orders.png" class="tsc-control" />
+        show task forces with no orders
+
+        <p>The following actions are available:</p>
+
+        <img src="../assets/tsc/manual/button-assign-officer.png" class="tsc-control" />
+        assign officer to command that task force<br />
+        <img src="../assets/tsc/manual/button-unassign-officer.png" class="tsc-control" />
+        remove officer currently commanding that task force<br />
+        <img src="../assets/tsc/manual/button-assign-tf.png" class="tsc-control" />
+        add ships to the task force<br />
+        <img src="../assets/tsc/manual/button-rename.png" class="tsc-control" />
+        rename task force<br />
+        <img src="../assets/tsc/manual/button-find.png" class="tsc-control" />
+        find task force on tactical display<br />
+        <img src="../assets/tsc/manual/button-disband.png" class="tsc-control" />
+        disband task force
+
+        <p></p>
+<h4><a href="#toc-anchor"><span id="4.2.4">4.2.4</span> Planetary Display</a></h4>
+<p>This page shows all of your planets (which produce all of your
+        ships).  As with several other pages, filters are along the left side of
+        the page (you can use tooltips to see what they do, or see the list of
+        filters below) and you can use the buttons across the top of the page to
+        control sorting.  In addition, you can collapse (or expand) production
+        queues with the button on the lower left.  For each planet, there are
+        three things you can do: toggle whether or not to continue building the
+        same ship when the production queue empties, add a ship (or station, or
+        station upgrade) to the production queue, or find the planet on the
+        tactical display.  If you toggle the repeat production setting on (it
+        will say 'repeat' after the number of items in the queue after the
+        planet name), whenever the queue empties, it will continue to build more
+        of the last ship in the queue (as long as the last item is a ship; it
+        won't continue building stations or upgrades).  If there are any items
+        in the production queue, you can use the buttons to the right of the
+        item to move them around in the queue or cancel production
+        altogether.</p>
+
+        <p>The following filters are available:</p>
+
+        <img src="../assets/tsc/manual/button-full.png" class="tsc-control" />
+        show planets with production in progress<br />
+        <img src="../assets/tsc/manual/button-empty.png" class="tsc-control" />
+        show planets with empty production queues<br />
+        <img src="../assets/tsc/manual/button-invasion.png" class="tsc-control" />
+        show planets currently being invaded<br />
+        <img src="../assets/tsc/manual/button-metal.png" class="tsc-control" />
+        show planets with insufficient metal for full production
+
+        <p>The following actions are available:</p>
+
+        <img src="../assets/tsc/manual/button-rebuild.png" class="tsc-control" />
+        repeat production (see above)<br />
+        <img src="../assets/tsc/manual/button-norebuild.png" class="tsc-control" />
+        stop repeating production<br />
+        <img src="../assets/tsc/manual/button-plus.png" class="tsc-control" />
+        add ships/stations/upgrades to that planet's production queue<br />
+        <img src="../assets/tsc/manual/button-find.png" class="tsc-control" />
+        find planet on tactical display
+
+        <p></p>
+<h4><a href="#toc-anchor"><span id="4.2.5">4.2.5</span> Asteroid Display</a></h4>
+<p>This page shows all of your asteroids (which produce metal for your
+        industry).  As with several other pages, filters are along the left side
+        of the page (you can use tooltips to see what they do, or see below) and
+        you can use the buttons across the top of the page to control sorting.
+        There are really only a couple of things you can do from this page:
+        control where asteroids ship their metal, and find the asteroid on the
+        tactical display.  Metal can be shipped to any planet, including enemy
+        planets &mdash; you might actually want to do this once in a while,
+        since bribing players with metal will improve relations and can help
+        stave off war.  Otherwise, you might want to route metal to somewhere
+        besides the nearest metal-hungry planet, say if an enemy planet is in
+        the way so that your cargo ships are getting intercepted (cargo ship
+        pilots aren't that smart, they fly in a straight line and land on the
+        first planet they reach, no matter who owns it.  Hey, they get paid
+        either way).</p>
+
+        <p>The following filters are available:</p>
+
+        <img src="../assets/tsc/manual/button-full.png" class="tsc-control" />
+        show asteroids with no targets, i.e., asteroids that send metal to the
+        nearby planet that needs it most automatically<br />
+        <img src="../assets/tsc/manual/button-empty.png" class="tsc-control" />
+        show asteroids with fixed targets<br />
+        <img src="../assets/tsc/manual/button-invasion.png" class="tsc-control" />
+        show asteroids currently being invaded
+
+        <p>The following actions are available:</p>
+
+        <img src="../assets/tsc/manual/button-full.png" class="tsc-control" />
+        set target to planet, i.e., ship metal to a fixed planet<br />
+        <img src="../assets/tsc/manual/button-empty.png" class="tsc-control" />
+        set target to auto, i.e., ship metal to any nearby planets that need
+        it<br />
+        <img src="../assets/tsc/manual/button-find.png" class="tsc-control" />
+        find asteroid on tactical display
+
+        <p></p>
+<h4><a href="#toc-anchor"><span id="4.2.6">4.2.6</span> Research Display</a></h4>
+<p>This is the research page; on this page you can see what research
+        you've completed and set how much of your industrial production is
+        directed towards research, as well as what areas you'd like to focus on.
+        At the bottom of the page is a single slider controlling the percentage
+        of your industrial production that will be allocated to research; note
+        that if you set it to 100% you won't produce any ships at all (only
+        research), and if you set it to 0%, you won't make any research progress
+        whatsoever. On the top right side of the page you can modify how much
+        research goes into various areas of technology using the sliders.  You
+        can also lock (or unlock) each of those areas with the buttons to the
+        right when editing your overall research focus.  To the left you can see
+        your current level of technology in each area and your progress to the
+        next level &mdash; note that reaching 100% will not automatically
+        advance your tech level; instead, as progress advances past 100%,
+        advancing to the next level will become more likely.</p>
+
+        <p>Note that ships' technology levels cannot be upgraded.  This is
+        offset somewhat by the experience ships will gain in combat &mdash; or
+        at a slower rate, just by operating in general.  This same limitation
+        does not apply to stations, which are automatically upgraded with the
+        latest technologies as they become available.</p>
+
+        <p>For more information on how research works, see the
+        <a href="#5.4">Research and Upgrades</a> section
+        below.</p>
+<h4><a href="#toc-anchor"><span id="4.2.7">4.2.7</span> Diplomacy Display</a></h4>
+<p>This is the diplomacy page; on this page you can see what your
+        current relations are with other players, and also what your current
+        diplomatic status is for those players (i.e., whether you're currently
+        at war, still at peace, or if the player has been eliminated).  There's
+        only one action that can be taken from this page &mdash; if your
+        relations are sufficiently poor (into the orange relations band) and you
+        aren't already at war with a player, you can declare war on that
+        player.</p>
+<h4><a href="#toc-anchor"><span id="4.2.8">4.2.8</span> Events Display</a></h4>
+<p>This is the event options page; here you control how the game will
+        respond to various triggered events.  For each event type you have the
+        choice of the following responses (from left to right for each
+        event):</p>
+
+        <img src="../assets/tsc/manual/button-event-pause.png" class="tsc-control" />
+        Pause the game and pop up an event alert;<br />
+        <img src="../assets/tsc/manual/button-event-alert.png" class="tsc-control" />
+        Pop up an event alert but don't pause the game;<br />
+        <img src="../assets/tsc/manual/button-event-ignore.png" class="tsc-control" />
+        Ignore the event (don't show any alert at all).
+
+        <p>As long as at least some of these event alerts are enabled, event
+        alerts appear on the left side of the tactical display during play; you
+        can select the referenced object by clicking on events, or remove events
+        via their tooltips by holding them down (<em>iPad</em>) or
+        right-clicking (<em>Mac</em>).  Note that event options are saved across
+        games, so if you change them for one game, they'll still be in effect
+        the next.  The possible events are not listed here in the manual; they
+        should be self-evident from the descriptions.</p>
+<h4><a href="#toc-anchor"><span id="4.2.9">4.2.9</span> Options Display</a></h4>
+<p>This is the user options page; various aspects of game play can be
+        controlled from here (for instance, the handling of officers &mdash;
+        assigning officers, promoting them, etc. &mdash; can be delegated to the
+        computer instead of having to micromanage everything yourself). The
+        effects of various options should (hopefully) be fairly evident from the
+        option descriptions but are also listed below. Note that user options
+        are saved across games, so if you change them for one game, they'll
+        still be in effect the next.</p>
+
+        <p>The following options are available:</p>
+
+        <ul>
+
+        <li> Enable sound effects/Volume: volume can also be adjusted here; note
+        that the volume is relative to system volume, so if you turn off the
+        device's sound, you won't hear anything no matter how high you set
+        this.</li>
+        <li> Adjust gamma: this is particularly useful if you have a dimmer
+        device (or prefer to keep the brightness low) but are having trouble
+        seeing everything on the tactical map.</li>
+        <li> Ask for confirmation before promoting or demoting officers.</li>
+        <li> Assign officers of appropriate rank as needed: let the computer
+        assign officers instead of handling it yourself (works best in concert
+        with the next option)</li>
+        <li> Promote officers as needed: let the computer promote officers when
+        you're short of officers of appropriate rank (works best in concert with
+        the above option)</li>
+        <li> Clear orders after evading enemy ships while raiding: otherwise
+        raiders will attempt to return to their ordered location once the area
+        is clear</li>
+        <li> Clear orders when threatened by enemy ships while on sentry duty:
+        otherwise sentry ships will try to return to their station</li>
+        <li> When tracking lost on ships being intercepted, switch orders to
+        move to last known location (otherwise clear): basically, whether or not
+        you want to chase ghosts</li>
+        <li> Return repaired warships to original task force.</li>
+        <li> Return repaired warships (not in task force) to original mission:
+        i.e., restore old orders once repaired</li>
+        <li> Continue building ships of same class when queue empties (disables
+        per-planet option when set).</li>
+        <li> Automatically generate random names for ships instead of using
+        numbered ships: the two options here are either name ships according to
+        the pattern 'TSC Name' or 'Cruiser 1' (i.e., by class name).</li>
+        <li> Show ship class prefix when displaying ship names: this will insert
+        a two-letter prefix before ship names, i.e., escorts would have the
+        prefix '[ES]' inserted before the name</li>
+        <li> Remove unacknowledged event icons after two years have passed:
+        otherwise all event icons must be dismissed by you</li>
+        <li> Reverse order of events (show oldest first instead of newest
+        first): this restores the old 1.0.x behavior if you prefer that</li>
+        <li> Automatically dismiss 'no production' event notification when new
+        production added to queue: unselect to get old behavior, requiring that
+        events be manually dismissed</li>
+        <li> Automatically dismiss 'no orders' event notification when ship or
+        task force given orders: unselect to get old behavior, requiring that
+        events be manually dismissed</li>
+        <li> Automatically dismiss 'no commander' event notification when
+        officer assigned: unselect to get old behavior, requiring that events be
+        manually dismissed</li>
+        <li> Show gameplay tips on startup: tips are also available from the
+        main menu (via top left on tactical display, browse help)</li>
+        <li> Show tutorial/help dialogs (turning this on will reset dialogs to
+        unviewed state: it will not restart the tutorial, however &mdash; that
+        needs to be launched from the new game screen</li>
+        <li> Enable transparency on tactical display overlay menus.</li>
+        <li> Enable red-green colorblind friendly palette.</li>
+
+        </ul>
+
+        <p><em>iPad only</em>:</p>
+
+        <ul>
+
+        <li> Automatically switch to order mode when ships or task forces
+        selected: this will set it so the next touch on the map will give an
+        order (better disabled if you prefer to long-touch to give orders)</li>
+        <li> Automatically switch to select mode when ships or task forces give
+        orders: otherwise you need to be very careful to unselect the 'Give
+        Order' button after you're done giving orders</li>
+        <li> Triple-tap zooms out (if selected, quadruple-tap centers map,
+        otherwise triple-tap does).</li>
+        <li> Include 'Close All' button with events: displays a button after all
+        the events that allows you to dismiss them with one button</li>
+        <li> If 'Close All' set, button comes first.</li>
+
+        </ul>
+
+        <p><em>Mac only</em>:</p>
+
+        <ul>
+
+        <li> Shift-right-click dismisses all events (otherwise dismisses all of
+        same type).</li>
+        <li> Zoom in on cursor (zooms on center of screen when disabled).</li>
+
+        </ul>
+<h2><a href="#toc-anchor"><span id="5">5</span> Game Concepts</a></h2>
+<p></p>
+<h3><a href="#toc-anchor"><span id="5.1">5.1</span> Warships and Combat</a></h3>
+<p></p>
+<h4><a href="#toc-anchor"><span id="5.1.1">5.1.1</span> Ship Classes</a></h4>
+<table class="manual-table">
+  <tr>
+    <td></td>
+    <td></td>
+    <td><em>Class</em></td>
+    <td><em>Cost</em>[1]</td>
+    <td><em>Beams</em></td>
+    <td><em>Missiles</em></td>
+    <td><em>Shields</em></td>
+    <td><em>Armor</em></td>
+    <td><em>Sensors</em></td>
+    <td><em>Speed</em></td>
+    <td><em>Profile</em></td>
+  </tr>
+  <tr>
+    <td><img src="../assets/tsc/manual/icon-station.png" class="tsc-icon" /></td>
+    <td></td>
+    <td>Station[2]</td>
+    <td>10</td>
+    <td>2</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>5</td>
+    <td>N/A</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td><img src="../assets/tsc/manual/icon-spacedock.png" class="tsc-icon" /></td>
+    <td></td>
+    <td>Spacedock[2]</td>
+    <td>30</td>
+    <td>2</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>5</td>
+    <td>N/A</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td><img src="../assets/tsc/manual/icon-escort.png" class="tsc-icon" /></td>
+    <td>ES</td>
+    <td>Escort</td>
+    <td>10</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>4</td>
+    <td>5</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><img src="../assets/tsc/manual/icon-raider.png" class="tsc-icon" /></td>
+    <td>RD</td>
+    <td>Raider</td>
+    <td>10</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0.25</td>
+    <td>3</td>
+    <td>4.5</td>
+    <td>0.25</td>
+  </tr>
+  <tr>
+    <td><img src="../assets/tsc/manual/icon-sentry.png" class="tsc-icon" /></td>
+    <td>SE</td>
+    <td>Sentry Ship</td>
+    <td>12</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0.25</td>
+    <td>7</td>
+    <td>3</td>
+    <td>0.25</td>
+  </tr>
+  <tr>
+    <td><img src="../assets/tsc/manual/icon-cruiser.png" class="tsc-icon" /></td>
+    <td>CA</td>
+    <td>Cruiser</td>
+    <td>30</td>
+    <td>3</td>
+    <td>1</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>4</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td><img src="../assets/tsc/manual/icon-missile.png" class="tsc-icon" /></td>
+    <td>CG</td>
+    <td>Missile&nbsp;Cruiser</td>
+    <td>45</td>
+    <td>1</td>
+    <td>3</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>3</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td><img src="../assets/tsc/manual/icon-assault.png" class="tsc-icon" /></td>
+    <td>AS</td>
+    <td>Assault&nbsp;Ship</td>
+    <td>50</td>
+    <td>2</td>
+    <td>0</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2.5</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td><img src="../assets/tsc/manual/icon-dreadnought.png" class="tsc-icon" /></td>
+    <td>DN</td>
+    <td>Dreadnought</td>
+    <td>70</td>
+    <td>5</td>
+    <td>1</td>
+    <td>5</td>
+    <td>5</td>
+    <td>2</td>
+    <td>3</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td><img src="../assets/tsc/manual/icon-ghost.png" class="tsc-icon" /></td>
+    <td></td>
+    <td>Sensor&nbsp;Ghost</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
+</table>
+
+
+        <p class="indent-override">[1] Production time in factory-years at
+        level zero production technology.<br />
+        [2] Each station level upgrade costs 5 factory-years and increases
+        shields and beams an additional 2 points, armor and missiles an
+        additional 1 point.  The station's profile also increase 2 points.</p>
+
+        <p>All listed values at level zero of relevant technology.</p>
+
+        <dl><dt><em>Station</em></dt><dd>A station is not a ship, it's simply a
+        weapons platform orbiting a planet.  All stations defending a planet
+        must be destroyed before a planet can be invaded.  Up to six stations
+        can be built per planet.</dd></dl>
+
+        <dl><dt><em>Spacedock</em></dt><dd>A spacedock is station that can also
+        repair ships (and allows ships to be built by a planet).  Only one
+        spacedock can be built per planet.</dd></dl>
+
+        <dl><dt><em>Escort</em></dt><dd>Fast with good sensors, but lightly
+        armed. Ideal for hunting down raiders and patrol duty, can be used to
+        soften up targets for larger warships but generally don't last long in
+        that role. Cheap enough that you can easily replace them when
+        destroyed.</dd></dl>
+
+        <dl><dt><em>Raider</em></dt><dd>Very lightly armed but difficult to
+        detect. Ideal for sneaking into enemy territory to destroy unarmed enemy
+        shipping.  Useless for any sort of combat against enemy
+        warships.</dd></dl>
+
+        <dl><dt><em>Sentry Ship</em></dt><dd>Unarmed and fragile but difficult
+        to detect; carries the longest ranged sensors in the game.  Use to help
+        hunt down raiders or to keep an eye on enemy fleet movements at the edge
+        of your territory.</dd></dl>
+
+        <dl><dt><em>Cruiser</em></dt><dd>The backbone of most fleets;
+        reasonably powerful without being prohibitively expensive.</dd></dl>
+
+        <dl><dt><em>Missile Cruiser</em></dt><dd>Slow but powerful, primarily
+        intended as a counter to dreadnoughts and heavily upgraded
+        stations.</dd></dl>
+
+        <dl><dt><em>Assault Ship</em></dt><dd>Used for assaulting enemy planets
+        and asteroids; the only ship that can capture them.  However, it is
+        expensive, slow and not heavily armed, and should be protected from
+        enemy attack.</dd></dl>
+
+        <dl><dt><em>Dreadnought</em></dt><dd>The heaviest (and most expensive)
+        line warship in the game; can inflict and withstand tremendous amounts
+        of damage.  Ideal for grinding up enemy ships.  Essentially just a
+        cruiser but larger.</dd></dl>
+
+        <p>A sensor ghost is not a ship at all, it is the last known position of
+        a ship on the tactical display.  As such, they can't be attacked by your
+        ships; you can only send your ships to the area you think it might have
+        moved (or not moved).  As time passes, sensor ghosts will fade out until
+        they disappear.  Likewise, when you lose sensor locks on stations, they
+        will also fade out; however, unlike ships, since stations' orbits are
+        well-known, the correct location of the station can continue to be
+        plotted.</p>
+<h4><a href="#toc-anchor"><span id="5.1.2">5.1.2</span> Weapons and Defenses and Other Stats</a></h4>
+<p>There are two types of weapons in the game: beams and missiles.
+        Missiles have twice the range of beams, but beams do twice the damage.
+        However, missiles have one other advantage over beams: the larger the
+        target, the more likely the missiles are to penetrate shields and do
+        direct damage to armor instead of just dissipating against shields like
+        beam weapons do.  This effect is very unlikely against small ships such
+        as escorts (and even against dreadnoughts it happens less than half the
+        time), but the general upshot is that missiles tend to be more effective
+        against larger targets and beams against smaller ones.</p>
+
+        <p>There are also two types of defenses: shields and armor.  The
+        difference here is that shields will regenerate during combat, but any
+        damage to armor must be repaired in a spacedock.  The exception is for
+        stations, which can repair their own armor (however, they do so much,
+        much more slowly than they regenerate their shields).</p>
+
+        <p>The effect of speed should be fairly obvious.  Faster ships go
+        farther more quickly.</p>
+
+        <p>Sensors are also fairly obvious.  The flip side is ship profile:
+        ships with smaller profiles are proportionally harder to detect.</p>
+
+        <p>One other note: ships' crews will also gain experience in combat, and
+        as they do so they will gain some small boost in combat effectiveness.
+        There really isn't an easy way to see how experienced a ship is except
+        if it happens to have destroyed a lot of enemy ships (which are marked
+        with orange squares on the Ships Display), but it does slightly offset
+        the fact that tech upgrades only affect new ships you build, not older
+        ones &mdash; there's no way to refit older ships with new
+        technology.</p>
+<h4><a href="#toc-anchor"><span id="5.1.3">5.1.3</span> Invasions</a></h4>
+<p>Planetary invasions are fairly difficult for a couple of reasons:
+        first, to effectively attack a planet you have to drop into orbit so you
+        don't have as much control over combat near planets as you would
+        otherwise.  If you don't drop your ships into orbit (i.e., set the enemy
+        planet as the ship/task force's objective), any ships near a planet but
+        not in orbit will fight at a severe disadvantage against orbiting
+        defenders.  The second reason is that heavily upgraded stations are
+        difficult to destroy, as they can be upgraded fairly cheaply but punch
+        at the level of two or three dreadnoughts when fully upgraded.  That may
+        not seem like so much, except that (assuming you let them) even
+        dreadnoughts will retreat when taking sufficient damage while stations
+        never can &mdash; and even doing 99% damage is not sufficient if the
+        attacking fleet breaks off before finishing the job.  That said,
+        stations are still vulnerable to being swarmed and even when a planet
+        has six stations defending it, since stations are too far apart to
+        support each other, as weapon ranges are not long enough to reach the
+        next station.</p>
+
+        <p>In both the case of planetary and asteroid invasions, you need
+        assault ships to actually capture them.  In both cases the defending
+        fleets need to be destroyed or driven off and no planetary invasion can
+        begin until all the defending stations are destroyed.  It's a good idea
+        to attack with multiple assault ships if you can, since the longer an
+        invasion takes, the more damage is done to existing infrastructure, and
+        the longer it takes to rebuild afterwards.  That said, given enough
+        time, a planet's mining and industry will eventually reach the level it
+        was at before the invasion &mdash; the destruction is never
+        permanent.</p>
+<h4><a href="#toc-anchor"><span id="5.1.4">5.1.4</span> Orders and Combat</a></h4>
+<p>The following types of orders are available in the game:</p>
+
+        <dl><dt><em>Move</em></dt><dd>If you select a point on the map, this is
+        the default type of order. If this order is assigned, the ships will
+        move to the destination regardless of the situation; they will fire at
+        enemy ships in range, but they will not otherwise pursue or avoid
+        them.</dd></dl>
+
+        <dl><dt><em>Patrol</em></dt><dd>Ships given this order will move to
+        their destination. However, if they detect enemy ships near the
+        destination, they will pursue them (assuming they aren't outclassed
+        &mdash; for instance, an escort will chase a raider, but if they see a
+        dreadnought, they would leave it alone).  You can control the pursuit
+        options for this order: if pursuit is set to 'Conservative' the ship
+        will tend to hold position (i.e., not chase enemies very far) and
+        prioritize protecting the area around the destination.  If pursuit is
+        set to 'Aggressive' it will chase the enemy as long as it has a sensor
+        lock to the ends of the universe (which might leave the destination
+        unprotected for other raiders, though, or otherwise disrupt an
+        established picket line).  'Normal' is somewhere in the middle &mdash;
+        it will pursue for a distance and then break off.</dd></dl>
+
+        <dl><dt><em>Raid</em></dt><dd>Ships given this order will move to their
+        destination. However, they will avoid any ships they detect along the
+        way &mdash; any time they are approached by enemy ships, they will bug
+        out.</dd></dl>
+
+        <dl><dt><em>Sentry</em></dt><dd>This order is the same as raid, except
+        the ships aren't as paranoid about bugging out; they won't move to avoid
+        enemy ships until they get relatively close.</dd></dl>
+
+        <dl><dt><em>Attack</em></dt><dd>This order applies to planets or
+        asteroids.  The main difference between asteroid and planet attacks
+        involves formations &mdash; for asteroids you have complete control over
+        formation shape and closing distance, for planets ships need to be in
+        orbit for maximum combat efficiency.  You can also control how
+        aggressive your captains are allowed to be when they detect secondary
+        targets en route (or fleeing in the case of asteroid attacks) &mdash;
+        the options are 'Aggressive', 'Conservative', or 'Hold Formation' in
+        which case they aren't allowed to break formation at all.</dd></dl>
+
+        <dl><dt><em>Defend</em></dt><dd>This order also applies to planets or
+        asteroids.  Again, the difference is how formations are handled.  See
+        <a href="#5.3.1">Formations</a>
+        for more information on that.</dd></dl>
+
+        <dl><dt><em>Dock</em></dt><dd>Send the ship/task force back for
+        repairs.  In the options display, you can set if you'd like this to
+        happen automatically when ships are damaged, and whether you'd like
+        ships automatically returned to their task force or orders when they're
+        done repairing.  Ships given dock orders will also avoid enemy ships on
+        the way back home.</dd></dl>
+
+        <dl><dt><em>Intercept</em></dt><dd>This order applies to enemy ships
+        (you can't use it on sensor ghosts, though, since ships can only pursue
+        things they can see &mdash; there is an option to move to the last known
+        location instead of breaking off pursuit if sensor lock is lost, but the
+        drawback to that is that the ships will just sit there when they arrive
+        and will need to be given new orders before they'll do anything).
+        Similar to attack, you can also control how your ships respond to
+        secondary targets of opportunity, whether to aggressively chase them or
+        ignore them completely.</dd></dl>
+
+        <p>Certain types of ships will default to certain types of orders: i.e.,
+        when you select a point on the map that isn't a ship, planet or asteroid
+        to give an order, normally move orders will be assigned, but if the ship
+        is a raider, it will default to raid orders; if it's a sentry ship, it
+        will default to sentry orders; and if it's an escort, it will default to
+        patrol orders.  Of course, you can always change the order type from the
+        order overlay menu.</p>
+
+        <p>No matter what orders are given, combat will always occur when enemy
+        ships are in range.  You can see this on the map by zooming in on the
+        area of combat; ships being hit by beams or missiles will show a shield
+        arc (even if they don't actually have shields &mdash; the tactical map
+        is an abstraction, not a direct representation of reality), with
+        missiles being marked by red lines intercepting it and beams by yellow
+        ones (though if you see beams, if the attack ship also has missiles,
+        both types of weapons will be engaged).  You can also turn the weapons
+        range circles on to get a better idea of what's going on; see
+        <a href="#4.1.3">Circles</a> above.</p>
+<h4><a href="#toc-anchor"><span id="5.1.5">5.1.5</span> Navigational Hazards</a></h4>
+<p>There are two basic types of navigational hazard in the game:
+        nebulas and debris fields.  Nebulas are marked with gray circles and
+        degrade sensors both when ships are inside of them and when attempting
+        to detect ships in them.  Debris fields are marked with roughly textured
+        circles and slow the progress of all ships passing through them,
+        including freighters.</p>
+
+        <p>Both types of fields can be of varying densities, and have effects
+        proportional to those densities.</p>
+<h3><a href="#toc-anchor"><span id="5.2">5.2</span> Officers</a></h3>
+<p>Officers are not something you really need to deal with unless you
+      want to &mdash; by default, the computer will promote and assign officers
+      as needed.  However, do note that the computer won't really spend a lot of
+      effort optimizing officer assignments, either.</p>
+<h4><a href="#toc-anchor"><span id="5.2.1">5.2.1</span> Ranks</a></h4>
+<p>There are four ranks in the game, they are as follows:</p>
+
+        <dl><dt><em>Admiral</em></dt><dd>Admirals are required to command task
+        forces; no lower rank will do.  Admirals are marked with four
+        chevrons.</dd></dl>
+
+        <dl><dt><em>Captain</em></dt><dd>Capital ships (also spacedocks) require
+        captains to command them.  Captains are marked with three
+        chevrons.</dd></dl>
+
+        <dl><dt><em>Commander</em></dt><dd>Commanders can command smaller ships
+        such as escorts, raiders, or regular stations.  Commanders are marked
+        with two chevrons.</dd></dl>
+
+        <dl><dt><em>Lt. Commander</em></dt><dd>These are essential candidate
+        officers for higher ranks; promote the best to command your ships,
+        stations, and task forces.  Lt. Commanders only have one
+        chevron.</dd></dl>
+
+        <p>Note that higher ranked officers can command lower commands, but it's
+        not particularly efficient to do so, since higher ranked officers don't
+        gain experience as quickly as lower ranked officers would.</p>
+<h4><a href="#toc-anchor"><span id="5.2.2">5.2.2</span> Skills and Experience</a></h4>
+<p>There are four types of skills that an officer can have, as well as
+        experience.  The skills are: attack skill, which obviously affects the
+        offensive capabilities of a ship commanded by that officer, i.e., beams
+        and weapons.  Defense skill can increase the speed at which shields
+        regenerate (and increase the chance of dodging missiles).  Engineering
+        skill allows commanders to run their engines more efficiently (i.e.,
+        faster), increases their ship's effective sensor range, and if the
+        officer commands a spacedock, increases the speed of repairs in that
+        spacedock.  Finally, command skill only applies to admirals, but the
+        higher their skill, the more effectively they can apply their other
+        skills to all of the ships under their command.</p>
+
+        <p>Experience, on the other hand, is not a skill, but allows skills to
+        be utilized.  That is, a commander with high skill but no experience
+        cannot apply their skill, but a commander with high experience but no
+        skill is in the same position because they have no skill to effectively
+        apply.  The best thing to have is a commander with both high skill and
+        high experience, since those skills can be applied effectively.</p>
+
+        <p>Any officer given a post will gain experience, although officers
+        involved in combat will gain experience much more quickly than officers
+        simply commanding a ship or station.  Also, lower-ranked officers gain
+        skill more quickly than higher-ranked ones.  Finally, when an officer is
+        new and inexperienced, their skills are not yet well-known; this
+        uncertainty is indicated by the orange part of their skill bar (i.e.,
+        their skill is somewhere in the orange range, but until the officer gets
+        more experienced, it isn't known where yet).  As an officer gains
+        experience, that uncertainty will also drop, eventually disappearing
+        altogether.  Another thing to consider is that anytime you promote an
+        officer to a higher rank, that officer will lose a portion of their
+        experience (you can get some of it back by demoting the officer, but
+        never quite as much as they lost in the first place).  Their skills,
+        however, will not change, and eventually they will gain experience back
+        in their new rank (assuming that you've assigned them somewhere).</p>
+<h4><a href="#toc-anchor"><span id="5.2.3">5.2.3</span> Losing Officers in Combat</a></h4>
+<p>Whenever you lose a ship in combat, there is a chance you'll also
+        lose the commanding officer.  Even worse, if that ship is the flagship
+        of a task force, you could lose the admiral in command of the task force
+        as well.</p>
+
+        <p>The odds of losing your officer depends mainly on how close you lose
+        it to surviving ships (or a planet under your control).  I.e., if you
+        lose a ship (say, a raider) deep in enemy territory, the odds are pretty
+        low that the captain may have escaped and that you'll recover the escape
+        pod.  The odds are much better if the ship is part of a large task force
+        with other ships available for rescue operations, or if the ship (or
+        station) is in orbit of one of your planets.</p>
+<h3><a href="#toc-anchor"><span id="5.3">5.3</span> Task Forces</a></h3>
+<p>Task forces are a handy way to organize your ships and give them
+      objectives.  The advantages of having a task force include the ability to
+      assign admirals (who can give a skill boost to everyone under their
+      command) as well as assigning formations to your ships to aid in effective
+      attacks or defensive stands.  That said, there are cases where having a
+      task force is probably not a good idea, say for raiders or sentry ships
+      which work better alone (in which case giving one ship an admiral doesn't
+      confer enough benefit to be worth the risk of losing that officer if the
+      ship is lost.  Not to mention the fact that a skill boost would barely
+      make any difference in the effectiveness of those ships at their tasks
+      even if it was more significant than it is).</p>
+<h4><a href="#toc-anchor"><span id="5.3.1">5.3.1</span> Formations</a></h4>
+<p>Task forces can be given various formations in the game depending on
+        circumstances and specific orders.  The following formations are
+        available:</p>
+
+        <dl><dt><em>No Formation - Best Speed</em></dt><dd>This formation is
+        only available when intercepting enemy ships or moving; basically this
+        is a lack of formation and all ships in the task force will move at
+        maximum speed towards the target/destination.</dd></dl>
+
+        <p>The following formations are only available for planetary combat
+        (i.e., attacking or defending planets &mdash; for both of these, assault
+        ships will always be in the center where they're most protected/engage
+        last):</p>
+
+        <dl><dt><em>Escort Out</em></dt><dd>Lighter ships lead and trail, will
+        hopefully soften up the targets before larger ships engage.</dd></dl>
+
+        <dl><dt><em>Capital Out</em></dt><dd>The heavier ships lead and trail
+        and so will engage first.</dd></dl>
+
+        <p>The following formations are available for movement and asteroid
+        attack/defense (in the case of line formations used for attacks, assault
+        ships will form an additional line behind the other ships &mdash;
+        assault ships aren't ideal for defense and probably should be left out
+        of those task forces altogether).</p>
+
+        <dl><dt><em>Sphere</em></dt><dd>Ships will form concentric circles with
+        the heaviest ships in the middle.  In the case of asteroid defense,
+        ships will instead form a circle around the asteroid with the heaviest
+        ships in the center oriented towards attacking fleets.</dd></dl>
+
+        <dl><dt><em>Line</em></dt><dd>Ships will form a single line, heaviest
+        ships in the center</dd></dl>
+
+        <dl><dt><em>Two Line - Escort Ahead</em></dt><dd>Ships will form two
+        lines, heaviest ships in the center, escorts in front</dd></dl>
+
+        <dl><dt><em>Two Line - Capital Ahead</em></dt><dd>Ships will form two
+        lines, heaviest ships in the center, escorts behind</dd></dl>
+
+        <p>In all cases, you can control your ship spacing, from 'Tight' to
+        'Normal' to 'Loose'.  Tight is generally good if you want to maximize
+        damage inflicted (at the cost of taking more), loose is better for
+        minimizing damage to your ships (or perhaps surrounding a planet if you
+        have enough ships so that you can engage enemy ships before they make
+        orbit).  For asteroid attacks or defense, you can also attempt to close
+        to a particular distance (although whether you actually succeed or not
+        at engaging at a a particular distance depends on what your opponent
+        chooses to do).</p>
+
+        <p>In addition to force disposition, the formation controls also allow
+        you to control when ships go back to spacedock for repairs.  If you have
+        the formation controls up on the tactical display and have any damaged
+        ships in the current task force, you can also send any damaged ships
+        back for repairs immediately regardless of what the current auto-repair
+        threshold is set to.</p>
+
+        <p>You can set formation defaults in the Task Force Display (see the
+        'Task Force Defaults' button along the top of the display) &mdash; those
+        defaults will apply to all future orders, but will not affect any orders
+        already given (note that saved defaults are persistent, so the next game
+        will use the same defaults).  Also, remember that when you give commands
+        to any ship in a task force, you're giving it to the whole task force,
+        so if you want to give a ship independent orders, remember to detach it
+        from the task force first.</p>
+<h4><a href="#toc-anchor"><span id="5.3.2">5.3.2</span> Other Considerations</a></h4>
+<p>When building new ships, you can have them automatically assigned to
+        a task force (perhaps a reserve task force or one you use for staging
+        your attacks). This option is available any time one of your planets is
+        selected on the tactical display.</p>
+
+        <p>Note that task forces organize around their flagship; this can have
+        unintended consequences when a new flagship is assigned (say, a new
+        heavy ship is built and automatically assigned, or repaired in a
+        spacedock and rejoins the fleet).  If the rest of the fleet is far away
+        somewhere else on the map, you may see them all racing back across the
+        map to get back into formation around the new flagship.  In that case,
+        it might be a good idea to form up your task force somewhere safe before
+        sending them in to attack.</p>
+<h3><a href="#toc-anchor"><span id="5.4">5.4</span> Research and Upgrades</a></h3>
+<p>Research works very simply in the game; you select a percentage of
+      your industrial capacity and apply it to research.  Of course, if you set
+      it too high, it can significantly slow (or even completely halt) your
+      warship production.  Also, even if you don't assign a planet anything to
+      produce, it will still only use the set percentage for research, the rest
+      of that planet's production will sit idle (although it will save
+      metal).</p>
+
+      <p>Research also advances very slowly.  Reaching 100% to the next level
+      isn't enough by itself to tick the level over; instead the chance of
+      advancing to the next level continues to increase as you go past 100%.
+      Also, it takes a lot of research to increase the stats of new ships you
+      build; each level will only increase them by 2%, so it takes fifty levels
+      for a 1.0 point stat to reach 2.0 (and research will slow slightly as you
+      advance as well &mdash; there's no maximum level, however, so that
+      theoretically research can advance forever, even if it gets slower and
+      slower).</p>
+
+      <p>For the most part, what effect research has should be fairly obvious.
+      Shields increase the shield stats for new construction, armor, missiles,
+      beams, and sensors are the same.  Engines increase ship's speed.  The more
+      interesting ones are stealth, which slowly lowers ships' profiles (making
+      them harder to detect) and production, which increases the rate at which
+      you can build things.</p>
+
+      <p>For the most part, tech increases do not affect existing ships &mdash;
+      the exception is for stations which will be upgraded with the latest and
+      greatest tech.  Ships' crews, however, will gain experience, which helps
+      to offset that effect somewhat.</p>
+<h3><a href="#toc-anchor"><span id="5.5">5.5</span> Economy and Commerce Raiding</a></h3>
+<p></p>
+<h4><a href="#toc-anchor"><span id="5.5.1">5.5.1</span> How the Economy Works</a></h4>
+<p>Economics in the game is fairly simple: there is only one resource,
+        metal.  Metal is produced by asteroids (and on some planets) and then
+        shipped via freighters (shown on the map as lines of dots between their
+        source and destination) to planets that need it to run their factories
+        (industry).  Without metal, industry will sit idle and no production
+        will occur.  Adequately supplied industry can produce ships, stations,
+        or station upgrades.  That's really all there is to it.</p>
+
+        <p>By default, asteroids will send metal to whatever nearby planets need
+        it most.  You can override that if, say, if you're trying to minimize
+        trade routes.  In addition, planets with large surpluses of metal will
+        also ship it to nearby planets (occasionally to each other if you're
+        swimming in metal &mdash; lucky you), but you don't have any control
+        over that if and when it occurs.</p>
+<h4><a href="#toc-anchor"><span id="5.5.2">5.5.2</span> Commerce Raiders and Counters</a></h4>
+<p>Commerce raiding is generally best done with raiders (although any
+        warship will destroy enemy freighters in range).  Pretty much all there
+        is to it is sending your raiders to sit on a line of freighters
+        somewhere &mdash; any freighter within missile range will be destroyed
+        (you might check the weapons circle for your raider to line things up).
+        Although there isn't any direct feedback when you succeed, you can count
+        up freighters destroyed on the score display in the main menu &mdash; if
+        you see a line of enemy freighters coming into missile range and
+        stopping, that's what's going on.  Do note that raiders given raid
+        orders will bug out at the slightest provocation to save their hides and
+        come back to raid another day, but given how fragile the ships are,
+        that's probably how you want it.</p>
+
+        <p>You're given a lot more feedback when your own freighters are
+        destroyed so that you can do something about it; there is an event that
+        will fire anytime you're losing shipping.  In that case, you probably
+        want to send escorts to patrol that area and hunt raiders.  While it's
+        nice when you successfully destroy enemy raiders (and with enough effort
+        and planning, and support from sentry ships, it's almost always possible
+        &mdash; the question is more if it's worth the resources to do so),
+        simply leaving escorts at key points along your trade routes will
+        prevent your shipping from being attacked (which is really the goal,
+        when you get down to it).  In many cases, you might consider that good
+        enough.  There are any number of strategies you might try, from ignoring
+        shipping losses altogether (probably not a good idea) to only responding
+        when you actually lose shipping, to aggressively hunting and trapping
+        raiders, to simply building a perimeter around your territory to keep
+        them out.  Given that every ship sent to chase raiders is a ship not
+        available for offensive operations, how you balance that is up to
+        you.</p>
+<h3><a href="#toc-anchor"><span id="5.6">5.6</span> Diplomacy</a></h3>
+<p>This being, well, a tactical space combat command game, diplomacy
+      isn't really an important part of the game, and in fact, some scenarios go
+      straight to war without any setup time.  That said, there are a few things
+      to know.</p>
+
+      <p>First, there are no alliances; in games with multiple computer players,
+      eventually everyone will end up fighting everyone else.  There are also no
+      peace treaties &mdash; once war starts, it's a fight to the end.</p>
+
+      <p>Second, there are some minor ways that you can influence how quickly
+      you go to war.  If you send metal from your asteroids to neutral planets,
+      you can slow down (or possibly even reverse) the countdown to war.  On the
+      other hand, if you send ships into 'enemy territory' early (i.e.,
+      somewhere between their planets and/or asteroids), you can speed up the
+      countdown.  And, of course, once relations have gone negative, you can
+      always start war immediately.  As long as relations stay negative,
+      however, war is inevitable &mdash; and the worse they are, the higher the
+      chance that the computer player will declare war any given turn.</p>
+<h3><a href="#toc-anchor"><span id="5.7">5.7</span> Managing Events</a></h3>
+<p>TSC isn't exactly a turn-based game and it isn't exactly an RTS, it's
+      more of a quantum RTS where things happen every discrete tick of the
+      clock.  As such, much of the time you'll just want to let the clock go
+      until something important happens, but events can stop the game and tell
+      you that there's something you need to deal with.</p>
+
+      <p>There are events for practically everything that happens in the game
+      (and some of them may only seem subtly different, like having an event
+      both for when a ship is engaged in combat and when a ship is taking
+      damage, but depending on how you play, you may want to use one or the
+      other or maybe even both).  Events allow you to customize how you play and
+      when you might want to intervene, i.e., what you want to be told about and
+      what is important enough to stop everything so you can respond to it.
+      There are, however, a few things to be aware of: one, if an event has
+      already fired once and not been dismissed, it will not fire again for the
+      same object.  E.g., if an enemy starts an assault on an asteroid, but you
+      drive them off, if you leave the event up without dismissing it, it will
+      not fire again when they return and start a new assault.  Likewise, if a
+      ship is in combat, only one event will fire until that event is dismissed,
+      no matter how much more combat that ship sees.  The other thing to be
+      aware of is that if you disable a whole bunch of events (say, at the end
+      of the game), they'll still be disabled at the beginning of the next game,
+      so if you tend to do that you might want to reset a few things when you
+      start a new game.</p>
+<h2><a href="#toc-anchor"><span id="6">6</span> Scenario Editor</a></h2>
+<p>The scenario editor allows the user to create and share their own
+    scenarios, or modify the new scenarios that were added with v1.2 of Tactical
+    Space Command (the new scenarios were all created using the editor; the
+    older scenarios are all generated internally by the game instead so they
+    can't be loaded into the editor).  It can be reached from the new game
+    screen.</p>
+<h3><a href="#toc-anchor"><span id="6.1">6.1</span> Editor Screens</a></h3>
+<p></p>
+<h4><a href="#toc-anchor"><span id="6.1.1">6.1.1</span> Editor Map Display</a></h4>
+<p>The editor map display shows the scenario map.  On this screen you
+        can create, delete, move, or edit all of the game objects such as
+        planets, asteroids, ships, nebulas, and debris/asteroid fields.  It's
+        navigated pretty much the same way the regular map is &mdash; there are
+        navigation controls on the bottom right, and you can go to the other
+        screens with the buttons at the top right, or control the display.</p>
+
+        <p>There are three editing modes, each of which is indicated by a button
+        at the top left.  'Drag Map' allows you to manipulate the map view
+        itself by dragging it (and can also keep you from accidentally moving
+        objects as you edit), 'Drag Object' allows you to manipulate &mdash;
+        i.e., move &mdash; the map objects via dragging, and 'Add Objects'
+        allows you to add new objects to the map.  The '+' button locks the
+        latter mode so you can add several objects at a time, otherwise it will
+        switch to 'Drag Object' after you add something.  You can also change
+        the grid distance; that's also the distance the move buttons move
+        objects on the map.  Finally, the grid display can be toggled by
+        clicking on the grid size button itself.</p>
+
+        <p>If there are any problems with the scenario, a row of alert buttons
+        will appear along the bottom of the screen; to find out the details, you
+        can select one of those buttons.</p>
+
+        <p>When an object is selected, you can control its parameters from the
+        menu that appears.  If alternate victory conditions are selected, you
+        can set (or unset) ships or planets and asteroids as victory objectives
+        with the star button at the bottom left of the menu.  To rename the
+        object, select the button with its name.</p>
+<h4><a href="#toc-anchor"><span id="6.1.2">6.1.2</span> Scenario Parameters Display</a></h4>
+<p>This scenario editor parameters display is used to configure the
+        scenario metadata.  From here you can select how many/what players are
+        in the scenario, the starting relations (or whether the players start at
+        war), and the map size, name, and description of the scenario.</p>
+
+        <p>The buttons on the bottom right are used to decide whether the ship
+        and planet names (and players) are the ones you set in the scenario
+        editor, or whether names and players will instead be randomly generated
+        when the scenario is loaded for play.</p>
+
+        <p>You can control the AI parameters (and keep them from changing or
+        not) by selecting the button with the name of the computer player.  You
+        can also set different victory conditions with the victory conditions
+        button at the bottom of the display.</p>
+<h4><a href="#toc-anchor"><span id="6.1.3">6.1.3</span> Custom AI Display</a></h4>
+<p>This is the screen that controls all of the AI settings and is
+        available (via the parameters screen) for each of the computer players.
+        One thing to keep in mind is that the AI will sometimes try different
+        strategies (especially if it's losing lots of planets or asteroids).
+        You can prevent that with the 'Fixed Strategy' button at the bottom
+        left.</p>
+
+        <p>The following parameters are available (note that for the most part,
+        these strategies aren't really absolute; instead they shift the balance
+        of the AI's default tendencies):</p>
+
+        <dl><dt><em>Production Strategy</em></dt><dd>This controls what
+        proportion of production will be allocated towards ships or stations:
+        using this parameter can tip the needle a little more towards one or the
+        other than the computer normally would.</dd></dl>
+
+        <dl><dt><em>Station Strategy</em></dt><dd>Using this you can nudge the
+        computer more towards creating new stations or upgrading the stations it
+        already has.</dd></dl>
+
+        <dl><dt><em>Ship Strategy</em></dt><dd>With this, you can direct the
+        computer to build more (or sometimes, less) of a particular class of
+        ships.  It will still create all of the ship classes as needed, just in
+        different proportions than it normally would.</dd></dl>
+
+        <dl><dt><em>Posture Strategy</em></dt><dd>This controls to what extent
+        the computer will build large defensive garrisons, rather than holding
+        back ships for counter-attacks.  Note that if you emphasize garrisons,
+        if the computer does not have enough ships, it will have difficulty
+        allocating garrisons if it has a large number of targets to defend (in
+        particular, a large number of asteroids).  For that reason, if the
+        computer starts with few ships (or has a lot of asteroids to defend),
+        it's generally better to emphasize counter-attacks.</dd></dl>
+
+        <dl><dt><em>Aggression Strategy</em></dt><dd>This controls how
+        aggressively the computer will play, i.e., whether it will attack when
+        it sees a slight advantage, or whether it will wait and attack with more
+        overwhelming force.</dd></dl>
+
+        <dl><dt><em>Research Strategy</em></dt><dd>This controls what proportion
+        of production the computer will direct towards research.  Obviously,
+        research tends to be wasted in shorter games; if the game will more
+        likely go longer, research is more useful.</dd></dl>
+
+        <dl><dt><em>Research Emphasis Strategy</em></dt><dd>This controls what
+        particular area of research the computer will emphasize.</dd></dl>
+
+        <dl><dt><em>Target Selection Strategy</em></dt><dd>This controls what
+        sorts of targets (i.e., planets or asteroids) the computer will tend to
+        target, with an emphasis on either the nearest targets, the least
+        defended targets, or asteroids first.  Regardless of strategy, the
+        computer will take distance and garrison strength into account; this
+        only shifts the balance.</dd></dl>
+
+        <dl><dt><em>Victory Planet Attack Strategy</em></dt><dd>This controls
+        how much the computer will emphasize victory condition planets or
+        asteroids on the attack (in addition to the factors above).</dd></dl>
+
+        <dl><dt><em>Victory Planet Defense Strategy</em></dt><dd>This controls
+        whether or not the computer will put larger garrisons on victory
+        condition planets and asteroids; note that if the computer is short of
+        ships, this could easily suck away ships used for attack or for
+        defending other planets and asteroids, so use carefully.</dd></dl>
+
+        <dl><dt><em>Victory Ship Attack Strategy</em></dt><dd>This controls
+        whether the computer will target ships designated as victory conditions.
+        Note that there are no options for computer-controlled victory condition
+        ships (i.e., it will always treat them as normal).</dd></dl>
+<h4><a href="#toc-anchor"><span id="6.1.4">6.1.4</span> Custom Victory Conditions Display</a></h4>
+<p>On this display (reachable via the parameters screen), you can
+        modify what conditions are used to define victory and defeat.  You can
+        also set a timer that will end the game (again either as a win or a
+        loss, depending on which condition you choose).  If ships or planets are
+        chosen as victory conditions, you'll need to select some on the editor
+        map to fulfill the conditions.</p>
+<h4><a href="#toc-anchor"><span id="6.1.5">6.1.5</span> File Manager Display</a></h4>
+<p>Most of the scenario editor file manager display should be fairly
+        obvious; 'Load' loads the scenario into memory, 'Save' saves over the
+        listed file, 'Delete' deletes the file, 'Save New' in the side menu
+        saves the currently loaded file as a new file. System scenarios are also
+        listed on this screen (in orange, with [system] appended to the file
+        name).  These can't be overwritten or deleted for obvious reasons, but
+        you can load them into the editor, and if you then save the scenario,
+        you can have a user scenario with the same name.  You also can't save
+        invalid scenarios (which is indicated by an alert button on the bottom
+        right).  In that case, you'll need to correct the scenario before saving
+        it.  However, if you haven't finished creating your scenario and quit
+        the game, it will autosave the scenario and you can pick it up from the
+        scenario editor once you restart.</p>
+
+        <p>There are some differences with how files are handled between the Mac
+        and iPad version of the game:</p>
+
+        <p><em>iPad:</em> file sharing for the iPad version is primarily done
+        via iTunes; any files you save will be available under Apps -> File
+        Sharing when the iPad is connected to iTunes.  From there, you can
+        export scenarios to disk and share them however you'd like (i.e., via
+        email, via our forums, or whatever).  Additionally, any scenario files
+        you add there will show up as user scenarios inside of the game.</p>
+
+        <p>The application also registers the .tscx suffix and application/tscx
+        MIME types with iOS; this allows users to load files from email or to
+        download files directly from web sites that support that (admittedly
+        rather non-standard) MIME type (such as our forums).  Whenever those
+        files are opened in email (by holding down the file name and selecting
+        TSC) or in Safari (and 'Open in TSC' is selected), the files will be
+        loaded directly into the game.  Unfortunately, as Safari doesn't allow
+        uploading files (as well as for other reasons), it's more difficult to
+        go the other direction, and so exporting scenarios requires using iTunes
+        as above.  Note that importing files in this fashion will cause an
+        'Inbox' directory to be created in the App's document directory.  Once
+        it exists, there's no known way to delete it (this seems to be a bug in
+        iOS, neither the App nor iTunes seems to have permissions necessary to
+        remove it).  However, it shouldn't cause any issues (well, you'll never
+        be able to import a scenario named 'Inbox,' but I'm not sure why you'd
+        ever want to name your scenario that).</p>
+
+        <p><em>Mac:</em> to share (and load) scenarios, you can use the 'Export'
+        and 'Import' buttons.  These will give you a standard OSX file dialog
+        allowing you to load and save scenario files into (or from) the location
+        of your choosing, from which you can then share them however you like
+        (i.e., via email, via our forums, or whatever).</p>
+<h3><a href="#toc-anchor"><span id="6.2">6.2</span> Design Considerations</a></h3>
+<p>It should probably go without saying, but the most important thing to
+      do when building a scenario is to test it.  It's often hard to predict how
+      the AI will behave in advance (or, if the default random parameters are
+      used for the AI, at all), but even slight differences in planet/asteroid
+      positions can make large differences in how the AI approaches things.
+      It's also fairly easy to put the computer in positions it can't easily
+      deal with, because, when you get right down to it, the AI is designed more
+      to be very, very fast than to be particularly smart.  Since version 1.0, a
+      fair amount of effort has been put into weeding out the more pathological
+      parts of the AI that could be easily exploited, but that's only made it
+      better, not perfect (and in less typical situations, it may have actually
+      hurt it at times).</p>
+
+      <p>Probably the most important thing to do to make it easy for the AI is
+      to give it enough ships to match the type of strategies you expect it to
+      use (i.e., if you don't give it many ships, don't ask it to build huge
+      garrisons).  The AI plays much better when it has a lot of ships than when
+      it only has a few, and it tends to deal with complexity reasonably well
+      (although some geometries can trip it up badly).  It does less well on the
+      "simple" scenarios because it can be more easily outmaneuvered &mdash;
+      it's not doing much deep thinking, it's mostly just reacting.</p>
+
+      <p>Something else to take into account is that different scenario
+      difficulties are mostly achieved by changing production efficiencies
+      (i.e., the computer produces more ships at the Impossible difficulty level
+      than it does at Easy).  At higher difficulties, the computer will also get
+      better commanders, but overall the effect this has on difficulty is
+      comparatively limited.  So if the computer doesn't have much (or anything)
+      in the way of production facilities, extra effort may be required to
+      balance the scenario for the average player.</p>
+
+      <p>One thing in particular to note is that the computer takes no notice of
+      which of its ships will trigger a loss if they are lost (i.e., it treats
+      all of its ships the same, no matter if they're tagged as victory
+      conditions or not).  For this and other reasons (i.e., how easy it is to
+      game), using ships as victory conditions is probably best used only in
+      certain circumstances &mdash; i.e., when the player is otherwise forced to
+      use the ships because that's all they have, or a timer forces them to
+      carefully consider whether to commit them.  Or, perhaps, on the computer
+      side, when their entire fleet is so designated and the player targets are
+      fairly limited.  It's there as an option to try out, but to use it well
+      probably will require some careful scenario design; the default victory
+      conditions are far easier to work with.</p>
+
+      <p>Ultimately, the AI plays the game pretty much the way the player does;
+      it decides what planets build (influenced by the AI parameters), what
+      targets to attack and what targets to bypass (again, influenced by the AI
+      parameters), and how to organize its task forces once it's selected the
+      targets to attack (or not); the computer has access to the same ships the
+      player does, the same formations and options, and once those are set, the
+      captains carry out their orders the same way they would if the human
+      player had set it all up.  Fundamentally, it's playing the same game as a
+      human player (albeit not as well as a talented human player would &mdash;
+      although certainly better than a new player could before they get the hang
+      of the game &mdash; hence the difficulty levels to keep things
+      challenging).</a>
+<h2><a href="#toc-anchor"><span id="7">7</span> Design Notes</a></h2>
+<p>It might be obvious to the player that the game probably draws more
+    inspiration from something like Harpoon than 4X space games.  Of course,
+    that was always the idea; it's meant to be a streamlined sort of experience
+    where the player focuses on the disposition of their fleet and their
+    missions rather than on things like exploration, tech trees, diplomacy, or
+    even resource exploitation.  The fact that you can't design your ships (or
+    even upgrade them with newer tech) was done entirely on purpose to keep that
+    focus on the command aspects of the game and the scenarios themselves.  The
+    interface was also kept spare and simple on purpose to further emphasize
+    that abstract nature, as well as to directly evoke the sort of utilitarian
+    aesthetic that modern command and control systems have tended to have (such
+    as you might see in the US Navy's Aegis Combat System's Command Information
+    Center).</p>
+
+    <p>(In addition, the interface was also always meant from the beginning to
+    be touch-friendly &mdash; while the game was also released on OSX, and does
+    take advantage of the slightly easier to use keyboad-and-mouse controls
+    there, ultimately the iPad was always the primary design target.  The
+    primary reason the Mac version exists is because it was easy; supporting
+    both iOS and OSX APIs in Cocoa isn't so very difficult, the differences are
+    mostly fairly minor.)</p>
+
+    <p>I do like to think it makes the game a bit unique, and Harpoon isn't the
+    only place it draws inspiration from.  The idea of commerce raiding is a
+    core part of the game and something that draws inspiration from a number of
+    sources (not least of which is Norm Koger's Stellar Crusade, which despite
+    being a hard game to get into &mdash; I think it suffered a bit from the
+    primitive interfaces of the time &mdash; did have some pretty interesting
+    concepts in it.  I don't know how many people remember it, though).</p>
+
+    <p>Anyway, I hope players enjoy the game.</p>
+
+    <p>&mdash; Doug</p>
+
+
+</div>
 
   </div>
 

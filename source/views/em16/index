@@ -42,7 +42,7 @@ template "templates/main.template"
       <p>This is the Election Manager 2016 release trailer:</p>
 
       <div class="video-border" style="float: left">
-        <iframe width="480" height="300" src="http://www.youtube.com/embed/zIw-WI2uBdk" frameborder="0" allowfullscreen></iframe>
+        <iframe width="480" height="270" src="http://www.youtube.com/embed/zIw-WI2uBdk" frameborder="0" allowfullscreen></iframe>
       </div>
 
     </td>

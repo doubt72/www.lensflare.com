@@ -4,7 +4,8 @@ Yosemite):</p>
 { links = ""
   0.upto(4) do |x|
     links += link("em16/screenshot-mac0#{x}}.png",
-                  image("em16/t/screenshot-mac0#{x}}.png"))
+                  image("em16/t/screenshot-mac0#{x}}.png",
+                        {class: 'ss-link'}}))
   end
   links }
 
@@ -13,7 +14,8 @@ Yosemite):</p>
 { links = ""
   0.upto(4) do |x|
     links += link("em16/screenshot-ipad0#{x}}.png",
-                  image("em16/t/screenshot-ipad0#{x}}.png"))
+                  image("em16/t/screenshot-ipad0#{x}}.png",
+                        {class: 'ss-link'}}))
   end
   links }
 
@@ -22,7 +24,8 @@ Yosemite):</p>
 { links = ""
   0.upto(4) do |x|
     links += link("em16/screenshot-47in0#{x}}.png",
-                  image("em16/t/screenshot-47in0#{x}}.png"))
+                  image("em16/t/screenshot-47in0#{x}}.png",
+                        {class: 'ss-link'}}))
   end
   links }
 

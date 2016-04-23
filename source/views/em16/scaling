@@ -28,14 +28,16 @@ template "templates/main.template"
           links += "<nobr>#{set[0]}}:"
           links += link("em16/comparison-#{set[1]}}.png",
                         image("em16/t/comparison-#{set[1]}}.png",
-                              {style: "vertical-align: middle;"}}))
-          links += "</nobr>"
+                              {style: "vertical-align: middle;",
+                               class: 'ss-link'}}))
+          links += "</nobr> "
         end
         links }
 
       <p>You can also compare layouts all at once in the following diagram:</p>
 
-      { link("em16/comparison-all.png", image("em16/t/comparison-all.png")) }
+      { link("em16/comparison-all.png", image("em16/t/comparison-all.png",
+                                              {class: 'ss-link'}})) }
 
       <p>So, other than squeezing in more of the interface (and
       requiring less scrolling to access it), there isn't any real
