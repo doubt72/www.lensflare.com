@@ -1,6 +1,6 @@
 id "support"
 title "Lensflare Games LLC"
-css ["css/main.css"]
+css ["css/main.css", "css/color-lfg.css"]
 template "templates/main.template"
 --
 { image("lfg-logo-200.png", {style: "float: right;"}}) }
@@ -56,4 +56,3 @@ template "templates/main.template"
   notes and bug fixes is { link("tsc-changes", "available here") }.</p>
 
 </div>
-

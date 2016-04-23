@@ -1,6 +1,6 @@
 id "em16-scaling"
 title "Election Manager 2016"
-css ["css/main.css"]
+css ["css/main.css", "css/color-em16.css"]
 template "templates/em16.template"
 --
 <table>

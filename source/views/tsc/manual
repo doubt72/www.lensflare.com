@@ -1,6 +1,6 @@
 id "tsc-manual"
 title "Tactical Space Command"
-css ["css/main.css"]
+css ["css/main.css", "css/color-tsc.css"]
 template "templates/tsc.template"
 manual_data [
   "Tactical Space Command Online Manual",

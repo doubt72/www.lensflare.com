@@ -1,6 +1,6 @@
 id "home"
 title "Lensflare Games LLC"
-css ["css/main.css"]
+css ["css/main.css", "css/color-lfg.css"]
 template "templates/main.template"
 --
 <table>

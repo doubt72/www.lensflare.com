@@ -1,0 +1,94 @@
+/* general */
+
+body {
+  background-color: #001100;
+  color: #99aa99;
+}
+
+a {
+  color: #009900;
+}
+
+a:hover {
+  color: #00ff00;
+}
+
+em {
+  color: #999900;
+}
+
+h1,h2,h3,h4 {
+  color: #009900;
+  border-bottom: 1px solid #444400;
+}
+
+/* title and header */
+
+span.title {
+  color: #009900;
+}
+
+span.title-game {
+  color: #009900;
+}
+
+div.header {
+  background-color: #003300;
+}
+
+a.current {
+  color: #ffffff;
+}
+
+/* main content */
+
+img.ss-link {
+  border: solid 2px #003300;
+}
+
+div.footnote {
+  border-top: 1px solid #003300;
+}
+
+/* special for videos */
+
+div.video-border {
+  background-color: #003300;
+}
+
+div.video-border-old {
+  background-color: #003300;
+}
+
+/* manual formatting */
+
+div.manual h2 span {
+  color: #444400;
+}
+
+div.manual h3 span {
+  color: #444400;
+}
+
+div.manual h4 span {
+  color: #444400;
+}
+
+div.manual li span {
+  color: #999900;
+}
+
+div.manual-screenshot-right {
+  background-color: #001100;
+}
+
+div.manual-screenshot-left {
+  background-color: #001100;
+}
+
+/* footers */
+
+div.footer {
+  background-color: #003300;
+  color: #009900;
+}

@@ -1,6 +1,6 @@
 id "about"
 title "Lensflare Games LLC"
-css ["css/main.css"]
+css ["css/main.css", "css/color-lfg.css"]
 template "templates/main.template"
 --
 { image("lfg-logo-400.png", {style: "float: right;"}}) }
@@ -56,4 +56,3 @@ template "templates/main.template"
   LLC.  It's a legal thing.
 
 </div>
-

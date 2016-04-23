@@ -1,6 +1,6 @@
 id "tsc"
 title "Tactical Space Command"
-css ["css/main.css"]
+css ["css/main.css", "css/color-tsc.css"]
 template "templates/tsc.template"
 --
 <table>

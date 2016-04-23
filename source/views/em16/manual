@@ -1,6 +1,6 @@
 id "em16-manual"
 title "Election Manager 2016"
-css ["css/main.css"]
+css ["css/main.css", "css/color-em16.css"]
 template "templates/em16.template"
 manual_data ["Election Manager 2016 Online Manual",
   "<p>Welcome to the Election Manager 2016 online manual.  This version of the

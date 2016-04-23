@@ -12,3 +12,4 @@ http://www.lensflare.com/
 ## TODO
 
 * split color CSS/theme Games
+* favicons

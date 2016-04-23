@@ -1,6 +1,6 @@
 id "bmbfs16"
 title "Boaty McBoatface Simulator 2016"
-css ["css/main.css"]
+css ["css/main.css", "css/color-lfg.css"]
 template "templates/main.template"
 --
 <table>

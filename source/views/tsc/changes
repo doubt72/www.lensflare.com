@@ -1,9 +1,11 @@
 id "tsc-changes"
 title "Tactical Space Command"
-css ["css/main.css"]
+css ["css/main.css", "css/color-tsc.css"]
 template "templates/tsc.template"
 --
-{ image("tsc-250.png", {style: "float: right;"}}) }
+<div class="manual-screenshot-right">
+  { image("tsc-256.png") }
+</div>
 
 <div class="section">
   <h1>Previous Versions</h1>
