@@ -73,7 +73,15 @@ span.title {
 
 span.title-llc {
   font-size: 10px;
+}
+
+span.title-game {
+  font-size: 36px;
   color: #ffee99;
+}
+
+span.header-llc {
+  font-size: 8px;
 }
 
 div.header {

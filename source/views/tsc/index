@@ -1,7 +1,7 @@
 id "tsc"
 title "Tactical Space Command"
 css ["css/main.css"]
-template "templates/main.template"
+template "templates/tsc.template"
 --
 <table>
   <tr>

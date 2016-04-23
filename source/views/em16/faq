@@ -1,7 +1,7 @@
 id "em16-faq"
 title "Election Manager 2016"
 css ["css/main.css"]
-template "templates/main.template"
+template "templates/em16.template"
 --
 { image("em16-250.png", {style: "float: right;"}}) }
 

@@ -1,7 +1,7 @@
 id "tsc-manual"
 title "Tactical Space Command"
 css ["css/main.css"]
-template "templates/main.template"
+template "templates/tsc.template"
 manual_data [
   "Tactical Space Command Online Manual",
   "<p>Welcome to the TSC online manual.  This version of the manual is current

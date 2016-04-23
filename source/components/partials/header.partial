@@ -1,11 +1,19 @@
-<span class="title">Lensflare Games</span>
-<span class="title-llc">LLC</span>
 
+{ if (page.game == 'lfg')
+  '<span class="title">Lensflare Games' +
+    '<span class="title-llc"> LLC</span></span>'
+  elsif (page.game == 'em16')
+    '<span class="title-game">Election Manager 2016</span>'
+  else
+    '<span class="title-game">Tactical Space Command</span>'
+  end }
 <div class="header">
   <span class="header-right">
-    { link("about", "About Us", {self_class: "current"}}) }
+    { text = page.game == 'lfg' ? 'About Us' :
+        'Lensflare Games<span class="header-llc"> LLC</span>'
+      link('about', text, {self_class: 'current'}}) }
   </span>
-  { link("home", "Games", {self_class: "current"}}) }
-  { link("support", "Support", {self_class: "current"}}) }
-  { link("help", "Help", {self_class: "current"}}) }
+  { link('home', 'Games', {self_class: 'current'}}) }
+  { link('support', 'Support', {self_class: 'current'}}) }
+  { link('help', 'Help', {self_class: 'current'}}) }
 </div>
