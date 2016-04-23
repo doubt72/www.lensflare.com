@@ -25,15 +25,24 @@ h1,h2,h3,h4 {
 /* title and header */
 
 span.title {
-  color: #009900;
+  color: #999900;
 }
 
 span.title-game {
-  color: #009900;
+  color: #999900;
 }
 
 div.header {
+  margin-top: 5px;
   background-color: #003300;
+}
+
+div.header a {
+  color: #999900;
+}
+
+div.header a:hover {
+  color: #ffff00;
 }
 
 a.current {

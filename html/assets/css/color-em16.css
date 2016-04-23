@@ -2,7 +2,7 @@
 
 body {
   background-color: #eeeeee;
-  color: #333333;
+  color: #555555;
 }
 
 a {
@@ -14,8 +14,7 @@ a:hover {
 }
 
 em {
-  font-weight: bold;
-  color: #333377;
+  color: #993333;
 }
 
 h1,h2,h3,h4 {
@@ -34,15 +33,16 @@ span.title-game {
 }
 
 div.header {
-  background-color: #ccccee;
+  margin-top: 5px;
+  background-color: #bbbbdd;
 }
 
 div.header a {
-  color: #990000;
+  color: #ffffff;
 }
 
 div.header a:hover {
-  color: #aa5555;
+  color: #ddddee;
 }
 
 a.current {
@@ -98,6 +98,6 @@ div.manual-screenshot-left {
 /* footers */
 
 div.footer {
-  background-color: #ccccee;
-  color: #990000;
+  background-color: #bbbbdd;
+  color: #ffffff;
 }

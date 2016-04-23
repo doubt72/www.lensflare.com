@@ -11,7 +11,7 @@
   <span class="header-right">
     { link('about', 'About Us', {self_class: 'current'}}) }
   </span>
-  { text = page.game == 'lfg' ? 'Games' : 'Lensflare Games'
+  { text = page.game == 'lfg' ? 'Games' : 'Lensflare'
     link('home', text, {self_class: 'current'}}) }
   { link('support', 'Support', {self_class: 'current'}}) }
   { link('help', 'Help', {self_class: 'current'}}) }
