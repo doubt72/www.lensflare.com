@@ -2,6 +2,11 @@ id "em16-manual"
 title "Election Manager 2016"
 css ["css/main.css", "css/color-em16.css"]
 template "templates/em16.template"
+favicon [
+  [16, 'icon', 'favicon/em16-16.png'],
+  [32, 'icon', 'favicon/em16-32.png'],
+  [152, 'apple-touch-icon', 'favicon/em16-152.png']
+]
 manual_data ["Election Manager 2016 Online Manual",
   "<p>Welcome to the Election Manager 2016 online manual.  This version of the
   manual is current for version 1.0.3 of Election Manager 2016.</p>

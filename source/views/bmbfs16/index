@@ -2,6 +2,11 @@ id "bmbfs16"
 title "Boaty McBoatface Simulator 2016"
 css ["css/main.css", "css/color-lfg.css"]
 template "templates/main.template"
+favicon [
+  [16, 'icon', 'favicon/lensflare-16.png'],
+  [32, 'icon', 'favicon/lensflare-32.png'],
+  [152, 'apple-touch-icon', 'favicon/lensflare-152.png']
+]
 --
 <table>
   <tr>

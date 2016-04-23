@@ -2,6 +2,11 @@ id "tsc"
 title "Tactical Space Command"
 css ["css/main.css", "css/color-tsc.css"]
 template "templates/tsc.template"
+favicon [
+  [16, 'icon', 'favicon/tsc-16.png'],
+  [32, 'icon', 'favicon/tsc-32.png'],
+  [152, 'apple-touch-icon', 'favicon/tsc-152.png']
+]
 --
 <table>
   <tr>
