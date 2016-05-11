@@ -1,0 +1,16 @@
+<div id="main">
+{ page.set :game, 'lfg'
+  include("partials/header.partial") }
+
+  <div id="blog-sidebar">
+    { date_sidebar }
+    { tag_sidebar }
+    { rss_feed("rss feed") }
+  </div>
+
+  <div id="content">
+{ body }
+  </div>
+
+{ include("partials/footer.partial") }
+</div>

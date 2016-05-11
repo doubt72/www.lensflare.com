@@ -1,0 +1,91 @@
+<html>
+<head>
+  <title>fourth tag</title>
+  <link rel="stylesheet" href="../../assets/css/main.css" type="text/css" />
+  <link rel="stylesheet" href="../../assets/css/color-lfg.css" type="text/css" />
+  <link rel="icon" type="image/png" href="../../assets/favicon/lensflare-16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="../../assets/favicon/lensflare-32.png" sizes="32x32" />
+  <link rel="apple-touch-icon" type="image/png" href="../../assets/favicon/lensflare-152.png" sizes="152x152" />
+</head>
+<body>
+<div id="main">
+
+<span class="title">Lensflare Games<span class="title-llc"> LLC</span></span>
+<div class="header">
+  <span class="header-right">
+    <a href="../../about.html">About Us</a>
+  </span>
+  <a href="../../index.html">Games</a>
+  <a href="../index.html">Blog</a>
+  <a href="../../support.html">Support</a>
+  <a href="../../help.html">Help</a>
+</div>
+
+
+  <div id="blog-sidebar">
+    <script type="text/javascript">
+function toggleDate(elem) {
+  var html_class = elem.className;
+  var children = elem.parentNode.childNodes;
+  if (html_class == 'blog_date_collapsed') {
+    elem.className = 'blog_date_expanded';
+    children[3].style.display = 'block';
+    elem.innerHTML = '&#9662;'
+  } else if (html_class == 'blog_date_expanded') {
+    elem.className = 'blog_date_collapsed';
+    children[3].style.display = 'none';
+    elem.innerHTML = '&#9656;'
+  }
+}
+</script>
+<div class="blog-date-sidebar">
+<ul style="list-style-type: none;">
+  <li style="clear: both;"><span class="blog_date_expanded" style="float: left; width: 1em; cursor: pointer;" onclick="toggleDate(this);">&#9662;</span><span>2016</span>
+    <ul style="list-style-type: none; display: block;">
+      <li style="clear: both;"><span class="blog_date_expanded" style="float: left; width: 1em; cursor: pointer;" onclick="toggleDate(this);">&#9662;</span><span>May</span>
+        <ul style="list-style-type: none; display: block;">
+          <li style="clear: both;"><a href="../test2.html">test2</a></li>
+          <li style="clear: both;"><a href="../test3.html">test3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li style="clear: both;"><span class="blog_date_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleDate(this);">&#9656;</span><span>2015</span>
+    <ul style="list-style-type: none; display: none;">
+      <li style="clear: both;"><span class="blog_date_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleDate(this);">&#9656;</span><span>May</span>
+        <ul style="list-style-type: none; display: none;">
+          <li style="clear: both;"><a href="../test1.html">test1</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+</div>
+
+    <div class="blog-tag-sidebar">
+<ul>
+<li><a href="first.html">first (3)</a></li>
+<li><a href="fourth.html">fourth (1)</a></li>
+<li><a href="second.html">second (1)</a></li>
+<li><a href="third.html">third (2)</a></li>
+</ul>
+</div>
+
+    <a href="rss.xml">rss feed</a>
+  </div>
+
+  <div id="content">
+<span class="blog-filter">Currently filtering on: <em>fourth</em></span><p><a href="../test1.html">test1</a> <span class="blog-date">[2015-05-06]</span></p>
+<p><a href="../test3.html">test3</a> <span class="blog-date">[2016-05-04]</span></p>
+<p><a href="../test2.html">test2</a> <span class="blog-date">[2016-05-06]</span></p>
+
+  </div>
+
+<div class="footer">
+  Copyright &copy;2013-2016 Lensflare Games LLC.  All Rights
+  Reserved.
+</div>
+
+</div>
+</body>
+</html>
