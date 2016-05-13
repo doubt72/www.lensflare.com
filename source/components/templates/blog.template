@@ -16,10 +16,10 @@
 
         <p>Tags: { tag_list }</p>
 
-        <span class="blog-nav">{ oldest_link("<< oldest") }</span>
-        <span class="blog-nav">{ previous_link("< older") }</span>
-        <span class="blog-nav">{ next_link("newer >") }</span>
-        <span class="blog-nav">{ newest_link("newest >>") }</span>
+        <span class="blog-nav">{ oldest_link("<< first") }</span>
+        <span class="blog-nav">{ previous_link("< prev") }</span>
+        <span class="blog-nav">{ next_link("next >") }</span>
+        <span class="blog-nav">{ newest_link("last >>") }</span>
         <div>&nbsp;</div>
 
         <div class="blog-small-description">

@@ -11,6 +11,8 @@
 
         { include("partials/blog-description.partial") }
 
+        <h2>Blog Entries:</h2>
+
         { body }
 
       </div>

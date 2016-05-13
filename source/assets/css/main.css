@@ -271,16 +271,19 @@ span.blog-date {
 span.prev-blog-page {
   padding: 0.25em 1em;
   margin: 0em 1em 0em 0em;
+  border-radius: 5px;
 }
 
 span.next-blog-page {
   padding: 0.25em 1em;
   margin: 0em 1em 0em 0em;
+  border-radius: 5px;
 }
 
 span.blog-nav {
   padding: 0.25em 1em;
   margin: 0em 1em 0em 0em;
+  border-radius: 5px;
 }
 
 span.blog-entry-date {
