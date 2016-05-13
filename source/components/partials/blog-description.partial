@@ -1,0 +1,19 @@
+{ image('icon-doug.jpg', {class: 'doug-icon'}}) }
+
+<p class="blog-description-top">{ site.blog_description }
+
+Doug has strong opinions (loosely held) about many things &mdash; he could claim
+that he doesn't speak for Lensflare Games, but that'd be silly considering that
+(for all practical purposes) he is Lensflare Games.  Still (for what little it
+matters) he's not always wearing that hat here.  And yes, this is an actual
+picture of Doug (okay, not really, but the story behind it is too long to go
+into right now).</p>
+
+<p>This blog doesn't currently support comments (mainly because most of the
+people reading this are probably spammers and/or close friends and/or indulgent
+family members), so if you'd like to comment on anything here, send Doug a note
+via <a href="mailto:doubt@lensflare.com">email</a> or ping him on <a
+href="https://www.twitter.com/doubt72">twitter</a>.  He's always happy to hear
+from people, especially when they want to talk about games.</p>
+
+<div style="clear: left;">&nbsp;</div>

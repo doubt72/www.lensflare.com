@@ -2,15 +2,24 @@
 { page.set :game, 'lfg'
   include("partials/header.partial") }
 
-  <div id="blog-sidebar">
-    { date_sidebar }
-    { tag_sidebar }
-    { rss_feed("rss feed") }
-  </div>
+<table class="blog-table">
+  <tr>
+    <td>
+      <div id="content">
 
-  <div id="content">
-{ body }
-  </div>
+        <h1>{ page.title }</h1>
+
+        { include("partials/blog-description.partial") }
+
+        { body }
+
+      </div>
+    </td>
+    <td class="td-blog-sidebar">
+      { include("partials/blog-sidebar.partial") }
+    </td>
+  </tr>
+</table>
 
 { include("partials/footer.partial") }
 </div>

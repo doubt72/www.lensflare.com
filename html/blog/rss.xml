@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-  <title>Doug's Dev Blog</title>
-  <description>Doug's bloggish thoughts on game development or whatever</description>
+  <title>Doug's Lensflare Game Development Blog</title>
+  <description>These are Doug's bloggish thoughts on game development, specifically on the
+games he's writing for Lensflare, or on Lensflare-related topics more generally.
+Or whatever he wants to write here, really, but those are the sorts of things to
+expect.
+</description>
   <link>http://www.lensflare.com</link>
-  <lastBuildDate>2016-05-11 00:39:26 -0600</lastBuildDate>
+  <lastBuildDate>2016-05-12 20:49:21 -0600</lastBuildDate>
   <item>
-    <title>test1</title>
-    <description></description>
-    <link>http://www.lensflare.com/blog/test1.html</link>
-  </item>
-  <item>
-    <title>test3</title>
-    <description></description>
-    <link>http://www.lensflare.com/blog/test3.html</link>
-  </item>
-  <item>
-    <title>test2</title>
-    <description></description>
-    <link>http://www.lensflare.com/blog/test2.html</link>
+    <title>First Post</title>
+    <description>First Post of the Lensflare Blog</description>
+    <link>http://www.lensflare.com/blog/introduction.html</link>
   </item>
 </channel>
 </rss>

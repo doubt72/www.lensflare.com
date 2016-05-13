@@ -210,3 +210,98 @@ div.footer {
   padding: 0.25em 2em;
   clear: both;
 }
+
+/* blog */
+
+table.blog-table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+table.blog-table td {
+  vertical-align: top;
+}
+
+div.blog-sidebar {
+  margin: 0em;
+  padding: 1em;
+  width: 16em;
+}
+
+div.blog-date-sidebar ul {
+  padding: 0em;
+  margin: 0em 0em 0em 1.5em;
+}
+
+div.blog-date-sidebar li {
+  padding: 0.5em 0em 0em 0em;
+  margin: 0em;
+}
+
+div.blog-tag-sidebar ul {
+  padding: 0em;
+  margin: 0em 1.5em;
+}
+
+div.blog-tag-sidebar li {
+  list-style-type: none;
+  padding: 0.5em 0em 0em 0em;
+  margin: 0em;
+}
+
+div.blog-sidebar a img {
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+img.doug-icon {
+  margin: 1em 1em 1em 0em;
+  float: left;
+}
+
+div.blog-entry-list a {
+  font-size: 20px;
+}
+
+span.blog-date {
+  font-size: 13px;
+}
+
+span.prev-blog-page {
+  padding: 0.25em 1em;
+  margin: 0em 1em 0em 0em;
+}
+
+span.next-blog-page {
+  padding: 0.25em 1em;
+  margin: 0em 1em 0em 0em;
+}
+
+span.blog-nav {
+  padding: 0.25em 1em;
+  margin: 0em 1em 0em 0em;
+}
+
+span.blog-entry-date {
+  font-size: 22px;
+}
+
+div.blog-content h2 {
+  font-size: 18px;
+}
+
+div.blog-small-description {
+  font-size: 13px;
+}
+
+div.blog-small-description img.doug-icon {
+  margin: 0.4em 1em 1em 0em;
+  width: 80px;
+  height: 80px;
+}
+
+p.blog-description-top {
+  margin-top: 0em;
+  padding-top: 0.4em;
+}

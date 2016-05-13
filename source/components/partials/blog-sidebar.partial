@@ -1,0 +1,13 @@
+<div class="blog-sidebar">
+  Previous Entries:
+  { date_sidebar }
+
+  <p>&nbsp;</p>
+
+  Tags:
+  { tag_sidebar }
+
+  <p>&nbsp;</p>
+
+  { rss_feed("#{image('feed-14.png')}} RSS feed") }
+</div>

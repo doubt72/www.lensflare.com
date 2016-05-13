@@ -1,0 +1,56 @@
+id "blog-first"
+title "First Post"
+date "2016-05-12 09:00PM -0600"
+description "First Post of the Lensflare Blog"
+tags ["lensflare games", "web development"]
+--
+
+<p>First off, welcome to the blog!  It's been exactly a month since I quit Chef
+to go full time writing games and (as the few people who were paying attention
+know) I promised that I'd post something about that "soon." So here it is...
+Only a little overdue.</p>
+
+<p>So, yeah, I'm transitioning to doing games full-time as Lensflare Games.  It
+wasn't the easiest choice &mdash; while I've been thinking about doing it for a
+while and the two games already released by Lensflare are selling a bit (well,
+one of them is, anyway), they're not doing well enough to actually pay the
+bills.  I've only got a limited amount of time to try and change that before the
+funds run out, so...  There's some risk here.  Worst case, though, things will
+probably be okay; I'm not going in debt to do this or betting anything
+critical on this succeeding, either.</p>
+
+<p>I suppose the thing that gives me some optimism is that I have a much
+better idea of what the market is like and what I want to do than when I
+started.  The flip side is, I have a lot less latitude in what I can do; back
+when I first wrote TSC, everything was still a hobby and I could just try things
+out and see what stuck (main lesson learned?  Mobile ain't exactly a great
+market for strategy).  So, it's good and it's bad &mdash; I guess we'll see how
+things go.</p>
+
+<h2>A Bit About Technology</h2>
+
+<p>If you're interested in how the sausage is made (i.e., how I maintain the
+site and this blog), it's all available on
+
+{ link_abs('https://github.com/doubt72', 'GitHub') }:
+
+you can see the software (i.e.,
+
+{ link_abs('https://github.com/doubt72/loki', 'Loki') })
+
+I used to build the site, and you can also see the
+
+{ link_abs('https://github.com/doubt72/www.lensflare.com', 'source code') }
+
+for the site itself (and this blog).</p>
+
+<p>I actually spent a couple weeks building Loki to get the web page under
+control before I wrote this; over time the site (and especially the online
+manuals) had kind of gotten to be an unmaintainable mess.  It was also a bit of
+a relaxation exercise for me (since I find coding calming) and I really needed
+the break.  So, anyway, that's a thing that happened.  Maybe somebody will even
+find it useful.</p>
+
+<h2>Teh Future</h2>
+
+<p>Next time, I'll talk a little about what I'm working on right now.</p>

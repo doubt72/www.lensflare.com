@@ -47,7 +47,7 @@ img.ss-link {
 }
 
 div.footnote {
-  border-top: 1px solid #664411;
+  border-top: 1px dashed #664411;
 }
 
 /* special for videos */
@@ -91,4 +91,43 @@ div.manual-screenshot-left {
 div.footer {
   background-color: #664411;
   color: #ffee99;
+}
+
+/* blog */
+
+td.td-blog-sidebar {
+  background-color: #332209;
+}
+
+span.blog_date_expanded {
+  color: #ffee99;
+}
+
+span.blog_date_collapsed {
+  color: #ffee99;
+}
+
+span.blog-date {
+  color: #999999;
+}
+
+span.prev-blog-page {
+  background-color: #332209;
+}
+
+span.next-blog-page {
+  background-color: #332209;
+}
+
+span.blog-nav {
+  background-color: #332209;
+}
+
+span.blog-entry-date {
+  color: #664411;
+}
+
+div.blog-small-description {
+  color: #999999;
+  border-top: 1px dashed #664411;
 }

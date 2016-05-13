@@ -10,7 +10,3 @@ usage example for Loki if you like.
 
 You can go here to see the output at the Lensflare Games web site:
 http://www.lensflare.com/
-
-## TODO
-
-* Blog
