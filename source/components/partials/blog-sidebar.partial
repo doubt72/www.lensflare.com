@@ -9,5 +9,9 @@
 
   <p>&nbsp;</p>
 
-  { rss_feed("#{image('feed-14.png')}} RSS feed") }
+  { rss_feed("#{image('feed-28.png')}} RSS feed") }
+  <p></p>
+  <a href="https://www.twitter.com/doubt72">{ image('twitter-28.png') } @doubt72</a>
+  <p></p>
+  <a href="mailto:doubt@lensflare.com">{ image('mail-28.png') } doubt@lensflare.com</a>
 </div>

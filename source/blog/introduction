@@ -2,7 +2,7 @@ id "blog-first"
 title "First Post"
 date "2016-05-12 09:00PM -0600"
 description "First Post of the Lensflare Blog"
-tags ["lensflare games", "web development"]
+tags ["lensflare", "web development"]
 --
 
 <p>First off, welcome to the blog!  It's been exactly a month since I quit Chef

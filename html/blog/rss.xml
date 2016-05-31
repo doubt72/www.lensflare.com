@@ -8,11 +8,30 @@ Or whatever he wants to write here, really, but those are the sorts of things to
 expect.
 </description>
   <link>http://www.lensflare.com</link>
-  <lastBuildDate>2016-05-12 21:23:24 -0600</lastBuildDate>
+  <lastBuildDate>2016-05-31 03:39:08 -0600</lastBuildDate>
+  <item>
+    <title>Leaving on a Jet Plane</title>
+    <description>Heading out on the road, er um, on a plane</description>
+    <link>http://www.lensflare.com/blog/leaving_on_a_jet_plane.html</link>
+    <pubDate>2016-05-31 03:39:00 -0600</pubDate>
+  </item>
+  <item>
+    <title>On the Unity Front</title>
+    <description>Playing with Unity again</description>
+    <link>http://www.lensflare.com/blog/unity_and_things.html</link>
+    <pubDate>2016-05-23 17:09:00 -0600</pubDate>
+  </item>
+  <item>
+    <title>What's the Word?</title>
+    <description>Why a word game?</description>
+    <link>http://www.lensflare.com/blog/whats_the_word.html</link>
+    <pubDate>2016-05-13 21:23:00 -0600</pubDate>
+  </item>
   <item>
     <title>First Post</title>
     <description>First Post of the Lensflare Blog</description>
     <link>http://www.lensflare.com/blog/introduction.html</link>
+    <pubDate>2016-05-12 21:00:00 -0600</pubDate>
   </item>
 </channel>
 </rss>

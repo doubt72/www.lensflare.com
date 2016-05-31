@@ -1,0 +1,101 @@
+id "blog-unity"
+title "On the Unity Front"
+date "2016-05-23 05:09PM -0600"
+description "Playing with Unity again"
+tags ["unity", "life", "travel"]
+--
+
+<p>So, I've been playing with Unity again.  I've played with it before &mdash; I
+did some performance testing on an iPad2 once upon a time to see how TSC2 might
+go if I switched engines, but other than that and a couple random tutorials to
+get the lay of the land, that was about it.  For the record, the conclusion I
+came to was that the Unity3D API drew lines much faster than Cocoa, but mainly
+because it doesn't draw them nearly as nicely (i.e., Cocoa has very nice
+antialiasing and such).  By the time you add back in the effects to make look as
+nice, well, I'm guessing it'll probably be closer to a wash, but we'll probably
+see soon enough.</p>
+
+<p>Anyway.</p>
+
+<p>To be honest, so far I haven't gotten a whole lot farther into Unity this
+time than I did then (more on that below), but my opinion of it hasn't changed
+much. It's... Not exactly great?  But if you really want to go cross-platform
+(in particular, for any definition of "cross-platform" that includes mobile)
+there just aren't really any better options.  The problem for me is that it adds
+so much cruft with so little benefit; it's heavy and awkward for simple things,
+it's way too oriented towards people who are scared of code or something, and
+the 3D stuff is almost a complete and utter waste of time for me (I mean, all I
+need is a GUI and basic line drawing &mdash; okay, maybe some fills, but still
+all basic 2D operations for vector icons and maps and labels and such for every
+game I've done so far, and probably for at least the next three as well).  I'd
+much prefer something like a naked API and some sort of cross-platform bundler
+to the... IDE thing?  (What <i>do</i> you call that thing?  It's not an IDE.)
+But there it is. At least the GUI stuff does seem markedly improved in this
+version from when I was playing with it before (I guess that was Unity 4 onGui
+stuff or something? I don't really remember, but it was a weird model to say the
+least).  The bottom line is, it's not exactly an ideal tool for what I need, but
+it's not completely intolerable or anything, and I'm stuck with it under the
+circumstances.</p>
+
+<p>So mostly I shrug.  It's sort of like the F-35 of development frameworks
+(keep it out of actual dogfights and it'll be fine?), only with a much more
+reasonable budget.</p>
+
+<p>Anyway, I'm not as far along by this point as I'd hoped I'd be.  Partly
+because I'd been having trouble getting any momentum going, but I wasn't really
+that worried about that, since I did also need some time to unwind, and I felt
+reasonably comfortable giving myself a month or so there.  But when I was
+finally done with all that and ready to go, several frustrating things dropped
+in my lap and derailed everything.</p>
+
+<p>Some stuff I'm not going to go into depth about &mdash; gah, mad scrambling
+to deal with a particularly broken health insurance situation, 'nuff said
+&mdash; and some other dumb stuff, too.  Like...  It's a good thing I bought my
+old laptop from the old job, because four-year-old personal laptop decided to
+just start randomly crapping out on me (random still-not-frequent but worrisome
+crashes), which resulted in a few days migrating all my data off of it (i.e.,
+transferring a few hundred GB of data and credentials and such for personal
+email and music collections and all the other things I'd used it for.  And I'm
+nowhere near done dealing with that, because I just dumped everything on my new
+laptop for now to deal with later, but...  the important stuff is moved and/or
+transferred and set up and I can deal with the rest when I'm ready).  So, here I
+am, somewhat ironically buying back (for myself) the laptop I just bought for
+Lensflare (from the old company I worked for).  So, RIP Loki, hello Heimdall, so
+much for keeping things focused and specialized, please handle all the things,
+let's try to keep it all a bit more organized than last time when everything was
+on Loki, kthxbye.</p>
+
+<p>The other big thing is that I'm slowly shifting my schedule to CEST (Central
+European Summer Time...  Everybody knows that, right?  Right?) for a trip to
+Europe soon.  I'm not super happy about going to Europe this year (who complains
+about going to Europe? That's right, this guy!), but it's a family obligation
+(sister-in-law is marrying a Dutchman, who flies about as much as you'd expect
+for a Dutchman who is currently living in Hong Kong to fly), so off I go.  But
+jet lag is a real BFD[<a href="#foot-1" id="back-1">1</a>] for me (about an hour
+a day shift is the most I can manage even when circumstances are ideal &mdash;
+and going east is just <i>the worst</i>), so I've started shifting my schedule
+early because it's better to be less than 100% functional now when I'm at home
+and can deal with it, rather than when I'm trying to navigate the trains in a
+country where I've been all of once before (and just passing through at that,
+hello Belgium!) and working my way to my final destination. Or at least that was
+the theory, the last few days I've been pretty exhausted as I transition into
+what's effectively jet lag in situ, and the last couple of days in particular my
+sleep's been quite badly disrupted.  And sleep is a thing, so...  Well.</p>
+
+<p>Still, it's probably the right decision to do it this way (and a bit too late
+to change my mind anyway), so hopefully I'm through the worst.  I guess we'll
+see.  On the bright side, I'll be in Köln and Maastricht and such soon, which
+doesn't really suck (all things being equal &mdash; which, of course, they
+aren't...  Man, air travel sure is shit, isn't it?  Especially long-haul air
+travel).</p>
+
+<p>But...  Could be a lot worse.  And I'm starting to make some progress with
+Unity now, so there's that.</p>
+
+<p class="blog-footnote">[<a href="#back-1" id="foot-1">1</a>] As an aside, I
+soooo love getting advice from people who don't get meaningful jet lag on how to
+deal with it. Oh, yeah?  You don't really get jet lag, that's really great for
+you. Yeah, I'll just stay up until I'm over it &mdash; staying awake
+continuously for, oh, two weeks?  Yes, that's very practical, thank you!  Now
+shut up and go away and maybe go make yourself useful by giving somebody some
+advice on how to just get over cancer or something.</p>

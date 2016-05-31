@@ -308,3 +308,8 @@ p.blog-description-top {
   margin-top: 0em;
   padding-top: 0.4em;
 }
+
+p.blog-footnote {
+  margin-left: 1em;
+  font-size: 13px;
+}

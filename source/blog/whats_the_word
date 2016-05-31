@@ -1,0 +1,60 @@
+id "blog-word"
+title "What's the Word?"
+date "2016-05-13 09:23PM -0600"
+description "Why a word game?"
+tags ["word game", "unity"]
+--
+
+<p>Happy Friday the 13th!</p>
+
+<p>So, I suppose the first thing to talk about is what I'm working on.
+Obviously, since I do strategy games, that be a word game, right?  Right?
+...What? That makes no sense, you say?  Who's writing this blog, me or you?</p>
+
+<p>Well, okay, there are a couple strategy games in the pipeline.  EM16 needs to
+be updated, and I would do that right now if I could, but honestly that's in
+"hurry up and wait" mode, because the next "major" (okay not really that major)
+update (with the 2016 scenario that's, you know, in the actual name of the game)
+is waiting on events.  The problem there is that I don't know who the candidates
+are yet, and won't until the conventions.  I mean, sure, it looks like the
+Donald versus Hillary, but there are vice presidential and third-party
+candidates yet to be selected, and the last (of the four biggest) party
+conventions isn't until early August.  So that's on hold for the moment.</p>
+
+<p>The current plan is for the next game to be a cross-platform rewrite/sequel
+to TSC, but that's the next game.  And so that leaves the word game.  But
+why write it in the first place?</p>
+
+<p>A couple of reasons: one, I've more or less decided to switch to Unity as a
+development platform (the previous games were written in Cocoa/Objective-C,
+which is limited pretty much to iOS and Mac), and I wanted something
+straightforward to write for a first project.  Mind you, as I designed the game,
+the scope has creeped up a bit. What was originally probably going to be a
+weekend project (realistically a bit longer than that, but still quick) has
+turned into a full-fledged design that no longer resembles the original idea all
+that much.  Still, I figure it won't take more than on the order of a month or
+so to finish.  I suppose there's no reason the first thing I write in Unity has
+to be simple -- the first iOS program I ever wrote was TSC, after all.  Though
+to be fair, the design of TSC is a bit muddled, and the code's a borderline
+mess.  That doesn't really have anything to do with it being my first iOS
+program, though, it's more because I didn't really design anything before I
+started, I just kind of jumped in without knowing where I was going.</p>
+
+<p>The other reason is that (to be completely honest) I want something to play
+on the pot (or, if that sounds too salacious, for quick periods of time, like
+waiting at the dentist or at the airport or before I go to sleep or whatever).
+And I wasn't really happy with anything I had that filled that role before.
+Because, one, I do like word games, but they have a tendency to be either boring
+(to me, anyway, generally lacking in depth) or timed (which I find awful for a couple
+reasons &mdash; one, I like to take my time, and two, that tends to tie me to a
+game until I finish it since dropping and picking up timed games "hurts my
+score" when I have to re-orient myself on restart).  So those were key
+considerations for my design.  (As an aside, I like 数独/sūdoku as a game, but the
+only real way to score that is by timing it &mdash; scores are a thing, aren't
+they? &mdash; and that has perverse incentives.)</p>
+
+<p>So...  A non-timed, strategic word game is where I'm going next.</p>
+
+<p>As for how ambitious it will be...  Well, I'd love for it to be multilingual,
+but there are a bunch of practical roadblocks there: getting word lists,
+localization, etc.  We'll see how it goes.</p>
