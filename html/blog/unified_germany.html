@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>First Post</title>
+  <title>Unified Germany</title>
   <link rel="stylesheet" href="../assets/css/main.css" type="text/css" />
   <link rel="stylesheet" href="../assets/css/color-lfg.css" type="text/css" />
   <link rel="icon" type="image/png" href="../assets/favicon/lensflare-16.png" sizes="16x16" />
@@ -28,69 +28,64 @@
     <td>
       <div id="content" class="blog-content">
 
-        <h1>First Post</h1>
-        <span class="blog-entry-date">12 May 2016</span>
+        <h1>Unified Germany</h1>
+        <span class="blog-entry-date">10 June 2016</span>
 
         
-<p>First off, welcome to the blog!  It's been exactly a month since I quit Chef
-to go full time writing games and (as the few people who were paying attention
-know) I promised that I'd post something about that "soon." So here it is...
-Only a little overdue.</p>
+<p>So...  Been in Köln about a week now, mostly working on the word game.  Will
+be staying here about another week, although the last couple days the wife will
+be here and I'll be switching to tourist mode with her (and a few days after
+that will all be Netherlands and Belgium, so will be more of the same in new
+places, plus the wedding part).  But for now, the trip's been every bit as
+productive as I'd hoped: I've pretty much completed a first pass at the word
+game, even gotten far enough along to do some initial playtesting, which
+resulted in a rewrite of some of the core mechanics. A few cosmetic things are
+left to be done, as well as data persistence (for saving the current game when
+paused or closed, as well as high scores), getting the internationalization
+tested (don't have any data except for English yet, don't know if I'll find any
+or not, but I <i>want</i> it), and a tutorial.</p>
 
-<p>So, yeah, I'm transitioning to doing games full-time as Lensflare Games.  It
-wasn't the easiest choice &mdash; while I've been thinking about doing it for a
-while and the two games already released by Lensflare are selling a bit (well,
-one of them is, anyway), they're not doing well enough to actually pay the
-bills.  I've only got a limited amount of time to try and change that before the
-funds run out, so...  There's some risk here.  Worst case, though, things will
-probably be okay; I'm not going in debt to do this or betting anything
-critical on this succeeding, either.</p>
+<p>But...  It's functional, complete with unit tests and such.  I've even been
+able to spend a fair bit of time refactoring the code to make it more
+maintainable/easier to make changes down the road.</p>
 
-<p>I suppose the thing that gives me some optimism is that I have a much
-better idea of what the market is like and what I want to do than when I
-started.  The flip side is, I have a lot less latitude in what I can do; back
-when I first wrote TSC, everything was still a hobby and I could just try things
-out and see what stuck (main lesson learned?  Mobile ain't exactly a great
-market for strategy).  So, it's good and it's bad &mdash; I guess we'll see how
-things go.</p>
+<p>So...  Unity?  I've gotten used to it, I guess.  It helps that all the work
+I've done the last few days is in the code (i.e., all C#), so I haven't had to
+deal with the Unity editor thing beyond running things.  I mean, the APIs for
+doing things are...  Weird and unintuitive and clunky (it makes me nostalgic for
+Cocoa and Objective-C, and that's considering that XCode and I haven't ever been
+the best of friends), but I've figured out what I need to figure out, and since
+the incantations have been made, I can encapsulate/cargo cult the shit out of
+that and ignore it from now on.  I suppose a significant part of my dislike of
+Unity is a dislike of MonoDevelop (or at least, the Unity version, I don't know
+how close to the main branch it is).  Fortunately, the terrible memory leaks are
+pretty much managed by the constant crashes, so it's fine!  But I'm planning to
+try working with Unity with a different editor sometime soon, and at that point,
+maybe Unity approaches reasonably tolerable.  Or at least, I'm getting
+accommodated to it.</p>
 
-<h2>A Bit About Technology</h2>
+<p>I suppose at this point, the biggest thing that makes me uncomfortable about
+Unity is the license model.  I don't like licensing software, especially
+anything this key to my workflow, I'd rather just buy it outright, because if
+all I have is a license, there's nothing that keeps the license from changing
+out from under you, and, well.  It's similar to my discomfort dealing with app
+stores and the like, too, it's pretty easy to change stuff and just screw
+developers.  But it's a necessary evil, and you deal.</p>
 
-<p>If you're interested in how the sausage is made (i.e., how I maintain the
-site and this blog), it's all available on
-
-<a href="https://github.com/doubt72">GitHub</a>:
-
-you can see the software (i.e.,
-
-<a href="https://github.com/doubt72/loki">Loki</a>)
-
-I used to build the site, and you can also see the
-
-<a href="https://github.com/doubt72/www.lensflare.com">source code</a>
-
-for the site itself (and this blog).</p>
-
-<p>I actually spent a couple weeks building Loki to get the web page under
-control before I wrote this; over time the site (and especially the online
-manuals) had kind of gotten to be an unmaintainable mess.  It was also a bit of
-a relaxation exercise for me (since I find coding calming) and I really needed
-the break.  So, anyway, that's a thing that happened.  Maybe somebody will even
-find it useful.</p>
-
-<h2>Teh Future</h2>
-
-<p>Next time, I'll talk a little about what I'm working on right now.</p>
+<p>So.  I might still try something else like Godot or Cocos2D (i.e., something
+open source &mdash; my needs aren't extreme, it just has to have the right
+feature set for me).  But I guess we'll see, I'm not sure if that window has
+passed or not.</p>
 
 
         <div>&nbsp;</div>
 
-        <p>Tags: <a href="tags/lensflare.html">lensflare</a>, <a href="tags/web%20development.html">web development</a></p>
+        <p>Tags: <a href="tags/k%C3%B6ln.html">köln</a>, <a href="tags/travel.html">travel</a>, <a href="tags/unity.html">unity</a>, <a href="tags/word%20game.html">word game</a></p>
 
-        <span class="blog-nav"><< first</span>
-        <span class="blog-nav">< prev</span>
-        <span class="blog-nav"><a href="whats_the_word.html">next ></a></span>
-        <span class="blog-nav"><a href="unified_germany.html">last >></a></span>
+        <span class="blog-nav"><a href="introduction.html"><< first</a></span>
+        <span class="blog-nav"><a href="leaving_on_a_jet_plane.html">< prev</a></span>
+        <span class="blog-nav">next ></span>
+        <span class="blog-nav">last >></span>
         <div>&nbsp;</div>
 
         <div class="blog-small-description">
@@ -143,13 +138,13 @@ function toggleDate(elem) {
 <ul style="list-style-type: none;">
   <li style="clear: both;"><span class="blog_date_expanded" style="float: left; width: 1em; cursor: pointer;" onclick="toggleDate(this);">&#9662;</span><span>2016</span>
     <ul style="list-style-type: none; display: block;">
-      <li style="clear: both;"><span class="blog_date_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleDate(this);">&#9656;</span><span>June</span>
-        <ul style="list-style-type: none; display: none;">
+      <li style="clear: both;"><span class="blog_date_expanded" style="float: left; width: 1em; cursor: pointer;" onclick="toggleDate(this);">&#9662;</span><span>June</span>
+        <ul style="list-style-type: none; display: block;">
           <li style="clear: both;"><a href="unified_germany.html">Unified Germany</a></li>
         </ul>
       </li>
-      <li style="clear: both;"><span class="blog_date_expanded" style="float: left; width: 1em; cursor: pointer;" onclick="toggleDate(this);">&#9662;</span><span>May</span>
-        <ul style="list-style-type: none; display: block;">
+      <li style="clear: both;"><span class="blog_date_collapsed" style="float: left; width: 1em; cursor: pointer;" onclick="toggleDate(this);">&#9656;</span><span>May</span>
+        <ul style="list-style-type: none; display: none;">
           <li style="clear: both;"><a href="leaving_on_a_jet_plane.html">Leaving on a Jet Plane</a></li>
           <li style="clear: both;"><a href="unity_and_things.html">On the Unity Front</a></li>
           <li style="clear: both;"><a href="whats_the_word.html">What's the Word?</a></li>

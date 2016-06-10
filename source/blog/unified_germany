@@ -1,0 +1,51 @@
+id "blog-germany"
+title "Unified Germany"
+date "2016-06-10 09:53AM -0600"
+description "More on Unity from Bundesrepublik Deutschland"
+tags ["unity", "köln", "travel", "word game"]
+--
+
+<p>So...  Been in Köln about a week now, mostly working on the word game.  Will
+be staying here about another week, although the last couple days the wife will
+be here and I'll be switching to tourist mode with her (and a few days after
+that will all be Netherlands and Belgium, so will be more of the same in new
+places, plus the wedding part).  But for now, the trip's been every bit as
+productive as I'd hoped: I've pretty much completed a first pass at the word
+game, even gotten far enough along to do some initial playtesting, which
+resulted in a rewrite of some of the core mechanics. A few cosmetic things are
+left to be done, as well as data persistence (for saving the current game when
+paused or closed, as well as high scores), getting the internationalization
+tested (don't have any data except for English yet, don't know if I'll find any
+or not, but I <i>want</i> it), and a tutorial.</p>
+
+<p>But...  It's functional, complete with unit tests and such.  I've even been
+able to spend a fair bit of time refactoring the code to make it more
+maintainable/easier to make changes down the road.</p>
+
+<p>So...  Unity?  I've gotten used to it, I guess.  It helps that all the work
+I've done the last few days is in the code (i.e., all C#), so I haven't had to
+deal with the Unity editor thing beyond running things.  I mean, the APIs for
+doing things are...  Weird and unintuitive and clunky (it makes me nostalgic for
+Cocoa and Objective-C, and that's considering that XCode and I haven't ever been
+the best of friends), but I've figured out what I need to figure out, and since
+the incantations have been made, I can encapsulate/cargo cult the shit out of
+that and ignore it from now on.  I suppose a significant part of my dislike of
+Unity is a dislike of MonoDevelop (or at least, the Unity version, I don't know
+how close to the main branch it is).  Fortunately, the terrible memory leaks are
+pretty much managed by the constant crashes, so it's fine!  But I'm planning to
+try working with Unity with a different editor sometime soon, and at that point,
+maybe Unity approaches reasonably tolerable.  Or at least, I'm getting
+accommodated to it.</p>
+
+<p>I suppose at this point, the biggest thing that makes me uncomfortable about
+Unity is the license model.  I don't like licensing software, especially
+anything this key to my workflow, I'd rather just buy it outright, because if
+all I have is a license, there's nothing that keeps the license from changing
+out from under you, and, well.  It's similar to my discomfort dealing with app
+stores and the like, too, it's pretty easy to change stuff and just screw
+developers.  But it's a necessary evil, and you deal.</p>
+
+<p>So.  I might still try something else like Godot or Cocos2D (i.e., something
+open source &mdash; my needs aren't extreme, it just has to have the right
+feature set for me).  But I guess we'll see, I'm not sure if that window has
+passed or not.</p>
