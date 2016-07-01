@@ -313,3 +313,18 @@ p.blog-footnote {
   margin-left: 1em;
   font-size: 13px;
 }
+
+div.blog-image-right {
+  float: right;
+  padding: 0em 0em 0em 1.5em;
+}
+
+div.blog-image-left {
+  float: left;
+  padding: 0em 1.5em 0em 0em;
+}
+
+div.blog-image-subtitle {
+  text-align: center;
+  padding: 0em 0em 0.5em 0em;
+}

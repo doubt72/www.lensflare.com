@@ -1,0 +1,55 @@
+id "blog-polish"
+title "Proto-polish"
+date "2016-06-30 06:53PM -0600"
+description "When prototypes meet reality"
+tags ["alpha testing", "word game"]
+--
+
+<p>So one of the stories of the development of the word game so far is how the
+design has changed.  The look, but especially the gameplay: it's hard to really
+describe how different it is &mdash; It's gone from a gadget to something with
+a fair amount of strategic depth (which, despite the kind of games I've done
+before, still surprised me.  That's really not where I expected it to go at
+all).</p>
+
+<div class="blog-image-right">
+{ link('blog/word-screen.png',
+       image('blog/t/word-screen.png',
+             {alt: 'Setup Screen', class: 'ss-link',
+              style: 'width: 180; height: 320;'}})) }
+  <div class="blog-image-subtitle">
+    progress
+  </div>
+</div>
+
+<p>Things that haven't changed? Well, it's still untimed (which was a
+non-negotiable design choice from the very beginning).  It still involves
+spelling words.  It <i>might</i> still be multilingual, although the jury is
+still out there.  So far I've only configured it for English and a minimal
+"test" language (although even with English the word list needs some tweaking).
+The code itself supports arbitrary languages, though, both for the interface and
+for gameplay.</p>
+
+<p>So why did it change so much?  Mainly because of the process of playing
+(read: testing) the prototypes during development. it's still basically an alpha
+(which means that I'm pretty much the only person playing it), though hopefully
+it'll go to beta fairly soon (i.e., more people will be playing it).  Which is
+to say I've made quite a bit of progress on it and have reached the point where
+the gameplay has settled down enough that I've been able to spend the last week
+or so[<a href="#foot-1" id="back-1">1</a>] almost exclusively tightening up and
+balancing the game (as well as spending quite a bit of time working on the
+visual aspects), instead of figuring out how to fix mechanics that were still
+pretty clearly broken or uninteresting.</p>
+
+<p>Anyway, it still needs a name.  Most of the other things that need to be done
+can wait until after the beta opens, but the name I want ready before I start
+putting it out there.  And with a name will come icon art and a web page and
+screen shots and such.</p>
+
+<p class="blog-footnote">[<a href="#back-1" id="foot-1">1</a>] this is really
+the first work I've done on it since the first half of the month when I was
+still in Germany &mdash; not only did we spend about a week visiting family or
+sightseeing in Europe, when we got back we discovered that the AC was out.
+During a major heat wave.  So, uh, took about a week to get that fixed, and in
+the meantime was either crashing at a friend's place or generally broiling.
+Either way, didn't have much energy until that was dealt with.</p>
