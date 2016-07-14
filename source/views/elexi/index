@@ -1,6 +1,7 @@
 id "elexi"
 title "elexi"
 css ["css/main.css", "css/color-elexi.css"]
+javascript ["js/cycle_images.js"]
 template "templates/elexi.template"
 favicon [
   [16, 'icon', 'favicon/elexi-16.png'],

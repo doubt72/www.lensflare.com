@@ -1,7 +1,39 @@
+<div class="tall-screenshot">
+<span class="screenshot-arrow" onclick="cycler.previousImage();">
+  { image("elexi/elexi-left-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+{ images = ""
+  0.upto(4) do |x|
+    images += image("elexi/screenshot#{x}}.png",
+                   {class: 'invisible-screenshot',
+                    id: "screenshot#{x}}"}}) + "\n"
+  end
+  images.chomp }
+<span class="screenshot-arrow" onclick="cycler.nextImage();">
+  { image("elexi/elexi-right-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+<br />
+<div class="screenshot-links">
 { links = ""
   0.upto(4) do |x|
-    links += link("elexi/screenshot#{x}}.png",
-                  image("elexi/t/screenshot#{x}}.png",
-                        {class: 'ss-link'}}))
+    links += link("elexi/screenshot#{x}}.png", "(full size here)",
+                   {class: 'invisible-link',
+                    id: "link#{x}}"}}) + "\n"
   end
-  links }
+  links.chomp }
+</div>
+</div>
+
+<script type="text/javascript">
+cycler = new Cycler("screenshot", "link", 4)
+
+cycler.show();
+
+function nextImage() {{
+  cycler.nextImage();
+}
+
+for (var i = 0; i < 5; i++) {{
+  document.getElementById("screenshot" + i).addEventListener("click", nextImage);
+}
+</script>

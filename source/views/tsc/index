@@ -1,6 +1,7 @@
 id "tsc"
 title "Tactical Space Command"
 css ["css/main.css", "css/color-tsc.css"]
+javascript ["js/cycle_images.js"]
 template "templates/tsc.template"
 favicon [
   [16, 'icon', 'favicon/tsc-16.png'],
@@ -121,23 +122,83 @@ favicon [
 
       <p>A few screenshots of the Mac version of the game:</p>
 
-      { links = ""
-        0.upto(4) do |x|
-          links += link("tsc/screenshot#{x}}.png",
-                        image("tsc/t/screenshot#{x}}.png",
-                              {class: 'ss-link'}}))
-        end
-        links }
+<div>
+<span class="screenshot-arrow" onclick="macCycler.previousImage();">
+  { image("tsc/tsc-left-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+{ images = ""
+  0.upto(4) do |x|
+    images += image("tsc/screenshot#{x}}.png",
+                    {class: 'invisible-screenshot',
+                     id: "mac-screenshot#{x}}"}}) + "\n"
+  end
+  images.chomp }
+<span class="screenshot-arrow" onclick="macCycler.nextImage();">
+  { image("tsc/tsc-right-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+<br />
+<div class="screenshot-links">
+{ links = ""
+  0.upto(4) do |x|
+    links += link("tsc/screenshot#{x}}.png", "(full size here)",
+                   {class: 'invisible-link',
+                    id: "mac-link#{x}}"}}) + "\n"
+  end
+  links.chomp }
+</div>
+</div>
 
       <p>And from the iPad version of the game:</p>
 
-      { links = ""
-        0.upto(4) do |x|
-          links += link("tsc/screenshot-ipad#{x}}.png",
-                        image("tsc/t/screenshot-ipad#{x}}.png",
-                              {class: 'ss-link'}}))
-        end
-        links }
+<div>
+<span class="screenshot-arrow" onclick="iPadCycler.previousImage();">
+  { image("tsc/tsc-left-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+{ images = ""
+  0.upto(4) do |x|
+    images += image("tsc/screenshot-ipad#{x}}.png",
+                    {class: 'invisible-screenshot',
+                     id: "ipad-screenshot#{x}}"}}) + "\n"
+  end
+  images.chomp }
+<span class="screenshot-arrow" onclick="iPadCycler.nextImage();">
+  { image("tsc/tsc-right-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+<br />
+<div class="screenshot-links">
+{ links = ""
+  0.upto(4) do |x|
+    links += link("tsc/screenshot-ipad#{x}}.png", "(full size here)",
+                   {class: 'invisible-link',
+                    id: "ipad-link#{x}}"}}) + "\n"
+  end
+  links.chomp }
+</div>
+</div>
+
+<script type="text/javascript">
+macCycler = new Cycler("mac-screenshot", "mac-link", 4)
+macCycler.show();
+
+function nextMacImage() {{
+  macCycler.nextImage();
+}
+
+for (var i = 0; i < 5; i++) {{
+  document.getElementById("mac-screenshot" + i).addEventListener("click", nextMacImage);
+}
+
+iPadCycler = new Cycler("ipad-screenshot", "ipad-link", 4)
+iPadCycler.show();
+
+function nextPadImage() {{
+  iPadCycler.nextImage();
+}
+
+for (var i = 0; i < 5; i++) {{
+  document.getElementById("ipad-screenshot" + i).addEventListener("click", nextPadImage);
+}
+</script>
 
     </td>
   </tr>

@@ -4,6 +4,7 @@
   <title>elexi</title>
   <link rel="stylesheet" href="../assets/css/main.css" type="text/css" />
   <link rel="stylesheet" href="../assets/css/color-elexi.css" type="text/css" />
+  <script src="../assets/js/cycle_images.js" type="text/javascript"></script>
   <link rel="icon" type="image/png" href="../assets/favicon/elexi-16.png" sizes="16x16" />
   <link rel="icon" type="image/png" href="../assets/favicon/elexi-32.png" sizes="32x32" />
   <link rel="apple-touch-icon" type="image/png" href="../assets/favicon/elexi-152.png" sizes="152x152" />
@@ -72,7 +73,41 @@ left.</p>
 
       <h1>Screenshots</h1>
 
-      <a href="../assets/elexi/screenshot0.png"><img src="../assets/elexi/t/screenshot0.png" class="ss-link" /></a><a href="../assets/elexi/screenshot1.png"><img src="../assets/elexi/t/screenshot1.png" class="ss-link" /></a><a href="../assets/elexi/screenshot2.png"><img src="../assets/elexi/t/screenshot2.png" class="ss-link" /></a><a href="../assets/elexi/screenshot3.png"><img src="../assets/elexi/t/screenshot3.png" class="ss-link" /></a><a href="../assets/elexi/screenshot4.png"><img src="../assets/elexi/t/screenshot4.png" class="ss-link" /></a>
+      <div class="tall-screenshot">
+<span class="screenshot-arrow" onclick="cycler.previousImage();">
+  <img src="../assets/elexi/elexi-left-arrow.png" class="navigation-arrow" />
+</span>
+<img src="../assets/elexi/screenshot0.png" id="screenshot0" class="invisible-screenshot" />
+<img src="../assets/elexi/screenshot1.png" id="screenshot1" class="invisible-screenshot" />
+<img src="../assets/elexi/screenshot2.png" id="screenshot2" class="invisible-screenshot" />
+<img src="../assets/elexi/screenshot3.png" id="screenshot3" class="invisible-screenshot" />
+<img src="../assets/elexi/screenshot4.png" id="screenshot4" class="invisible-screenshot" />
+<span class="screenshot-arrow" onclick="cycler.nextImage();">
+  <img src="../assets/elexi/elexi-right-arrow.png" class="navigation-arrow" />
+</span>
+<br />
+<div class="screenshot-links">
+<a href="../assets/elexi/screenshot0.png" id="link0" class="invisible-link">(full size here)</a>
+<a href="../assets/elexi/screenshot1.png" id="link1" class="invisible-link">(full size here)</a>
+<a href="../assets/elexi/screenshot2.png" id="link2" class="invisible-link">(full size here)</a>
+<a href="../assets/elexi/screenshot3.png" id="link3" class="invisible-link">(full size here)</a>
+<a href="../assets/elexi/screenshot4.png" id="link4" class="invisible-link">(full size here)</a>
+</div>
+</div>
+
+<script type="text/javascript">
+cycler = new Cycler("screenshot", "link", 4)
+
+cycler.show();
+
+function nextImage() {
+  cycler.nextImage();
+}
+
+for (var i = 0; i < 5; i++) {
+  document.getElementById("screenshot" + i).addEventListener("click", nextImage);
+}
+</script>
 
 
     </td>

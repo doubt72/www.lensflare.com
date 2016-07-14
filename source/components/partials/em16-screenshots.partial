@@ -1,33 +1,122 @@
 <p>Mac (OSX 10.10
 Yosemite):</p>
 
+<div>
+<span class="screenshot-arrow" onclick="macCycler.previousImage();">
+  { image("em16/em16-left-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+{ images = ""
+  0.upto(4) do |x|
+    images += image("em16/screenshot-mac0#{x}}.png",
+                   {class: 'invisible-screenshot',
+                    id: "mac-screenshot#{x}}"}}) + "\n"
+  end
+  images.chomp }
+<span class="screenshot-arrow" onclick="macCycler.nextImage();">
+  { image("em16/em16-right-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+<br />
+<div class="screenshot-links">
 { links = ""
   0.upto(4) do |x|
-    links += link("em16/screenshot-mac0#{x}}.png",
-                  image("em16/t/screenshot-mac0#{x}}.png",
-                        {class: 'ss-link'}}))
+    links += link("em16/screenshot-mac0#{x}}.png", "(full size here)",
+                   {class: 'invisible-link',
+                    id: "mac-link#{x}}"}}) + "\n"
   end
-  links }
+  links.chomp }
+</div>
+</div>
 
 <p>iPad (iOS 8):</p>
 
+<div>
+<span class="screenshot-arrow" onclick="iPadCycler.previousImage();">
+  { image("em16/em16-left-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+{ images = ""
+  0.upto(4) do |x|
+    images += image("em16/screenshot-ipad0#{x}}.png",
+                   {class: 'invisible-screenshot',
+                    id: "ipad-screenshot#{x}}"}}) + "\n"
+  end
+  images.chomp }
+<span class="screenshot-arrow" onclick="iPadCycler.nextImage();">
+  { image("em16/em16-right-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+<br />
+<div class="screenshot-links">
 { links = ""
   0.upto(4) do |x|
-    links += link("em16/screenshot-ipad0#{x}}.png",
-                  image("em16/t/screenshot-ipad0#{x}}.png",
-                        {class: 'ss-link'}}))
+    links += link("em16/screenshot-ipad0#{x}}.png", "(full size here)",
+                   {class: 'invisible-link',
+                    id: "ipad-link#{x}}"}}) + "\n"
   end
-  links }
+  links.chomp }
+</div>
+</div>
 
 <p>iPhone (iPhone 6, iOS 8):</p>
 
+<div class="tall-screenshot">
+<span class="screenshot-arrow" onclick="iPhoneCycler.previousImage();">
+  { image("em16/em16-left-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+{ images = ""
+  0.upto(4) do |x|
+    images += image("em16/screenshot-47in0#{x}}.png",
+                   {class: 'invisible-screenshot',
+                    id: "iphone-screenshot#{x}}"}}) + "\n"
+  end
+  images.chomp }
+<span class="screenshot-arrow" onclick="iPhoneCycler.nextImage();">
+  { image("em16/em16-right-arrow.png", {class: 'navigation-arrow'}}) }
+</span>
+<br />
+<div class="screenshot-links">
 { links = ""
   0.upto(4) do |x|
-    links += link("em16/screenshot-47in0#{x}}.png",
-                  image("em16/t/screenshot-47in0#{x}}.png",
-                        {class: 'ss-link'}}))
+    links += link("em16/screenshot-47in0#{x}}.png", "(full size here)",
+                   {class: 'invisible-link',
+                    id: "iphone-link#{x}}"}}) + "\n"
   end
-  links }
+  links.chomp }
+</div>
+</div>
+
+<script type="text/javascript">
+macCycler = new Cycler("mac-screenshot", "mac-link", 4)
+macCycler.show();
+
+function nextMacImage() {{
+  macCycler.nextImage();
+}
+
+for (var i = 0; i < 5; i++) {{
+  document.getElementById("mac-screenshot" + i).addEventListener("click", nextMacImage);
+}
+
+iPadCycler = new Cycler("ipad-screenshot", "ipad-link", 4)
+iPadCycler.show();
+
+function nextPadImage() {{
+  iPadCycler.nextImage();
+}
+
+for (var i = 0; i < 5; i++) {{
+  document.getElementById("ipad-screenshot" + i).addEventListener("click", nextPadImage);
+}
+
+iPhoneCycler = new Cycler("iphone-screenshot", "iphone-link", 4)
+iPhoneCycler.show();
+
+function nextPhoneImage() {{
+  iPhoneCycler.nextImage();
+}
+
+for (var i = 0; i < 5; i++) {{
+  document.getElementById("iphone-screenshot" + i).addEventListener("click", nextPhoneImage);
+}
+</script>
 
 <p>The iOS version is designed to fit on any supported iOS device
 using the native resolution of that device, so phones other than the

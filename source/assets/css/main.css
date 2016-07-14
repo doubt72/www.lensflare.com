@@ -332,3 +332,43 @@ div.blog-image-subtitle {
   text-align: center;
   padding: 0em 0em 0.5em 0em;
 }
+
+/* image cylcer */
+
+div.tall-screenshot {
+  padding: 0em 15%;
+  margin: 0em;
+}
+
+span.screenshot-arrow {
+  padding: 0em;
+  margin: 0em;
+}
+
+td.game img.navigation-arrow {
+  padding: 0em;
+  margin: 0em;
+}
+
+td.game img.visible-screenshot {
+  vertical-align: middle;
+  width: calc(100% - 60px);
+  display: inline;
+  padding: 1em 0em;
+}
+
+td.game img.invisible-screenshot {
+  display: none;
+}
+
+td.game div.screenshot-links {
+  text-align: center;
+}
+
+td.game a.visible-link {
+  display: inline;
+}
+
+td.game a.invisible-link {
+  display: none;
+}

@@ -1,6 +1,7 @@
 id "em16"
 title "Election Manager 2016"
 css ["css/main.css", "css/color-em16.css"]
+javascript ["js/cycle_images.js"]
 template "templates/em16.template"
 favicon [
   [16, 'icon', 'favicon/em16-16.png'],
