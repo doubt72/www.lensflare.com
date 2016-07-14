@@ -1,6 +1,5 @@
 <div id="main">
-{ page.set :game, 'tsc'
-  include("partials/header.partial") }
+{ include("partials/header-tsc.partial") }
 
   <div id="content">
 { body }

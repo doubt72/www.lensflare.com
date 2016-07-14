@@ -1,6 +1,5 @@
 <div id="main">
-{ page.set :game, 'em16'
-  include("partials/header.partial") }
+{ include("partials/header-em16.partial") }
 
   <div id="content">
 { body }

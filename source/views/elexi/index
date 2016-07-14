@@ -1,0 +1,35 @@
+id "elexi"
+title "elexi"
+css ["css/main.css", "css/color-elexi.css"]
+template "templates/elexi.template"
+favicon [
+  [16, 'icon', 'favicon/elexi-16.png'],
+  [32, 'icon', 'favicon/elexi-32.png'],
+  [152, 'apple-touch-icon', 'favicon/elexi-152.png']
+]
+--
+<table>
+  <tr>
+    <td rowspan="2" valign="top" class="game">
+      { image("elexi-256.png") }
+    </td>
+    <td class="game">
+
+      <h1>Elexi</h1>
+
+      { include("partials/elexi-blurb.partial") }
+
+      <p>You can see the { link("elexi-faq", "FAQ here") } or feel free to
+      { link("support", "contact us") } if you have other questions.</p>
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1>Screenshots</h1>
+
+      { include("partials/elexi-screenshots.partial") }
+
+    </td>
+  </tr>
+</table>

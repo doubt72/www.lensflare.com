@@ -1,0 +1,98 @@
+/* general */
+
+body {
+  background-color: #ffffee;
+  color: #333333;
+}
+
+a {
+  color: #997700;
+}
+
+a:hover {
+  color: #bb9900;
+}
+
+em {
+  color: #997700;
+}
+
+h1,h2,h3,h4 {
+  color: #775500;
+  border-bottom: 1px solid #bb9900;
+}
+
+/* title and header */
+
+span.title-game-elexi {
+  color: #775500;
+}
+
+div.header {
+  background-color: #ffbb55;
+}
+
+div.header a {
+  color: #997700;
+}
+
+div.header a:hover {
+  color: #553300;
+}
+
+div.header a.current {
+  color: #553300;
+}
+
+/* main content */
+
+img.ss-link {
+  border: solid 2px #775500;
+}
+
+div.footnote {
+  border-top: 1px solid #775500;
+}
+
+/* special for videos */
+
+div.video-border {
+  background-color: #775500;
+}
+
+div.video-border-old {
+  background-color: #775500;
+}
+
+/* manual formatting */
+
+div.manual h2 span {
+  color: #775500;
+}
+
+div.manual h3 span {
+  color: #775500;
+}
+
+div.manual h4 span {
+  color: #775500;
+}
+
+div.manual li span {
+  color: #ffbb55;
+}
+
+div.manual-screenshot-right {
+  background-color: #ffffee;
+}
+
+div.manual-screenshot-left {
+  background-color: #ffffee;
+}
+
+/* footers */
+
+div.footer {
+  background-color: #ffbb55;
+  color: #553300;
+}

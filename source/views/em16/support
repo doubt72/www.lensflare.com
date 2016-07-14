@@ -1,0 +1,46 @@
+id "em16-support"
+title "Election Manager 2016"
+css ["css/main.css", "css/color-em16.css"]
+template "templates/em16.template"
+favicon [
+  [16, 'icon', 'favicon/em16-16.png'],
+  [32, 'icon', 'favicon/em16-32.png'],
+  [152, 'apple-touch-icon', 'favicon/em16-152.png']
+]
+--
+<div class="manual-screenshot-right">
+  { image("em16-256.png") }
+</div>
+
+<div class="section">
+  <h1>Contact Us</h1>
+
+  <p>If you have any issues with Election Manager 2016 or want to contact us
+  about it for any reason, please feel free to send us a note at
+
+  { link_abs("mailto:support@lensflare.com", "support@lensflare.com") }.
+  We're happy to hear from you, no matter if you've found a bug (we'd
+  really like to fix those!), want to tell us what you think of the
+  game (good or bad), or just have questions.</p>
+
+  <p>You can also reach us at
+  { link_abs("https://twitter.com/lensflare_games", "@lensflare_games") }
+  on twitter.  Alternately, visit our page on
+  { link_abs("http://www.facebook.com/lensflaregames", "Facebook") }.
+  </p>
+
+  <h1>Known Issues</h1>
+
+  <p>There are currently no known issues.</p>
+
+  <p>The following bug fixes and features are available in v1.0.3 (currently available in the App Store):</p>
+
+  <ul>
+    <li><em>[iPad and iPhone only]</em> Fixed map market/state color
+    picker not closing when turn ends/tab changed.</li>
+    <li>Remember setup and randomness for scenarios on game setup
+    screen.</li>
+    <li>Additional background music.</li>
+    <li>Minor cosmetic tweaks and fixes.</li>
+  </ul>
+</div>

@@ -11,6 +11,13 @@ favicon [
 { image("lfg-logo-200.png", {style: "float: right;"}}) }
 
 <div class="section">
+  <h1>Elexi</h1>
+
+  <ul>
+    <li>For general questions (such as what platforms are supported,
+    etc.), see the { link("elexi-faq", "FAQ") }.</li>
+  </ul>
+
   <h1>Election Manager 2016</h1>
 
   <ul>

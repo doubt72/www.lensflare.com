@@ -1,0 +1,14 @@
+
+id "blog-elexi"
+title "Elexi"
+date "2016-07-12 11:59AM -0600"
+description "Announcing Elexi"
+tags ["elexi", "word game"]
+--
+<p>And we're ready, so...</p>
+
+<p>We're officially announcing that Elexi is coming soon: see the
+official { link('elexi', 'product page here') }.</p>
+
+<p>No release date yet, we'll release it when it's ready.  But it won't be long
+now.</p>

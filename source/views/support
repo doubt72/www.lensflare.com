@@ -34,30 +34,13 @@ favicon [
   on twitter.  Alternately, visit our page on
   { link_abs("http://www.facebook.com/lensflaregames", "Facebook") }.
   </p>
-
 </div>
 
 <div class="section">
-  <h1>Election Manager 2016 &mdash; Known Issues</h1>
+  <h1>Known Issues</h1>
 
-  <p>There are currently no known issues.</p>
+  <p>You can find the { link('em16-support', 'Election Manager 2016 page here') }.</p>
 
-  <p>The following bug fixes and features are available in v1.0.3 (currently available in the App Store):</p>
-
-  <ul>
-    <li><em>[iPad and iPhone only]</em> Fixed map market/state color
-    picker not closing when turn ends/tab changed.</li>
-    <li>Remember setup and randomness for scenarios on game setup
-    screen.</li>
-    <li>Additional background music.</li>
-    <li>Minor cosmetic tweaks and fixes.</li>
-  </ul>
-</div>
-
-<div class="section">
-  <h1>Tactical Space Command &mdash; Known Issues</h1>
-
-  <p>There are currently no known issues.  A list of previous feature
-  notes and bug fixes is { link("tsc-changes", "available here") }.</p>
+  <p>You can find the { link('tsc-support', 'Tactical Space Command page here') }.</p>
 
 </div>

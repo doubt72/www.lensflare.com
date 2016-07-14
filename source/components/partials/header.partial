@@ -1,18 +1,11 @@
-
-{ if (page.game == 'lfg')
-  '<span class="title">Lensflare Games' +
-    '<span class="title-llc"> LLC</span></span>'
-  elsif (page.game == 'em16')
-    '<span class="title-game">Election Manager 2016</span>'
-  else
-    '<span class="title-game">Tactical Space Command</span>'
-  end }
+<span class="title">Lensflare Games
+  <span class="title-llc"> LLC</span>
+</span>
 <div class="header">
   <span class="header-right">
     { link('about', 'About Us', {self_class: 'current'}}) }
   </span>
-  { text = page.game == 'lfg' ? 'Games' : 'Lensflare'
-    link('home', text, {self_class: 'current'}}) }
+  { link('home', 'Games', {self_class: 'current'}}) }
   { link('blog', 'Blog', {self_class: 'current'}}) }
   { link('support', 'Support', {self_class: 'current'}}) }
   { link('help', 'Help', {self_class: 'current'}}) }

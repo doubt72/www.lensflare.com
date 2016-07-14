@@ -1,0 +1,93 @@
+
+id "blog-optimize"
+title "Optimize Prime"
+date "2016-07-10 02:55PM -0600"
+description "Testing, Memory, and Optimization"
+tags ["alpha testing", "optimization", "memory management", "ios", "elexi", "word game"]
+--
+<p>So, the game has a name now: Elexi.  It's not impossible that it will
+change, but I like the sound of it, so for now, Elexi it is.</p>
+
+<p>Anyway, since our last exciting installment of this blog that one other
+person reads (not counting our cats), I've been pretty heads-down working on the
+tutorial[<a href="#foot-1" id="back-1">1</a>] and letter sets/word lists for the
+various languages I want to support.  The tutorial and letters/words go
+together, of course, since (assuming I actually <i>do</i> make the game
+international) the tutorial has to work for everything, not just English.</p>
+
+<div class="blog-image-right">
+{ link('blog/word-screen2.png',
+       image('blog/t/word-screen2.png',
+             {alt: 'Setup Screen', class: 'ss-link',
+              style: 'width: 200; height: 300;'}})) }
+  <div class="blog-image-subtitle">
+    options
+  </div>
+</div>
+
+<p>This also led to vast amounts of optimization work.</p>
+
+<p>I primarily discovered this through testing the intro on our old 512MB iPad
+mini test hardware &mdash; the first pass at the tutorial was just too slow,
+largely because the method I was using to check to see if strings were words was
+incredibly slow (or rather, the method plus the way I was storing the word
+data).  So, did so some optimization there to speed it up (first just fixing
+some somewhat poor design choices &mdash; at least for the final use case under
+stress &mdash; then trading space for time, as you do[<a href="#foot-2"
+id="back-2">2</a>]).  Got things a few orders of magnitude faster, which I'd
+need later (although I'd have to trade some of that space back, too).<p>
+
+<p>This is why you test.</p>
+
+<p>And then I started working on the word lists.  Which didn't go well.</p>
+
+<p>Originally I grabbed some basic word lists intended for spellchecking, but
+these were kind of crap. They were inconsistent about capitalization and
+inflection (among other problems).  I ended up grabbing whatever free
+dictionaries/word lists I could find and combining the data and comparing it
+with the other lists I had (and then doing some manual massaging) and finally
+ended up with something that (probably) has a decent set of inflections and
+such. Which is great for English, but for Romance languages in particular, you
+end up with millions of different word forms with any significant base
+vocabulary. And, uh, of course the base vocabularies were full of questionable
+words.  So... Well, loading those crashed the iPad when it (inevitably) ran out
+of memory.  It turns out that memory is thing.  Well, this isn't exactly a
+surprise to anyone that's done any work with Apple devices &mdash; memory is
+<i>always</i> a thing on iOS, really.[<a href="#foot-3" id="back-3">3</a>]</p>
+
+<p>This, again, is why you test, even if the results aren't much of a
+surprise.<p>
+
+<p>Still, I didn't want to give up on inflected forms (or the idea of
+international support in general), and with various optimizations of the word
+lists and the way I was using them (as well as making changes to the way the
+letters match, i.e., changing how I deal with diacritics and the like &mdash;
+particularly sticky questions when dealing with languages like French or
+Portuguese which are just <i>full</i> of phonemic diacritics), I finally managed
+to get things pretty much under control.  The word lists still aren't really...
+Great.  Well, the English list is pretty good (I did a fair bit of manual
+cleanup there[<a href="#foot-4" id="back-4">4</a>], though even then I had to
+make some compromises &mdash; hello, UK readers!), but the others have some
+issues I'd like to deal with if and when I can. Some of the issues are more
+intractable than others there, to be honest, but the most important thing is
+that I have something I can work with for now.</p>
+
+<p>And here we are.  The iPad mini doesn't crash anymore, at least.</p>
+
+<p class="blog-footnote">[<a href="#back-1" id="foot-1">1</a>] which is called
+the "intro" in the game.  It's short, but covers the main points, and that's how
+it should be.</p>
+
+<p class="blog-footnote">[<a href="#back-2" id="foot-2">2</a>] incidentally,
+this is the time to do your hard-core optimization &mdash; when mechanics have
+settled down.  Usually, anyway, it's possible to do it too late and end up with
+something that just can't be fixed, but it's also not a great idea to spend a
+lot of time doing it early when there's a good chance you'll just be throwing
+stuff out.</p>
+
+<p class="blog-footnote">[<a href="#back-3" id="foot-3">3</a>] garbage
+collection is a thing in C# and Unity, too, but that's a whole other post.</p>
+
+<p class="blog-footnote">[<a href="#back-4" id="foot-4">4</a>] for one, nth is
+just not a word, or at least, not a useful one. Nobody looks at a board and
+says, "oh, hey, I can spell 'nth' with that."</p>

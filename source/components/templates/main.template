@@ -1,6 +1,5 @@
 <div id="main">
-{ page.set :game, 'lfg'
-  include("partials/header.partial") }
+{ include("partials/header.partial") }
 
   <div id="content">
 { body }

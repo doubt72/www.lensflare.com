@@ -18,7 +18,7 @@ favicon [
   <p>This FAQ covers things about Election Manager 2016 that don't
   involve gameplay; for gameplay questions, please refer to the
   { link("em16-manual", "online manual") }.  Feel free to
-  { link("support", "contact us") } if you have other questions
+  { link("em16-support", "contact us") } if you have other questions
   not covered here.</p>
 
 </div>
@@ -33,8 +33,8 @@ favicon [
   <p><em>What operating system versions are supported?</em></p>
 
   <p>Macs that can run OSX 10.7 Lion or later; iPads and iPhones that
-  can run iOS 7 or later (i.e., the iPad 2 or later -- including all
-  versions of the iPad Mini -- the iPhone 4 or later, and iPod Touch
+  can run iOS 7 or later (i.e., the iPad 2 or later &mdash; including all
+  versions of the iPad Mini &mdash; the iPhone 4 or later, and iPod Touch
   5th Generation).</p>
 
   <p><em>Can I play the iPad version on my iPhone and vice-versa?</em></p>

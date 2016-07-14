@@ -1,0 +1,10 @@
+<span class="title-game">Election Manager 2016</span>
+<div class="header">
+  <span class="header-right">
+    { link('home', 'Lensflare', {self_class: 'current'}}) }
+  </span>
+  { link('em16', 'EM16', {self_class: 'current'}}) }
+  { link('em16-faq', 'FAQ', {self_class: 'current'}}) }
+  { link('em16-manual', 'Manual', {self_class: 'current'}}) }
+  { link('em16-support', 'Support', {self_class: 'current'}}) }
+</div>

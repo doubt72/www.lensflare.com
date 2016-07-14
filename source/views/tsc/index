@@ -110,7 +110,7 @@ favicon [
       <p>You can also see the { link("tsc-faq", "FAQ") } and
       { link("tsc-manual", "online manual") }.</p>
 
-      <p>Feel free to { link("support", "contact us") }
+      <p>Feel free to { link("tsc-support", "contact us") }
        if you have other questions.</p>
     </td>
   </tr>

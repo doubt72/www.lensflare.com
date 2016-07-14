@@ -1,0 +1,51 @@
+id "elexi-faq"
+title "elexi"
+css ["css/main.css", "css/color-elexi.css"]
+template "templates/elexi.template"
+favicon [
+  [16, 'icon', 'favicon/elexi-16.png'],
+  [32, 'icon', 'favicon/elexi-32.png'],
+  [152, 'apple-touch-icon', 'favicon/elexi-152.png']
+]
+--
+<div class="manual-screenshot-right">
+  { image("elexi-256.png") }
+</div>
+
+<div class="section">
+  <h1>Elexi Frequently Asked Questions</h1>
+
+  <p>Here be questions and answers about Elexi
+  &mdash; Feel free to { link("elexi-support", "contact us") } if you have other
+  questions not covered here.</p>
+
+</div>
+
+<div class="section">
+  <h1>Supported Platforms</h1>
+
+  <p><em>What platforms will be supported?</em></p>
+
+  <p>Mobile devices &mdash; at minimum, iOS and Android.</p>
+
+  <p><em>What operating system versions will be supported?</em></p>
+
+  <p>iPads and iPhones that can run iOS 7 or later (i.e., the iPad 2 or later
+  &mdash; including all versions of the iPad Mini &mdash; the iPhone 4 or later,
+  and iPod Touch 5th Generation).  Android and other device requirements are
+  still to be determined, but shouldn't be any trouble running on any
+  equivalently powered devices.</p>
+
+  <p><em>Will I be able to play the iPad version on my iPhone and
+  vice-versa?</em></p>
+
+  <p>The iOS version of Elexi will be universal, so
+  will be able to be played on either type of device with one purchase.</p>
+
+  <p><em>Will Elexi be available on any other
+  platforms?</em></p>
+
+  <p>Other than mobile?  No, there are no plans for any other platforms at this
+  time.</p>
+
+</div>

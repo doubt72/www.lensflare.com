@@ -26,7 +26,7 @@ favicon [
       <p>You can also see the { link("em16-faq", "FAQ") } and
       { link("em16-manual", "online manual") }.</p>
 
-      <p>Feel free to { link("support", "contact us") } if you have
+      <p>Feel free to { link("em16-support", "contact us") } if you have
       other questions.</p>
     </td>
   </tr>

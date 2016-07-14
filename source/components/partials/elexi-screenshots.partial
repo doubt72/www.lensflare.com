@@ -1,0 +1,7 @@
+{ links = ""
+  0.upto(4) do |x|
+    links += link("elexi/screenshot#{x}}.png",
+                  image("elexi/t/screenshot#{x}}.png",
+                        {class: 'ss-link'}}))
+  end
+  links }

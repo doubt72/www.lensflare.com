@@ -34,19 +34,19 @@ span.title-game {
 
 div.header {
   margin-top: 5px;
-  background-color: #bbbbdd;
+  background-color: #9999bb;
 }
 
 div.header a {
-  color: #ffffff;
+  color: #ddddff;
 }
 
 div.header a:hover {
-  color: #ddddee;
+  color: #ffffff;
 }
 
-a.current {
-  color: #000000;
+div.header a.current {
+  color: #ffffff;
 }
 
 /* main content */
@@ -98,6 +98,6 @@ div.manual-screenshot-left {
 /* footers */
 
 div.footer {
-  background-color: #bbbbdd;
+  background-color: #9999bb;
   color: #ffffff;
 }
