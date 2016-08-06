@@ -1,6 +1,6 @@
 <div class="tall-screenshot">
 <span class="screenshot-arrow" onclick="cycler.previousImage();">
-  { image("elexi/elexi-left-arrow.png", {class: 'navigation-arrow'}}) }
+  { image("elexi/elexi-left-arrow.png", {class: 'navigation-arrow'}}) } prev
 </span>
 { images = ""
   0.upto(4) do |x|
@@ -10,13 +10,13 @@
   end
   images.chomp }
 <span class="screenshot-arrow" onclick="cycler.nextImage();">
-  { image("elexi/elexi-right-arrow.png", {class: 'navigation-arrow'}}) }
+  next { image("elexi/elexi-right-arrow.png", {class: 'navigation-arrow'}}) }
 </span>
 <br />
 <div class="screenshot-links">
 { links = ""
   0.upto(4) do |x|
-    links += link("elexi/screenshot#{x}}.png", "(full size here)",
+    links += link("elexi/screenshot#{x}}.png", "(full size image here)",
                    {class: 'invisible-link',
                     id: "link#{x}}"}}) + "\n"
   end

@@ -124,7 +124,7 @@ favicon [
 
 <div>
 <span class="screenshot-arrow" onclick="macCycler.previousImage();">
-  { image("tsc/tsc-left-arrow.png", {class: 'navigation-arrow'}}) }
+  { image("tsc/tsc-left-arrow.png", {class: 'navigation-arrow'}}) } prev
 </span>
 { images = ""
   0.upto(4) do |x|
@@ -134,13 +134,13 @@ favicon [
   end
   images.chomp }
 <span class="screenshot-arrow" onclick="macCycler.nextImage();">
-  { image("tsc/tsc-right-arrow.png", {class: 'navigation-arrow'}}) }
+  next { image("tsc/tsc-right-arrow.png", {class: 'navigation-arrow'}}) }
 </span>
 <br />
 <div class="screenshot-links">
 { links = ""
   0.upto(4) do |x|
-    links += link("tsc/screenshot#{x}}.png", "(full size here)",
+    links += link("tsc/screenshot#{x}}.png", "(full size image here)",
                    {class: 'invisible-link',
                     id: "mac-link#{x}}"}}) + "\n"
   end
@@ -152,7 +152,7 @@ favicon [
 
 <div>
 <span class="screenshot-arrow" onclick="iPadCycler.previousImage();">
-  { image("tsc/tsc-left-arrow.png", {class: 'navigation-arrow'}}) }
+  { image("tsc/tsc-left-arrow.png", {class: 'navigation-arrow'}}) } prev
 </span>
 { images = ""
   0.upto(4) do |x|
@@ -162,13 +162,13 @@ favicon [
   end
   images.chomp }
 <span class="screenshot-arrow" onclick="iPadCycler.nextImage();">
-  { image("tsc/tsc-right-arrow.png", {class: 'navigation-arrow'}}) }
+  next { image("tsc/tsc-right-arrow.png", {class: 'navigation-arrow'}}) }
 </span>
 <br />
 <div class="screenshot-links">
 { links = ""
   0.upto(4) do |x|
-    links += link("tsc/screenshot-ipad#{x}}.png", "(full size here)",
+    links += link("tsc/screenshot-ipad#{x}}.png", "(full size image here)",
                    {class: 'invisible-link',
                     id: "ipad-link#{x}}"}}) + "\n"
   end

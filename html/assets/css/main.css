@@ -336,6 +336,7 @@ div.blog-image-subtitle {
 /* image cylcer */
 
 div.tall-screenshot {
+  text-align: center;
   padding: 0em 15%;
   margin: 0em;
 }
@@ -346,15 +347,26 @@ span.screenshot-arrow {
 }
 
 td.game img.navigation-arrow {
+  vertical-align: middle;
   padding: 0em;
   margin: 0em;
 }
 
-td.game img.visible-screenshot {
-  vertical-align: middle;
-  width: calc(100% - 60px);
-  display: inline;
-  padding: 1em 0em;
+@media only screen and (max-device-width: 1030px) {
+  td.game img.visible-screenshot {
+    vertical-align: middle;
+    width: calc(100% - 160px);
+    display: inline;
+    padding: 1em 0em;
+  }
+}
+@media screen and (min-device-width: 1031px) {
+  td.game img.visible-screenshot {
+    vertical-align: middle;
+    width: calc(100% - 140px);
+    display: inline;
+    padding: 1em 0em;
+  }
 }
 
 td.game img.invisible-screenshot {

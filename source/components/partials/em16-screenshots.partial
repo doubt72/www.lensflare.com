@@ -3,7 +3,7 @@ Yosemite):</p>
 
 <div>
 <span class="screenshot-arrow" onclick="macCycler.previousImage();">
-  { image("em16/em16-left-arrow.png", {class: 'navigation-arrow'}}) }
+  { image("em16/em16-left-arrow.png", {class: 'navigation-arrow'}}) } prev
 </span>
 { images = ""
   0.upto(4) do |x|
@@ -13,13 +13,13 @@ Yosemite):</p>
   end
   images.chomp }
 <span class="screenshot-arrow" onclick="macCycler.nextImage();">
-  { image("em16/em16-right-arrow.png", {class: 'navigation-arrow'}}) }
+  next { image("em16/em16-right-arrow.png", {class: 'navigation-arrow'}}) }
 </span>
 <br />
 <div class="screenshot-links">
 { links = ""
   0.upto(4) do |x|
-    links += link("em16/screenshot-mac0#{x}}.png", "(full size here)",
+    links += link("em16/screenshot-mac0#{x}}.png", "(full size image here)",
                    {class: 'invisible-link',
                     id: "mac-link#{x}}"}}) + "\n"
   end
@@ -31,7 +31,7 @@ Yosemite):</p>
 
 <div>
 <span class="screenshot-arrow" onclick="iPadCycler.previousImage();">
-  { image("em16/em16-left-arrow.png", {class: 'navigation-arrow'}}) }
+  { image("em16/em16-left-arrow.png", {class: 'navigation-arrow'}}) } prev
 </span>
 { images = ""
   0.upto(4) do |x|
@@ -41,13 +41,13 @@ Yosemite):</p>
   end
   images.chomp }
 <span class="screenshot-arrow" onclick="iPadCycler.nextImage();">
-  { image("em16/em16-right-arrow.png", {class: 'navigation-arrow'}}) }
+  next { image("em16/em16-right-arrow.png", {class: 'navigation-arrow'}}) }
 </span>
 <br />
 <div class="screenshot-links">
 { links = ""
   0.upto(4) do |x|
-    links += link("em16/screenshot-ipad0#{x}}.png", "(full size here)",
+    links += link("em16/screenshot-ipad0#{x}}.png", "(full size image here)",
                    {class: 'invisible-link',
                     id: "ipad-link#{x}}"}}) + "\n"
   end
@@ -59,7 +59,7 @@ Yosemite):</p>
 
 <div class="tall-screenshot">
 <span class="screenshot-arrow" onclick="iPhoneCycler.previousImage();">
-  { image("em16/em16-left-arrow.png", {class: 'navigation-arrow'}}) }
+  { image("em16/em16-left-arrow.png", {class: 'navigation-arrow'}}) } prev
 </span>
 { images = ""
   0.upto(4) do |x|
@@ -69,13 +69,13 @@ Yosemite):</p>
   end
   images.chomp }
 <span class="screenshot-arrow" onclick="iPhoneCycler.nextImage();">
-  { image("em16/em16-right-arrow.png", {class: 'navigation-arrow'}}) }
+  next { image("em16/em16-right-arrow.png", {class: 'navigation-arrow'}}) }
 </span>
 <br />
 <div class="screenshot-links">
 { links = ""
   0.upto(4) do |x|
-    links += link("em16/screenshot-47in0#{x}}.png", "(full size here)",
+    links += link("em16/screenshot-47in0#{x}}.png", "(full size image here)",
                    {class: 'invisible-link',
                     id: "iphone-link#{x}}"}}) + "\n"
   end
