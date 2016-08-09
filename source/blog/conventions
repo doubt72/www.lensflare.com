@@ -1,0 +1,54 @@
+id "blog-convention"
+title "Conventions"
+date "2016-08-6 05:58PM -0600"
+description "Election Manager 2016 updates"
+tags ["em16", "elexi", "tsc2"]
+--
+
+<p>So, first, the "big" news: Election Manager 2016 has been updated and is
+currently awaiting approval for the App Store and Mac App Store.  We'd been
+waiting for the conventions to release an update since we didn't know who all of
+the candidates would be until then (specifically, who the vice presidential
+candidates would be).  And so, since (as of Tuesday) the last candidate (the
+Green vice presidential candidate) was chosen (their convention was the last
+&mdash; it's taking place right now in Houston, in fact), it was time to release
+the update.</p>
+
+<div class="blog-image-right">
+{ link('blog/em16-screen.png',
+       image('blog/t/em16-screen.png',
+             {alt: 'Setup Screen', class: 'ss-link',
+              style: 'width: 320; height: 240;'}})) }
+  <div class="blog-image-subtitle">
+    new scenarios!
+  </div>
+</div>
+
+<p>Anyway, a 2016 scenario was added, along with a bunch of hypothetical
+scenarios with various hypothetical candidates.  Originally I'd only been
+planning to just add the one (i.e., Clinton and Trump plus optionally Johnson
+and Stein for three and four player games), but...  Well, this year has been a
+lot more...  Let's say "interesting" than the 2012 campaign was.  Since the
+beginning I've put a lot of effort into trying to make the election results
+realistic, and I did that for the 2016 scenarios as well; I'm sure someone will
+accuse me of putting my thumb on the scales, but to be honest, these are just my
+best guesses as to the likely outcomes.  And, to be frank, I don't think any
+campaign manager for...  A certain candidate, let's say...  Really has a lot to
+work with.  We'll see if I was right, and there will be further adjustments
+after November, and, well, if you don't like it, nothing's keeping you from
+adjusting the parameters yourself &mdash; that's what they're for.</p>
+
+<p>Also, I added some portrait options for the update. People'd actually been
+asking for the particular options I added, but...  I think it was pretty likely
+that I would have been adding them anyway.</p>
+
+<p>So, we'll see how long it takes to get things approved, but expect the
+updates soon.</p>
+
+<p>In the meantime, work on Elexi continues apace (at this point it's largely
+translation work, music, and further efforts to clean up the non-English word
+lists).  Right now we're down to "hurry up and wait" for the translation work to
+be finished so it can be tested, and so Elexi ought to be out soon, too.</p>
+
+<p>Also, a bit of work on TSC2 as well, but that's pretty early work; I'll be
+diving a lot more into that from here on out.</p>
