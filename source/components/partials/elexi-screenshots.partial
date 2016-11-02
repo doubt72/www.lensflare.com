@@ -3,7 +3,7 @@
   { image("elexi/elexi-left-arrow.png", {class: 'navigation-arrow'}}) } prev
 </span>
 { images = ""
-  0.upto(4) do |x|
+  0.upto(8) do |x|
     images += image("elexi/screenshot#{x}}.png",
                    {class: 'invisible-screenshot',
                     id: "screenshot#{x}}"}}) + "\n"
@@ -15,7 +15,7 @@
 <br />
 <div class="screenshot-links">
 { links = ""
-  0.upto(4) do |x|
+  0.upto(8) do |x|
     links += link("elexi/screenshot#{x}}.png", "(full size image here)",
                    {class: 'invisible-link',
                     id: "link#{x}}"}}) + "\n"
@@ -25,7 +25,7 @@
 </div>
 
 <script type="text/javascript">
-cycler = new Cycler("screenshot", "link", 4)
+cycler = new Cycler("screenshot", "link", 8)
 
 cycler.show();
 
@@ -33,7 +33,7 @@ function nextImage() {{
   cycler.nextImage();
 }
 
-for (var i = 0; i < 5; i++) {{
+for (var i = 0; i < 9; i++) {{
   document.getElementById("screenshot" + i).addEventListener("click", nextImage);
 }
 </script>

@@ -1,0 +1,102 @@
+id "blog-october"
+title "October, Just Barely"
+date "2016-10-31 10:29PM -0600"
+description "Elexi and Other Updates"
+tags ["elexi", "word game", "unity", "twitter"]
+--
+
+<p>It's been a while, hasn't it?  So...  Well, some updates.</p>
+
+<h2>Elexi</h2>
+
+<p>So, first off...  Elexi is releasing. <i>Finally.</i></p>
+
+<div class="blog-image-right">
+{ link('blog/elexi-promo-1024.png',
+       image('elexi-promo-400.png',
+             {alt: 'Setup Screen', class: 'ss-link',
+              style: 'width: 300; height: 146;'}})) }
+  <div class="blog-image-subtitle">
+    Elexi promo!
+  </div>
+</div>
+
+<p>It took longer than expected because, well, localization isn't exactly
+trivial, and there were also distractions in the form of visitors, family, and
+related travel.  All of the latter pushed things back almost two months later
+than it could have been (localization wasn't ready until just after that all
+started, so maybe &mdash; but maybe not &mdash; things could have been finalized
+then if that had been just a tad quicker).  Regarding localization specifically,
+that took a bit of time just to coordinate and finish, but mostly it meant lots
+(and lots) of pretty tedious testing of everything to make sure everything fit
+correctly, nothing is cut off or overflows, and oh, the 200(!) individually
+created screenshots for the app stores to cover the major form factors in every
+localized language. Plus a bunch of other promo assets that had to be
+localized.</p>
+
+<p>...At any rate, let's just say, localization is a lot of work, on the order
+of weeks.  I thought it'd be quicker, to be completely honest, and I thought
+Elexi would be ready about a month ago.  Making it international probably
+doubled (conservatively!) the amount of time spent on Elexi (if you include the
+time spent on word lists), but...  Well, hopefully it was worth it?  We'll
+see.</p>
+
+<p>Anyway, go { link("elexi", "check it out") }.  And buy it, it's only
+$0.99.</p>
+
+<h2>So, How's That Unity Thing Going, Anyway?</h2>
+
+<p>Given that I mainly did it for a "quick" test of Unity (hahaha, ouch, I'm
+hurting myself here, oh God, no, those aren't tears, why, God, why)...  Well.
+It did that.</p>
+
+<div class="blog-image-left">
+{ link('elexi/screenshot5.png',
+       image('elexi/screenshot5.png',
+             {alt: 'Setup Screen', class: 'ss-link',
+              style: 'width: 180; height: 320;'}})) }
+  <div class="blog-image-subtitle">
+    Screenshot!
+  </div>
+</div>
+
+<p>Unity is kind of a pile of crap &mdash; I suppose actually having the pro
+version would likely mitigate some of the pain, mainly by having tech support,
+but damn, there are some amazingly annoying bugs that I had to work around that
+had shit-all to do with any code I wrote &mdash; but I'm probably going to keep
+using it.  Why?  Well...  I kind of know it now, it's widely enough used that
+getting around the broken stuff is (mostly) a concerted google away, but more
+importantly, where would I go?  Everything else either has worse licensing or is
+missing key cross-platform support or is otherwise just not mature enough or has
+any of a number of other drawbacks.  So.  Unity is it, I guess.</p>
+
+<p>To be completely honest...  Most professional software is pretty much like
+this (by which I mean, the kind of stuff I've worked on or with my entire
+career).  Bugs are common, hair-pulling is the norm, yadda, yadda.  Profound
+mediocrity is just the way things are with complex software packages when you
+don't have infinite time to polish, test, and debug. Even polished commercial
+software has bugs (as pretty much everyone knows first hand).  Unity is pretty
+bad and often frustrating to work with...  But not the worst I've seen?  So I
+curse it but I also shrug. ¯\_(ツ)_/¯ &#x1f4a9;</p>
+
+<h2>That Twitter Thing</h2>
+
+<p>So, I'm essentially putting the "official" Lensflare Games twitter account
+
+({ link_abs("https://www.twitter.com/lensflare_games", "@lensflare_games")})
+
+on hiatus, because I've decided that I don't really want to deal with
+maintaining two twitter accounts.  I mean, it's not a lot of work, but I also
+don't see a strong case for doing it, so...  For the time being I'm just going
+to use my personal twitter
+
+({ link_abs("https://www.twitter.com/doubt72", "@doubt72")})
+
+for everything, and post game updates there instead.  Not that I post a whole
+lot of those, anyway.  So enjoy the cat pictures that inevitably get mixed in.
+Or not.  Apologies to my 50-odd Lensflare Games followers, especially the dozen
+or so that are actual real people.</p>
+
+<h2>And So...?</h2>
+
+<p>TSC2 is the new thing.  That's the thing.  The thing I'm doing now.<p>

@@ -1,6 +1,7 @@
 id "em16-presskit"
 title "Election Manager 2016"
 css ["css/main.css", "css/color-em16.css"]
+javascript ["js/cycle_images.js"]
 template "templates/em16.template"
 favicon [
   [16, 'icon', 'favicon/em16-16.png'],
@@ -140,7 +141,7 @@ favicon [
           { link_abs("mailto:support@lensflare.com", "support@lensflare.com") }
 
           <li><strong>Twitter:</strong>
-          { link_abs("https://twitter.com/lensflare_games", "@lensflare_games") }
+          { link_abs("https://twitter.com/doubt72", "@doubt72") } (Douglas Triggs, Programmer)
 
           <li><strong>Company Web Site:</strong>
           { link("home", "http://www.lensflare.com/") }</li>

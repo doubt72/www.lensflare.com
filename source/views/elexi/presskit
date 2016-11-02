@@ -1,0 +1,167 @@
+id "elexi-presskit"
+title "Elexi"
+css ["css/main.css", "css/color-elexi.css"]
+template "templates/elexi.template"
+favicon [
+  [16, 'icon', 'favicon/elexi-16.png'],
+  [32, 'icon', 'favicon/elexi-32.png'],
+  [152, 'apple-touch-icon', 'favicon/elexi-152.png']
+]
+--
+<table>
+  <tr>
+    <td rowspan="6" valign="top" class="game">
+      { link("elexi", image("elexi-256.png")) }
+    </td>
+    <td class="game">
+      <h1>Elexi Press Kit</h1>
+
+      <p>Thank you for your interest in Elexi.  Elexi is a word game where the
+      player spells words on a board of lettered tiles, then discards one of the
+      letters used. There is no time limit, scores are based instead on the
+      combination of the length of words as well as the rarity of letters used.
+      There are several modes of play, including simple elimination (until no
+      more words can be spelled) and a more challenging mode where letters are
+      replaced by new letters from a queue if an ever-increasing threshold is
+      met.  There are also "express" versions of the game played from a 3x3
+      board (instead of the 5x5 board used by the "full" game).</p>
+
+      <p>Elexi has word lists for six languages (English, Spanish, German,
+      French, Portuguese, and Italian) and is localized into two additional
+      languages (Japanese and simplified Chinese).</p>
+
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#1">Fact Sheet</a></li>
+        <li><a href="#2">App Store Description</a></li>
+        <li><a href="#3">Screenshots</a></li>
+        <li><a href="#4">Credits</a></li>
+        <li><a href="#5">Contact</a></li>
+      </ul>
+
+      <p>If you're a journalist, reviewer, streamer or blogger and would like to
+      request a review copy, or if you have other questions that this press kit
+      doesn't cover, feel free to contact us at
+
+      { link_abs("mailto:support@lensflare.com", "support@lensflare.com") }.</p>
+
+      <p>You can also see the player { link("elexi-faq", "FAQ") }.</p>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+      <h1 id="1">Fact Sheet</h1>
+
+      <p>
+	<ul>
+
+	  <li><strong>Developer:</strong>
+	  { link("home", "Lensflare Games LLC") }</li>
+
+	  <li><strong>Publisher:</strong> self-published</li>
+
+	  <li><strong>Platforms:</strong> iOS (iPad, iPhone, iPod Touch), Android
+	  (tablets and phones)</li>
+
+	  <li><strong>Price:</strong> $0.99 (and equivalent) from the
+	  Apple App Store and Google Play</li>
+
+          <li><strong>Web Site:</strong>
+	  { link("elexi", "http://www.lensflare.com/elexi/") }</li>
+
+	</ul>
+      </p>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+      <h1 id="2">App Store Description</h1>
+
+      <p>[Localized App Store descriptions are available
+
+      { link("elexi-app-desc", "here") }]</p>
+
+      <p>{ image("elexi-promo-400.png") }</p>
+
+      { include("partials/elexi-blurb-short.partial") }
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1 id="3">Screenshots</h1>
+
+      <p>[A larger collection of 120 screenshots is available
+
+      { link("elexi/Elexi_PK_Images.zip", "here") }
+
+      for every supported language in three form factors (4x3 iPad, 16x10
+      Android tablet, and 5.5" iPhone &mdash; 16x9 Android Phones would have the
+      same layout).  A few logo, icon, and promotional images are also
+      included.]</p>
+
+      <p>
+
+      { images = ""
+        0.upto(8) do |x|
+          images += link("elexi/screenshot#{x}}.png",
+                         image("elexi/screenshot#{x}}.png",
+                               {style: 'width: 135; height: 240;'}})) + "\n"
+        end
+        images.chomp }
+
+      </p>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1 id="4">Credits</h1>
+
+      <p>
+	Lensflare Games LLC is Douglas Triggs and Ai Ling Chow.
+	<ul>
+
+	  <li><strong>All Programming and Design:</strong> Douglas Triggs</li>
+
+	  <li><strong>Music:</strong> Ai Ling Chow</li>
+
+	  <li><strong>Localization:</strong> Ai Ling Chow (Chinese), Saori Yamamoto
+	  (Japanese), all other languages provided by
+
+    { link_abs("http://www.dvorkin.com/tpi.php", "Translation Partners International") }</li>
+
+	</ul>
+      </p>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1 id="5">Contact</h1>
+
+      <p>
+	<ul>
+
+          <li><strong>For all inquiries (including support):</strong>
+          { link_abs("mailto:support@lensflare.com", "support@lensflare.com") }
+
+          <li><strong>Twitter:</strong>
+          { link_abs("https://twitter.com/doubt72", "@doubt72") } (Douglas Triggs, Programmer)
+
+          <li><strong>Company Web Site:</strong>
+          { link("home", "http://www.lensflare.com/") }</li>
+
+          <li><strong>Game Web Site:</strong>
+          { link("elexi", "http://www.lensflare.com/elexi/") }</li>
+	</ul>
+      </p>
+
+    </td>
+  </tr>
+</table>

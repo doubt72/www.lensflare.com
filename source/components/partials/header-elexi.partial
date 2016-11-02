@@ -6,5 +6,5 @@
   { link('elexi', 'Elexi', {self_class: 'current'}}) }
   { link('elexi-faq', 'FAQ', {self_class: 'current'}}) }
   { #link('elexi-manual', 'Manual', {self_class: 'current'}}) }
-  { link('elexi-support', 'Contact Us', {self_class: 'current'}}) }
+  { link('elexi-support', 'Support', {self_class: 'current'}}) }
 </div>

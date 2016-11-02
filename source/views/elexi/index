@@ -1,5 +1,5 @@
 id "elexi"
-title "elexi"
+title "Elexi"
 css ["css/main.css", "css/color-elexi.css"]
 javascript ["js/cycle_images.js"]
 template "templates/elexi.template"
@@ -11,7 +11,7 @@ favicon [
 --
 <table>
   <tr>
-    <td rowspan="2" valign="top" class="game">
+    <td rowspan="3" valign="top" class="game">
       { image("elexi-256.png") }
     </td>
     <td class="game">
@@ -30,6 +30,16 @@ favicon [
       <h1>Screenshots</h1>
 
       { include("partials/elexi-screenshots.partial") }
+
+    </td>
+  </tr>
+  <tr>
+    <td class="game">
+
+      <h1>Press Kit</h1>
+
+      <p>The Elexi press kit is available online
+      { link("elexi-presskit", "here") }.</p>
 
     </td>
   </tr>
