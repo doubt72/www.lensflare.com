@@ -14,7 +14,7 @@ tags ["elexi", "word game", "unity", "twitter"]
 <div class="blog-image-right">
 { link('blog/elexi-promo-1024.png',
        image('elexi-promo-400.png',
-             {alt: 'Setup Screen', class: 'ss-link',
+             {alt: 'elexi promo', class: 'ss-link',
               style: 'width: 300; height: 146;'}})) }
   <div class="blog-image-subtitle">
     Elexi promo!
@@ -53,7 +53,7 @@ It did that.</p>
 <div class="blog-image-left">
 { link('elexi/screenshot5.png',
        image('elexi/screenshot5.png',
-             {alt: 'Setup Screen', class: 'ss-link',
+             {alt: 'elexi japanese', class: 'ss-link',
               style: 'width: 180; height: 320;'}})) }
   <div class="blog-image-subtitle">
     Screenshot!
@@ -68,7 +68,7 @@ using it.  Why?  Well...  I kind of know it now, it's widely enough used that
 getting around the broken stuff is (mostly) a concerted google away, but more
 importantly, where would I go?  Everything else either has worse licensing or is
 missing key cross-platform support or is otherwise just not mature enough or has
-any of a number of other drawbacks.  So.  Unity is it, I guess.</p>
+any of a number of other drawbacks.  So.  Unity is it for now, I guess.</p>
 
 <p>To be completely honest...  Most professional software is pretty much like
 this (by which I mean, the kind of stuff I've worked on or with my entire
