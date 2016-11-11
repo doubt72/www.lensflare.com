@@ -1,0 +1,56 @@
+id "blog-election"
+title "Election"
+date "2016-11-10 12:40AM -0700"
+description "Election Manager 2016 is out"
+tags ["election", "em16"]
+--
+
+<p>So the election was a thing that happened.</p>
+
+<p>And that means...  Election Manager 2016 got updated.  I actually pushed the
+update early his morning[<a href="#foot-1" id="back-1">1</a>] and Apple was
+particularly quick on the approvals, so it's already out there.  Last I checked,
+it didn't show the 1.2.0 version on the iOS App Store (it already did on the Mac
+App Store), but it will almost certainly be there by the time I finish writing
+this or especially by the time anyone reads this, and people should be getting
+version 1.2.0 soon.</p>
+
+<p>The balance isn't quite perfect for the 2016 scenario[<a href="#foot-2"
+id="back-2">2</a>], the popular vote skews a bit republican to make the
+electoral college accurate, so it's now slightly more likely to result in a
+democrat electoral vote win with a republican popular vote win than the
+reverse&nbsp;&mdash;&nbsp;the opposite of what actually happened).  But the EV
+totals are more important (since that's actually what determines who actually
+wins, after all). I'm planning to approach things a little differently (and
+increase the ability to accurate calibrate things) whenever I write EM20; I
+never expected things to shift so radically from last election to this when I
+was writing EM16 two years ago (considering how stable things had been for the
+previous several elections). But there were a <i>lot</i> of things that were
+different about this election that were impossible to capture with the existing
+model.[<a href="#foot-3" id="back-3">3</a>]</em>
+
+<p>Anyway, the upgrade is up now, or go grab the latest for iOS on the
+
+{ link_abs("https://itunes.apple.com/us/app/election-manager-2016/id923812702",
+           "App Store") } or for Mac on the
+
+{ link_abs("https://itunes.apple.com/app/election-manager-2016/id923812695",
+           "Mac App Store") }.
+
+<p class="blog-footnote">[<a href="#back-1" id="foot-1">1</a>]  well, yesterday
+morning now, i.e., once the returns had reached the point that I could make
+proper recalibration of the changes in partisan balance, plus some
+time to make updated screenshots.</p>
+
+<p class="blog-footnote">[<a href="#back-2" id="foot-2">2</a>] the 2016 scenario
+is now "special" in that it's not balanced quite the same way as the 2012 or
+generic scenarios.  I justify this mainly because the candidates were not at all
+typical of historical norms, but also because really changing the balance is
+hard to do with the current engine without making major changes and potentially
+breaking things and requiring a whole lot of testing.  So, it's a bit of a
+band-aid.  I do plan to make this sort of thing easier to do if and when I write
+EM20 in which case I'd build a new engine for it (which would additionally have
+other properties that would improve the game as a game).<p>
+
+<p class="blog-footnote">[<a href="#back-3" id="foot-3">3</a>] Trump broke my
+game, too.<p>

@@ -39,6 +39,8 @@ favicon [
 <div class="section">
   <h1>Known Issues</h1>
 
+  <p>You can find the { link('elexi-support', 'Elexi page here') }.</p>
+
   <p>You can find the { link('em16-support', 'Election Manager 2016 page here') }.</p>
 
   <p>You can find the { link('tsc-support', 'Tactical Space Command page here') }.</p>
