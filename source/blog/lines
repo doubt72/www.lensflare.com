@@ -1,0 +1,177 @@
+id "blog-lines"
+title "On Lines"
+date "2016-11-29 12:04PM -0700"
+description "All about lines but also other things"
+tags ["tsc2", "unity"]
+--
+
+<p>So...  Elexi postmortem?  Yeah, no, not today.  Some TSC2 and Unity stuff,
+though.</p>
+
+<p>Today is all about various foundation and interface stuff I've been
+working on.</p>
+
+<h2>Lines</h2>
+
+<p>So the thing about Tactical Space Command (and TSC2) is that it lives and
+dies with line drawing&nbsp;&mdash; the game is supposed to have that classic
+vector Aegis Combat System Harpoon look, after all.  The problem is...  Unity
+isn't really interested in lines, not really.  I'm not sure that any game
+engines really do it well. Cocoa does, but then it's not (just) a game engine,
+and while it does makes pretty lines, it's also honestly a bit slow, and one of
+the reasons TSC lagged quite a bit in larger scenarios (especially on mobile.
+There are things that could have been done about it, though, namely avoiding
+drawing some of the lines in the first place. It's something I probably
+<i>will</i> do for TSC2 even if I don't need to for purely performance
+reasons).</p>
+
+<p>Anyway, line drawing.  That's kind of a problem.  I needed to figure it out,
+or else TSC2 is done before it begins.</p>
+
+<p>So...  Unity does actually have two kinds of lines it supports.  The first is
+via GL, and it's...  Problematic.  One, it draws directly on the game window on
+top of everything else (i.e., it's not possible to put it behind UI elements,
+etc.).  The other problem is that it draws one-pixel-wide lines of a pure color
+with no antialiasing or anything.  In other words, it's completely inflexible
+and looks like shit.  It's possible to work around some of these problems with
+multiple cameras, but that's complex and still looks bad.  On the bright side,
+it's fast. Ugly, but fast.  Bottom line, though, it's not good enough.</p>
+
+<p>Unity also supports...  Uh, polygons.  Thin polygons you can pretend are
+lines.  This actually works okay.  You can get antialiasing "for free" by
+texturing the lines...  Even better, you can also get glow effects that way,
+which is nice. Of course, the "lines" don't do circles (so you have to use a lot
+of segments), and that has weird artifacts with the glow effects and such (any
+line "joints" do, but it's more pronounced there).  It's...  Actually okay, I
+kind of like the effect of the imperfection.  So that's what I'm using for the
+tactical display. There's still a problem, though: the UI.</p>
+
+<div class="blog-image-right">
+{ link('blog/circle-scan.png',
+       image('blog/t/circle-scan.png',
+             {alt: 'Graphics Textbook', class: 'ss-link',
+              style: 'width: 240; height: 180;'}})) }
+  <div class="blog-image-subtitle" style="width: 240px;">
+    To the bookshelf!  Not much has changed since 1990, really.
+  </div>
+</div>
+
+<p>See, I wanted the game to be easily moddable, and I wanted the icons used for
+ships on the tactical display to be usable in other places (using the same icon
+"definitions"), including tooltips and buttons.  I also wanted them to be able
+to be parametrically defined so that mods could add new icons.  And the polygons
+"lines"... Don't work that well for that.  It's possible to put the polygons in
+front of the UI elements, but moving them along with panels and such so they're
+in front of some but behind others (i.e., when a dialog or button is in front of
+the tactical display or another panel) is a nightmare.  I gave up. So, um...  I
+decided to draw my own lines.</p>
+
+<p>And so I did.  I did my own scan conversion of lines into "pixel" arrays
+(with my own antialiasing along the way), converting them to Unity Texture2Ds
+and made those into UI images and putting them on buttons or wherever I needed
+them. Which actually gave me a bunch of additional benefits, like animated
+buttons and use of the same images (and animations) on tooltips.  And it works
+pretty well. But it did take a bit of time to get all of that working (and
+working efficiently).</p>
+
+<h2>Tooltips</h2>
+
+<p>Speaking of tooltips, I wanted to do something cool[<a href="#foot-1"
+id="back-1">1</a>] with them.  I not only wanted tooltips, I wanted images in
+the tooltips.  And not just that, I also wanted "links" to other tooltips in the
+tooltips, to explain concepts and show further information and such.  Basically,
+I want the "help" to go away (especially the text infodump crap I had in TSC.
+It was awful).</p>
+
+<div class="blog-image-right">
+{ link('blog/tooltips.png',
+       image('blog/t/tooltips.png',
+             {alt: 'Tooltips', class: 'ss-link',
+              style: 'width: 320; height: 182;'}})) }
+  <div class="blog-image-subtitle">
+    Still under construction
+  </div>
+</div>
+
+<p>I'd actually implemented an early version back when I was still working on
+Elexi.  It seemed to work pretty well, but the truth was it had some hidden
+problems that didn't become apparent until I really started using them.  The
+first problem was things weren't rendering quite right &mdash; images weren't
+located in <i>quite</i> the right spot, and sometimes the links were wrong, and
+sometimes the tooltip width was wrong and things like the last word would get
+cut off or line breaks would occur in unexpected places.</p>
+
+<p>The problem here was kind of obvious...  If you want to render arbitrary
+text, you need to figure out how big the tooltips need to fit the text (and
+images) properly. Unity (not having a fully mature UI implementation[<a
+href="#foot-2" id="back-2">2</a>]) doesn't really have a way of calculating the
+rendered text size.  You have to actually draw stuff on the screen and measure
+it.  Which I did.  And got the sizes of all the characters in my tooltip font,
+with one little problem... Unity reports advance widths (i.e., how much space a
+character takes up before the next character starts) in <i>integers</i>, which,
+ah, isn't nearly precise enough.  Some characters sizes were off by as much as
+half a pixel, and those errors add up. So I measured them myself. Yes, manually.
+By looking at pixels on the screen.[<a href="#foot-3" id="back-3">3</a>] I also
+programmatically inserted line breaks into the tooltip text when rendering
+instead of depending on the automatic line breaks to make absolutely sure the
+layout matched where images and links needed to go.</p>
+
+<p>The other major problem I was having with tooltips is that sometimes they
+just weren't quite triggering correctly.  Sometimes tooltips would get stuck on
+the screen and you'd have to enter and leave them to clear them.  Which is super
+annoying.  Because originally I was depending on exit events, but (wait for it),
+there was a problem here, too: by the time the tooltip was drawn, the mouse
+could actually be somewhere else &mdash; including outside of the tooltip.  And
+considering that there were tooltips inside of tooltips (meaning that things
+were already complicated by the fact that <i>some</i> exit events mattered and
+some didn't), well, tracking down the exact issue took a bit.  Ultimately I just
+did the simple thing and started checking the mouse location every frame in the
+deepest descendant tooltip and solved the problem that way.  Thought that makes
+for an interesting effect where tooltips "roll up" one per frame when you exit
+them (which actually looks kind of cool.  It's easy enough to fix, but I don't
+think I will).</p>
+
+<p>There were also some other behavior tweaks, and might still need to do some
+additional minor polish, but after all that I'm really pretty happy with how the
+tooltips turned out.</p>
+
+<h2>Et Cetera</h2>
+
+<p>And that's pretty much what I've been working on (i.e., interface screens,
+mostly), along with a whole lot of interface optimization as I go along. Because
+along with the tactical stuff, the game has a lot of...  Spreadsheets. Ships,
+officers, task forces and such need to be organized so they can be sent across
+the map to crush and destroy, after all. And...  Unity is really slow at adding
+buttons and text and other UI elements. So what you need to do is (instead of
+creating and destroying things dynamically) is create things and keep them
+around, hiding them when you're not using them, shuffling them when you resort
+them, etc., i.e., lots of cacheing of various sorts.  If you do that, you can
+switch things quickly and it's a million times more responsive. &#128077;</p>
+
+<p>Anyway, been writing some of the internal game logic too (we'll see if I'm
+clever or foolish with some of the things I've done to make things robust and
+modular), but mostly just logic skeletons there&nbsp;&mdash; generally only a
+bit more than I need to get the interface up and going.  Because stuff's hard to
+test if you can't see it.</p>
+
+<p>And progress marches on.</p>
+
+<p class="blog-footnote">[<a href="#back-1" id="foot-1">1</a>] For the record, I
+was partly inspired by the work Jon Shafer is doing on
+{
+  link_abs('http://www.atthegatesgame.com/A_Preview_of_AtGs_Revolutionary_UI',
+           'At the Gates')
+}, but I'd had similar ideas even before that.  I'm a big fan of tooltips.</p>
+
+<p class="blog-footnote">[<a href="#back-2" id="foot-2">2</a>] It's clearly a
+lower priority than 3D rendering and got completely rewritten recently
+anyway&nbsp;&mdash; the current UI is a whole lot better than it used to be.
+It's not bad, but not as good as, say, Cocoa, either.  Which should surprise no
+one.</p>
+
+<p class="blog-footnote">[<a href="#back-3" id="foot-3">3</a>]  Okay, it was a
+bit more complicated than that, but yes, it did involve looking at retina pixels
+to see where things lined up.  And yeah, I'm not sure how this is going to hold
+up cross-platform, either, since I don't know how much Unity offloads font
+rendering to the local OS.  It could be fragile.  The font itself won't change,
+but potentially things like kerning may.</p>
