@@ -1,5 +1,8 @@
 font = "Play"
 
+# This code is faintly ugly, but whatever.  Generates a logo in SVG
+# at arbitrary sizes in color and reverse/greyscale
+
 puts "<!DOCTYPE html>"
 puts "<html>"
 puts "<head>"
