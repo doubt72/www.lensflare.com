@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>Doug's Lensflare Game Development Blog</title>
+  <title>On Design</title>
   <link rel="stylesheet" href="../assets/css/main.css" type="text/css" />
   <link rel="stylesheet" href="../assets/css/color-lfg.css" type="text/css" />
   <link rel="icon" type="image/png" href="../assets/favicon/lensflare-16.png" sizes="16x16" />
@@ -33,7 +33,7 @@
     <a href="../about.html">About Us</a>
   </span>
   <a href="../index.html">Games</a>
-  <a href="index.html" class="current">Blog</a>
+  <a href="index.html">Blog</a>
   <a href="../support.html">Support</a>
   <a href="../help.html">Help</a>
 </div>
@@ -44,10 +44,164 @@
 <table class="blog-table">
   <tr>
     <td>
-      <div id="content">
+      <div id="content" class="blog-content">
 
-        <h1>Doug's Lensflare Game Development Blog</h1>
+        <h1>On Design</h1>
+        <span class="blog-entry-date">05 March 2017</span>
 
+        
+<p>So, some thoughts on design, inspired by a new logo and subsequent redesign
+of the Lensflare web page.  Which, presumably, you're looking at right now
+(unless enough time has passed that either the logo or web page has changed
+again, of course).</p>
+
+<p>I suppose the first question that a reader might have is...  Why the new logo
+in the first place?  That's not really a difficult question, though.  It's
+because the old logo was crap.  Not because it was ugly or anything, but because
+it was less a logo than 3D art.  It looked fine in the loading screen of a game,
+or on a screen in general, but it was useless for print (e.g., for business
+cards), too busy to be iconic and just all around inflexible for general use.
+Basically I wanted something new that worked well for all of those things.</p>
+
+<h2>So, What Did I Do?</h2>
+
+<p>Several things: I made a new logo.  I made a design and picked a font that
+suited it. I updated the web page to use the new logo, and mirrored the color
+scheme. I repeated aspects of the logo for various decorative elements (i.e.,
+the hexagons in the header and footer bars, the simplified version of the logo
+in the upper left, also used for the favicon).  I also replaced the generic
+sans-serif fonts with a font I've been using in the games, re-colored the TSC
+page (because, eh, the green was too much, I guess).  I re-did the fonts on the
+Elexi, EM16, and TSC pages to match the fonts I use in-game. Well, in the case
+of TSC, they're actually the fonts I'm using in TSC2, and in the case of EM16,
+they're actually the fonts I'll probably use in EM20 (because I can't actually
+get the fonts I used in the games on the web trivially&nbsp;&mdash; or legally,
+most likely&nbsp;&mdash; they're iOS/OSX system fonts).</p>
+
+<h2>The Logo and Process</h2>
+
+<p>It's probably safe to say that if my design process isn't unique, it's
+certainly pretty unusual.  Starting with the logo itself, let's call it "logo
+design with code" (riffing off of "infrastructure as code," which was a
+thing&nbsp;&mdash; and the whole reason for its existence, actually&nbsp;&mdash;
+at my old company, <a href="https://www.chef.io/">Chef</a>).</p>
+
+<p>It's not the design itself.  That's pretty straightforward.  I mean, it
+started with hexagons&nbsp;&mdash; I do strategy games, so there had to be
+hexagons. Although, ironically, none of the three games I've done so far use
+hexagons.  Or even the next five games I'll do (judging by the more-or-less
+fleshed out design docs I have).  Hexagons evoke the right strategic feel,
+though.  So, hexagons: check.</p>
+
+<div style="float: right; padding:1em; background-color: black;">
+  <svg width="440.0" height="240.0">
+  <rect width="440.0" height="240.0" style="fill:hsl(0, 0%, 0%);stroke-width:1;stroke:#000;" />
+  <polygon points="75.0,85.98076211353316 90.0,60.0 75.0,34.01923788646684 45.0,34.01923788646684 30.0,59.99999999999999 44.999999999999986,85.98076211353316" style="fill:hsl(15, 60%, 40%);" />
+  <polygon points="125.99992499999999,144.8704462696048 133.499925,131.88006521283822 125.99992499999999,118.88968415607164 110.99992499999999,118.88968415607164 103.49992499999999,131.88006521283822 110.99992499999999,144.8704462696048" style="fill:hsl(200, 60%, 22%);" />
+  <polygon points="125.999925,115.42566914347427 133.49992500000002,102.43528808670769 125.999925,89.4449070299411 110.999925,89.4449070299411 103.499925,102.43528808670769 110.99992499999999,115.42566914347427" style="fill:hsl(200, 60%, 22%);" />
+  <polygon points="100.5,100.703280580409 108.0,87.71289952364242 100.5,74.72251846687584 85.5,74.72251846687584 78.0,87.71289952364242 85.5,100.703280580409" style="fill:hsl(200, 60%, 22%);" />
+  <polygon points="75.00007500000001,115.42566914347425 82.50007500000001,102.43528808670767 75.00007500000001,89.44490702994109 60.00007500000001,89.44490702994109 52.50007500000001,102.43528808670767 60.000075,115.42566914347425" style="fill:hsl(200, 60%, 22%);" />
+  <polygon points="75.00007500000001,144.8704462696048 82.50007500000001,131.88006521283822 75.00007500000001,118.88968415607164 60.00007500000001,118.88968415607164 52.50007500000001,131.88006521283822 60.000075,144.8704462696048" style="fill:hsl(200, 60%, 22%);" />
+  <polygon points="100.49999999999999,159.59283483267006 107.99999999999999,146.60245377590348 100.49999999999999,133.6120727191369 85.49999999999999,133.6120727191369 77.99999999999999,146.60245377590348 85.49999999999997,159.59283483267006" style="fill:hsl(200, 60%, 22%);" />
+  <polygon points="141.0,200.29611541307906 156.0,174.3153532995459 141.0,148.33459118601274 111.00000000000001,148.33459118601274 96.00000000000001,174.3153532995459 111.0,200.29611541307906" style="fill:hsl(200, 60%, 32%);" />
+  <line x1="34.99999999999999" y1="16.69872981077807" x2="155.0" y2="224.54482671904333" style="stroke:hsl(60, 80%, 80%);stroke-width:2.0px" />
+  <line x1="85.0" y1="16.69872981077807" x2="34.99999999999999" y2="103.30127018922192" style="stroke:hsl(60, 80%, 80%);stroke-width:2.0px" />
+  <line x1="10.0" y1="60.0" x2="110.0" y2="60.0" style="stroke:hsl(60, 80%, 80%);stroke-width:2.0px" />
+  <text x="89.5" y="111.09549882328187" style="fill:hsl(60, 80%, 80%);font-family:'Play';font-size:64.0px;">LENSFLARE</text>
+  <text x="119.00000000000001" y="166.52112466548596" style="fill:hsl(60, 80%, 80%);font-family:'Play';font-size:64.0px;">GAMES</text>
+  <text x="336.5" y="166.52112466548596" style="fill:hsl(60, 80%, 80%);font-family:'Play';font-size:16.0px;">LLC</text>
+</svg>
+
+</div>
+
+<p>There also had to be a lensflare.  So I made a stylized version of that with
+the hexagons, and added lines to make it blindingly(!) obvious what I was doing.
+Then added the text, and voila: a logo.</p>
+
+<p>For color...  I actually designed the logo originally in greyscale, because
+to be completely honest, I was designing for print first.  Why?  Because I need
+new business cards and I didn't want them to look like crap.[<a href="#foot-1"
+id="back-1">1</a>] But I needed a colorized version too (for digital).  For
+that, I started with the yellow (or gold, really) I've been using for the name
+all along (for decades&nbsp;&mdash; Lensflare existed long before there was a
+game company to match.  Although I did slightly switch things up by using an
+HSV-specified color close to the old RGB I was using). I kept it to a
+three-color palette (all using colors with a yellow base for a consistent feel),
+with a red-orange for the central flare and blue-ish cyan-teal for the
+reflections.[<a href="#foot-2" id="back-2">2</a>]  Gold for the lines to match
+the text.</p>
+
+<p>The result is kind of bold and iconic (in a geometric sense), with quite a
+bit of a retro sixties/seventies graphic design feel to it, I think (both in
+terms of color and overall design).  Obviously I like it, or I wouldn't have
+kept it.  Other people may hate it (who knows?) but the second opinions I've
+gotten so far are broadly positive.</p>
+
+<p>The more interesting part (to me, anyway) is how I actually made the logo.
+Being me, I wrote a program that generated it; you might say the logo
+specifications or the reference design is the code itself
+
+(<a href="https://github.com/doubt72/www.lensflare.com/blob/master/lflogosvg.rb">here</a>
+
+if you actually want to see it).  One result of that is that the logos on the
+web page are raw SVG, not images.  Which I suppose might make it a bit harder
+for people to copy it (meaning for articles and such if we got
+coverage&nbsp;&mdash; I doubt many sites are set up to deal with including SVG.
+As for actually copying the SVG itself, that's trivial.  It's both served on the
+web page and in the site
+
+<a href="https://github.com/doubt72/www.lensflare.com">source code</a>
+
+itself which I obviously don't make any particular effort to hide).  The other
+result of that is that if anyone is still using IE8, I've basically told them to
+go jump in a fire, because they can't see the logo or any of the decorative bits
+on the page.  And I basically don't care (I think the page will actually degrade
+fine for them, though, other than that).  If it turns out it's a bigger problem,
+generating images from the SVG is no big deal, but so far I mostly haven't
+bothered.</p>
+
+<p>One last technical note: all of the fonts I'm using are Google fonts.  You
+can see in the page source or on Github which ones I'm using for what.  You can
+also read the credits in Elexi to see which ones I used there; TSC2 will be the
+same.</p>
+
+<h2>Other News</h2>
+
+<p>Development on TSC2 has more or less crawled to a halt for a couple reasons,
+not least of which is that I'm looking for a full-time day job.  In the short
+term, it will probably pick up again in the immediate future (watching youtube
+videos on data-oriented design, which not 100% applicable to what I do have at
+least been inspiring), but whenever I do start a full-time job it will probably
+come to a complete halt for a while, and thereafter go at least somewhat slowly
+(as it will be back to being a spare-time sort of thing, i.e., as time and
+energy permit).  But we'll see how things go.</p>
+
+<p>Also, methinks I should probably strive to post something a <em>bit</em> more
+often here.  I ought to be able to handle doing at least one post a month; my
+posting schedule has been pretty pathetic here of late.</p>
+
+<p class="blog-footnote">[<a href="#back-1" id="foot-1">1</a>] So!  Here at last
+is the real reason I made a new logo.  Now you know the truth.</p>
+
+<p class="blog-footnote">[<a href="#back-2" id="foot-2">2</a>] Honesty compels
+me to admit that originally I'd started with a blue-gold dichromatic scheme
+which is almost a cliche with the 3D art I've done&nbsp;&mdash; I've used that
+pairing so often.  But I ended up backing off the blues in this case because the
+red central flare just didn't fit that, making everything riff on primary
+yellow instead.</p>
+
+
+        <div>&nbsp;</div>
+
+        <p>Tags: <a href="tags/design.html">design</a>, <a href="tags/lensflare.html">lensflare</a>, <a href="tags/tsc2.html">tsc2</a>, <a href="tags/web%20development.html">web development</a></p>
+
+        <span class="blog-nav"><a href="introduction.html"><< first</a></span>
+        <span class="blog-nav"><a href="lines.html">< prev</a></span>
+        <span class="blog-nav">next ></span>
+        <span class="blog-nav">last >></span>
+        <div>&nbsp;</div>
+
+        <div class="blog-small-description">
         <img src="../assets/icon-doug.jpg" class="doug-icon" />
 
 <p class="blog-description-top">These are Doug's bloggish thoughts on game development, specifically on the
@@ -72,29 +226,7 @@ from people, especially when they want to talk about games.</p>
 
 <div style="clear: left;">&nbsp;</div>
 
-
-        <h2>Blog Entries:</h2>
-        <div>&nbsp;</div>
-
-        <div class="blog-entry-list">
-<p><a href="on-design.html">On Design</a> <span class="blog-date">[05 March 2017]</span></p>
-<p><a href="lines.html">On Lines</a> <span class="blog-date">[29 November 2016]</span></p>
-<p><a href="election.html">Election</a> <span class="blog-date">[10 November 2016]</span></p>
-<p><a href="mobile-market.html">Mobile and the Market</a> <span class="blog-date">[03 November 2016]</span></p>
-<p><a href="october.html">October, Just Barely</a> <span class="blog-date">[31 October 2016]</span></p>
-<p><a href="conventions.html">Conventions</a> <span class="blog-date">[06 August 2016]</span></p>
-<p><a href="elexi.html">Elexi</a> <span class="blog-date">[12 July 2016]</span></p>
-<p><a href="optimize-prime.html">Optimize Prime</a> <span class="blog-date">[10 July 2016]</span></p>
-<p><a href="pre-polish.html">Proto-polish</a> <span class="blog-date">[30 June 2016]</span></p>
-<p><a href="unified_germany.html">Unified Germany</a> <span class="blog-date">[10 June 2016]</span></p>
-<p><a href="leaving_on_a_jet_plane.html">Leaving on a Jet Plane</a> <span class="blog-date">[31 May 2016]</span></p>
-<p><a href="unity_and_things.html">On the Unity Front</a> <span class="blog-date">[23 May 2016]</span></p>
-<p><a href="whats_the_word.html">What's the Word?</a> <span class="blog-date">[13 May 2016]</span></p>
-<p><a href="introduction.html">First Post</a> <span class="blog-date">[12 May 2016]</span></p>
-</div>
-<div>&nbsp;</div>
-
-
+        </div>
       </div>
     </td>
     <td class="td-blog-sidebar">

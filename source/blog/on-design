@@ -1,0 +1,129 @@
+id "on-design"
+title "On Design"
+date "2017-03-05 03:00PM -0600"
+description "Some thoughts on my design process"
+tags ["lensflare", "web development", "design", "tsc2"]
+--
+
+<p>So, some thoughts on design, inspired by a new logo and subsequent redesign
+of the Lensflare web page.  Which, presumably, you're looking at right now
+(unless enough time has passed that either the logo or web page has changed
+again, of course).</p>
+
+<p>I suppose the first question that a reader might have is...  Why the new logo
+in the first place?  That's not really a difficult question, though.  It's
+because the old logo was crap.  Not because it was ugly or anything, but because
+it was less a logo than 3D art.  It looked fine in the loading screen of a game,
+or on a screen in general, but it was useless for print (e.g., for business
+cards), too busy to be iconic and just all around inflexible for general use.
+Basically I wanted something new that worked well for all of those things.</p>
+
+<h2>So, What Did I Do?</h2>
+
+<p>Several things: I made a new logo.  I made a design and picked a font that
+suited it. I updated the web page to use the new logo, and mirrored the color
+scheme. I repeated aspects of the logo for various decorative elements (i.e.,
+the hexagons in the header and footer bars, the simplified version of the logo
+in the upper left, also used for the favicon).  I also replaced the generic
+sans-serif fonts with a font I've been using in the games, re-colored the TSC
+page (because, eh, the green was too much, I guess).  I re-did the fonts on the
+Elexi, EM16, and TSC pages to match the fonts I use in-game. Well, in the case
+of TSC, they're actually the fonts I'm using in TSC2, and in the case of EM16,
+they're actually the fonts I'll probably use in EM20 (because I can't actually
+get the fonts I used in the games on the web trivially&nbsp;&mdash; or legally,
+most likely&nbsp;&mdash; they're iOS/OSX system fonts).</p>
+
+<h2>The Logo and Process</h2>
+
+<p>It's probably safe to say that if my design process isn't unique, it's
+certainly pretty unusual.  Starting with the logo itself, let's call it "logo
+design with code" (riffing off of "infrastructure as code," which was a
+thing&nbsp;&mdash; and the whole reason for its existence, actually&nbsp;&mdash;
+at my old company, { link_abs('https://www.chef.io/', 'Chef') }).</p>
+
+<p>It's not the design itself.  That's pretty straightforward.  I mean, it
+started with hexagons&nbsp;&mdash; I do strategy games, so there had to be
+hexagons. Although, ironically, none of the three games I've done so far use
+hexagons.  Or even the next five games I'll do (judging by the more-or-less
+fleshed out design docs I have).  Hexagons evoke the right strategic feel,
+though.  So, hexagons: check.</p>
+
+<div style="float: right; padding:1em; background-color: black;">
+  { include("partials/lflogo-440.partial") }
+</div>
+
+<p>There also had to be a lensflare.  So I made a stylized version of that with
+the hexagons, and added lines to make it blindingly(!) obvious what I was doing.
+Then added the text, and voila: a logo.</p>
+
+<p>For color...  I actually designed the logo originally in greyscale, because
+to be completely honest, I was designing for print first.  Why?  Because I need
+new business cards and I didn't want them to look like crap.[<a href="#foot-1"
+id="back-1">1</a>] But I needed a colorized version too (for digital).  For
+that, I started with the yellow (or gold, really) I've been using for the name
+all along (for decades&nbsp;&mdash; Lensflare existed long before there was a
+game company to match.  Although I did slightly switch things up by using an
+HSV-specified color close to the old RGB I was using). I kept it to a
+three-color palette (all using colors with a yellow base for a consistent feel),
+with a red-orange for the central flare and blue-ish cyan-teal for the
+reflections.[<a href="#foot-2" id="back-2">2</a>]  Gold for the lines to match
+the text.</p>
+
+<p>The result is kind of bold and iconic (in a geometric sense), with quite a
+bit of a retro sixties/seventies graphic design feel to it, I think (both in
+terms of color and overall design).  Obviously I like it, or I wouldn't have
+kept it.  Other people may hate it (who knows?) but the second opinions I've
+gotten so far are broadly positive.</p>
+
+<p>The more interesting part (to me, anyway) is how I actually made the logo.
+Being me, I wrote a program that generated it; you might say the logo
+specifications or the reference design is the code itself
+
+({ link_abs('https://github.com/doubt72/www.lensflare.com/blob/master/lflogosvg.rb', 'here') }
+
+if you actually want to see it).  One result of that is that the logos on the
+web page are raw SVG, not images.  Which I suppose might make it a bit harder
+for people to copy it (meaning for articles and such if we got
+coverage&nbsp;&mdash; I doubt many sites are set up to deal with including SVG.
+As for actually copying the SVG itself, that's trivial.  It's both served on the
+web page and in the site
+
+{ link_abs('https://github.com/doubt72/www.lensflare.com', 'source code') }
+
+itself which I obviously don't make any particular effort to hide).  The other
+result of that is that if anyone is still using IE8, I've basically told them to
+go jump in a fire, because they can't see the logo or any of the decorative bits
+on the page.  And I basically don't care (I think the page will actually degrade
+fine for them, though, other than that).  If it turns out it's a bigger problem,
+generating images from the SVG is no big deal, but so far I mostly haven't
+bothered.</p>
+
+<p>One last technical note: all of the fonts I'm using are Google fonts.  You
+can see in the page source or on Github which ones I'm using for what.  You can
+also read the credits in Elexi to see which ones I used there; TSC2 will be the
+same.</p>
+
+<h2>Other News</h2>
+
+<p>Development on TSC2 has more or less crawled to a halt for a couple reasons,
+not least of which is that I'm looking for a full-time day job.  In the short
+term, it will probably pick up again in the immediate future (watching youtube
+videos on data-oriented design, which not 100% applicable to what I do have at
+least been inspiring), but whenever I do start a full-time job it will probably
+come to a complete halt for a while, and thereafter go at least somewhat slowly
+(as it will be back to being a spare-time sort of thing, i.e., as time and
+energy permit).  But we'll see how things go.</p>
+
+<p>Also, methinks I should probably strive to post something a <em>bit</em> more
+often here.  I ought to be able to handle doing at least one post a month; my
+posting schedule has been pretty pathetic here of late.</p>
+
+<p class="blog-footnote">[<a href="#back-1" id="foot-1">1</a>] So!  Here at last
+is the real reason I made a new logo.  Now you know the truth.</p>
+
+<p class="blog-footnote">[<a href="#back-2" id="foot-2">2</a>] Honesty compels
+me to admit that originally I'd started with a blue-gold dichromatic scheme
+which is almost a cliche with the 3D art I've done&nbsp;&mdash; I've used that
+pairing so often.  But I ended up backing off the blues in this case because the
+red central flare just didn't fit that, making everything riff on primary
+yellow instead.</p>
