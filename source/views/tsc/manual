@@ -7,6 +7,8 @@ favicon [
   [32, 'icon', 'favicon/tsc-32.png'],
   [152, 'apple-touch-icon', 'favicon/tsc-152.png']
 ]
+head "  <link href=\"https://fonts.googleapis.com/css?family=Jura\" rel=\"stylesheet\">" +
+  "  <link href=\"https://fonts.googleapis.com/css?family=Roboto\" rel=\"stylesheet\">"
 manual_data [
   "Tactical Space Command Online Manual",
   "<p>Welcome to the TSC online manual.  This version of the manual is current

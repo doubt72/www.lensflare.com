@@ -7,8 +7,12 @@ favicon [
   [32, 'icon', 'favicon/lensflare-32.png'],
   [152, 'apple-touch-icon', 'favicon/lensflare-152.png']
 ]
+head "  <link href=\"https://fonts.googleapis.com/css?family=Play\" rel=\"stylesheet\">" +
+  "  <link href=\"https://fonts.googleapis.com/css?family=Rubik\" rel=\"stylesheet\">"
 --
-{ image("lfg-logo-400.png", {style: "float: right;"}}) }
+<div style="float: right; padding:1em; background-color: black;">
+  { include("partials/lflogo-440.partial") }
+</div>
 
 <div class="section">
   <h1>About Us</h1>

@@ -1,4 +1,4 @@
-<span class="title-game">Tactical Space Command</span>
+<span class="title-game">TACTICAL SPACE COMMAND</span>
 <div class="header">
   <span class="header-right">
     { link('home', 'Lensflare', {self_class: 'current'}}) }

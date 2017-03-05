@@ -24,4 +24,6 @@ blog_config do
     [32, 'icon', 'favicon/lensflare-32.png'],
     [152, 'apple-touch-icon', 'favicon/lensflare-152.png']
   ]
+  head "  <link href=\"https://fonts.googleapis.com/css?family=Play\" rel=\"stylesheet\">" +
+    "  <link href=\"https://fonts.googleapis.com/css?family=Rubik\" rel=\"stylesheet\">"
 end

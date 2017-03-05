@@ -7,11 +7,13 @@ favicon [
   [32, 'icon', 'favicon/lensflare-32.png'],
   [152, 'apple-touch-icon', 'favicon/lensflare-152.png']
 ]
+head "  <link href=\"https://fonts.googleapis.com/css?family=Play\" rel=\"stylesheet\">" +
+  "  <link href=\"https://fonts.googleapis.com/css?family=Rubik\" rel=\"stylesheet\">"
 --
 <table>
   <tr>
     <td valign="top" class="game">
-      { link("elexi", image("elexi-256.png")) }
+      { link("elexi", image("elexi-256.png", {style: "height:160px;width:160px;"}})) }
     </td>
     <td class="game">
 
@@ -24,7 +26,7 @@ favicon [
   </tr>
   <tr>
     <td valign="top" class="game">
-      { link("em16", image("em16-256.png")) }
+      { link("em16", image("em16-256.png", {style: "height:160px;width:160px;"}})) }
     </td>
     <td class="game">
 
@@ -37,7 +39,7 @@ favicon [
   </tr>
   <tr>
     <td valign="top" class="game">
-      { link("tsc", image("tsc-256.png")) }
+      { link("tsc", image("tsc-256.png", {style: "height:160px;width:160px;"}})) }
     </td>
     <td class="game">
 

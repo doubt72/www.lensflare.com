@@ -7,6 +7,8 @@ favicon [
   [32, 'icon', 'favicon/em16-32.png'],
   [152, 'apple-touch-icon', 'favicon/em16-152.png']
 ]
+head "  <link href=\"https://fonts.googleapis.com/css?family=Bitter\" rel=\"stylesheet\">" +
+  "  <link href=\"https://fonts.googleapis.com/css?family=Rubik\" rel=\"stylesheet\">"
 manual_data ["Election Manager 2016 Online Manual",
   "<p>Welcome to the Election Manager 2016 online manual.  This version of the
   manual is current for version 1.1.0 of Election Manager 2016.</p>

@@ -21,7 +21,7 @@ def cos(x)
 end
 
 def size_factor
-  880
+  280
 end
 
 def size(x)
@@ -119,6 +119,12 @@ color_source = [
        "y=\"#{size(120 + sin(60) * 246)}\" " +
        "style=\"fill:#{ref_colors[:text]};" +
        "font-family:'#{font}';font-size:#{size(128)}px;\">GAMES</text>" 
+
+  puts "  <text " +
+       "x=\"#{size(550 + cos(60) * 246)}\" " +
+       "y=\"#{size(120 + sin(60) * 246)}\" " +
+       "style=\"fill:#{ref_colors[:text]};" +
+       "font-family:'#{font}';font-size:#{size(32)}px;\">LLC</text>" 
 
   puts "</svg>"
 end

@@ -1,77 +1,79 @@
 /* general */
 
 body {
-  background-color: #000000;
-  color: #bbbbbb;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 75%);
+  font-family: "Rubik", sans-serif;
 }
 
 a {
-  color: #ffee99;
+  color: hsl(60, 80%, 80%);
 }
 
 a:hover {
-  color: #ffffff;
+  color: hsl(0, 0%, 100%);
 }
 
 em {
-  color: #e7e7e7;
+  color: hsl(0, 0%, 100%);
 }
 
 h1,h2,h3,h4 {
-  color: #ffee99;
-  border-bottom: 1px solid #664411;
+  color: hsl(60, 80%, 80%);
+  border-bottom: 1px solid hsl(200, 60%, 25%);
 }
 
 /* title and header */
 
 span.title {
-  color: #ffee99;
+  color: hsl(60, 80%, 80%);
 }
 
 span.title-game {
-  color: #ffee99;
+  color: hsl(60, 80%, 80%);
 }
 
 div.header {
-  background-color: #664411;
+  background-color: hsl(200, 60%, 20%);
+  margin-left: 3em;
 }
 
 a.current {
-  color: #ffffff;
+  color: hsl(0, 0%, 100%);
 }
 
 /* main content */
 
 img.ss-link {
-  border: solid 2px #664411;
+  border: solid 2px hsl(200, 60%, 25%);
 }
 
 div.footnote {
-  border-top: 1px dashed #664411;
+  border-top: 1px dashed hsl(200, 60%, 25%);
 }
 
 /* special for videos */
 
 div.video-border {
-  background-color: #664411;
+  background-color: hsl(200, 60%, 25%);
 }
 
 div.video-border-old {
-  background-color: #664411;
+  background-color: hsl(200, 60%, 25%);
 }
 
 /* manual formatting */
 
 div.manual h2 span {
-  color: #664411;
+  color: hsl(200, 60%, 25%);
 }
 
 div.manual h3 span {
-  color: #664411;
+  color: hsl(200, 60%, 25%);
 }
 
 div.manual h4 span {
-  color: #664411;
+  color: hsl(200, 60%, 25%);
 }
 
 div.manual li span {
@@ -79,55 +81,55 @@ div.manual li span {
 }
 
 div.manual-screenshot-right {
-  background-color: #000000;
+  background-color: hsl(0, 0%, 0%);
 }
 
 div.manual-screenshot-left {
-  background-color: #000000;
+  background-color: hsl(0, 0%, 0%);
 }
 
 /* footers */
 
 div.footer {
-  background-color: #664411;
-  color: #ffee99;
+  background-color: hsl(200, 60%, 20%);
+  color: hsl(60, 80%, 80%);
 }
 
 /* blog */
 
 td.td-blog-sidebar {
-  background-color: #332209;
+  background-color: hsl(200, 60%, 12%);
 }
 
 span.blog_date_expanded {
-  color: #ffee99;
+  color: hsl(60, 80%, 80%);
 }
 
 span.blog_date_collapsed {
-  color: #ffee99;
+  color: hsl(60, 80%, 80%);
 }
 
 span.blog-date {
-  color: #999999;
+  color: hsl(0, 0%, 63%);
 }
 
 span.prev-blog-page {
-  background-color: #332209;
+  background-color: hsl(200, 60%, 12%);
 }
 
 span.next-blog-page {
-  background-color: #332209;
+  background-color: hsl(200, 60%, 12%);
 }
 
 span.blog-nav {
-  background-color: #332209;
+  background-color: hsl(200, 60%, 12%);
 }
 
 span.blog-entry-date {
-  color: #664411;
+  color: hsl(200, 60%, 30%);
 }
 
 div.blog-small-description {
-  color: #999999;
-  border-top: 1px dashed #664411;
+  color: hsl(0, 0%, 63%);
+  border-top: 1px dashed hsl(200, 60%, 25%);
 }

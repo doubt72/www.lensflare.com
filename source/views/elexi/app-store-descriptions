@@ -7,6 +7,7 @@ favicon [
   [32, 'icon', 'favicon/elexi-32.png'],
   [152, 'apple-touch-icon', 'favicon/elexi-152.png']
 ]
+head "  <link href=\"https://fonts.googleapis.com/css?family=Rubik\" rel=\"stylesheet\">"
 --
 <table>
   <tr>

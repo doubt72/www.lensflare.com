@@ -3,6 +3,7 @@
 body {
   background-color: #001100;
   color: #99cc99;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -30,6 +31,7 @@ span.title {
 
 span.title-game {
   color: #bbbb00;
+  font-family: "Jura", sans-serif;
 }
 
 div.header {
