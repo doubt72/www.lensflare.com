@@ -5,5 +5,5 @@
 { body }
   </div>
 
-{ include("partials/footer.partial") }
+{ include("partials/footer-lfg.partial") }
 </div>

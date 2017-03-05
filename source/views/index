@@ -13,13 +13,13 @@ head "  <link href=\"https://fonts.googleapis.com/css?family=Play\" rel=\"styles
 <table class="games">
   <tr>
     <td align="center" class="game">
-      { link("elexi", image("elexi-256.png")) }
+      { link("elexi", image("elexi-256.png", {style: "height:200;width:200"}})) }
     </td>
     <td align="center" class="game">
-      { link("em16", image("em16-256.png")) }
+      { link("em16", image("em16-256.png", {style: "height:200;width:200"}})) }
     </td>
     <td align="center" class="game">
-      { link("tsc", image("tsc-256.png")) }
+      { link("tsc", image("tsc-256.png", {style: "height:200;width:200"}})) }
     </td>
   </tr>
   <tr>

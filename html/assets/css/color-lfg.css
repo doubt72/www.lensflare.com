@@ -40,6 +40,13 @@ div.header {
   margin-left: 3em;
 }
 
+div.header svg {
+  vertical-align: middle;
+  position: relative;
+  top: -0.1em;
+  margin-right: -1em;
+}
+
 a.current {
   color: hsl(0, 0%, 100%);
 }
@@ -95,6 +102,13 @@ div.manual-screenshot-left {
 div.footer {
   background-color: hsl(200, 60%, 20%);
   color: hsl(60, 80%, 80%);
+}
+
+div.footer svg {
+  vertical-align: middle;
+  position: relative;
+  top: -0.1em;
+  margin-right: -1em;
 }
 
 /* blog */

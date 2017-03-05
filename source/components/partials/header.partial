@@ -5,6 +5,7 @@
 </span>
 <div class="header">
   <span class="header-right">
+    { include("partials/hexnurnie.partial") }
     { link('about', 'About Us', {self_class: 'current'}}) }
   </span>
   { link('home', 'Games', {self_class: 'current'}}) }

@@ -1,14 +1,8 @@
-font = "Play"
-
 # This code is faintly ugly, but whatever.  Generates a logo in SVG
 # at arbitrary sizes in color and reverse/greyscale
 
 puts "<!DOCTYPE html>"
 puts "<html>"
-puts "<head>"
-puts "  <link href=\"https://fonts.googleapis.com/css?family=#{font}\" " +
-     "rel=\"stylesheet\">"
-puts "</head>"
 puts "<body>"
 
 explode = 0.1
@@ -47,7 +41,6 @@ color_source = [
     middle: 'hsl(200, 60%, 22%)',
     bottom: 'hsl(200, 60%, 32%)',
     line: 'hsl(60, 80%, 80%)',
-    text: 'hsl(60, 80%, 80%)',
     background: 'hsl(0, 0%, 0%)'
   },
   {
@@ -55,7 +48,6 @@ color_source = [
     middle: 'hsl(200, 0%, 78%)',
     bottom: 'hsl(200, 0%, 68%)',
     line: 'hsl(60, 0%, 20%)',
-    text: 'hsl(60, 0%, 20%)',
     background: 'hsl(0, 0%, 100%)'
   }
 ]

@@ -1,0 +1,5 @@
+<div class="footer">
+  Copyright &copy;2013-{ Time.now.year } Lensflare Games LLC.  All Rights
+  Reserved.
+  { include("partials/hexnurnie.partial") }
+</div>
