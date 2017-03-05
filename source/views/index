@@ -13,7 +13,7 @@ head "  <link href=\"https://fonts.googleapis.com/css?family=Play\" rel=\"styles
 <table>
   <tr>
     <td valign="top" class="game">
-      { link("elexi", image("elexi-256.png", {style: "height:160px;width:160px;"}})) }
+      { link("elexi", image("elexi-256.png")) }
     </td>
     <td class="game">
 
@@ -26,7 +26,7 @@ head "  <link href=\"https://fonts.googleapis.com/css?family=Play\" rel=\"styles
   </tr>
   <tr>
     <td valign="top" class="game">
-      { link("em16", image("em16-256.png", {style: "height:160px;width:160px;"}})) }
+      { link("em16", image("em16-256.png")) }
     </td>
     <td class="game">
 
@@ -39,7 +39,7 @@ head "  <link href=\"https://fonts.googleapis.com/css?family=Play\" rel=\"styles
   </tr>
   <tr>
     <td valign="top" class="game">
-      { link("tsc", image("tsc-256.png", {style: "height:160px;width:160px;"}})) }
+      { link("tsc", image("tsc-256.png")) }
     </td>
     <td class="game">
 

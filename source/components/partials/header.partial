@@ -1,8 +1,7 @@
 <div style="float: left;padding-top:10px;">
   { include("partials/lficon-svg.partial") }
 </div>
-<span class="title">LENSFLARE GAMES
-  <span class="title-llc"> LLC</span>
+<span class="title">LENSFLARE GAMES<span class="title-llc">LLC</span>
 </span>
 <div class="header">
   <span class="header-right">

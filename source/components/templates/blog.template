@@ -1,5 +1,7 @@
 <div id="main">
 { include("partials/header.partial") }
+<div class="blog-filler">&nbsp;</div>
+<div style="clear:both;" />
 
 <table class="blog-table">
   <tr>

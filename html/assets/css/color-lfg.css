@@ -33,6 +33,8 @@ span.title-game {
   color: hsl(60, 80%, 80%);
 }
 
+/* well, okay, that's not a color down there, but it's specific to LFG */
+
 div.header {
   background-color: hsl(200, 60%, 20%);
   margin-left: 3em;
@@ -96,6 +98,16 @@ div.footer {
 }
 
 /* blog */
+
+/* ...And this is a hack to get around float issues. Also not purely a color */
+
+div.blog-filler {
+  background-color: hsl(200, 60%, 12%);
+  float: right;
+  width: 16em;
+  padding: 0 1em;
+  border: 1px solid hsl(200, 60%, 12%);
+}
 
 td.td-blog-sidebar {
   background-color: hsl(200, 60%, 12%);
