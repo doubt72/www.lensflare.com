@@ -10,12 +10,20 @@ favicon [
 head "  <link href=\"https://fonts.googleapis.com/css?family=Play\" rel=\"stylesheet\">" +
   "  <link href=\"https://fonts.googleapis.com/css?family=Rubik\" rel=\"stylesheet\">"
 --
-<table>
+<table class="games">
   <tr>
-    <td valign="top" class="game">
+    <td align="center" class="game">
       { link("elexi", image("elexi-256.png")) }
     </td>
-    <td class="game">
+    <td align="center" class="game">
+      { link("em16", image("em16-256.png")) }
+    </td>
+    <td align="center" class="game">
+      { link("tsc", image("tsc-256.png")) }
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" class="game">
 
       <h1>{ link("elexi", "Elexi") }</h1>
 
@@ -23,12 +31,7 @@ head "  <link href=\"https://fonts.googleapis.com/css?family=Play\" rel=\"styles
 
       <p>{ link("elexi", "Read more...") }</p>
     </td>
-  </tr>
-  <tr>
     <td valign="top" class="game">
-      { link("em16", image("em16-256.png")) }
-    </td>
-    <td class="game">
 
       <h1>{ link("em16", "Election Manager 2016") }</h1>
 
@@ -36,12 +39,7 @@ head "  <link href=\"https://fonts.googleapis.com/css?family=Play\" rel=\"styles
 
       <p>{ link("em16", "Read more...") }</p>
     </td>
-  </tr>
-  <tr>
     <td valign="top" class="game">
-      { link("tsc", image("tsc-256.png")) }
-    </td>
-    <td class="game">
 
       <h1>{ link("tsc", "Tactical Space Command") }</h1>
 

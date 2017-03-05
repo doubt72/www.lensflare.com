@@ -21,7 +21,7 @@ def cos(x)
 end
 
 def size_factor
-  280
+  880
 end
 
 def size(x)

@@ -78,6 +78,7 @@ span.title-game-elexi {
 
 div.header {
   padding: 0.5em 1em;
+  border-top-right-radius: 1em;
 }
 
 div.header a {
@@ -100,6 +101,11 @@ div#content p {
 
 div#content li {
   line-height: 140%;
+}
+
+table.games {
+  table-layout:fixed;
+  width:100%
 }
 
 td.game {
@@ -214,6 +220,7 @@ div.footer {
   text-align: right;
   padding: 0.25em 2em;
   clear: both;
+  border-bottom-left-radius: 0.75em;
 }
 
 /* blog */
