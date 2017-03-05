@@ -1,109 +1,109 @@
 /* general */
 
 body {
-  background-color: #001100;
-  color: #99cc99;
+  background-color: #000011;
+  color: #bbbbdd;
   font-family: "Roboto", sans-serif;
 }
 
 a {
-  color: #00bb00;
+  color: #7777bb;
 }
 
 a:hover {
-  color: #00ff00;
+  color: #9999ff;
 }
 
 em {
-  color: #bbbb00;
+  color: #ccccff;
 }
 
 h1,h2,h3,h4 {
-  color: #00bb00;
-  border-bottom: 1px solid #444400;
+  color: #7777bb;
+  border-bottom: 1px solid #222244;
 }
 
 /* title and header */
 
 span.title {
-  color: #bbbb00;
+  color: #9999ff;
 }
 
 span.title-game {
-  color: #bbbb00;
+  color: #9999ff;
   font-family: "Jura", sans-serif;
 }
 
 div.header {
   margin-top: 5px;
-  background-color: #005500;
+  background-color: #333355;
 }
 
 div.header a {
-  color: #bbbb00;
+  color: #7777bb;
 }
 
 div.header a:hover {
-  color: #ffff55;
+  color: #9999ff;
 }
 
 div.header a.current {
-  color: #ffff55;
+  color: #9999ff;
 }
 
 /* main content */
 
 img.ss-link {
-  border: solid 2px #005500;
+  border: solid 2px #333355;
 }
 
 div.footnote {
-  border-top: 1px solid #005500;
+  border-top: 1px solid #333355;
 }
 
 /* special for videos */
 
 div.video-border {
-  background-color: #005500;
+  background-color: #333355;
 }
 
 div.video-border-old {
-  background-color: #005500;
+  background-color: #333355;
 }
 
 /* manual formatting */
 
 div.manual h2 span {
-  color: #777700;
+  color: #444466;
 }
 
 div.manual h3 span {
-  color: #777700;
+  color: #444466;
 }
 
 div.manual h4 span {
-  color: #777700;
+  color: #444466;
 }
 
 div.manual li span {
-  color: #bbbb00;
+  color: #7777bb;
 }
 
 div.manual-screenshot-right {
-  background-color: #001100;
+  background-color: #000011;
 }
 
 div.manual-screenshot-left {
-  background-color: #001100;
+  background-color: #000011;
 }
 
 /* footers */
 
 div.footer {
-  background-color: #005500;
-  color: #ffff55;
+  background-color: #333355;
+  color: #7777bb;
 }
 
 span.screenshot-arrow {
-  color: #00bb00;
+  color: #7777bb;
 }
