@@ -1,7 +1,7 @@
 <span class="title-game-elexi">Elexi</span>
 <div class="header">
   <span class="header-right">
-    { link('home', 'Lensflare', {self_class: 'current'}}) }
+    { link('home', 'LENSFLARE GAMES', {self_class: 'current'}}) }
   </span>
   { link('elexi', 'Elexi', {self_class: 'current'}}) }
   { link('elexi-faq', 'FAQ', {self_class: 'current'}}) }
